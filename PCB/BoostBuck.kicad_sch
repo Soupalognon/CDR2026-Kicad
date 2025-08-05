@@ -2349,6 +2349,16 @@
 		)
 		(uuid "1b5fdbb7-88fc-4c2f-bb04-9750e8964b02")
 	)
+	(text "Archi chelou!!\nDevraient être en parallèles et pas en série!\n"
+		(exclude_from_sim no)
+		(at 42.926 54.864 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2c9cc352-8b98-4676-b700-72fb44ec8036")
+	)
 	(text "Entrée"
 		(exclude_from_sim no)
 		(at 35.56 19.558 0)
@@ -2368,6 +2378,16 @@
 			)
 		)
 		(uuid "3eb5e2e6-45d0-460e-b7cc-97afaf315d60")
+	)
+	(text "Archi chelou!!\nDevraient être en parallèles et pas en série!\n"
+		(exclude_from_sim no)
+		(at 119.38 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "407360fc-e028-4c0e-87b9-cc71d22d6e84")
 	)
 	(text "Boost 14v -> 24v"
 		(exclude_from_sim no)
