@@ -1,0 +1,262 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "117fd49e-499d-4b54-b58c-f6b538ecca4a")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 46.99 160.02) (xy 46.99 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e163bca-a06d-45b6-89f7-edd02cbbc219")
+	)
+	(wire
+		(pts
+			(xy 46.99 69.85) (xy 38.1 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3470f86e-2c78-401e-9141-857210ba3fe3")
+	)
+	(wire
+		(pts
+			(xy 38.1 69.85) (xy 38.1 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4fda86-362d-4306-8e5e-31a0026adf38")
+	)
+	(sheet
+		(at 232.41 19.05)
+		(size 44.45 74.93)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a16960dc-56f6-4cf6-af27-6c174f94c7f8")
+		(property "Sheetname" "Driver Moteur"
+			(at 232.41 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DriverMoteur.kicad_sch"
+			(at 232.41 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 160.02)
+		(size 93.98 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b84a445d-ec2f-4701-ba51-4cc4e1ff6ab4")
+		(property "Sheetname" "Alimentation"
+			(at 24.13 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Alimentation.kicad_sch"
+			(at 24.13 189.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vbatt" output
+			(at 46.99 160.02 90)
+			(uuid "45e5f394-90c5-4360-9a26-244708c3d0c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 66.04)
+		(size 49.53 71.12)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b9176f6a-4299-4bca-a59b-5ff3df09c616")
+		(property "Sheetname" "µC"
+			(at 125.73 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 125.73 137.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 22.86)
+		(size 88.9 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb")
+		(property "Sheetname" "BoostBuck"
+			(at 20.32 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BoostBuck.kicad_sch"
+			(at 20.32 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GPIO_ENABLE" output
+			(at 78.74 60.96 270)
+			(uuid "258dab47-1474-4021-b8dc-b65f18ac4b39")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_PGOOD" output
+			(at 82.55 60.96 270)
+			(uuid "e16b77f9-55f8-4597-8326-55607e8fb2e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vbatt" input
+			(at 38.1 60.96 270)
+			(uuid "0b1524c8-1cb8-4184-bb12-8194279dea66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vmotor" output
+			(at 109.22 26.67 0)
+			(uuid "e824de8d-5702-4940-a72f-194cd37f95ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,308 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "16853f8f-8d8c-4cc8-9b08-b39189d22119")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 194.31 77.47)
+		(size 67.31 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17777bae-0c68-45a7-8f55-4db398213b8b")
+		(property "Sheetname" "MCU_Debug"
+			(at 194.31 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Debug.kicad_sch"
+			(at 194.31 111.0746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 118.11)
+		(size 68.58 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6ae8cb66-0d01-49c6-940e-175426e825e5")
+		(property "Sheetname" "Peripherals"
+			(at 194.31 117.3984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals.kicad_sch"
+			(at 194.31 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 26.67 22.86)
+		(size 81.28 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "996b1006-76bc-4b31-b64b-1da2a3c9bad6")
+		(property "Sheetname" "Power"
+			(at 26.67 22.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 26.67 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 48.26 64.77)
+		(size 109.22 115.57)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b5e4ba2d-c7b9-4d31-9df3-07981ee2b35a")
+		(property "Sheetname" "MCU_Core"
+			(at 48.26 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_Core.kicad_sch"
+			(at 48.26 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PA[0..15]" bidirectional
+			(at 113.03 64.77 90)
+			(uuid "5cdfcfec-f18d-48aa-9a21-b3a4b5aa4cea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB[0..15]" bidirectional
+			(at 116.84 64.77 90)
+			(uuid "8f9fd99b-e4b9-4e6e-af6c-d180c426a61f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC[0..15]" bidirectional
+			(at 120.65 64.77 90)
+			(uuid "a7a70612-cc81-4138-b441-96e643be7590")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PD[0..15]" bidirectional
+			(at 124.46 64.77 90)
+			(uuid "f63a4969-764f-46ea-a7ec-7598f80cd359")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PE[0..15]" bidirectional
+			(at 128.27 64.77 90)
+			(uuid "a2ecd62a-1649-4b0e-aec6-aa0deca7f9a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PF[0..15]" bidirectional
+			(at 132.08 64.77 90)
+			(uuid "6de85134-e205-4f15-8edc-d18e92a885b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PG[0..15]" bidirectional
+			(at 135.89 64.77 90)
+			(uuid "e5b04188-5dc4-4c67-8c39-d68880f583f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PH[0..15]" bidirectional
+			(at 139.7 64.77 90)
+			(uuid "a347c683-2d0d-48ed-b754-fb2c2e830250")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PI[0..15]" bidirectional
+			(at 143.51 64.77 90)
+			(uuid "cc7e8f7d-78b9-45a3-9ca1-f6774259290d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 194.31 25.4)
+		(size 68.58 40.64)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bbbc8572-1c1d-475a-b954-9d9deb469a14")
+		(property "Sheetname" "GPIO"
+			(at 194.31 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPIO.kicad_sch"
+			(at 194.31 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
+					(page "7")
+				)
+			)
+		)
+	)
+)
