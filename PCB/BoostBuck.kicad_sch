@@ -2371,7 +2371,7 @@
 	)
 	(text "To have 24V"
 		(exclude_from_sim no)
-		(at 46.482 96.012 0)
+		(at 40.64 96.266 0)
 		(effects
 			(font
 				(size 1.27 1.27)
