@@ -5,6 +5,27 @@
 	(uuid "16853f8f-8d8c-4cc8-9b08-b39189d22119")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 68.58 53.34) (xy 68.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b6f238-7f26-4a80-b42a-73b4e861c4d3")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 26.67 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "783caaed-81e7-4d43-a7d2-95a249545f82")
+	)
 	(sheet
 		(at 194.31 77.47)
 		(size 67.31 33.02)
@@ -121,6 +142,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 26.67 36.83 180)
+			(uuid "131204ce-744a-425f-984f-83e67397564b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3_Filtered" output
+			(at 68.58 53.34 270)
+			(uuid "f27a5a9b-9df4-4015-9452-d72d85d9bb0e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -248,6 +289,16 @@
 		(pin "PI[0..15]" bidirectional
 			(at 143.51 64.77 90)
 			(uuid "cc7e8f7d-78b9-45a3-9ca1-f6774259290d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 68.58 64.77 90)
+			(uuid "0f360aaf-b752-4f21-bfff-262fba6eaf5d")
 			(effects
 				(font
 					(size 1.27 1.27)

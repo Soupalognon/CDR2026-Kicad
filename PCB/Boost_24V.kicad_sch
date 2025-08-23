@@ -1610,9 +1610,9 @@
 		)
 		(uuid "48c04252-8882-40fc-b85b-4b940659e638")
 	)
-	(text "Heat sink chosen!!\n374524B60023G with anchors 125700D00000G --> Fan required minimum 3,5CFM"
+	(text "Fan required minimum 3,5CFM"
 		(exclude_from_sim no)
-		(at 92.964 159.004 0)
+		(at 232.664 126.238 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -1624,7 +1624,7 @@
 	)
 	(text "Si Vin=16V et Vout 24V --> Rendement >95%\nAvec un courant de 5A théorique --> Puissance à dissiper de 6W\nOn ne compte pas les dT(°C/W) des gap filters car faibles (à vérifier!)\nQ1 ne doit pas dépasser 135°C (marge à 90°C pour sécurité)\nSi T ambiant de 30°C alors dT(°C/W) radiateur de (90-30)/6 = 10°C/W max!\nOn prends 5°C/W pour être large\n"
 		(exclude_from_sim no)
-		(at 85.852 146.558 0)
+		(at 89.408 149.352 0)
 		(effects
 			(font
 				(size 1.27 1.27)

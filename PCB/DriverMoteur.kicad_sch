@@ -2598,18 +2598,6 @@
 		)
 		(uuid "a995c761-5181-4458-93b9-9645f80ab778")
 	)
-	(text "Heat sink chosen!!\n374524B60023G with anchors 125700D00000G --> Fan required minimum 3,5CFM"
-		(exclude_from_sim no)
-		(at 125.476 194.056 0)
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.4)
-				(bold yes)
-			)
-		)
-		(uuid "a9966647-858f-49c5-9442-079d1b94a2f3")
-	)
 	(text "Heat sink possibilities:\nWAVE-35-12 with anchors 125700D00000G --> Fan required minimum 3CFM\n374524B60023G with anchors 125700D00000G --> Fan required minimum 3,5CFM\n567-45AB with screws --> Fan required minimum 4CFM\n"
 		(exclude_from_sim no)
 		(at 57.404 188.976 0)
@@ -2619,6 +2607,18 @@
 			)
 		)
 		(uuid "c3d7ff13-1036-4a96-be30-19fcfe28442c")
+	)
+	(text "Fan required minimum 3,5CFM"
+		(exclude_from_sim no)
+		(at 57.912 162.814 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "d6eed14c-4617-47f7-8d22-46263ee55cbc")
 	)
 	(text "Anchors for heat sink\nFootprint placement : \nhttps://www.mouser.fr/datasheet/2/2/Aavid_01112021_Board_Level_Cooling_3745-1953702.pdf"
 		(exclude_from_sim no)
