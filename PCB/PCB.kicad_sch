@@ -5,35 +5,27 @@
 	(uuid "117fd49e-499d-4b54-b58c-f6b538ecca4a")
 	(paper "A4")
 	(lib_symbols)
-	(wire
-		(pts
-			(xy 46.99 160.02) (xy 46.99 69.85)
+	(text "PCB Recommendations:\nFR-4 Glass Epoxy material with 2 oz. (70 μm) copper on both top and bottom layer is recommended for\nimproved thermal performance and better EMI margin (due to lower PCB trace inductance).\n	(From Motor Driver DRV8262 datasheet page 47)"
+		(exclude_from_sim no)
+		(at 226.06 158.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e163bca-a06d-45b6-89f7-edd02cbbc219")
+		(uuid "b10b57bd-ec14-4c8e-8a8a-e7c8932308ac")
 	)
-	(wire
-		(pts
-			(xy 46.99 69.85) (xy 38.1 69.85)
+	(text "Boost 24V 130W\nBuck 5V 17,5W\nLDO 3,3V"
+		(exclude_from_sim no)
+		(at 65.532 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3470f86e-2c78-401e-9141-857210ba3fe3")
-	)
-	(wire
-		(pts
-			(xy 38.1 69.85) (xy 38.1 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce4fda86-362d-4306-8e5e-31a0026adf38")
+		(uuid "c772bc93-7fd9-4ea1-9c9a-5ddcab5ffa62")
 	)
 	(sheet
 		(at 232.41 19.05)
@@ -78,58 +70,6 @@
 		)
 	)
 	(sheet
-		(at 24.13 160.02)
-		(size 93.98 29.21)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b84a445d-ec2f-4701-ba51-4cc4e1ff6ab4")
-		(property "Sheetname" "Alimentation"
-			(at 24.13 159.3084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Alimentation.kicad_sch"
-			(at 24.13 189.8146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "Vbatt" output
-			(at 46.99 160.02 90)
-			(uuid "45e5f394-90c5-4360-9a26-244708c3d0c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 125.73 66.04)
 		(size 49.53 71.12)
 		(exclude_from_sim no)
@@ -154,7 +94,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "MCU.kicad_sch"
 			(at 125.73 137.7446 0)
 			(effects
 				(font
@@ -187,7 +127,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb")
-		(property "Sheetname" "BoostBuck"
+		(property "Sheetname" "Alimentation"
 			(at 20.32 22.1484 0)
 			(effects
 				(font
@@ -196,7 +136,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "BoostBuck.kicad_sch"
+		(property "Sheetfile" "Alimentation.kicad_sch"
 			(at 20.32 61.5446 0)
 			(effects
 				(font
@@ -205,39 +145,59 @@
 				(justify left top)
 			)
 		)
-		(pin "GPIO_ENABLE" output
-			(at 78.74 60.96 270)
-			(uuid "258dab47-1474-4021-b8dc-b65f18ac4b39")
+		(pin "3V3" output
+			(at 109.22 33.02 0)
+			(uuid "9bc6f77b-237c-424d-9f71-7116376cb8c2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "GPIO_PGOOD" output
-			(at 82.55 60.96 270)
-			(uuid "e16b77f9-55f8-4597-8326-55607e8fb2e5")
+		(pin "5V" output
+			(at 109.22 38.1 0)
+			(uuid "302e3a83-9290-42e3-8efe-0ebdab74c1fc")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "Vbatt" input
-			(at 38.1 60.96 270)
-			(uuid "0b1524c8-1cb8-4184-bb12-8194279dea66")
+		(pin "24V" output
+			(at 109.22 43.18 0)
+			(uuid "16ac6b93-37a2-4516-b7ab-c8ca09f6d66d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "Vmotor" output
-			(at 109.22 26.67 0)
-			(uuid "e824de8d-5702-4940-a72f-194cd37f95ef")
+		(pin "GPIO_ENABLE_24V" output
+			(at 109.22 46.99 0)
+			(uuid "c7bcb1c5-db0e-4306-ba2e-77bf1b465f2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_PGOOD_24V" output
+			(at 109.22 50.8 0)
+			(uuid "7af432a0-505c-4483-8a59-0a4957ab8253")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vbatt" output
+			(at 109.22 54.61 0)
+			(uuid "e4109914-250f-4ae7-ac14-291dffdbc240")
 			(effects
 				(font
 					(size 1.27 1.27)

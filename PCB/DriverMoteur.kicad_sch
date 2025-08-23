@@ -636,6 +636,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys:39501-1002"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2183,6 +2282,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_new:125700D00000G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "125700D00000G"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "125700D00000G"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.mouser.com/datasheet/2/2/Aavid-Board-Level-Heatsinks-Catalog-2018-1507171.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heat Sinks Solder Anchor, 3.61 n Thermal Resistance, 1.6mm PCB Thickness"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "7.19"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Aavid Thermalloy"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "125700D00000G"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "532-125700D00000G"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aavid/125700D00000G?qs=U7T%2FEnMyvTtVFmt9%2FDIChA%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "125700D00000G"
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/125700d00000g/aavid-thermalloy?region=europe"
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "125700D00000G_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2297,7 +2568,17 @@
 		)
 		(uuid 00e9e055-44b4-41e3-baf3-184dbc224eea)
 	)
-	(text "Dépend du courant attendu\nA calculer! (page 21 datasheet)"
+	(text "2x Transmotec PD4266-24-17-BFEC\n24V / 2,1A nominal\n4,2A nominal total\n"
+		(exclude_from_sim no)
+		(at 57.15 169.672 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35a7257d-fdb1-495f-84d4-81a0452247d1")
+	)
+	(text "Current limit to 5A (example page 22 datasheet)"
 		(exclude_from_sim no)
 		(at 177.038 91.694 0)
 		(effects
@@ -2306,6 +2587,48 @@
 			)
 		)
 		(uuid "99d330cc-78fc-44c0-a829-88833a8e620d")
+	)
+	(text "Power loss calculation and dissipator estimation\n(page 33 to 35 datasheet)\nCalculations already done in datasheet (same example with 4A)\nConclusion: Dissipator with less than 4°C/W\n"
+		(exclude_from_sim no)
+		(at 57.15 178.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a995c761-5181-4458-93b9-9645f80ab778")
+	)
+	(text "Heat sink chosen!!\n374524B60023G with anchors 125700D00000G --> Fan required minimum 3,5CFM"
+		(exclude_from_sim no)
+		(at 125.476 194.056 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "a9966647-858f-49c5-9442-079d1b94a2f3")
+	)
+	(text "Heat sink possibilities:\nWAVE-35-12 with anchors 125700D00000G --> Fan required minimum 3CFM\n374524B60023G with anchors 125700D00000G --> Fan required minimum 3,5CFM\n567-45AB with screws --> Fan required minimum 4CFM\n"
+		(exclude_from_sim no)
+		(at 57.404 188.976 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c3d7ff13-1036-4a96-be30-19fcfe28442c")
+	)
+	(text "Anchors for heat sink\nFootprint placement : \nhttps://www.mouser.fr/datasheet/2/2/Aavid_01112021_Board_Level_Cooling_3745-1953702.pdf"
+		(exclude_from_sim no)
+		(at 59.436 129.286 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dd1e723e-f222-43c9-84b3-4dd70d36008c")
 	)
 	(text "Default Configuration: \nOCPM = 1 --> Over Current Protection error = Retry\nMODE = 1 --> PWM mode\nToff = 1 --> Waiting time between change = 16µs\nDecay = HZ --> Auto detect mode"
 		(exclude_from_sim no)
@@ -2385,6 +2708,14 @@
 		(uuid "e6981bd5-deb0-4b3c-9072-0dd536347011")
 	)
 	(no_connect
+		(at 46.99 138.43)
+		(uuid "0353243e-76e8-4302-9252-25ad46ac9814")
+	)
+	(no_connect
+		(at 46.99 146.05)
+		(uuid "2c9fb0a0-62b8-454e-8d68-854f019a7646")
+	)
+	(no_connect
 		(at 93.98 83.82)
 		(uuid "446f7601-9397-4047-bc38-5829bcd1e18e")
 	)
@@ -2395,6 +2726,14 @@
 	(no_connect
 		(at 93.98 63.5)
 		(uuid "7f43f60b-2982-4b0a-b8c9-2ef42b9ccf17")
+	)
+	(no_connect
+		(at 46.99 135.89)
+		(uuid "7f7f7195-2af0-48da-8f85-b41f1633d5a8")
+	)
+	(no_connect
+		(at 46.99 148.59)
+		(uuid "e7719560-37e0-4390-a73d-d8333cbb7e19")
 	)
 	(wire
 		(pts
@@ -2505,6 +2844,16 @@
 			(type default)
 		)
 		(uuid "251c961d-851a-4fc6-a197-8b497dd3f8ff")
+	)
+	(wire
+		(pts
+			(xy 248.92 21.59) (xy 256.54 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "294c4bcc-b461-4d03-9b11-2ee884bba897")
 	)
 	(wire
 		(pts
@@ -2828,6 +3177,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 24.13) (xy 256.54 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9914f45-b2f4-42b1-b613-ae9f084ca498")
+	)
+	(wire
+		(pts
 			(xy 106.68 114.3) (xy 106.68 119.38)
 		)
 		(stroke
@@ -2945,6 +3304,16 @@
 			(justify left bottom)
 		)
 		(uuid "259d497a-172c-46b5-90a9-38b1d0e7685f")
+	)
+	(label "CurrentSenseMotor2"
+		(at 248.92 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29cd9458-dd89-4ac0-a7a2-ab7017833055")
 	)
 	(label "CurrentSenseMotor1"
 		(at 93.98 81.28 0)
@@ -3206,6 +3575,16 @@
 		)
 		(uuid "f0875df2-5bb1-4c85-b40c-d0137b48d012")
 	)
+	(label "CurrentSenseMotor1"
+		(at 248.92 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb8acd2c-d4d9-4cca-b8dd-60ebf0e524d8")
+	)
 	(label "TOFF"
 		(at 176.53 121.92 180)
 		(effects
@@ -3236,6 +3615,17 @@
 			(justify left)
 		)
 		(uuid "0096719c-e7df-4f48-9e49-6b67fdc7e115")
+	)
+	(hierarchical_label "CurrentSenseMotor2"
+		(shape output)
+		(at 256.54 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0406cad1-302d-4890-a365-a74a354c34ca")
 	)
 	(hierarchical_label "SLEEP"
 		(shape input)
@@ -3269,6 +3659,17 @@
 			(justify left)
 		)
 		(uuid "452fcc40-0a28-4ffc-a874-08021652068d")
+	)
+	(hierarchical_label "CurrentSenseMotor1"
+		(shape output)
+		(at 256.54 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "572b669e-65a8-4333-9dc9-df466c050a1d")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -4414,6 +4815,148 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_new:125700D00000G")
+		(at 46.99 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6274ddcc-7a84-4f52-9b9e-0c2937674a30")
+		(property "Reference" "U2"
+			(at 63.5 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "125700D00000G"
+			(at 63.5 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "125700D00000G"
+			(at 63.5 240.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/datasheet/2/2/Aavid-Board-Level-Heatsinks-Catalog-2018-1507171.pdf"
+			(at 63.5 340.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heat Sinks Solder Anchor, 3.61 n Thermal Resistance, 1.6mm PCB Thickness"
+			(at 46.99 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.19"
+			(at 63.5 540.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Aavid Thermalloy"
+			(at 63.5 640.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "125700D00000G"
+			(at 63.5 740.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "532-125700D00000G"
+			(at 63.5 840.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aavid/125700D00000G?qs=U7T%2FEnMyvTtVFmt9%2FDIChA%3D%3D"
+			(at 63.5 940.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "125700D00000G"
+			(at 63.5 1040.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/125700d00000g/aavid-thermalloy?region=europe"
+			(at 63.5 1140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c844306-5e57-427c-83cd-c5ad06c8505f")
+		)
+		(pin "1"
+			(uuid "46548c61-ed08-4108-a9ca-cb69d198f7bd")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
 		(at 114.3 119.38 90)
 		(unit 1)
@@ -4841,8 +5384,8 @@
 				)
 			)
 		)
-		(property "Value" "?"
-			(at 174.752 101.092 0)
+		(property "Value" "3,09k"
+			(at 176.276 100.838 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4953,6 +5496,148 @@
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:125700D00000G")
+		(at 46.99 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "883a45e6-c523-4139-85f7-8224155edf3e")
+		(property "Reference" "U1"
+			(at 63.5 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "125700D00000G"
+			(at 63.5 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "125700D00000G"
+			(at 63.5 230.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/datasheet/2/2/Aavid-Board-Level-Heatsinks-Catalog-2018-1507171.pdf"
+			(at 63.5 330.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heat Sinks Solder Anchor, 3.61 n Thermal Resistance, 1.6mm PCB Thickness"
+			(at 46.99 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.19"
+			(at 63.5 530.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Aavid Thermalloy"
+			(at 63.5 630.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "125700D00000G"
+			(at 63.5 730.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "532-125700D00000G"
+			(at 63.5 830.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aavid/125700D00000G?qs=U7T%2FEnMyvTtVFmt9%2FDIChA%3D%3D"
+			(at 63.5 930.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "125700D00000G"
+			(at 63.5 1030.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/125700d00000g/aavid-thermalloy?region=europe"
+			(at 63.5 1130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c09dbe01-67f1-4126-884e-ed85dc05d0aa")
+		)
+		(pin "1"
+			(uuid "93978131-abe0-4184-b9bb-c66d221d5a67")
+		)
+		(instances
+			(project ""
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -6059,8 +6744,8 @@
 				)
 			)
 		)
-		(property "Value" "?"
-			(at 198.882 101.092 0)
+		(property "Value" "3,09k"
+			(at 199.644 101.092 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6170,6 +6855,79 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 55.88 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2387983-aa8b-4a4f-b5aa-831777e76c77")
+		(property "Reference" "HS1"
+			(at 59.69 156.8449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "374524B60023G"
+			(at 59.69 159.3849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.1848 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 56.1848 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "374524B60023G"
+			(at 55.88 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
+					(reference "HS1")
 					(unit 1)
 				)
 			)

@@ -101,6 +101,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "warning",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -621,12 +622,8 @@
       "Driver Moteur"
     ],
     [
-      "b84a445d-ec2f-4701-ba51-4cc4e1ff6ab4",
-      "Alimentation"
-    ],
-    [
       "d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb",
-      "BoostBuck"
+      "Alimentation"
     ],
     [
       "17777bae-0c68-45a7-8f55-4db398213b8b",
@@ -647,6 +644,14 @@
     [
       "b5e4ba2d-c7b9-4d31-9df3-07981ee2b35a",
       "MCU_Core"
+    ],
+    [
+      "f849c0a2-f150-4f7d-9c03-1f3f5fdefafe",
+      "Boost_24V"
+    ],
+    [
+      "690dff04-39a8-47af-a544-90bdf7825c98",
+      "Buck_5V"
     ]
   ],
   "text_variables": {}

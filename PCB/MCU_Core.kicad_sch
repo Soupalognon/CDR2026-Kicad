@@ -11642,7 +11642,7 @@
 			(uuid "d81843e1-96f4-4e09-9cdd-2ff6dae76548")
 		)
 		(instances
-			(project ""
+			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/b5e4ba2d-c7b9-4d31-9df3-07981ee2b35a"
 					(reference "IC2")
 					(unit 1)
