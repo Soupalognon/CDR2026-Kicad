@@ -27,6 +27,66 @@
 		)
 		(uuid "c772bc93-7fd9-4ea1-9c9a-5ddcab5ffa62")
 	)
+	(wire
+		(pts
+			(xy 121.92 77.47) (xy 125.73 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21cb5774-0350-4466-bcd2-3aa4385cdbe9")
+	)
+	(wire
+		(pts
+			(xy 109.22 33.02) (xy 121.92 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d26f5c-0aaf-4cd2-9232-b67dda6a3be7")
+	)
+	(wire
+		(pts
+			(xy 119.38 81.28) (xy 125.73 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7776b3a-4aed-4476-83da-fbfa71dde2f1")
+	)
+	(wire
+		(pts
+			(xy 119.38 38.1) (xy 119.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6d9cb5-e604-462b-bcbe-5b06229885de")
+	)
+	(wire
+		(pts
+			(xy 121.92 33.02) (xy 121.92 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1d8463-b0a9-4159-8b61-cd3afecf8ed5")
+	)
+	(wire
+		(pts
+			(xy 109.22 38.1) (xy 119.38 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97aaabd-10b9-49b1-a979-675a49215d97")
+	)
 	(sheet
 		(at 232.41 19.05)
 		(size 44.45 74.93)
@@ -101,6 +161,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 125.73 77.47 180)
+			(uuid "09a098c6-872a-4fff-bf34-737cb1176483")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_PC_EMBARQUE" input
+			(at 125.73 81.28 180)
+			(uuid "f7a43e6d-33b9-4b05-a528-4131ed703671")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
