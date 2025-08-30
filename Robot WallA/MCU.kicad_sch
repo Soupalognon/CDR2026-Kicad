@@ -107,6 +107,26 @@
 		)
 		(uuid "3a59f219-138a-4361-b1d9-e8b2533bd9ab")
 	)
+	(wire
+		(pts
+			(xy 39.37 21.59) (xy 34.29 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3c7fe4-6292-4e4f-91ea-d920de776a19")
+	)
+	(wire
+		(pts
+			(xy 39.37 17.78) (xy 34.29 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41492f0e-73c4-41a7-aa2d-400dc8b22f95")
+	)
 	(bus
 		(pts
 			(xy 194.31 44.45) (xy 135.89 44.45)
@@ -377,6 +397,87 @@
 		)
 		(uuid "fef92558-65e4-47e9-91b3-34173a0a5ec0")
 	)
+	(label "5V_PC_EMBARQUE"
+		(at 194.31 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "318c6050-4262-4b91-863e-02eb00427720")
+	)
+	(label "5V_PC_EMBARQUE"
+		(at 39.37 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3bec72c5-1e16-4ab5-9732-9438e1eadab9")
+	)
+	(label "3V3"
+		(at 26.67 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71be463e-b6f2-48c1-9271-e25c727f67a6")
+	)
+	(label "3V3"
+		(at 194.31 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b678a1ca-0d44-4666-8a04-363a6dd4b794")
+	)
+	(label "3V3"
+		(at 39.37 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb33838b-ac3c-4700-9906-f4fdbde9fb43")
+	)
+	(label "3V3"
+		(at 194.31 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4927929-4daa-4396-8f5b-cc824556533e")
+	)
+	(label "5V_PC_EMBARQUE"
+		(at 194.31 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "febe69cc-59ae-4a95-80b2-7278411b8aa4")
+	)
+	(hierarchical_label "GPIO_PGOOD_24V"
+		(shape input)
+		(at 48.26 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4236fb2c-e369-4edc-b05b-d83a176deca8")
+	)
 	(hierarchical_label "WHEEL[0..7]"
 		(shape bidirectional)
 		(at 48.26 93.98 180)
@@ -387,28 +488,6 @@
 			(justify right)
 		)
 		(uuid "6c36e255-eec6-4cad-91b7-5786facec33f")
-	)
-	(hierarchical_label "5V_PC_EMBARQUE"
-		(shape input)
-		(at 194.31 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ea6f733-d420-405b-92e0-1a918a999f11")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 26.67 36.83 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "783caaed-81e7-4d43-a7d2-95a249545f82")
 	)
 	(hierarchical_label "SERVO[0..6]"
 		(shape bidirectional)
@@ -432,16 +511,49 @@
 		)
 		(uuid "93cfb714-1cec-4dcd-9a2e-0b8b58842e8e")
 	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 194.31 124.46 180)
+	(hierarchical_label "ENCODER[0..3]"
+		(shape bidirectional)
+		(at 48.26 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "9770d9c2-6046-417e-bd4f-3e97cc4677d8")
+		(uuid "a37737e4-0c29-4450-9f0d-0f68e1964193")
+	)
+	(hierarchical_label "5V_PC_EMBARQUE"
+		(shape input)
+		(at 34.29 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a64572a3-0ab1-4e22-93a1-6ecb14b563eb")
+	)
+	(hierarchical_label "GPIO_ENABLE_POWER_SUPPLIES"
+		(shape output)
+		(at 48.26 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d9084d82-708d-426e-9021-e67a69291554")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 34.29 17.78 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fab5751a-7cd5-4168-8056-7293f9a6a5b8")
 	)
 	(sheet
 		(at 194.31 77.47)
@@ -518,7 +630,7 @@
 			)
 		)
 		(instances
-			(project "PCB"
+			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
 					(page "6")
 				)
@@ -590,7 +702,7 @@
 			)
 		)
 		(pin "5V_PC_EMBARQUE" input
-			(at 194.31 127 180)
+			(at 194.31 128.27 180)
 			(uuid "9285dbe6-e2a6-45ca-9c2e-afeb3db4e4a6")
 			(effects
 				(font
@@ -610,7 +722,7 @@
 			)
 		)
 		(instances
-			(project "PCB"
+			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
 					(page "8")
 				)
@@ -618,8 +730,8 @@
 		)
 	)
 	(sheet
-		(at 26.67 22.86)
-		(size 81.28 30.48)
+		(at 26.67 34.29)
+		(size 81.28 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -634,7 +746,7 @@
 		)
 		(uuid "996b1006-76bc-4b31-b64b-1da2a3c9bad6")
 		(property "Sheetname" "MCU_Config"
-			(at 26.67 22.1484 0)
+			(at 26.67 33.5784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +854,7 @@
 			)
 		)
 		(instances
-			(project "PCB"
+			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
 					(page "9")
 				)
@@ -1013,8 +1125,38 @@
 				(justify left)
 			)
 		)
+		(pin "ENCODER[0..3]" bidirectional
+			(at 48.26 96.52 180)
+			(uuid "f3914c56-df6a-4d38-9de3-b655311cca18")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_ENABLE_POWER_SUPPLIES" output
+			(at 48.26 102.87 180)
+			(uuid "07f8ffb0-2fa8-44fe-9175-71453eb4b358")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_PGOOD_24V" input
+			(at 48.26 105.41 180)
+			(uuid "ec0f98e7-1033-4b7f-ada4-b7d793a87a0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "PCB"
+			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
 					(page "10")
 				)
@@ -1145,8 +1287,28 @@
 				(justify left)
 			)
 		)
+		(pin "3V3" input
+			(at 194.31 59.69 180)
+			(uuid "4ae3d986-cf34-45f3-9a9c-5a9311b76ebf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 194.31 62.23 180)
+			(uuid "1acb2a93-7500-4d58-8f25-d1673cff053e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "PCB"
+			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
 					(page "7")
 				)

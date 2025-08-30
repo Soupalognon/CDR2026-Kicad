@@ -216,7 +216,7 @@
 	)
 	(text "5V_DEBUG est pour alimenter UNIQUEMENT le UC"
 		(exclude_from_sim no)
-		(at 150.114 142.494 0)
+		(at 58.674 85.598 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -236,9 +236,9 @@
 		)
 		(uuid "b10b57bd-ec14-4c8e-8a8a-e7c8932308ac")
 	)
-	(text "Boost 24V 130W\nBuck 5V 17,5W\nLDO 3,3V"
+	(text "Boost 24V 130W --> Pour les moteurs principaux\nBuck 12V 34,8W --> Pour les actionneurs\nBuck 5V Compute   17,5W --> Pour le PC embarqué et le UC\nBuck 5V Actuators 17,5W --> Pour les actionneurs\nLDO 3,3V --> Pour le UC"
 		(exclude_from_sim no)
-		(at 64.516 67.31 0)
+		(at 61.468 73.406 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -276,6 +276,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 82.55) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "113d05ea-941d-4c2a-ab4f-955933f86c51")
+	)
+	(wire
+		(pts
 			(xy 109.22 27.94) (xy 232.41 27.94)
 		)
 		(stroke
@@ -294,6 +304,16 @@
 		)
 		(uuid "21cb5774-0350-4466-bcd2-3aa4385cdbe9")
 	)
+	(bus
+		(pts
+			(xy 175.26 76.2) (xy 232.41 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ba19b5-e7d4-4000-9dde-b05eb9b7f595")
+	)
 	(wire
 		(pts
 			(xy 109.22 34.29) (xy 121.92 34.29)
@@ -303,6 +323,26 @@
 			(type default)
 		)
 		(uuid "50d26f5c-0aaf-4cd2-9232-b67dda6a3be7")
+	)
+	(wire
+		(pts
+			(xy 109.22 48.26) (xy 111.76 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eea1792-cbf9-47fd-bb31-ae4d957c85d7")
+	)
+	(wire
+		(pts
+			(xy 125.73 82.55) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "753cea43-e4d2-43ac-89de-99161ef7a5ff")
 	)
 	(bus
 		(pts
@@ -336,6 +376,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 85.09) (xy 125.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8e2aaf4-42af-43a1-9f07-ae044ed1be8b")
+	)
+	(wire
+		(pts
 			(xy 119.38 73.66) (xy 125.73 73.66)
 		)
 		(stroke
@@ -363,6 +413,16 @@
 			(type default)
 		)
 		(uuid "cb6d9cb5-e604-462b-bcbe-5b06229885de")
+	)
+	(wire
+		(pts
+			(xy 111.76 48.26) (xy 111.76 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0629230-2498-49ef-b2cc-a16f121f8a68")
 	)
 	(wire
 		(pts
@@ -403,6 +463,16 @@
 			(type default)
 		)
 		(uuid "fa08def2-5fa2-4edf-b49c-eae63bb9a73e")
+	)
+	(wire
+		(pts
+			(xy 114.3 45.72) (xy 109.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa51d1c0-dfe3-4b69-a3a2-9d0d44d1214c")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -504,7 +574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26a0087c-96a2-4cfb-88f5-1bbe7b10bcec")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR04"
 			(at 60.96 190.5 0)
 			(effects
 				(font
@@ -555,7 +625,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
-					(reference "#PWR0113")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -571,7 +641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4355bbb8-d8c0-4906-816a-4b6e7a0b6b5a")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR03"
 			(at 60.96 180.34 0)
 			(effects
 				(font
@@ -622,7 +692,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
-					(reference "#PWR0112")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -638,7 +708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "553d09eb-6db9-4b17-a9cb-5d131d4e817d")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR01"
 			(at 36.83 180.34 0)
 			(effects
 				(font
@@ -689,7 +759,7 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
-					(reference "#PWR0110")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -705,7 +775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56ef1824-434e-4e04-b690-78e994e530c9")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR02"
 			(at 36.83 190.5 0)
 			(effects
 				(font
@@ -756,7 +826,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
-					(reference "#PWR0111")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -1126,8 +1196,18 @@
 				(justify left)
 			)
 		)
+		(pin "ENCODER[0..3]" bidirectional
+			(at 232.41 76.2 180)
+			(uuid "73d8da9e-2a9f-4b9e-8eaf-2ccd2091c367")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "PCB"
+			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
 					(page "3")
 				)
@@ -1218,8 +1298,38 @@
 				(justify right)
 			)
 		)
+		(pin "ENCODER[0..3]" bidirectional
+			(at 175.26 76.2 0)
+			(uuid "1c62055d-1b65-4f03-8a14-e5f7c19457cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_ENABLE_POWER_SUPPLIES" output
+			(at 125.73 82.55 180)
+			(uuid "d97ae949-df94-4165-b270-c0c978651f6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GPIO_PGOOD_24V" input
+			(at 125.73 85.09 180)
+			(uuid "44c2d6ed-63a2-41a0-8e4b-96fa71201fd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "PCB"
+			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
 					(page "2")
 				)
@@ -1281,18 +1391,8 @@
 			)
 		)
 		(pin "GPIO_PGOOD_24V" output
-			(at 109.22 50.8 0)
+			(at 109.22 48.26 0)
 			(uuid "7af432a0-505c-4483-8a59-0a4957ab8253")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vbatt" output
-			(at 109.22 54.61 0)
-			(uuid "e4109914-250f-4ae7-ac14-291dffdbc240")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1351,7 +1451,7 @@
 			)
 		)
 		(instances
-			(project "PCB"
+			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
 					(page "5")
 				)

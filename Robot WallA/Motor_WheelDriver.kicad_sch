@@ -907,934 +907,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys:DRV8262DDVR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "AC"
-				(at 31.75 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "DRV8262DDVR"
-				(at 31.75 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOP64P810X120-44N"
-				(at 31.75 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8262.pdf?ts=1720091498816&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
-				(at 31.75 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Motor / Motion / Ignition Controllers & Drivers 65-V single or dual H-bridge motor driver with integrated current sense and regulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.2"
-				(at 31.75 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 31.75 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "DRV8262DDVR"
-				(at 31.75 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 31.75 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 31.75 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 31.75 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 31.75 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "DRV8262DDVR_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 30.48 -55.88)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "VM_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "OUT3_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -10.16 0)
-					(length 5.08)
-					(name "OUT3_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -12.7 0)
-					(length 5.08)
-					(name "OUT3_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -15.24 0)
-					(length 5.08)
-					(name "OUT4_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -17.78 0)
-					(length 5.08)
-					(name "OUT4_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -20.32 0)
-					(length 5.08)
-					(name "OUT4_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -22.86 0)
-					(length 5.08)
-					(name "GND_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -25.4 0)
-					(length 5.08)
-					(name "VM_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -27.94 0)
-					(length 5.08)
-					(name "VM_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -30.48 0)
-					(length 5.08)
-					(name "GND_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -33.02 0)
-					(length 5.08)
-					(name "OUT2_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -35.56 0)
-					(length 5.08)
-					(name "OUT2_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -38.1 0)
-					(length 5.08)
-					(name "OUT2_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -40.64 0)
-					(length 5.08)
-					(name "OUT1_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -43.18 0)
-					(length 5.08)
-					(name "OUT1_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 0 -45.72 0)
-					(length 5.08)
-					(name "OUT1_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -48.26 0)
-					(length 5.08)
-					(name "GND_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -50.8 0)
-					(length 5.08)
-					(name "VM_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -53.34 0)
-					(length 5.08)
-					(name "VCP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 35.56 0 180)
-					(length 5.08)
-					(name "GND_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "44"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 35.56 -2.54 180)
-					(length 5.08)
-					(name "DVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "43"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 35.56 -5.08 180)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "42"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 35.56 -7.62 180)
-					(length 5.08)
-					(name "NFAULT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "41"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -10.16 180)
-					(length 5.08)
-					(name "OCPM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -12.7 180)
-					(length 5.08)
-					(name "MODE1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -15.24 180)
-					(length 5.08)
-					(name "MODE2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 35.56 -17.78 180)
-					(length 5.08)
-					(name "IPROPI2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 35.56 -20.32 180)
-					(length 5.08)
-					(name "IPROPI1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -22.86 180)
-					(length 5.08)
-					(name "RSVD_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -25.4 180)
-					(length 5.08)
-					(name "VREF2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -27.94 180)
-					(length 5.08)
-					(name "VREF1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -30.48 180)
-					(length 5.08)
-					(name "TOFF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -33.02 180)
-					(length 5.08)
-					(name "RSVD_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -35.56 180)
-					(length 5.08)
-					(name "DECAY"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -38.1 180)
-					(length 5.08)
-					(name "IN4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -40.64 180)
-					(length 5.08)
-					(name "IN3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -43.18 180)
-					(length 5.08)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 35.56 -45.72 180)
-					(length 5.08)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 35.56 -48.26 180)
-					(length 5.08)
-					(name "NSLEEP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 35.56 -50.8 180)
-					(length 5.08)
-					(name "CPL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 35.56 -53.34 180)
-					(length 5.08)
-					(name "CPH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:0805DC104MAT2A"
 			(pin_names
 				(hide yes)
@@ -2454,6 +1526,934 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_new:DRV8262DDVR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AC"
+				(at 31.75 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DRV8262DDVR"
+				(at 31.75 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SOP64P810X120-44N"
+				(at 31.75 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8262.pdf?ts=1720091498816&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Motor / Motion / Ignition Controllers & Drivers 65-V single or dual H-bridge motor driver with integrated current sense and regulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.2"
+				(at 31.75 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Texas Instruments"
+				(at 31.75 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DRV8262DDVR"
+				(at 31.75 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 31.75 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 31.75 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 31.75 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 31.75 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DRV8262DDVR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 30.48 -55.88)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "GND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "OUT3_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "OUT3_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "OUT3_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "OUT4_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "OUT4_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "OUT4_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "GND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -25.4 0)
+					(length 5.08)
+					(name "VM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -27.94 0)
+					(length 5.08)
+					(name "VM_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -30.48 0)
+					(length 5.08)
+					(name "GND_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -33.02 0)
+					(length 5.08)
+					(name "OUT2_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -35.56 0)
+					(length 5.08)
+					(name "OUT2_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -38.1 0)
+					(length 5.08)
+					(name "OUT2_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -40.64 0)
+					(length 5.08)
+					(name "OUT1_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -43.18 0)
+					(length 5.08)
+					(name "OUT1_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -45.72 0)
+					(length 5.08)
+					(name "OUT1_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -48.26 0)
+					(length 5.08)
+					(name "GND_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -50.8 0)
+					(length 5.08)
+					(name "VM_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -53.34 0)
+					(length 5.08)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "GND_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "NFAULT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "OCPM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -12.7 180)
+					(length 5.08)
+					(name "MODE1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -15.24 180)
+					(length 5.08)
+					(name "MODE2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 -17.78 180)
+					(length 5.08)
+					(name "IPROPI2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 35.56 -20.32 180)
+					(length 5.08)
+					(name "IPROPI1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -22.86 180)
+					(length 5.08)
+					(name "RSVD_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -25.4 180)
+					(length 5.08)
+					(name "VREF2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -27.94 180)
+					(length 5.08)
+					(name "VREF1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -30.48 180)
+					(length 5.08)
+					(name "TOFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -33.02 180)
+					(length 5.08)
+					(name "RSVD_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -35.56 180)
+					(length 5.08)
+					(name "DECAY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -38.1 180)
+					(length 5.08)
+					(name "IN4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -40.64 180)
+					(length 5.08)
+					(name "IN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -43.18 180)
+					(length 5.08)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 35.56 -45.72 180)
+					(length 5.08)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -48.26 180)
+					(length 5.08)
+					(name "NSLEEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -50.8 180)
+					(length 5.08)
+					(name "CPL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -53.34 180)
+					(length 5.08)
+					(name "CPH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2610,7 +2610,7 @@
 		)
 		(uuid "5f60889a-9c54-454f-9015-09466f68b925")
 	)
-	(text "Default Configuration: \nOCPM = 1 --> Over Current Protection error = Retry\nMODE = 1 --> PWM mode\nToff = 1 --> Waiting time between change = 16µs\nDecay = HZ --> Auto detect mode"
+	(text "Default Configuration: \nOCPM = 1 --> Over Current Protection error = Retry\nMODE = 0 --> PH/EN mode\nToff = 1 --> Waiting time between change = 16µs\nDecay = HZ --> Auto detect mode"
 		(exclude_from_sim no)
 		(at 124.714 22.352 0)
 		(effects
@@ -3725,7 +3725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01bb971a-8bf9-47f6-8daf-fab32ea785d6")
-		(property "Reference" "JP10"
+		(property "Reference" "JP7"
 			(at 195.58 121.9199 90)
 			(effects
 				(font
@@ -3782,7 +3782,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "JP10")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -3798,7 +3798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0516836b-83a1-4ddc-9491-9bbca2f38f25")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR091"
 			(at 184.15 137.16 0)
 			(effects
 				(font
@@ -3848,7 +3848,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR096")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -3864,7 +3864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "076004e9-f38e-424e-91db-d078bbb3fe41")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR093"
 			(at 193.04 134.62 0)
 			(effects
 				(font
@@ -3914,7 +3914,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR098")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -3930,7 +3930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07fcf9fe-de8a-4c3a-bddf-f48fd09b4fab")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR082"
 			(at 54.61 92.71 0)
 			(effects
 				(font
@@ -3981,7 +3981,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR087")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -3997,7 +3997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08d8db18-506e-44a3-86f3-cfe45dd90cfc")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR084"
 			(at 102.87 62.23 0)
 			(effects
 				(font
@@ -4048,7 +4048,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR089")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -4131,7 +4131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a9ac42d-9b8d-487b-b737-4ca9bda45fe1")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR094"
 			(at 193.04 157.48 0)
 			(effects
 				(font
@@ -4181,7 +4181,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR099")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ee124c9-f52c-4693-b3cc-85d88268282a")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR092"
 			(at 186.69 83.82 0)
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR097")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "220f7a2c-20b5-4ef9-b85c-95effaae3801")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR089"
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -4313,7 +4313,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR094")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -4329,7 +4329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "253aa42b-dbcd-4b0c-b73b-5bcf885c9d6a")
-		(property "Reference" "J12"
+		(property "Reference" "J23"
 			(at 265.43 76.1999 0)
 			(effects
 				(font
@@ -4455,7 +4455,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "J12")
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -4538,7 +4538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26f9a069-b2c5-4f2b-8b61-e4dec4c35e81")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR087"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -4588,273 +4588,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR092")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys:DRV8262DDVR")
-		(at 60.96 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27ef5a57-bda4-426c-8981-6afab2191e30")
-		(property "Reference" "AC2"
-			(at 78.74 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DRV8262DDVR"
-			(at 78.74 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SOP64P810X120-44N"
-			(at 92.71 157.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8262.pdf?ts=1720091498816&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
-			(at 92.71 257.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 65-V single or dual H-bridge motor driver with integrated current sense and regulation"
-			(at 60.96 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.2"
-			(at 92.71 457.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 92.71 557.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DRV8262DDVR"
-			(at 92.71 657.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 92.71 757.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 92.71 857.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 92.71 957.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 92.71 1057.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "26"
-			(uuid "87d574c7-7e18-4140-92a5-caddf667bc8c")
-		)
-		(pin "30"
-			(uuid "ad2a7fb3-3302-415d-8c6e-46970546e153")
-		)
-		(pin "29"
-			(uuid "ec1ac94e-6dac-4277-8742-ce1c326da204")
-		)
-		(pin "31"
-			(uuid "2f815ff8-3129-4a29-8255-adaaad4c63da")
-		)
-		(pin "25"
-			(uuid "7199ce02-0a43-46cc-8492-8ba90884100d")
-		)
-		(pin "28"
-			(uuid "1c804758-881d-4bc1-b3bb-8bb63fdf875f")
-		)
-		(pin "27"
-			(uuid "8db79eb3-a74e-49b6-8b9b-7fcf930cfe1c")
-		)
-		(pin "23"
-			(uuid "a03623ad-267d-4686-9300-85dbb5407dee")
-		)
-		(pin "24"
-			(uuid "1947c3eb-18fe-4ea6-b194-ba6601b70d15")
-		)
-		(pin "14"
-			(uuid "7083f525-8a29-4425-bdb6-d5cdea48fb8e")
-		)
-		(pin "44"
-			(uuid "203ec0a4-8a7b-431f-b6bd-69b0a1a510ea")
-		)
-		(pin "43"
-			(uuid "6997fb3e-bda3-47b4-b98c-02e13e398f1a")
-		)
-		(pin "37"
-			(uuid "c4a79102-586d-45ba-a2de-f0adacbc3663")
-		)
-		(pin "42"
-			(uuid "f8195655-f3fc-4394-a519-2777c370d28f")
-		)
-		(pin "35"
-			(uuid "c5f744f5-654c-4d2a-bdcd-ba58e009fb86")
-		)
-		(pin "16"
-			(uuid "50a727ef-f3a1-4af4-836e-105036df129e")
-		)
-		(pin "34"
-			(uuid "f566d3f8-7b7f-4fb7-b1fb-acf7307100ab")
-		)
-		(pin "33"
-			(uuid "2f1e58d0-3bf2-4c06-b846-4de1942bc1cd")
-		)
-		(pin "13"
-			(uuid "d36fbdc3-bb39-485c-87f1-02bed91dea23")
-		)
-		(pin "10"
-			(uuid "cdf77bfc-0a60-4b37-907f-9fb285898e2c")
-		)
-		(pin "40"
-			(uuid "b7a23b71-f893-4a58-9c5c-6af3d69fe148")
-		)
-		(pin "22"
-			(uuid "4a518ddd-8d71-47e0-839e-ff44e994694b")
-		)
-		(pin "32"
-			(uuid "866e1cce-477e-4886-9a4e-b5ca7ea8bc8f")
-		)
-		(pin "36"
-			(uuid "141c4e49-3fec-4641-a190-6683c8671607")
-		)
-		(pin "1"
-			(uuid "aa6270b2-dedc-4311-b687-1c783ca5a490")
-		)
-		(pin "2"
-			(uuid "3038d14a-87da-4aaa-a6a4-ef04e3da112e")
-		)
-		(pin "4"
-			(uuid "627453a4-9046-4511-975e-5850d6cfc9a4")
-		)
-		(pin "17"
-			(uuid "6a0f2373-462a-4ab9-8a0d-fa21663af405")
-		)
-		(pin "5"
-			(uuid "65c65a49-429c-4cad-b215-3c26aa9bcaa4")
-		)
-		(pin "19"
-			(uuid "eefcf8c6-1c30-481b-977f-883f4c9d7f20")
-		)
-		(pin "38"
-			(uuid "7435de02-3d38-456a-afbb-e5a52af8ec31")
-		)
-		(pin "18"
-			(uuid "8880e462-1a8b-4aab-a18f-3403b52c099f")
-		)
-		(pin "15"
-			(uuid "c7036919-048c-4c2f-92f7-9449ce12f548")
-		)
-		(pin "21"
-			(uuid "cae384a1-79f7-4ad6-92a0-af7f4b7af1c3")
-		)
-		(pin "6"
-			(uuid "27d154cc-6aec-488f-97fa-93369985a299")
-		)
-		(pin "39"
-			(uuid "2572d5a6-fa15-422a-ac71-3d4c8033ecfe")
-		)
-		(pin "20"
-			(uuid "028687d7-0560-452c-9e43-a6c76ffb2681")
-		)
-		(pin "9"
-			(uuid "1f3b1083-74ed-4502-80d3-ec27e5dd3ec2")
-		)
-		(pin "3"
-			(uuid "1034ea95-1565-4fdb-b5d2-263edd067a65")
-		)
-		(pin "41"
-			(uuid "f4c3601a-a19a-424d-a739-b41da2f7b0c2")
-		)
-		(pin "8"
-			(uuid "39a17957-1bd0-4d5b-a0ce-1e8dee78da00")
-		)
-		(pin "11"
-			(uuid "c051bf8e-3d21-416b-8294-8d9ecdd78b22")
-		)
-		(pin "7"
-			(uuid "460cb7eb-493f-4b95-aa10-ab20db774a28")
-		)
-		(pin "12"
-			(uuid "17700df4-933d-4169-8e48-79dd740b3274")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "AC2")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -4870,7 +4604,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a494f9a-6c08-4ecf-8b61-d0a8ae80cf2b")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR085"
 			(at 102.87 74.93 0)
 			(effects
 				(font
@@ -4921,7 +4655,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR090")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -5004,7 +4738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9ba2d6-6eb9-41bc-93a5-290c4b61fa13")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR079"
 			(at 54.61 62.23 0)
 			(effects
 				(font
@@ -5055,7 +4789,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR084")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -5070,7 +4804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c072402-b146-457d-988a-e90e60a18b5a")
-		(property "Reference" "C85"
+		(property "Reference" "C81"
 			(at 206.502 70.358 90)
 			(effects
 				(font
@@ -5194,7 +4928,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C85")
+					(reference "C81")
 					(unit 1)
 				)
 			)
@@ -5209,7 +4943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d18ad28-3420-418e-a2d1-300df4eaa80c")
-		(property "Reference" "C84"
+		(property "Reference" "C80"
 			(at 190.754 57.15 90)
 			(effects
 				(font
@@ -5333,7 +5067,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C84")
+					(reference "C80")
 					(unit 1)
 				)
 			)
@@ -5349,7 +5083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56107adb-5664-4bca-b069-88a2e8b480fd")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR096"
 			(at 200.66 83.82 0)
 			(effects
 				(font
@@ -5399,7 +5133,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR0101")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -5414,7 +5148,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "576b6d8d-53cb-4a58-8e74-5a38ea538cae")
-		(property "Reference" "C83"
+		(property "Reference" "C79"
 			(at 192.532 70.358 90)
 			(effects
 				(font
@@ -5538,7 +5272,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C83")
+					(reference "C79")
 					(unit 1)
 				)
 			)
@@ -5554,7 +5288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57756d59-0eff-4a0f-832d-8e923c983ae3")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR090"
 			(at 173.99 111.76 0)
 			(effects
 				(font
@@ -5604,7 +5338,273 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR095")
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:DRV8262DDVR")
+		(at 60.96 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6688fe89-1a79-488c-92a6-8ceefc9edc0b")
+		(property "Reference" "AC1"
+			(at 78.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DRV8262DDVR"
+			(at 78.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOP64P810X120-44N"
+			(at 92.71 157.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8262.pdf?ts=1720091498816&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
+			(at 92.71 257.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 65-V single or dual H-bridge motor driver with integrated current sense and regulation"
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.2"
+			(at 92.71 457.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 92.71 557.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DRV8262DDVR"
+			(at 92.71 657.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 92.71 757.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 92.71 857.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 92.71 957.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 92.71 1057.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "ed46c48e-51fd-43b2-a3f4-3b2bfd101baa")
+		)
+		(pin "12"
+			(uuid "ebb3ac89-870a-4937-93cd-4b8d869aa433")
+		)
+		(pin "13"
+			(uuid "4142dbe3-4b59-41e3-9862-41d94ecc3aa9")
+		)
+		(pin "1"
+			(uuid "92f03a2a-622a-4573-b793-4dc46b2262dc")
+		)
+		(pin "3"
+			(uuid "4326d426-453a-4424-9b70-fbb52b203658")
+		)
+		(pin "2"
+			(uuid "07dce717-d46d-4bd6-985b-afe084730f61")
+		)
+		(pin "4"
+			(uuid "4c5c5f0c-588c-4392-9857-9d830451cae4")
+		)
+		(pin "5"
+			(uuid "4cbae086-14e4-4b34-a84e-0b497369a509")
+		)
+		(pin "6"
+			(uuid "38f1ebbb-1554-4b5d-ba51-c84242d93ce0")
+		)
+		(pin "7"
+			(uuid "2a238a95-f199-4e08-8aa3-467b52d1d07b")
+		)
+		(pin "9"
+			(uuid "6c3d1dac-d8a3-445b-8624-ee53a6dd89eb")
+		)
+		(pin "10"
+			(uuid "54f64ce6-6bf9-49ed-922b-9ca6bde9f960")
+		)
+		(pin "11"
+			(uuid "a75d56f4-6de6-4379-9f84-b6939d8e9d1e")
+		)
+		(pin "34"
+			(uuid "010322e9-b650-45b9-b0f7-307dce93f439")
+		)
+		(pin "44"
+			(uuid "435cbb48-2482-4e4b-b56a-80424bcee3c6")
+		)
+		(pin "36"
+			(uuid "3e1077a1-fc1e-47d1-9912-9e03303072bc")
+		)
+		(pin "28"
+			(uuid "baa1b355-2ec8-4cc7-b14b-457d06506803")
+		)
+		(pin "25"
+			(uuid "c9409fa8-dde3-435e-bfe3-bb2ba98d056f")
+		)
+		(pin "20"
+			(uuid "22b8eb61-f022-4b9b-9437-4af18b1bffa1")
+		)
+		(pin "17"
+			(uuid "f49b5ddc-fa94-4b04-ad6a-4762c47972f4")
+		)
+		(pin "18"
+			(uuid "608d3692-fa31-4a85-a1cb-13166c735664")
+		)
+		(pin "16"
+			(uuid "8c82c828-799a-4efb-b97b-e88039b68ceb")
+		)
+		(pin "40"
+			(uuid "7bf0ce6c-1b20-4335-abff-76e7f33fe5e0")
+		)
+		(pin "29"
+			(uuid "6bad41b2-35b1-43d2-ac85-4005c444bebb")
+		)
+		(pin "35"
+			(uuid "3d1f2fa4-e5cd-43a3-8547-728172970f91")
+		)
+		(pin "22"
+			(uuid "31f4726e-8a30-4ed4-9df3-03250716d18e")
+		)
+		(pin "26"
+			(uuid "2b56d8f6-1cd0-4321-9985-b4aef3e09555")
+		)
+		(pin "15"
+			(uuid "3dad904c-f95b-4600-8d1f-2eb5a073af46")
+		)
+		(pin "31"
+			(uuid "981e64ad-4eb2-48b9-bdf2-0d49fd479156")
+		)
+		(pin "19"
+			(uuid "71e17ab3-ab75-4e0d-9521-6ccc5158dddb")
+		)
+		(pin "21"
+			(uuid "66448aab-1f1f-4f25-af9f-44efa0491854")
+		)
+		(pin "43"
+			(uuid "04c2f8f6-93a8-4b81-a78c-27e65f16d7b4")
+		)
+		(pin "41"
+			(uuid "320ef6c1-ab4c-4099-b2c3-ff7e9d663903")
+		)
+		(pin "42"
+			(uuid "bca91a51-2669-4a0d-8e94-3dc71ab3049a")
+		)
+		(pin "39"
+			(uuid "3bc0f232-4c28-4e50-bf95-d4f0da17db50")
+		)
+		(pin "38"
+			(uuid "d3d61798-9947-4f97-acc3-02696787c1d5")
+		)
+		(pin "14"
+			(uuid "9d41ae9e-fe4c-46a3-bfb4-66a5a041fc81")
+		)
+		(pin "37"
+			(uuid "c809b952-f6a8-4cc7-88a5-30bb44ef0771")
+		)
+		(pin "32"
+			(uuid "bb692406-ce48-420c-be24-a413c190f6af")
+		)
+		(pin "33"
+			(uuid "5d8f1b6f-685d-4029-94cd-4aab726f40b6")
+		)
+		(pin "30"
+			(uuid "c41a3967-f3e1-42c7-8839-23e26cd50bc1")
+		)
+		(pin "27"
+			(uuid "35949fb8-75f7-4723-a552-ac2cd5c839af")
+		)
+		(pin "23"
+			(uuid "4097d6b2-f8d7-46ed-8dcf-cf15d0b3a3a0")
+		)
+		(pin "24"
+			(uuid "84a00f7b-3faf-4547-9e8b-74252de00dc7")
+		)
+		(instances
+			(project ""
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "AC1")
 					(unit 1)
 				)
 			)
@@ -5620,7 +5620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "673f24dc-77a0-45a9-8b0b-67fea11053c1")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR081"
 			(at 54.61 85.09 0)
 			(effects
 				(font
@@ -5671,7 +5671,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR086")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -5687,7 +5687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7162a98d-e36e-4c41-96c6-0d7dd32086f8")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR088"
 			(at 168.91 52.07 0)
 			(effects
 				(font
@@ -5737,7 +5737,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR093")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -5752,7 +5752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79502fd6-3efa-4271-95e1-0dfb88f0d2ac")
-		(property "Reference" "C80"
+		(property "Reference" "C76"
 			(at 159.004 70.104 90)
 			(effects
 				(font
@@ -5876,7 +5876,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C80")
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -5892,7 +5892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a9d119-908c-491a-9be9-a8c3d3e36a38")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR080"
 			(at 54.61 67.31 0)
 			(effects
 				(font
@@ -5943,7 +5943,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR085")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -5958,7 +5958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "85f723da-f02d-41eb-8ab2-47c54ca4f8b8")
-		(property "Reference" "R38"
+		(property "Reference" "R40"
 			(at 123.698 67.31 0)
 			(effects
 				(font
@@ -6010,7 +6010,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "R38")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -6025,7 +6025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "86727a7f-9daa-49e2-8aa2-67dee065f3ac")
-		(property "Reference" "R37"
+		(property "Reference" "R39"
 			(at 109.728 64.77 0)
 			(effects
 				(font
@@ -6077,7 +6077,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "R37")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -6092,7 +6092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87bff8e8-ce4a-4198-922e-5dee758a816b")
-		(property "Reference" "C79"
+		(property "Reference" "C75"
 			(at 121.666 114.3 90)
 			(effects
 				(font
@@ -6216,7 +6216,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C79")
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -6231,7 +6231,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9db24af2-1ca2-4910-b1b0-094efcb9d83d")
-		(property "Reference" "C81"
+		(property "Reference" "C77"
 			(at 173.736 39.37 90)
 			(effects
 				(font
@@ -6355,7 +6355,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C81")
+					(reference "C77")
 					(unit 1)
 				)
 			)
@@ -6371,7 +6371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d9535d-e4ae-4121-9fe9-8b6381793d42")
-		(property "Reference" "J13"
+		(property "Reference" "J24"
 			(at 265.43 86.3599 0)
 			(effects
 				(font
@@ -6497,7 +6497,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "J13")
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -6513,7 +6513,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b10c1c04-9144-4189-8849-85c9b9ee3c53")
-		(property "Reference" "HS3"
+		(property "Reference" "HS2"
 			(at 62.23 158.1149 0)
 			(effects
 				(font
@@ -6570,7 +6570,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "HS3")
+					(reference "HS2")
 					(unit 1)
 				)
 			)
@@ -6585,7 +6585,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b57a01a6-6481-4dde-ab36-96f171266a0e")
-		(property "Reference" "C82"
+		(property "Reference" "C78"
 			(at 179.832 70.358 90)
 			(effects
 				(font
@@ -6709,7 +6709,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C82")
+					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -6718,15 +6718,15 @@
 	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
 		(at 128.27 77.47 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b620fb12-18c4-4ead-afb6-ac3f8c922573")
-		(property "Reference" "JP9"
-			(at 130.81 76.1999 90)
+		(property "Reference" "JP6"
+			(at 130.81 78.7401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6735,7 +6735,7 @@
 			)
 		)
 		(property "Value" "SolderJumper"
-			(at 130.81 78.7399 90)
+			(at 130.81 76.2001 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6782,7 +6782,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "JP9")
+					(reference "JP6")
 					(unit 1)
 				)
 			)
@@ -6798,7 +6798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6b0c943-aa5a-4848-8772-7cd051b28e41")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR086"
 			(at 128.27 88.9 0)
 			(effects
 				(font
@@ -6848,7 +6848,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR091")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -6864,7 +6864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b903189c-b099-4d3d-bedd-9cf3c631e564")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 66.04 147.3199 0)
 			(effects
 				(font
@@ -6990,7 +6990,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7006,7 +7006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cae1e219-0a55-49fe-8ad5-87ec65af9c59")
-		(property "Reference" "JP11"
+		(property "Reference" "JP8"
 			(at 195.58 144.7799 90)
 			(effects
 				(font
@@ -7063,7 +7063,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "JP11")
+					(reference "JP8")
 					(unit 1)
 				)
 			)
@@ -7079,7 +7079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8176d83-7ba3-41a5-a31c-145bd1a7bf93")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR083"
 			(at 54.61 110.49 0)
 			(effects
 				(font
@@ -7130,7 +7130,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR088")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -7146,7 +7146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0f8201-c51f-4f17-8cc0-f20aa0054edf")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR095"
 			(at 198.12 111.76 0)
 			(effects
 				(font
@@ -7196,7 +7196,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR0100")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -7212,7 +7212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e81e6280-50b1-43c9-a735-cd74dfba7724")
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 66.04 137.1599 0)
 			(effects
 				(font
@@ -7338,7 +7338,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "U6")
+					(reference "U4")
 					(unit 1)
 				)
 			)

@@ -407,6 +407,683 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N5819WS"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N5819WS"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N5819WS_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N5819WS_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Driver_Motor:L298N"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -10.16 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "L298N"
+				(at 12.7 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-15_P2.54x5.08mm_StaggerOdd_Lead4.58mm_Vertical"
+				(at 1.27 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf"
+				(at 3.81 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual full bridge motor driver, up to 46V, 4A, Multiwatt15-V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "H-bridge motor driver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*StaggerOdd*Vertical*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L298N_0_1"
+				(rectangle
+					(start -12.7 15.24)
+					(end 12.7 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "L298N_1_1"
+				(pin input line
+					(at -15.24 12.7 0)
+					(length 2.54)
+					(name "IN1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 10.16 0)
+					(length 2.54)
+					(name "IN2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "EnA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "IN3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 0 0)
+					(length 2.54)
+					(name "IN4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "EnB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -17.78 90)
+					(length 2.54)
+					(name "SENSE_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -17.78 90)
+					(length 2.54)
+					(name "SENSE_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "Vss"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -17.78 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 17.78 270)
+					(length 2.54)
+					(name "Vs"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "OUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "OUT3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "OUT4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys:39501-1002"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "39501-1002"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "395011002"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/2/39501-1002.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pluggable Terminal Blocks 3.5MM EURO HDR 02P VT CLOSED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "9.6"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Molex"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "39501-1002"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "538-39501-1002"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39501-1002?qs=sv5fFeGb%252BE57lLylXvB48A%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "39501-1002_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:0805DC104MAT2A"
 			(pin_names
 				(hide yes)
@@ -1583,6 +2260,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_new:647-10ABEP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "647-10ABEP"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "64710ABEP"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/433/647-274976.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heat Sinks High Efficiency Heat Sink for Vertical Board Mounting for TO-220, Aluminum, Black Anodized, 41.9x25.4mm, 25.4mm Height"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "25.4"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wakefield Thermal"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "647-10ABEP"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "567-647-10ABEP"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/647-10ABEP?qs=1%252ByrAFyf4wFeJ179Dqrpyw%3D%3D"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "647-10ABEP_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_new:74LVC2G241DP-Q100H"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1966,6 +2815,18 @@
 		)
 	)
 	(rectangle
+		(start 16.51 90.17)
+		(end 166.37 191.77)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 058a76bd-f118-4fc3-a624-88756a7cbaa2)
+	)
+	(rectangle
 		(start 115.57 20.32)
 		(end 276.86 86.36)
 		(stroke
@@ -1999,6 +2860,18 @@
 		)
 		(uuid "0c141416-c2c6-49c4-ad5b-95bc40d6c015")
 	)
+	(text "Référence du radiateur\nPas trouvé sur Mouser ou Digikey...\nhttps://www.ebay.fr/itm/201540333882"
+		(exclude_from_sim no)
+		(at 38.1 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "33b5af56-f740-4e7d-8907-910acf0acb3d")
+	)
 	(text "For ROBOTIS AX12 Servomotors"
 		(exclude_from_sim no)
 		(at 251.714 24.13 0)
@@ -2010,6 +2883,18 @@
 			)
 		)
 		(uuid "3776b8c9-ec34-415d-9351-b96800a0b297")
+	)
+	(text "For Optional 2 DC motors"
+		(exclude_from_sim no)
+		(at 141.478 94.742 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "40edfc39-79b4-43c5-977f-444d01649f8c")
 	)
 	(text "Level shifter 3V3 / 5V"
 		(exclude_from_sim no)
@@ -2032,6 +2917,24 @@
 			)
 		)
 		(uuid "9ec92615-a29f-4d02-8cd1-50d66f6e86a1")
+	)
+	(junction
+		(at 110.49 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "085ff09e-fe5e-4bce-b132-7e3a7e50b87f")
+	)
+	(junction
+		(at 100.33 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ab4c4bc-b061-43ff-bdba-b65b88ac2b54")
+	)
+	(junction
+		(at 49.53 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30bd8cfe-2e8e-4df1-a3d9-5c23a6282a14")
 	)
 	(junction
 		(at 144.78 38.1)
@@ -2058,10 +2961,58 @@
 		(uuid "4ea02619-4a06-489a-ab94-47a24f5080eb")
 	)
 	(junction
+		(at 105.41 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5409958f-92c4-4dff-9388-857e88f6f658")
+	)
+	(junction
+		(at 100.33 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "551421b2-a5e0-491b-88d9-befb8c5b6ccf")
+	)
+	(junction
 		(at 214.63 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f1996e3-2a65-4eef-b389-7a2977afd920")
+	)
+	(junction
+		(at 100.33 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fc95467-f670-435e-846b-0324177a2bd3")
+	)
+	(junction
+		(at 120.65 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "706c0c85-2f4b-463a-8dbd-475b3834a123")
+	)
+	(junction
+		(at 90.17 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "710dd5d7-0a9b-437a-9903-1b2beaa78fbc")
+	)
+	(junction
+		(at 46.99 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a4639ac-a42e-4dcf-8fe0-152dd425424a")
+	)
+	(junction
+		(at 92.71 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7af535d2-b4a8-41c2-b5fd-60d6b894b056")
+	)
+	(junction
+		(at 110.49 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80ac2e28-ead3-45d6-8910-7b0a542ce451")
 	)
 	(junction
 		(at 144.78 58.42)
@@ -2070,16 +3021,96 @@
 		(uuid "8520729d-0d67-45a9-ab3c-6caa87cdc22a")
 	)
 	(junction
+		(at 92.71 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88ecbb6a-6b14-4542-8ebc-6b7262bc9534")
+	)
+	(junction
 		(at 153.67 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d37fd7a-5ad6-4a75-ba32-62ecaecfac39")
 	)
 	(junction
+		(at 106.68 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ef72930-c5bc-4133-8a30-d5bf74009ae0")
+	)
+	(junction
 		(at 203.2 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91316574-b491-47d2-b476-72754c8dda34")
+	)
+	(junction
+		(at 78.74 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a958bdb2-937d-4eed-bda9-8594cddcc3d9")
+	)
+	(junction
+		(at 129.54 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a95f4ed4-f278-444b-abdf-ae026decfa3e")
+	)
+	(junction
+		(at 129.54 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1a20d15-30f2-4af6-9f9a-dbe44d726b41")
+	)
+	(junction
+		(at 118.11 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bce34389-0112-4618-85ea-d881f4994d7d")
+	)
+	(junction
+		(at 105.41 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d75c4002-c5bb-48b1-8556-50ae1580f8bc")
+	)
+	(junction
+		(at 106.68 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4a122bb-d8b0-4077-8abb-3182200eb68a")
+	)
+	(junction
+		(at 54.61 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee54109a-8890-41ac-be93-195563d3decb")
+	)
+	(junction
+		(at 118.11 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2436d65-9705-4f52-aba3-9176727398ae")
+	)
+	(junction
+		(at 110.49 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7ac810c-d728-4b7c-ba30-a158b7154a5a")
+	)
+	(junction
+		(at 78.74 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fba62049-1f6a-4c7b-a1e5-5e5c3ddce499")
+	)
+	(no_connect
+		(at 26.67 177.8)
+		(uuid "5f861966-b0d5-441a-b822-550faf21faa9")
+	)
+	(no_connect
+		(at 26.67 180.34)
+		(uuid "617255a7-d023-4e24-8b34-ca37e9173bd1")
 	)
 	(wire
 		(pts
@@ -2103,6 +3134,36 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 187.96) (xy 106.68 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cd73df2-a897-41ea-83b0-0e999da09f2e")
+	)
+	(wire
+		(pts
+			(xy 118.11 175.26) (xy 129.54 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d11e74b-4ac1-43cd-8ffa-8c0af32837c0")
+	)
+	(wire
+		(pts
+			(xy 100.33 116.84) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6a2354-a21b-4032-95ba-565cfb4a6edb")
+	)
+	(wire
+		(pts
 			(xy 153.67 58.42) (xy 158.75 58.42)
 		)
 		(stroke
@@ -2123,7 +3184,37 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 27.94) (xy 43.18 27.94)
+			(xy 90.17 130.81) (xy 124.46 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194fbcd0-2d29-4d3f-9bc8-073494128f4d")
+	)
+	(wire
+		(pts
+			(xy 78.74 187.96) (xy 92.71 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af34839-43b0-4de5-8dad-18a94793a4cf")
+	)
+	(wire
+		(pts
+			(xy 105.41 156.21) (xy 110.49 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b81ebe6-2d59-4d23-8820-ec7711da2776")
+	)
+	(wire
+		(pts
+			(xy 36.83 30.48) (xy 43.18 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2143,6 +3234,36 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 111.76) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c979c99-f717-4cf5-b710-9e8f422cae2d")
+	)
+	(wire
+		(pts
+			(xy 54.61 115.57) (xy 54.61 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d76bfc8-db17-4ee3-bf88-5f946f3e2715")
+	)
+	(wire
+		(pts
+			(xy 120.65 140.97) (xy 120.65 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302bc29d-24e3-49cb-82d3-366844ad8c72")
+	)
+	(wire
+		(pts
 			(xy 201.93 74.93) (xy 203.2 74.93)
 		)
 		(stroke
@@ -2150,6 +3271,36 @@
 			(type default)
 		)
 		(uuid "30f52b69-6a0e-4f0f-932e-cdc0a43c5bdb")
+	)
+	(wire
+		(pts
+			(xy 110.49 124.46) (xy 110.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "349cfb38-f9ef-4fb4-8f8e-b28854585fc5")
+	)
+	(wire
+		(pts
+			(xy 49.53 153.67) (xy 49.53 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b904994-55b8-4ca9-8cc5-c387608092ba")
+	)
+	(wire
+		(pts
+			(xy 100.33 124.46) (xy 100.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cea4f89-d29d-4654-93da-6be320b15d7c")
 	)
 	(wire
 		(pts
@@ -2170,6 +3321,46 @@
 			(type default)
 		)
 		(uuid "422dadc9-c10f-4d0d-b713-44fcac543bd5")
+	)
+	(wire
+		(pts
+			(xy 46.99 153.67) (xy 46.99 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c3d623-940d-4684-b10e-29b047c6e30a")
+	)
+	(wire
+		(pts
+			(xy 46.99 156.21) (xy 46.99 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b4f8ae-e723-4790-8039-92c4bbc4f496")
+	)
+	(wire
+		(pts
+			(xy 78.74 175.26) (xy 92.71 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b045e3d-1a5f-4df8-957f-16e526356332")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 54.61 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b932ae3-7128-4bd5-83d3-ae60a8069e2d")
 	)
 	(wire
 		(pts
@@ -2203,7 +3394,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 19.05) (xy 43.18 19.05)
+			(xy 36.83 22.86) (xy 43.18 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2223,13 +3414,53 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 22.86) (xy 43.18 22.86)
+			(xy 90.17 130.81) (xy 90.17 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544bb192-e817-455d-b7f4-fe56bd77be3d")
+	)
+	(wire
+		(pts
+			(xy 36.83 19.05) (xy 43.18 19.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "546fb4a0-9471-4d93-a610-2823bac3c85d")
+	)
+	(wire
+		(pts
+			(xy 110.49 138.43) (xy 124.46 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "548ec5b5-122f-412b-b340-0c2bc222df8e")
+	)
+	(wire
+		(pts
+			(xy 69.85 140.97) (xy 120.65 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "577ab10a-fbd0-4c87-ac1c-ad07a42636cf")
+	)
+	(wire
+		(pts
+			(xy 105.41 116.84) (xy 110.49 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57899f48-4011-44cf-9883-6f362b00d58f")
 	)
 	(wire
 		(pts
@@ -2250,6 +3481,16 @@
 			(type default)
 		)
 		(uuid "5d2efc13-510f-41cb-931e-d210ecde6897")
+	)
+	(wire
+		(pts
+			(xy 49.53 160.02) (xy 49.53 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dabc6db-ff33-4a48-88df-1648eb7dd7ae")
 	)
 	(wire
 		(pts
@@ -2293,6 +3534,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 156.21) (xy 105.41 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "788c4c0b-42cc-4fc4-80b0-74e3150801be")
+	)
+	(wire
+		(pts
 			(xy 144.78 58.42) (xy 143.51 58.42)
 		)
 		(stroke
@@ -2300,6 +3551,36 @@
 			(type default)
 		)
 		(uuid "7967d114-b968-43d7-a98a-110e7673ed57")
+	)
+	(wire
+		(pts
+			(xy 69.85 138.43) (xy 110.49 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79bd87f1-9cb8-4e99-86c9-6181a8b99b62")
+	)
+	(wire
+		(pts
+			(xy 71.12 187.96) (xy 78.74 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba91dbd-b04f-4943-9938-1f11acddf216")
+	)
+	(wire
+		(pts
+			(xy 69.85 130.81) (xy 90.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5f8237-3434-4c47-ae6a-9f7b675a7bd4")
 	)
 	(wire
 		(pts
@@ -2323,6 +3604,26 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 124.46) (xy 120.65 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a739c67-dd10-4a2b-be1b-1c76fa414c80")
+	)
+	(wire
+		(pts
+			(xy 110.49 116.84) (xy 120.65 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e7ea4fe-f284-41c7-8914-f903c435b04a")
+	)
+	(wire
+		(pts
 			(xy 144.78 49.53) (xy 138.43 49.53)
 		)
 		(stroke
@@ -2333,6 +3634,46 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 133.35) (xy 100.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc82783-a503-4667-ae2d-a9af678deb68")
+	)
+	(wire
+		(pts
+			(xy 57.15 111.76) (xy 57.15 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0940335-c587-4391-a25b-85abbfc5707c")
+	)
+	(wire
+		(pts
+			(xy 120.65 140.97) (xy 124.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac6310ca-722b-44ce-be70-e344edb1edf4")
+	)
+	(wire
+		(pts
+			(xy 36.83 15.24) (xy 43.18 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad8649e5-5b93-470f-ada2-fea7970b269b")
+	)
+	(wire
+		(pts
 			(xy 144.78 38.1) (xy 153.67 38.1)
 		)
 		(stroke
@@ -2340,6 +3681,36 @@
 			(type default)
 		)
 		(uuid "ae32c8fe-192b-4841-887b-b004c4b496a3")
+	)
+	(wire
+		(pts
+			(xy 90.17 116.84) (xy 100.33 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b10c2008-8d5a-412e-b46d-49f9da981c70")
+	)
+	(wire
+		(pts
+			(xy 129.54 175.26) (xy 140.97 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b705d333-9774-40d2-96ee-0648608dc548")
+	)
+	(wire
+		(pts
+			(xy 92.71 175.26) (xy 106.68 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b871cac5-deea-4a55-a9e7-f6e88ec55a8b")
 	)
 	(wire
 		(pts
@@ -2373,6 +3744,26 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 124.46) (xy 90.17 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5beb885-ca7b-4ef4-aa8b-4e676e70def1")
+	)
+	(wire
+		(pts
+			(xy 118.11 187.96) (xy 129.54 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8dd3288-9d46-4cb8-a5b3-0b2c930a54b4")
+	)
+	(wire
+		(pts
 			(xy 203.2 76.2) (xy 203.2 77.47)
 		)
 		(stroke
@@ -2383,6 +3774,86 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 187.96) (xy 118.11 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d30ad7b5-df70-47a3-83fd-fb61a3948dfc")
+	)
+	(wire
+		(pts
+			(xy 106.68 175.26) (xy 118.11 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3792e90-0174-4e2d-b2c1-3459f87e394a")
+	)
+	(wire
+		(pts
+			(xy 100.33 133.35) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c49311-c92c-4ee7-86bc-42b0ac3526b8")
+	)
+	(wire
+		(pts
+			(xy 49.53 158.75) (xy 34.29 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7f4cfde-0f8b-4599-acfe-c873f84a4159")
+	)
+	(wire
+		(pts
+			(xy 71.12 175.26) (xy 78.74 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc4ffa3e-09c1-47f4-a6a2-f75afcad686a")
+	)
+	(wire
+		(pts
+			(xy 34.29 156.21) (xy 46.99 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df9e9e19-25dc-4146-9179-8f104c489c31")
+	)
+	(wire
+		(pts
+			(xy 129.54 187.96) (xy 140.97 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0da67dd-3e69-474e-8079-ccec45f8c427")
+	)
+	(wire
+		(pts
+			(xy 110.49 156.21) (xy 120.65 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1019144-d3d2-4e12-aed1-de35866db92c")
+	)
+	(wire
+		(pts
 			(xy 240.03 35.56) (xy 243.84 35.56)
 		)
 		(stroke
@@ -2390,6 +3861,16 @@
 			(type default)
 		)
 		(uuid "e3be8702-1602-4a56-ac73-a2d74e8f1a5b")
+	)
+	(wire
+		(pts
+			(xy 105.41 160.02) (xy 105.41 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e656cc3c-6a76-4eb1-a0f6-d4928a67bec6")
 	)
 	(wire
 		(pts
@@ -2413,6 +3894,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 138.43) (xy 110.49 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4a515b1-d174-4bb6-8bf7-d422769a84ea")
+	)
+	(wire
+		(pts
 			(xy 203.2 76.2) (xy 215.9 76.2)
 		)
 		(stroke
@@ -2420,6 +3911,26 @@
 			(type default)
 		)
 		(uuid "f4aeb254-d3d5-4837-8585-9cf19a47454f")
+	)
+	(wire
+		(pts
+			(xy 90.17 156.21) (xy 100.33 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7bf98f7-e3d5-4c11-9cb7-8c581235d4e7")
+	)
+	(wire
+		(pts
+			(xy 100.33 133.35) (xy 100.33 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb08199-adc3-4e81-b0c2-d031ba14af14")
 	)
 	(wire
 		(pts
@@ -2452,7 +3963,7 @@
 		(uuid "010cc56d-c71b-4fdb-9504-ef0448be35da")
 	)
 	(label "TX_ENABLE"
-		(at 43.18 27.94 0)
+		(at 43.18 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2460,6 +3971,16 @@
 			(justify left bottom)
 		)
 		(uuid "09194aab-9a82-44b6-b96c-7c3ffbc6e3ad")
+	)
+	(label "PWR_5"
+		(at 71.12 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d1fbb06-979b-4e18-aff3-dfd4a14d323c")
 	)
 	(label "12V"
 		(at 243.84 76.2 180)
@@ -2480,6 +4001,16 @@
 			(justify right bottom)
 		)
 		(uuid "178d3f78-8ffa-4561-96f3-0236f35b4095")
+	)
+	(label "PWR_5"
+		(at 105.41 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "193bcd4a-a068-4a34-afaf-66b08c58b2b0")
 	)
 	(label "PWR_3"
 		(at 247.65 129.54 180)
@@ -2562,7 +4093,7 @@
 		(uuid "3979ebd3-0079-4683-a1d1-8b7cebc11e2d")
 	)
 	(label "5V"
-		(at 43.18 22.86 0)
+		(at 43.18 19.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2581,6 +4112,16 @@
 		)
 		(uuid "45f3c1a5-44f7-4ac9-99b6-a3e98c3586e0")
 	)
+	(label "PWR_5"
+		(at 46.99 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4730bee0-4128-4df4-b715-b2f2b8d775b9")
+	)
 	(label "12V"
 		(at 243.84 63.5 180)
 		(effects
@@ -2590,6 +4131,26 @@
 			(justify right bottom)
 		)
 		(uuid "47c273fc-cdb2-462b-9caf-822a97850482")
+	)
+	(label "5V"
+		(at 54.61 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52a94fb1-ad08-40c9-944e-0c67e48c8d94")
+	)
+	(label "PWR_5"
+		(at 57.15 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c32f0dd-7fc8-4e20-bab2-e65a5ef99d03")
 	)
 	(label "DATA"
 		(at 222.25 76.2 0)
@@ -2630,6 +4191,16 @@
 			(justify right bottom)
 		)
 		(uuid "7ad50cb8-1f1a-4076-9d2f-02509a374047")
+	)
+	(label "5V"
+		(at 46.99 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8479c8bf-0df9-40d5-a6c2-61045fcb2ff1")
 	)
 	(label "5V"
 		(at 205.74 121.92 180)
@@ -2741,6 +4312,16 @@
 		)
 		(uuid "b17f0f25-b3a9-41b2-8383-ba5f3e7f32be")
 	)
+	(label "3V3"
+		(at 43.18 15.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b94b8db0-d161-4beb-9422-82c38a2ccbde")
+	)
 	(label "5V"
 		(at 205.74 111.76 180)
 		(effects
@@ -2760,6 +4341,16 @@
 			(justify right bottom)
 		)
 		(uuid "c3f3eb5f-cbc5-465c-9349-1b02ad7f9948")
+	)
+	(label "12V"
+		(at 46.99 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c60f1507-b26d-4312-b681-6338bf2675ab")
 	)
 	(label "12V"
 		(at 205.74 127 180)
@@ -2822,7 +4413,7 @@
 		(uuid "f7847bd2-d9bd-4314-83df-9fd0dbe404ce")
 	)
 	(label "12V"
-		(at 43.18 19.05 0)
+		(at 43.18 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2843,7 +4434,7 @@
 	)
 	(hierarchical_label "TX_ENABLE"
 		(shape input)
-		(at 36.83 27.94 180)
+		(at 36.83 30.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2863,6 +4454,17 @@
 		)
 		(uuid "18a1f435-9e58-44ec-88dc-aae43ed9169e")
 	)
+	(hierarchical_label "IN1"
+		(shape input)
+		(at 39.37 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "29eb3728-1c1e-488b-a92a-e790395c3fba")
+	)
 	(hierarchical_label "RX_UC"
 		(shape output)
 		(at 127 58.42 180)
@@ -2873,6 +4475,17 @@
 			(justify right)
 		)
 		(uuid "2af7d188-2954-49f0-bf6c-95041733865e")
+	)
+	(hierarchical_label "PWM2"
+		(shape input)
+		(at 39.37 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2b3616bd-bcfc-4ff1-adf2-adb08e269033")
 	)
 	(hierarchical_label "PWM4"
 		(shape input)
@@ -2885,9 +4498,31 @@
 		)
 		(uuid "35339bba-a0ab-4b46-a4ac-10cb64216b35")
 	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 36.83 15.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "396fcdc5-0a5d-4240-b6a3-ff12de62c19e")
+	)
+	(hierarchical_label "PWM1"
+		(shape input)
+		(at 39.37 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b47264e-8be8-4c16-adcb-c5437ff91a8c")
+	)
 	(hierarchical_label "12V"
 		(shape input)
-		(at 36.83 19.05 180)
+		(at 36.83 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2909,7 +4544,7 @@
 	)
 	(hierarchical_label "5V"
 		(shape input)
-		(at 36.83 22.86 180)
+		(at 36.83 19.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2917,6 +4552,28 @@
 			(justify right)
 		)
 		(uuid "69927bfe-0c9e-405a-a967-4c863ab43a22")
+	)
+	(hierarchical_label "CurrentSense2"
+		(shape input)
+		(at 34.29 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9730d8a5-0057-495a-a3db-3dae54005c5d")
+	)
+	(hierarchical_label "IN3"
+		(shape input)
+		(at 39.37 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bf5e82b7-251d-4862-be47-a10faced8646")
 	)
 	(hierarchical_label "TX_UC"
 		(shape input)
@@ -2929,6 +4586,17 @@
 		)
 		(uuid "cc21bc50-f90a-46eb-8819-e2a0da8a0262")
 	)
+	(hierarchical_label "CurrentSense1"
+		(shape input)
+		(at 34.29 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc627e06-49b8-4923-aa5c-afc660763c5f")
+	)
 	(hierarchical_label "PWM3"
 		(shape input)
 		(at 247.65 132.08 180)
@@ -2940,6 +4608,28 @@
 		)
 		(uuid "d727fd25-0470-4081-bca5-b6555121c64e")
 	)
+	(hierarchical_label "IN2"
+		(shape input)
+		(at 39.37 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc8523fb-5d94-4d53-93ed-0bc53eb7df33")
+	)
+	(hierarchical_label "IN4"
+		(shape input)
+		(at 39.37 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df5110e3-ee3f-4525-b83e-5124beb40eab")
+	)
 	(symbol
 		(lib_id "SamacSys_Parts:BSS119NH6327XTSA1")
 		(at 138.43 29.21 90)
@@ -2950,7 +4640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000062464466")
-		(property "Reference" "Q5"
+		(property "Reference" "Q1"
 			(at 138.43 41.402 90)
 			(effects
 				(font
@@ -3088,7 +4778,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "Q5")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -3195,7 +4885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "022abe62-4d4a-4313-990b-71736c54aab1")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 150.0378 34.29 90)
 			(effects
 				(font
@@ -3273,7 +4963,141 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "R4")
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 46.99 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02d38067-eb82-4813-8ce5-cb99d30db9e5")
+		(property "Reference" "#PWR0118"
+			(at 46.99 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 171.704 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fef2d7d3-e1da-4437-bef3-d564e6133b60")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "#PWR0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 120.65 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d9059e6-f1bf-46f5-b41c-cbebe9a0aad5")
+		(property "Reference" "D12"
+			(at 122.682 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 117.348 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 116.205 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 120.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 120.65 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e26c7b-29c9-4cb3-b298-1e8dc6ed60ad")
+		)
+		(pin "2"
+			(uuid "0d48ebce-5ea8-4884-a942-26b68cc21f18")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3288,7 +5112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a92828b-52c1-4dd1-82bd-12e2aec51ff2")
-		(property "Reference" "C10"
+		(property "Reference" "C1"
 			(at 189.484 37.084 90)
 			(effects
 				(font
@@ -3412,7 +5236,146 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "C10")
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 106.68 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c2ee0a1-1e91-47ca-a52c-2e21dbebf0f3")
+		(property "Reference" "C110"
+			(at 112.268 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 112.268 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 10.49 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at -89.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
+			(at 106.68 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at -289.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -389.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+			(at -489.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805DC104MAT2A"
+			(at -589.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
+			(at -689.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0805DC104MAT2A"
+			(at -789.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
+			(at -889.51 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a11cfb73-58ce-4906-beaa-b8961fd91040")
+		)
+		(pin "1"
+			(uuid "14b0f9a5-d901-4d47-8fb0-de01fc108947")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C110")
 					(unit 1)
 				)
 			)
@@ -3428,7 +5391,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23e59318-7168-4453-89a6-a6cd0bda8439")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 138.176 62.23 90)
 			(effects
 				(font
@@ -3566,7 +5529,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3582,7 +5545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2723c5b8-f1db-42af-b770-72f21c350766")
-		(property "Reference" "J25"
+		(property "Reference" "J4"
 			(at 213.36 138.4299 0)
 			(effects
 				(font
@@ -3639,7 +5602,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J25")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3655,7 +5618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29061015-12e7-4e93-8b2f-9bc6132e0a02")
-		(property "Reference" "J20"
+		(property "Reference" "J11"
 			(at 264.16 128.2699 0)
 			(effects
 				(font
@@ -3784,7 +5747,487 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J20")
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 129.54 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29c264cf-5fe7-48da-b2a0-0f11cbcdf7a0")
+		(property "Reference" "C113"
+			(at 135.128 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 135.128 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 33.35 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at -66.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
+			(at 129.54 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at -266.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -366.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+			(at -466.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805DC104MAT2A"
+			(at -566.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
+			(at -666.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0805DC104MAT2A"
+			(at -766.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
+			(at -866.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ec55e95-3a49-4af8-8e1b-d0914064c246")
+		)
+		(pin "1"
+			(uuid "a2910b3a-1da2-4bcc-a833-f367b35a285e")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c71f0ee-4762-43ef-bfec-e31d2f53125a")
+		(property "Reference" "#PWR0116"
+			(at 54.61 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5537c15d-1e40-4b28-9c8a-60cc672430f8")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 41.91 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "384330d1-18a2-4779-9c1e-453bb7a9aa7a")
+		(property "Reference" "#PWR0119"
+			(at 35.56 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 115.5699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a00dbbb5-127e-4058-b3e3-21418e4ca468")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:39501-1002")
+		(at 124.46 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38931e35-5328-4486-9fc0-d06ab6f84f25")
+		(property "Reference" "J30"
+			(at 140.97 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39501-1002"
+			(at 140.97 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "395011002"
+			(at 140.97 233.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/2/39501-1002.pdf"
+			(at 140.97 333.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pluggable Terminal Blocks 3.5MM EURO HDR 02P VT CLOSED"
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.6"
+			(at 140.97 533.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 140.97 633.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39501-1002"
+			(at 140.97 733.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-39501-1002"
+			(at 140.97 833.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39501-1002?qs=sv5fFeGb%252BE57lLylXvB48A%3D%3D"
+			(at 140.97 933.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 140.97 1033.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 140.97 1133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5fdc51a-be5b-4f40-b7ac-97910419250a")
+		)
+		(pin "2"
+			(uuid "0066763c-2a06-4682-a605-343ab2e845d5")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "J30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c42fbb8-560a-4755-acb9-e2b6d957a22f")
+		(property "Reference" "#PWR0115"
+			(at 105.41 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b66a62d-2971-4b0a-afe0-10b71ae5add2")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -3800,7 +6243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f524578-50a9-4ec9-8267-054c543fe0e4")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR011"
 			(at 233.68 60.96 0)
 			(effects
 				(font
@@ -3851,7 +6294,357 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR022")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 54.61 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f96c9ca-3780-4854-a1c7-610a44446020")
+		(property "Reference" "C108"
+			(at 48.006 111.506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 48.26 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 45.72 19.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at 45.72 -80.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 45.72 -280.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 45.72 -380.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+			(at 45.72 -480.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805DC104MAT2A"
+			(at 45.72 -580.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
+			(at 45.72 -680.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0805DC104MAT2A"
+			(at 45.72 -780.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
+			(at 45.72 -880.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93130922-011f-44fc-a20e-1992735164f6")
+		)
+		(pin "1"
+			(uuid "d6a9e6fa-b3d7-437b-85ac-8b52d15e1120")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:647-10ABEP")
+		(at 26.67 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "418185f5-bbda-4153-a67e-2fb4a186291b")
+		(property "Reference" "H5"
+			(at 43.18 177.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "647-10ABEP"
+			(at 43.18 180.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:64710ABEP"
+			(at 43.18 272.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/433/647-274976.pdf"
+			(at 43.18 372.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heat Sinks High Efficiency Heat Sink for Vertical Board Mounting for TO-220, Aluminum, Black Anodized, 41.9x25.4mm, 25.4mm Height"
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "25.4"
+			(at 43.18 572.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wakefield Thermal"
+			(at 43.18 672.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "647-10ABEP"
+			(at 43.18 772.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "567-647-10ABEP"
+			(at 43.18 872.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wakefield-Thermal/647-10ABEP?qs=1%252ByrAFyf4wFeJ179Dqrpyw%3D%3D"
+			(at 43.18 972.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 43.18 1072.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 43.18 1172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "651df033-a987-4797-8344-169cf9dd5aab")
+		)
+		(pin "2"
+			(uuid "6a991ef4-c349-43bd-b490-e15571a5f609")
+		)
+		(instances
+			(project ""
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 90.17 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43330517-835e-43f1-9f2d-778065625a87")
+		(property "Reference" "D9"
+			(at 92.202 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 86.868 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 85.725 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 90.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 90.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42c573b6-dda2-44de-a877-d21ee66b8b5a")
+		)
+		(pin "2"
+			(uuid "b07a6c35-210c-4f17-96ad-419a9565c1ee")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -3867,7 +6660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4449b96e-2b3f-44bf-bdee-06e87c1dae91")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 260.35 49.5299 0)
 			(effects
 				(font
@@ -3996,7 +6789,76 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J7")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 110.49 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4506cf3c-deae-4ab1-8216-3d9a38bdaee9")
+		(property "Reference" "D7"
+			(at 112.522 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 107.188 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 106.045 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 110.49 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c19c890e-5225-47d6-81b5-38c8415cb0c7")
+		)
+		(pin "2"
+			(uuid "23a8f988-6acb-476f-9a17-1dbfcd65f953")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -4012,7 +6874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c0a20f-81b8-4f84-9eb0-578c7529d293")
-		(property "Reference" "J22"
+		(property "Reference" "J2"
 			(at 213.36 118.1099 0)
 			(effects
 				(font
@@ -4069,7 +6931,76 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J22")
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 110.49 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a70b796-3c42-4ae3-9da9-758c79c21ad8")
+		(property "Reference" "D11"
+			(at 112.522 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 107.188 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 106.045 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 110.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 110.49 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5425b46-bea6-44c0-b405-303c43e80d48")
+		)
+		(pin "2"
+			(uuid "e96d5086-1a81-446e-b730-01232424b634")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4086,7 +7017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c3b298a-3e80-44d8-866e-2507ee858fb4")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR07"
 			(at 208.28 80.01 0)
 			(effects
 				(font
@@ -4137,7 +7068,76 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR034")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 100.33 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cf2d628-9c63-40de-b4b7-029b433d6223")
+		(property "Reference" "D10"
+			(at 102.362 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 97.028 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 95.885 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3027ab88-7090-444d-80de-024ff570159b")
+		)
+		(pin "2"
+			(uuid "6677dcce-ea9a-4733-a51b-30ffe700c203")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4152,7 +7152,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52070187-30b5-496f-bc56-6e0af920a361")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 229.362 39.878 90)
 			(effects
 				(font
@@ -4276,7 +7276,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -4292,7 +7292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5eb9ef43-1b17-46b0-af25-68f6917103f2")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR06"
 			(at 195.58 50.8 0)
 			(effects
 				(font
@@ -4342,7 +7342,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR033")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -4358,7 +7358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "601052db-ebb9-4ffc-917e-2ca6bc774cc7")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 233.68 73.66 0)
 			(effects
 				(font
@@ -4409,7 +7409,74 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR08")
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 187.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "63e04f6f-cf25-4286-96c0-186f9253752c")
+		(property "Reference" "#PWR0120"
+			(at 64.77 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 187.9599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 71.12 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cb859e0-c663-4bca-99e4-62684a3e8f5c")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -4425,7 +7492,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67cbee95-eba7-44aa-9075-33dac73f9f46")
-		(property "Reference" "R12"
+		(property "Reference" "R4"
 			(at 219.202 71.12 0)
 			(effects
 				(font
@@ -4503,7 +7570,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "R12")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4519,7 +7586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6df22138-8cec-4f97-b2c8-e8de0510eaa2")
-		(property "Reference" "J14"
+		(property "Reference" "J8"
 			(at 260.35 74.9299 0)
 			(effects
 				(font
@@ -4648,7 +7715,216 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J14")
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74b9134f-f853-4722-af7b-f1923cedd720")
+		(property "Reference" "#PWR0117"
+			(at 49.53 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "26322b2b-1035-405e-af4d-c73ef9616558")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:39501-1002")
+		(at 124.46 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76a313ad-4718-4011-adfe-68eb41ab53ab")
+		(property "Reference" "J29"
+			(at 140.97 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39501-1002"
+			(at 140.97 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "395011002"
+			(at 140.97 225.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/2/39501-1002.pdf"
+			(at 140.97 325.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pluggable Terminal Blocks 3.5MM EURO HDR 02P VT CLOSED"
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.6"
+			(at 140.97 525.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 140.97 625.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39501-1002"
+			(at 140.97 725.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-39501-1002"
+			(at 140.97 825.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39501-1002?qs=sv5fFeGb%252BE57lLylXvB48A%3D%3D"
+			(at 140.97 925.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 140.97 1025.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 140.97 1125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d71fb58b-5c37-4b9f-8c81-f9ba5a1d636a")
+		)
+		(pin "2"
+			(uuid "f6cdde5d-9ddd-4515-9eed-65c0b3f77ac8")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -4664,7 +7940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e160dff-d2ee-4cbd-9ce2-30a2fe349ea4")
-		(property "Reference" "J18"
+		(property "Reference" "J9"
 			(at 264.16 102.8699 0)
 			(effects
 				(font
@@ -4793,7 +8069,80 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J18")
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 52.07 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81eac9b8-4709-41dd-9b9c-ef5c5d9cdd46")
+		(property "Reference" "J28"
+			(at 54.61 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 54.61 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9ec0375-0d63-4ff1-b898-023cd1052237")
+		)
+		(pin "2"
+			(uuid "6ad0fcfb-102e-4f5f-be57-44c223110e64")
+		)
+		(pin "3"
+			(uuid "1eed63c1-a049-4025-95b8-3d1925414572")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "J28")
 					(unit 1)
 				)
 			)
@@ -4809,7 +8158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83cc929d-6750-4db1-a38d-7b0d7c965ca0")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR016"
 			(at 234.95 139.7 0)
 			(effects
 				(font
@@ -4860,7 +8209,146 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR0106")
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:UCH1V101MCS1GS")
+		(at 92.71 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85ffc2d3-2bec-4659-acce-a379cdb20bf3")
+		(property "Reference" "C109"
+			(at 98.552 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 99.06 183.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPAE660X800N"
+			(at -3.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
+			(at -103.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
+			(at 92.71 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at -303.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nichicon"
+			(at -403.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
+			(at -503.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "647-UCH1V101MCS1GS"
+			(at -603.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
+			(at -703.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -803.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -903.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13c51efe-237d-48e4-90c5-1d8c8341e24a")
+		)
+		(pin "2"
+			(uuid "2492863b-7a18-4703-8aee-8fae7483a484")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C109")
 					(unit 1)
 				)
 			)
@@ -4958,6 +8446,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 90.17 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89ee0cc9-e999-4554-8f6f-5e51fd0d54d7")
+		(property "Reference" "D5"
+			(at 92.202 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 86.868 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 85.725 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1969ca34-b82e-4a33-b630-e965753535e1")
+		)
+		(pin "2"
+			(uuid "06a54056-bcc5-4950-8164-7867cb870ed1")
+		)
+		(instances
+			(project ""
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 241.3 114.3 270)
 		(unit 1)
@@ -4967,7 +8524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d8e2f7f-044d-475f-afba-8322777f416f")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR014"
 			(at 234.95 114.3 0)
 			(effects
 				(font
@@ -5018,7 +8575,146 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR0104")
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:UCH1V101MCS1GS")
+		(at 78.74 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8edb27e6-99b4-48b1-930f-32d479099af9")
+		(property "Reference" "C112"
+			(at 84.582 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 85.09 183.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPAE660X800N"
+			(at -17.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
+			(at -117.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
+			(at 78.74 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at -317.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nichicon"
+			(at -417.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
+			(at -517.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "647-UCH1V101MCS1GS"
+			(at -617.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
+			(at -717.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -817.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -917.45 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88ed6088-3fda-4f63-954f-923ebc567d3a")
+		)
+		(pin "2"
+			(uuid "b54d3714-84dd-46c0-8075-27009c74fd28")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C112")
 					(unit 1)
 				)
 			)
@@ -5035,7 +8731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a36e579-1610-4308-8adc-2428379a370f")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR05"
 			(at 180.34 49.53 0)
 			(effects
 				(font
@@ -5085,7 +8781,100 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR035")
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 46.99 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ef3e065-0f6d-4e12-a157-cdee4886ec4e")
+		(property "Reference" "R49"
+			(at 43.688 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.5R/0.1%"
+			(at 40.894 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 45.212 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Reference" ""
+			(at 46.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ103V"
+			(at 46.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Reference" "667-ERJ-3GEYJ103V"
+			(at 46.99 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "497a1a94-4d89-406e-9d98-78055cfbd691")
+		)
+		(pin "2"
+			(uuid "e776d620-5485-4e62-b6c5-e4d15b76c193")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5101,7 +8890,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b104717c-af95-4cfb-9053-a9aa33ed0281")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR09"
 			(at 233.68 35.56 0)
 			(effects
 				(font
@@ -5152,7 +8941,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR028")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -5168,7 +8957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b15639bf-6d15-444b-bda7-c1e1120ac21b")
-		(property "Reference" "J24"
+		(property "Reference" "J3"
 			(at 213.36 128.2699 0)
 			(effects
 				(font
@@ -5225,7 +9014,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J24")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5241,7 +9030,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b51ebd95-1af7-4dff-b6cd-1e188547acd9")
-		(property "Reference" "J23"
+		(property "Reference" "J1"
 			(at 213.36 107.9499 0)
 			(effects
 				(font
@@ -5298,7 +9087,7 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J23")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5314,7 +9103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b66d46e4-56ae-441d-aaed-1347aaae482c")
-		(property "Reference" "R44"
+		(property "Reference" "R3"
 			(at 183.642 38.1 0)
 			(effects
 				(font
@@ -5392,7 +9181,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "R44")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5408,7 +9197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b99f0644-bbfa-4daa-9dcc-7faf5313c573")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR015"
 			(at 234.95 127 0)
 			(effects
 				(font
@@ -5459,7 +9248,76 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR0105")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 100.33 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd7b4348-dcca-484c-945c-42f66601a442")
+		(property "Reference" "D6"
+			(at 102.362 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 97.028 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 95.885 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 100.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 100.33 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c51ccee-4364-4352-a099-c713d767d70f")
+		)
+		(pin "2"
+			(uuid "f9c3346c-6718-43e6-a97f-1d09b325e204")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -5475,7 +9333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdd96f92-d6b0-4749-baf3-6f98d1d54fb0")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR08"
 			(at 203.2 46.99 0)
 			(effects
 				(font
@@ -5526,7 +9384,117 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR029")
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_Motor:L298N")
+		(at 54.61 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf5d0e97-bb2b-4660-88f5-dd8d5a2627b1")
+		(property "Reference" "U6"
+			(at 59.2933 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "L298N"
+			(at 59.2933 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-15_P2.54x5.08mm_StaggerOdd_Lead4.58mm_Vertical"
+			(at 55.88 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000240.pdf"
+			(at 58.42 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual full bridge motor driver, up to 46V, 4A, Multiwatt15-V"
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "5cf98b39-7866-4471-82c8-368b604808e6")
+		)
+		(pin "12"
+			(uuid "e5f7341a-413f-42b9-8d1b-1f57fc68169e")
+		)
+		(pin "5"
+			(uuid "c3d4a62b-1743-4363-a811-e5ad03791c68")
+		)
+		(pin "1"
+			(uuid "fe495795-a0a6-4371-82e5-b24fd096c2dc")
+		)
+		(pin "15"
+			(uuid "7189543d-be52-4ab0-9c57-9d4a522e73a5")
+		)
+		(pin "9"
+			(uuid "3862ab23-47b4-4b94-b035-269ab9bd0453")
+		)
+		(pin "8"
+			(uuid "9c922501-121f-4c13-8d45-2ca5fdd3aaf8")
+		)
+		(pin "11"
+			(uuid "d437c420-85fa-4db0-bd75-7a2566e9e0e8")
+		)
+		(pin "4"
+			(uuid "c1cf1e37-533a-4ee9-aeea-0357652ccaea")
+		)
+		(pin "13"
+			(uuid "54d8c8ac-7f8e-429d-8835-30b50eea224b")
+		)
+		(pin "14"
+			(uuid "8e7664ad-f70e-4587-b1bc-51ced4a1dca1")
+		)
+		(pin "7"
+			(uuid "f1054dcc-fe23-41d8-9b01-b7e045ae677b")
+		)
+		(pin "3"
+			(uuid "f5310250-c88a-450c-8527-2db779ef6a9e")
+		)
+		(pin "10"
+			(uuid "e03d3f44-2104-43a4-942c-b0636fa8b48f")
+		)
+		(pin "2"
+			(uuid "ae60bf81-1e53-496d-85cd-4409211ec059")
+		)
+		(instances
+			(project ""
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5542,7 +9510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c26be96e-40f9-48c0-97f0-ebefdcedb508")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR013"
 			(at 234.95 101.6 0)
 			(effects
 				(font
@@ -5593,7 +9561,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR036")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5609,7 +9577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3f68c9c-d80f-47aa-9dea-f3149f971e4d")
-		(property "Reference" "J2"
+		(property "Reference" "J5"
 			(at 260.35 36.8299 0)
 			(effects
 				(font
@@ -5738,7 +9706,215 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J2")
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 118.11 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8582183-5675-4d35-9304-9d7afda05a01")
+		(property "Reference" "C111"
+			(at 123.698 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 123.698 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 21.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at -78.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
+			(at 118.11 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at -278.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -378.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+			(at -478.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805DC104MAT2A"
+			(at -578.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
+			(at -678.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0805DC104MAT2A"
+			(at -778.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
+			(at -878.08 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1943d1f3-8d88-4344-ab21-20f506787dd4")
+		)
+		(pin "1"
+			(uuid "fe9faa38-6b0d-45be-ba0b-815fce8e127a")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N5819WS")
+		(at 120.65 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db06f7ae-8b3d-4bcc-b2d5-846aa6b0701e")
+		(property "Reference" "D8"
+			(at 122.682 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N5819WS"
+			(at 117.348 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 116.205 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf"
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed3b6f4b-7368-4788-be68-23ccb5b8f179")
+		)
+		(pin "2"
+			(uuid "2b8aa586-8713-4494-b638-22ced8c96c6e")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5754,7 +9930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e08cdace-6c6c-4fc7-9c73-57c0fb69a141")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 260.35 62.2299 0)
 			(effects
 				(font
@@ -5883,7 +10059,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -5899,7 +10075,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e1f5733b-f9a5-4575-ad94-2c043ce4865c")
-		(property "Reference" "J21"
+		(property "Reference" "J12"
 			(at 264.16 140.9699 0)
 			(effects
 				(font
@@ -6028,7 +10204,146 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J21")
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 140.97 175.26 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4e5f654-6104-49e9-b90d-5f51b2b46fc9")
+		(property "Reference" "C114"
+			(at 146.558 180.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 146.558 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 44.78 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at -55.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
+			(at 140.97 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at -255.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -355.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+			(at -455.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805DC104MAT2A"
+			(at -555.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
+			(at -655.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0805DC104MAT2A"
+			(at -755.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
+			(at -855.22 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fdc6707d-9a39-4710-93d7-0501c87e936f")
+		)
+		(pin "1"
+			(uuid "a6622521-62b1-4fb0-b9c2-cc8311306b9d")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C114")
 					(unit 1)
 				)
 			)
@@ -6044,7 +10359,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8840c50-4a70-43ff-ac17-f04581e17167")
-		(property "Reference" "R10"
+		(property "Reference" "R2"
 			(at 150.0378 54.61 90)
 			(effects
 				(font
@@ -6122,7 +10437,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "R10")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6138,7 +10453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efa4a408-2995-4e30-9a19-ad7d9e57336a")
-		(property "Reference" "J19"
+		(property "Reference" "J10"
 			(at 264.16 115.5699 0)
 			(effects
 				(font
@@ -6267,7 +10582,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "J19")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -6282,7 +10597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f25cb2f3-1f47-4654-9fde-2808c174c86e")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 208.534 39.624 90)
 			(effects
 				(font
@@ -6406,7 +10721,101 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "C8")
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 163.83 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f43c469d-0425-449f-acf9-c2f51753fdd0")
+		(property "Reference" "R48"
+			(at 52.832 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.5R/0.1%"
+			(at 56.134 164.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 51.308 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 49.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "RS Reference" ""
+			(at 49.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJ-3GEYJ103V"
+			(at 49.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Reference" "667-ERJ-3GEYJ103V"
+			(at 49.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9de05d1-9f54-40d0-9a16-50215bcdb42a")
+		)
+		(pin "2"
+			(uuid "65e0f514-4a29-4d19-92b5-04da5a726d52")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -6423,7 +10832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f51fea2b-4a2d-4dc1-8e64-950873b7e8b0")
-		(property "Reference" "IC7"
+		(property "Reference" "IC1"
 			(at 187.96 64.77 0)
 			(effects
 				(font
@@ -6565,7 +10974,7 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "IC7")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -6581,7 +10990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa0f352d-9a18-4a71-876f-2ee7d84af7b0")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR010"
 			(at 233.68 48.26 0)
 			(effects
 				(font
@@ -6632,7 +11041,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#PWR026")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
