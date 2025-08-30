@@ -1,0 +1,1722 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "c5726000-8839-4e11-b49a-123eee87595d")
+	(paper "A4")
+	(lib_symbols)
+	(bus_entry
+		(at 82.55 52.07)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00560656-378f-41db-b735-91d4c99b7f47")
+	)
+	(bus_entry
+		(at 82.55 86.36)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02c80d1f-218b-4d0c-851c-e76a2acef374")
+	)
+	(bus_entry
+		(at 82.55 57.15)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd0ce96-365c-4e43-903a-97c7b5a9663a")
+	)
+	(bus_entry
+		(at 77.47 134.62)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d00208d-55fb-497b-8944-bba5620c2066")
+	)
+	(bus_entry
+		(at 82.55 54.61)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c639be4-0894-493f-be8c-4884edfde058")
+	)
+	(bus_entry
+		(at 82.55 49.53)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38850843-6ebf-43be-bc18-fac0798fbe1a")
+	)
+	(bus_entry
+		(at 82.55 91.44)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fe2afc1-9318-4520-812c-c23116c2b07f")
+	)
+	(bus_entry
+		(at 77.47 132.08)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d45c55-e15f-4356-8fc5-6cb761d9e4df")
+	)
+	(bus_entry
+		(at 77.47 121.92)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5948bbbc-c52d-4c17-b689-295871ee078a")
+	)
+	(bus_entry
+		(at 77.47 137.16)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64c2d767-4584-4810-8d6b-3b24f0c546cc")
+	)
+	(bus_entry
+		(at 77.47 129.54)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64f7e011-ad18-4ba6-86ee-897136f58c3c")
+	)
+	(bus_entry
+		(at 77.47 127)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b35ef2-86fa-4b8a-95b6-e4812f5e49fb")
+	)
+	(bus_entry
+		(at 82.55 93.98)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8345378b-96c7-481e-a4f8-bc480d1c54d1")
+	)
+	(bus_entry
+		(at 82.55 62.23)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb72bde-243e-4b12-a9ac-007d800f01f7")
+	)
+	(bus_entry
+		(at 82.55 64.77)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab818311-7d0c-451e-bd05-b76559b2619f")
+	)
+	(bus_entry
+		(at 77.47 124.46)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abe9f5af-f0df-4c1a-8a67-c2cd2d0f2c57")
+	)
+	(bus_entry
+		(at 82.55 88.9)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05ffb12-294f-42c1-a4b8-d76b1f568bcd")
+	)
+	(bus_entry
+		(at 82.55 59.69)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e07f690b-a659-4fbe-bec0-e4b1e5e25431")
+	)
+	(bus_entry
+		(at 82.55 46.99)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e248ccb7-83b0-4200-87f7-92dce9808503")
+	)
+	(wire
+		(pts
+			(xy 64.77 137.16) (xy 74.93 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ca5972a-1e9d-448a-aaff-406659e53b93")
+	)
+	(bus
+		(pts
+			(xy 77.47 121.92) (xy 77.47 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "134f2509-76cd-44a5-bb22-4d8b53e3aa8d")
+	)
+	(wire
+		(pts
+			(xy 69.85 62.23) (xy 80.01 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a970e5c-52f0-46a4-aebc-d4ece189b419")
+	)
+	(bus
+		(pts
+			(xy 82.55 49.53) (xy 82.55 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f299c5c-d463-468e-ace4-44798363eabd")
+	)
+	(bus
+		(pts
+			(xy 82.55 93.98) (xy 82.55 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27d2270a-a793-4ce0-854a-aac479944a22")
+	)
+	(wire
+		(pts
+			(xy 64.77 139.7) (xy 74.93 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f950e5-b467-4d13-8342-d3ca925ed89d")
+	)
+	(wire
+		(pts
+			(xy 64.77 132.08) (xy 74.93 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2afb84aa-14d6-45de-a2d0-79218515009d")
+	)
+	(bus
+		(pts
+			(xy 83.82 82.55) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415fd841-33e5-46fe-84d3-e0b3f98be0cb")
+	)
+	(wire
+		(pts
+			(xy 69.85 52.07) (xy 80.01 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4375f635-2675-420f-9396-c8627292be88")
+	)
+	(bus
+		(pts
+			(xy 78.74 118.11) (xy 77.47 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47add93a-dd88-4b41-afc7-9d042b8b3105")
+	)
+	(wire
+		(pts
+			(xy 64.77 127) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a994a40-fc71-400a-89e4-f830f7d3f9f0")
+	)
+	(bus
+		(pts
+			(xy 83.82 43.18) (xy 83.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d9b6a37-8444-4a04-a07b-a7bb62a687e5")
+	)
+	(bus
+		(pts
+			(xy 82.55 64.77) (xy 82.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ebe22d3-c0eb-433b-b2d9-64e7d449bb1a")
+	)
+	(wire
+		(pts
+			(xy 67.31 91.44) (xy 80.01 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c6a88b-f412-4981-8734-42e716bb211a")
+	)
+	(bus
+		(pts
+			(xy 77.47 127) (xy 77.47 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533e1acf-b3de-4390-b679-e07feb21908a")
+	)
+	(bus
+		(pts
+			(xy 82.55 97.79) (xy 83.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53705a19-7c34-4e2a-9165-9570fd6f24d3")
+	)
+	(bus
+		(pts
+			(xy 82.55 52.07) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53b3d6b2-f593-4701-8365-76b28c22cee5")
+	)
+	(bus
+		(pts
+			(xy 82.55 91.44) (xy 82.55 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b29837d-f374-423d-8e3e-09ae4c0c21a6")
+	)
+	(bus
+		(pts
+			(xy 77.47 134.62) (xy 77.47 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d76d44f-2bed-4151-b9af-0ca068e8e8e4")
+	)
+	(wire
+		(pts
+			(xy 69.85 59.69) (xy 80.01 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f47b5e7-466a-404b-a17f-274bc8841418")
+	)
+	(bus
+		(pts
+			(xy 82.55 54.61) (xy 82.55 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "735119e6-479a-45b8-b690-80c0d085087d")
+	)
+	(wire
+		(pts
+			(xy 67.31 88.9) (xy 80.01 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7762b485-67ff-4121-b12c-2ba6d53a8fb3")
+	)
+	(wire
+		(pts
+			(xy 67.31 93.98) (xy 80.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a58be0f-d88c-45a6-a7ee-4e64a30f6370")
+	)
+	(wire
+		(pts
+			(xy 69.85 49.53) (xy 80.01 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80f8fed5-18a4-405d-8b1e-b9eb6e4c5181")
+	)
+	(wire
+		(pts
+			(xy 64.77 129.54) (xy 74.93 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8592b7fd-56a8-442e-b158-f3e01569f138")
+	)
+	(wire
+		(pts
+			(xy 67.31 96.52) (xy 80.01 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8837e91d-0dc9-4271-9edf-399ebbc68cfa")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 80.01 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92f35b52-c5e6-4ffa-9a25-85bbc08d080d")
+	)
+	(bus
+		(pts
+			(xy 82.55 62.23) (xy 82.55 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a28675-75ff-427d-b193-f96825f43ee1")
+	)
+	(wire
+		(pts
+			(xy 69.85 64.77) (xy 80.01 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e4484f-d08b-47d4-830d-c1c18388a464")
+	)
+	(bus
+		(pts
+			(xy 82.55 67.31) (xy 83.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97dce184-b2e6-4e16-b796-82bf877626db")
+	)
+	(bus
+		(pts
+			(xy 77.47 137.16) (xy 77.47 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab78300-a071-4f03-91d5-4627cb0b0a20")
+	)
+	(bus
+		(pts
+			(xy 82.55 88.9) (xy 82.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c6b6f94-b721-459f-b556-7bc1e6f74603")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 80.01 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd9a55d-13c6-4617-84bd-9ffbe0acd968")
+	)
+	(bus
+		(pts
+			(xy 82.55 82.55) (xy 82.55 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d2493e-e65d-4a1b-9ad5-7d6e76ab8b6f")
+	)
+	(bus
+		(pts
+			(xy 77.47 129.54) (xy 77.47 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae661ba2-84e7-4519-a09d-f46823a72de7")
+	)
+	(wire
+		(pts
+			(xy 69.85 54.61) (xy 80.01 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b73ced22-39c9-4ede-ae97-928839f68671")
+	)
+	(bus
+		(pts
+			(xy 78.74 118.11) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cbcdaa-ca71-4873-a6b7-a8f78ac4d340")
+	)
+	(bus
+		(pts
+			(xy 82.55 46.99) (xy 82.55 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ff118f-c669-4254-9ebf-ec216600aadb")
+	)
+	(bus
+		(pts
+			(xy 77.47 118.11) (xy 77.47 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c30da6f1-7bb0-40dd-8eb5-4d63885e5a7d")
+	)
+	(bus
+		(pts
+			(xy 82.55 59.69) (xy 82.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cce63f12-6778-4b33-bc9a-42051b97947b")
+	)
+	(bus
+		(pts
+			(xy 82.55 86.36) (xy 82.55 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22059cd-956f-4496-9c50-a573f8fcfdb3")
+	)
+	(bus
+		(pts
+			(xy 77.47 132.08) (xy 77.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4fbff48-a3b9-4a47-b40e-4493f6bd29e6")
+	)
+	(bus
+		(pts
+			(xy 82.55 57.15) (xy 82.55 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df78d9d9-fbbc-43d8-a5bc-ba1e642d001d")
+	)
+	(bus
+		(pts
+			(xy 83.82 43.18) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e7ceaa-8db9-402f-93b2-02e43d28e5ba")
+	)
+	(wire
+		(pts
+			(xy 26.67 19.05) (xy 33.02 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee27e25-1bdd-4a69-9048-ed1408dcf87f")
+	)
+	(bus
+		(pts
+			(xy 77.47 124.46) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e0942d-81af-4ee1-8397-b28a32579df1")
+	)
+	(wire
+		(pts
+			(xy 64.77 124.46) (xy 74.93 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56a28eb-4106-495a-8dee-99cc1002d8c8")
+	)
+	(wire
+		(pts
+			(xy 64.77 134.62) (xy 74.93 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fce4b054-7ce6-4e8a-bf12-487f0d48249f")
+	)
+	(bus
+		(pts
+			(xy 82.55 43.18) (xy 82.55 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd022465-6972-4748-a703-c9b34a6983f4")
+	)
+	(bus
+		(pts
+			(xy 77.47 142.24) (xy 78.74 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe81a4c9-ef9e-4a5e-b6ca-5cdb1d4560b1")
+	)
+	(label "SERVO4"
+		(at 73.66 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "04869ee5-211d-4c35-baec-0d825c65d541")
+	)
+	(label "WHEEL_PWM1"
+		(at 210.82 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05c48385-b492-4709-8de2-a91d63f5ad92")
+	)
+	(label "WHEEL_PWM4"
+		(at 210.82 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "063924b4-fb9a-4853-a8d3-69d0d57ff7e9")
+	)
+	(label "ENCODER1"
+		(at 78.74 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0963b8c1-34ef-4f4d-8506-fade5dbee351")
+	)
+	(label "WHEEL_SLEEP"
+		(at 210.82 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0f32dc16-622d-4ad8-8747-8967ea8baf3f")
+	)
+	(label "SERVO_TX_ENABLE"
+		(at 64.77 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fc5abb1-693b-498d-ab69-93ddbd191136")
+	)
+	(label "PWM1"
+		(at 118.11 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1284d405-39c3-4403-bf90-d98ef302bd3b")
+	)
+	(label "WHEEL_NFAULT"
+		(at 69.85 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "137cfc79-4c86-4b0f-a187-e4731aedd839")
+	)
+	(label "WHEEL_PWM2"
+		(at 69.85 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "154ffb57-8781-4a56-b93f-29b162cdf7ee")
+	)
+	(label "WHEEL_PWM3"
+		(at 69.85 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "166d72b1-6f85-48fe-baf4-41f29700c67b")
+	)
+	(label "ENCODER0"
+		(at 78.74 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "19a1ce47-4f16-4dae-8867-96314c353e7d")
+	)
+	(label "5V"
+		(at 118.11 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b4e8dbc-d4a1-4a6a-8ee7-3ccc28f0fa58")
+	)
+	(label "SERVO_RX_UC"
+		(at 118.11 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d5d8f54-36b0-45e3-8da6-8117ff8e58be")
+	)
+	(label "SERVO_TX_UC"
+		(at 64.77 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1d9a4a75-6205-4180-98bc-ac0f7b7fd11c")
+	)
+	(label "ENCODER_RIGHT_2"
+		(at 210.82 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "238cf270-034d-44b0-ad93-e6413107fef9")
+	)
+	(label "5V"
+		(at 33.02 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "25252b60-9903-42d3-a7ba-2913d12c44f6")
+	)
+	(label "PWM3"
+		(at 118.11 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a94b274-d6a8-43b5-8cb9-9bf5b9bfb788")
+	)
+	(label "PWM4"
+		(at 118.11 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b2c2248-bff9-4747-9f10-dc1f4fa63d58")
+	)
+	(label "SERVO_RX_UC"
+		(at 64.77 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c353e41-afa1-44b6-bddf-24e28b726afd")
+	)
+	(label "WHEEL1"
+		(at 78.74 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "309c43c5-c09d-4b94-bbe6-497e413a3e4b")
+	)
+	(label "WHEEL6"
+		(at 78.74 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35908fa6-6974-4595-a9f8-b1cc7074514c")
+	)
+	(label "WHEEL5"
+		(at 78.74 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "390f9259-50e6-4fcf-b560-bd86cc00682e")
+	)
+	(label "WHEEL_NFAULT"
+		(at 210.82 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a126d48-e021-4a52-b95f-2d8f551c0abd")
+	)
+	(label "SERVO5"
+		(at 73.66 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3aeed1bd-5a17-42a1-ad0c-7c38fb98854e")
+	)
+	(label "SERVO_PWM2"
+		(at 64.77 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c505e7f-ead5-4820-a870-6fc5f6db40bf")
+	)
+	(label "CurrentSenseMotor2"
+		(at 69.85 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e2404df-c57b-40d6-ae62-6ae49aae8280")
+	)
+	(label "SERVO_TX_ENABLE"
+		(at 118.11 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "42e189e4-8282-454b-af7d-273e3625fc25")
+	)
+	(label "WHEEL_PWM4"
+		(at 69.85 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "479e89ef-4747-4473-9714-f7409d022ae9")
+	)
+	(label "SERVO6"
+		(at 73.66 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f4a3f89-c644-4bc5-8d79-05a046091e43")
+	)
+	(label "SERVO0"
+		(at 73.66 124.46 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "508644a4-01ba-42a4-b231-5295f636272a")
+	)
+	(label "ENCODER_RIGHT_2"
+		(at 67.31 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "50f65759-5d24-4bf5-94f9-c71b3834925b")
+	)
+	(label "WHEEL_PWM1"
+		(at 69.85 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5f7323e1-a842-4328-800e-a1ab46d1f7f1")
+	)
+	(label "SERVO_TX_UC"
+		(at 118.11 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62eab521-6c9e-40c1-a33d-d604fa85ae1b")
+	)
+	(label "ENCODER_RIGHT_1"
+		(at 210.82 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "674d813f-46b9-44b5-a21f-1be957d986af")
+	)
+	(label "WHEEL4"
+		(at 78.74 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67a3b46a-5023-497c-a16c-c8d6f1feb648")
+	)
+	(label "SERVO2"
+		(at 73.66 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67c0f98b-d94b-496c-aac5-2273ee0b5cc6")
+	)
+	(label "ENCODER_LEFT_1"
+		(at 210.82 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d095a35-c44a-4cf4-a65f-b78459e9a53a")
+	)
+	(label "CurrentSenseMotor1"
+		(at 210.82 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79b9d493-6726-412d-959b-320f870d3f70")
+	)
+	(label "SERVO_PWM3"
+		(at 64.77 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ced3883-0dc3-4a36-a747-ae3bee268bc8")
+	)
+	(label "SERVO1"
+		(at 73.66 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d15d834-e358-4ac2-9ac1-231ffc085f45")
+	)
+	(label "SERVO_PWM1"
+		(at 64.77 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "845099e2-06ff-43a0-9ce4-76a4885f5461")
+	)
+	(label "WHEEL2"
+		(at 78.74 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "874cee81-f4d2-4071-8d68-15254e696f94")
+	)
+	(label "SERVO_PWM4"
+		(at 64.77 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91725cf0-d115-43b7-848b-8ec7fc403b0f")
+	)
+	(label "WHEEL0"
+		(at 78.74 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92ad78e4-c243-480a-beee-a364a5a6e26e")
+	)
+	(label "ENCODER2"
+		(at 78.74 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96be7529-5501-4acc-8df9-a704755c4df0")
+	)
+	(label "5V"
+		(at 210.82 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9846ddcb-2f47-447e-bcbd-e4cf652e2788")
+	)
+	(label "WHEEL_PWM3"
+		(at 210.82 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a6a403cf-2033-4a30-a0fd-e9ec76303994")
+	)
+	(label "CurrentSenseMotor2"
+		(at 210.82 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af0b3e93-2e4e-47bb-934e-ab2b9deb9654")
+	)
+	(label "ENCODER_LEFT_1"
+		(at 67.31 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5dc2a3b-8f96-4155-8243-5d3e126e6505")
+	)
+	(label "WHEEL3"
+		(at 78.74 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcf005f2-b1c1-4226-96c1-1ef8b87be7fb")
+	)
+	(label "ENCODER_LEFT_2"
+		(at 67.31 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "be9c56da-7b0f-47aa-beef-1b38d3f427a9")
+	)
+	(label "ENCODER_LEFT_2"
+		(at 210.82 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c8183a26-4793-49a5-852d-8aa9ea65998e")
+	)
+	(label "WHEEL_PWM2"
+		(at 210.82 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ce4769f4-093e-441f-ab2e-09d4dac36a48")
+	)
+	(label "WHEEL_SLEEP"
+		(at 69.85 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cea82972-17ff-4337-b21d-48fa38f56e93")
+	)
+	(label "ENCODER3"
+		(at 78.74 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d780e901-df89-432e-a397-ff15f06732c1")
+	)
+	(label "ENCODER_RIGHT_1"
+		(at 67.31 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d8992fb1-acd1-4f22-85df-fddf7154f2fe")
+	)
+	(label "SERVO3"
+		(at 73.66 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df4d057b-bcd4-4f42-908d-1621a7649b14")
+	)
+	(label "PWM2"
+		(at 118.11 173.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e12e8194-6bc5-45c6-8f4f-1201ec0fe1e7")
+	)
+	(label "CurrentSenseMotor1"
+		(at 69.85 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2b7127b-2116-4ee4-872f-50d210c94674")
+	)
+	(label "WHEEL7"
+		(at 78.74 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f83b09ac-28c8-4756-81ab-c96914aafd4b")
+	)
+	(hierarchical_label "SERVO[0..6]"
+		(shape bidirectional)
+		(at 77.47 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07c92d9f-384f-4217-bc2f-92e968029172")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 210.82 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0fd9fd33-244e-40e9-8d3a-ce1f8ce708b1")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 26.67 19.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33274b0d-6751-4bf4-abba-4ed323fc747d")
+	)
+	(hierarchical_label "ENCODER[0..3]"
+		(shape bidirectional)
+		(at 82.55 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d4db706-d13e-4de4-9efe-fefeb90f1e41")
+	)
+	(hierarchical_label "12V"
+		(shape input)
+		(at 118.11 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7483b83e-8be5-43a8-ae68-71390fa895fa")
+	)
+	(hierarchical_label "WHEEL[0..7]"
+		(shape bidirectional)
+		(at 82.55 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87fc5c87-e420-45dc-81f9-567b2525714e")
+	)
+	(hierarchical_label "24V"
+		(shape input)
+		(at 210.82 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cdbe8988-8f86-4cbd-9213-f5b70bbd895b")
+	)
+	(sheet
+		(at 210.82 83.82)
+		(size 55.88 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "70c9705a-afb2-475a-a6a4-6cf804f4b2b1")
+		(property "Sheetname" "Motor_Encoders"
+			(at 210.82 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_Encoders.kicad_sch"
+			(at 210.82 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 210.82 88.9 180)
+			(uuid "95f7038e-8c6f-4f34-9e00-ff9e9e95c022")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCODER_LEFT_1" input
+			(at 210.82 100.33 180)
+			(uuid "16610847-fe92-4dad-984c-55ce322edb9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCODER_LEFT_2" input
+			(at 210.82 102.87 180)
+			(uuid "30914ebd-51af-4d42-898c-5c4b5e456ab2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCODER_RIGHT_1" input
+			(at 210.82 107.95 180)
+			(uuid "2758ffbc-dc6a-4688-8482-8a18ba7bef8e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ENCODER_RIGHT_2" input
+			(at 210.82 110.49 180)
+			(uuid "25845d6d-43ff-4545-b595-c7ff903cd90a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 138.43)
+		(size 55.88 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e4f2163b-b2ea-4e20-8bc3-9aa08f737db4")
+		(property "Sheetname" "Motor_Actuators"
+			(at 118.11 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_Actuators.kicad_sch"
+			(at 118.11 188.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 118.11 143.51 180)
+			(uuid "7d6540da-efc0-4e03-95db-d830b431facf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V" input
+			(at 118.11 146.05 180)
+			(uuid "8e1f0a1c-793d-4df0-9ae9-fa5767607797")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_ENABLE" input
+			(at 118.11 162.56 180)
+			(uuid "8fcfaf6b-9270-4f9f-b9df-95d0d3ad68f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM1" input
+			(at 118.11 171.45 180)
+			(uuid "28150fc1-6580-43ca-945e-6844115d8c2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM2" input
+			(at 118.11 173.99 180)
+			(uuid "fea2332c-8aa4-4646-ae2b-14d3c11404f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM3" input
+			(at 118.11 176.53 180)
+			(uuid "284e9fd3-b37c-4ad1-82bf-dd5fb69bde1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM4" input
+			(at 118.11 179.07 180)
+			(uuid "e0ce5f91-d6e9-486e-b21d-c73aed636e1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_UC" output
+			(at 118.11 156.21 180)
+			(uuid "53488f9d-0cff-4a37-9cca-dc87ebb84714")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_UC" input
+			(at 118.11 158.75 180)
+			(uuid "971bf0c2-aad7-4643-92f3-eb3439fe33be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210.82 19.05)
+		(size 55.88 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5447fcd-99de-4b78-91ff-861a713e68d1")
+		(property "Sheetname" "Motor_WheelDriver"
+			(at 210.82 18.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Motor_WheelDriver.kicad_sch"
+			(at 210.82 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 210.82 22.86 180)
+			(uuid "79203ebe-08f1-481a-a170-03a839fd4713")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "24V" input
+			(at 210.82 26.67 180)
+			(uuid "9a21143c-5417-4ef6-9920-828519130da6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CurrentSenseMotor1" output
+			(at 210.82 34.29 180)
+			(uuid "f3e7e9df-5ffc-4f23-b1c5-56e4e6dc9588")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CurrentSenseMotor2" output
+			(at 210.82 36.83 180)
+			(uuid "f70c6e98-9750-47cc-a0e7-570ec0d79c51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NFAULT" output
+			(at 210.82 54.61 180)
+			(uuid "f1584aa2-a53b-4b60-b40f-5a105d0931ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SLEEP" input
+			(at 210.82 57.15 180)
+			(uuid "c5df62a5-2238-4561-bd6f-ba24eaf105b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM1" input
+			(at 210.82 41.91 180)
+			(uuid "0ade0056-bde5-4cf4-a408-b68993157505")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM2" input
+			(at 210.82 44.45 180)
+			(uuid "fb32abb1-329d-4d36-a6f5-d004f86a6e31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM3" input
+			(at 210.82 46.99 180)
+			(uuid "38c1c538-bf29-4070-b603-55381bc58cae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM4" input
+			(at 210.82 49.53 180)
+			(uuid "27c1ced8-e4da-4359-9faa-0966f7fee792")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
+					(page "12")
+				)
+			)
+		)
+	)
+)

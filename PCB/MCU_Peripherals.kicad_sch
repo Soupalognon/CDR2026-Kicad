@@ -5323,7 +5323,7 @@
 	)
 	(text "USB C - PC Embarqué"
 		(exclude_from_sim no)
-		(at 258.064 26.67 0)
+		(at 256.794 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5684,11 +5684,11 @@
 		(uuid "810ea439-24d8-472e-95d5-719cc2316f2c")
 	)
 	(no_connect
-		(at 241.3 50.8)
+		(at 240.03 66.04)
 		(uuid "acb1491b-6272-4197-8ba8-1018943e3304")
 	)
 	(no_connect
-		(at 274.32 45.72)
+		(at 273.05 60.96)
 		(uuid "bd21987c-c53b-427c-a5cd-42203931676f")
 	)
 	(no_connect
@@ -7373,7 +7373,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 40.64) (xy 241.3 40.64)
+			(xy 236.22 55.88) (xy 240.03 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7523,7 +7523,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 55.88) (xy 241.3 55.88)
+			(xy 236.22 71.12) (xy 240.03 71.12)
 		)
 		(stroke
 			(width 0)
@@ -8222,7 +8222,7 @@
 		(uuid "311137fb-cd95-4624-ac83-a8312d503b03")
 	)
 	(label "D-"
-		(at 274.32 43.18 0)
+		(at 273.05 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8262,7 +8262,7 @@
 		(uuid "3a5799fb-c6fd-4433-87f8-c4da0b33fd68")
 	)
 	(label "CC2"
-		(at 274.32 38.1 0)
+		(at 273.05 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8272,7 +8272,7 @@
 		(uuid "3c30277b-10e9-4199-81d0-e230d2e12c3c")
 	)
 	(label "5V"
-		(at 237.49 55.88 180)
+		(at 236.22 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8422,7 +8422,7 @@
 		(uuid "7670d343-7f17-4377-8a1d-3b728221e8d0")
 	)
 	(label "CC1"
-		(at 241.3 43.18 180)
+		(at 240.03 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8442,7 +8442,7 @@
 		(uuid "8b77941b-2e1e-4c07-851d-fd60b7c3992d")
 	)
 	(label "D+"
-		(at 241.3 45.72 180)
+		(at 240.03 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8462,7 +8462,7 @@
 		(uuid "91d412cb-8dc8-4bb2-b7ba-e840fc73e113")
 	)
 	(label "D+"
-		(at 274.32 40.64 0)
+		(at 273.05 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8522,7 +8522,7 @@
 		(uuid "be3787b3-b82c-44ac-b26c-2018d19e5296")
 	)
 	(label "5V"
-		(at 237.49 40.64 180)
+		(at 236.22 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8532,7 +8532,7 @@
 		(uuid "c0dc158f-31e7-421e-804d-584c7ddcec5f")
 	)
 	(label "D-"
-		(at 241.3 48.26 180)
+		(at 240.03 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8914,7 +8914,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 274.32 55.88 90)
+		(at 273.05 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8923,7 +8923,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ccc68b6-e09c-43ac-a870-231e2eeabe1d")
 		(property "Reference" "#PWR043"
-			(at 280.67 55.88 0)
+			(at 279.4 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8932,7 +8932,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 278.13 55.8799 90)
+			(at 276.86 71.1199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8942,7 +8942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 55.88 0)
+			(at 273.05 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8951,7 +8951,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 55.88 0)
+			(at 273.05 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8960,7 +8960,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 274.32 55.88 0)
+			(at 273.05 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9255,7 +9255,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 274.32 48.26 90)
+		(at 273.05 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9264,7 +9264,7 @@
 		(fields_autoplaced yes)
 		(uuid "17b7d9b9-4a03-4b8c-8fa0-590d84bfa82f")
 		(property "Reference" "#PWR037"
-			(at 280.67 48.26 0)
+			(at 279.4 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9273,7 +9273,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 278.13 48.2599 90)
+			(at 276.86 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9283,7 +9283,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 48.26 0)
+			(at 273.05 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9292,7 +9292,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 48.26 0)
+			(at 273.05 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9301,7 +9301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 274.32 48.26 0)
+			(at 273.05 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9882,7 +9882,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 241.3 38.1 270)
+		(at 240.03 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9891,7 +9891,7 @@
 		(fields_autoplaced yes)
 		(uuid "343fe53e-69cb-47de-b16c-0e44603dc7b9")
 		(property "Reference" "#PWR048"
-			(at 234.95 38.1 0)
+			(at 233.68 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,7 +9900,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 237.49 38.1001 90)
+			(at 236.22 53.3401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9910,7 +9910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 38.1 0)
+			(at 240.03 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9919,7 +9919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 38.1 0)
+			(at 240.03 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9928,7 +9928,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 241.3 38.1 0)
+			(at 240.03 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10891,7 +10891,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 274.32 53.34 90)
+		(at 273.05 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10900,7 +10900,7 @@
 		(fields_autoplaced yes)
 		(uuid "4992d5c5-d107-44b3-bd40-53e0b70b23fa")
 		(property "Reference" "#PWR042"
-			(at 280.67 53.34 0)
+			(at 279.4 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,7 +10909,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 278.13 53.3399 90)
+			(at 276.86 68.5799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10919,7 +10919,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 53.34 0)
+			(at 273.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10928,7 +10928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 53.34 0)
+			(at 273.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10937,7 +10937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 274.32 53.34 0)
+			(at 273.05 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11376,7 +11376,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 241.3 53.34 270)
+		(at 240.03 68.58 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11385,7 +11385,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a7781b1-6be5-4ede-af42-c3be2d292596")
 		(property "Reference" "#PWR047"
-			(at 234.95 53.34 0)
+			(at 233.68 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11394,7 +11394,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 237.49 53.3401 90)
+			(at 236.22 68.5801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11404,7 +11404,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 53.34 0)
+			(at 240.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11413,7 +11413,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 53.34 0)
+			(at 240.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11422,7 +11422,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 241.3 53.34 0)
+			(at 240.03 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,7 +14145,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:USB4216-03-A")
-		(at 241.3 38.1 0)
+		(at 240.03 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14154,7 +14154,7 @@
 		(fields_autoplaced yes)
 		(uuid "c60f2bea-274c-4e05-94a9-bc3bbeba8172")
 		(property "Reference" "J3"
-			(at 257.81 30.48 0)
+			(at 256.54 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14162,7 +14162,7 @@
 			)
 		)
 		(property "Value" "USB4216-03-A"
-			(at 257.81 33.02 0)
+			(at 256.54 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14170,7 +14170,7 @@
 			)
 		)
 		(property "Footprint" "USB421603A"
-			(at 270.51 133.02 0)
+			(at 269.24 148.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,7 +14180,7 @@
 			)
 		)
 		(property "Datasheet" "https://eu.mouser.com/datasheet/2/837/usb4216-3577180.pdf"
-			(at 270.51 233.02 0)
+			(at 269.24 248.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14190,7 +14190,7 @@
 			)
 		)
 		(property "Description" "USB Connectors USB C Receptacle, Short Body, USB2.0, 16Pin, Horizontal, SMT"
-			(at 241.3 38.1 0)
+			(at 240.03 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14199,7 +14199,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 270.51 433.02 0)
+			(at 269.24 448.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14209,7 +14209,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at 270.51 533.02 0)
+			(at 269.24 548.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14219,7 +14219,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "USB4216-03-A"
-			(at 270.51 633.02 0)
+			(at 269.24 648.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14229,7 +14229,7 @@
 			)
 		)
 		(property "Mouser Part Number" "640-USB4216-03-A"
-			(at 270.51 733.02 0)
+			(at 269.24 748.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14239,7 +14239,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4216-03-A?qs=Tc%252BHE9vUsnv1G2UWLFIexA%3D%3D"
-			(at 270.51 833.02 0)
+			(at 269.24 848.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14249,7 +14249,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 270.51 933.02 0)
+			(at 269.24 948.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14259,7 +14259,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 270.51 1033.02 0)
+			(at 269.24 1048.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14466,7 +14466,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 274.32 50.8 90)
+		(at 273.05 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14475,7 +14475,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb7aeb80-57cd-4467-8922-d2cbf1749563")
 		(property "Reference" "#PWR038"
-			(at 280.67 50.8 0)
+			(at 279.4 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14484,7 +14484,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 278.13 50.7999 90)
+			(at 276.86 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14494,7 +14494,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 50.8 0)
+			(at 273.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14503,7 +14503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 50.8 0)
+			(at 273.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14512,7 +14512,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 274.32 50.8 0)
+			(at 273.05 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

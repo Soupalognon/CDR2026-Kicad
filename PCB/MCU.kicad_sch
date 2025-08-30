@@ -6,6 +6,12 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
+		(at 172.72 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "560852af-bc26-480f-853e-54734bda6411")
+	)
+	(junction
 		(at 91.44 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20,6 +26,36 @@
 			(type default)
 		)
 		(uuid "04b0da9d-5036-464d-9daa-fcff6dee8040")
+	)
+	(bus
+		(pts
+			(xy 157.48 144.78) (xy 194.31 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c9f3c9-84b4-44a5-849f-d7555b816c81")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 194.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0df1182e-5272-40ac-b9ec-dcb7c9657bf6")
+	)
+	(wire
+		(pts
+			(xy 157.48 91.44) (xy 194.31 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "103eaf5d-33d3-4134-99a1-22e6c6ade8c1")
 	)
 	(bus
 		(pts
@@ -151,6 +187,16 @@
 		)
 		(uuid "80b6f238-7f26-4a80-b42a-73b4e861c4d3")
 	)
+	(wire
+		(pts
+			(xy 157.48 88.9) (xy 194.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82974746-f52c-4d94-89b2-dd64c2fdc70c")
+	)
 	(bus
 		(pts
 			(xy 135.89 44.45) (xy 135.89 64.77)
@@ -213,6 +259,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 93.98) (xy 172.72 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38e4618-78c2-4079-99c1-dd78667c5211")
+	)
+	(wire
+		(pts
 			(xy 82.55 53.34) (xy 82.55 64.77)
 		)
 		(stroke
@@ -233,7 +289,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 57.15) (xy 172.72 130.81)
+			(xy 172.72 57.15) (xy 172.72 93.98)
 		)
 		(stroke
 			(width 0)
@@ -321,6 +377,17 @@
 		)
 		(uuid "fef92558-65e4-47e9-91b3-34173a0a5ec0")
 	)
+	(hierarchical_label "WHEEL[0..7]"
+		(shape bidirectional)
+		(at 48.26 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c36e255-eec6-4cad-91b7-5786facec33f")
+	)
 	(hierarchical_label "5V_PC_EMBARQUE"
 		(shape input)
 		(at 194.31 127 180)
@@ -342,6 +409,28 @@
 			(justify right)
 		)
 		(uuid "783caaed-81e7-4d43-a7d2-95a249545f82")
+	)
+	(hierarchical_label "SERVO[0..6]"
+		(shape bidirectional)
+		(at 48.26 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "80c43ddb-a5e5-4abd-a0bf-aa1ceddc9c7a")
+	)
+	(hierarchical_label "5V_DEBUG"
+		(shape output)
+		(at 194.31 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93cfb714-1cec-4dcd-9a2e-0b8b58842e8e")
 	)
 	(hierarchical_label "3V3"
 		(shape input)
@@ -388,6 +477,46 @@
 				(justify left top)
 			)
 		)
+		(pin "5V_DEBUG" output
+			(at 194.31 80.01 180)
+			(uuid "aca1a497-1b65-40bd-bc7e-bc40ee1ac5e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TX_DEBUG" output
+			(at 194.31 91.44 180)
+			(uuid "624308ad-a656-46d1-b3b7-5b34843c8ddb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RX_DEBUG" input
+			(at 194.31 88.9 180)
+			(uuid "6d84fef6-c7f5-43e5-af76-53b4c2f5cd2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" input
+			(at 194.31 93.98 180)
+			(uuid "29c96c0e-a66e-42bd-aa5c-ab96680c7725")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
@@ -412,7 +541,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "6ae8cb66-0d01-49c6-940e-175426e825e5")
-		(property "Sheetname" "Peripherals"
+		(property "Sheetname" "MCU_Peripherals"
 			(at 194.31 117.3984 0)
 			(effects
 				(font
@@ -421,7 +550,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Peripherals.kicad_sch"
+		(property "Sheetfile" "MCU_Peripherals.kicad_sch"
 			(at 194.31 160.6046 0)
 			(effects
 				(font
@@ -834,6 +963,56 @@
 				(justify right)
 			)
 		)
+		(pin "USB[0..1]" bidirectional
+			(at 157.48 144.78 0)
+			(uuid "44a8c34d-9f00-4a64-9a3e-239a536f04b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RX_UC" input
+			(at 157.48 91.44 0)
+			(uuid "b22122f4-02a6-4931-9d7e-5a1414aa333e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TX_UC" output
+			(at 157.48 88.9 0)
+			(uuid "420c673b-2b21-48ca-831a-dbe91c53993c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SERVO[0..6]" bidirectional
+			(at 48.26 91.44 180)
+			(uuid "ff7b005e-a1ed-499d-8810-e8c8a06d230d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WHEEL[0..7]" bidirectional
+			(at 48.26 93.98 180)
+			(uuid "5a5052d1-2724-4941-b435-96d990e9fc0d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
@@ -858,7 +1037,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "bbbc8572-1c1d-475a-b954-9d9deb469a14")
-		(property "Sheetname" "GPIO"
+		(property "Sheetname" "MCU_GPIO"
 			(at 194.31 24.6884 0)
 			(effects
 				(font
@@ -867,7 +1046,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "GPIO.kicad_sch"
+		(property "Sheetfile" "MCU_GPIO.kicad_sch"
 			(at 194.31 66.6246 0)
 			(effects
 				(font

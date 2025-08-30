@@ -1780,17 +1780,6 @@
 		)
 		(uuid "04d5347c-14ad-4c22-9231-694ae58ec5f3")
 	)
-	(hierarchical_label "PDR_ON"
-		(shape output)
-		(at 179.07 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20012b8d-9948-473a-95d6-951273d220d3")
-	)
 	(hierarchical_label "VCAP_2"
 		(shape output)
 		(at 247.65 113.03 0)
@@ -1812,28 +1801,6 @@
 			(justify right)
 		)
 		(uuid "252f1423-d043-4966-a4ff-255df9fae7bd")
-	)
-	(hierarchical_label "VCAP_2"
-		(shape output)
-		(at 168.91 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5614e65b-7fba-45d4-9a4c-6e62173098d1")
-	)
-	(hierarchical_label "BYPASS_REG"
-		(shape output)
-		(at 180.34 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69cb6d91-d087-4878-a459-892046fb6ac5")
 	)
 	(hierarchical_label "VCAP_1"
 		(shape output)
@@ -1878,50 +1845,6 @@
 			(justify right)
 		)
 		(uuid "97e629a8-0aa3-486c-9a56-f0393d4ffd10")
-	)
-	(hierarchical_label "VCAP_1"
-		(shape output)
-		(at 175.26 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9c4613d5-4198-4c1c-a243-38a8123d4a11")
-	)
-	(hierarchical_label "3V3_ANA"
-		(shape output)
-		(at 171.45 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "adae98aa-99f2-4536-aa69-e94022343942")
-	)
-	(hierarchical_label "BOOT0"
-		(shape output)
-		(at 172.72 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b74e036e-aeb5-436b-8a20-842f7652b48d")
-	)
-	(hierarchical_label "NRST"
-		(shape output)
-		(at 171.45 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c4e75170-a55c-4cd0-9f16-7bc725c1210c")
 	)
 	(hierarchical_label "3V3_Filtered"
 		(shape output)

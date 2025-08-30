@@ -430,7 +430,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -615,15 +615,19 @@
     ],
     [
       "b9176f6a-4299-4bca-a59b-5ff3df09c616",
-      "µC"
+      "MCU"
     ],
     [
       "a16960dc-56f6-4cf6-af27-6c174f94c7f8",
-      "Driver Moteur"
+      "Motor"
+    ],
+    [
+      "e4f2163b-b2ea-4e20-8bc3-9aa08f737db4",
+      "Motor_Actuators"
     ],
     [
       "d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb",
-      "Alimentation"
+      "Power"
     ],
     [
       "17777bae-0c68-45a7-8f55-4db398213b8b",
@@ -631,11 +635,11 @@
     ],
     [
       "bbbc8572-1c1d-475a-b954-9d9deb469a14",
-      "GPIO"
+      "MCU_GPIO"
     ],
     [
       "6ae8cb66-0d01-49c6-940e-175426e825e5",
-      "Peripherals"
+      "MCU_Peripherals"
     ],
     [
       "996b1006-76bc-4b31-b64b-1da2a3c9bad6",
@@ -647,11 +651,27 @@
     ],
     [
       "f849c0a2-f150-4f7d-9c03-1f3f5fdefafe",
-      "Boost_24V"
+      "Power_Boost_24V"
     ],
     [
       "690dff04-39a8-47af-a544-90bdf7825c98",
-      "Buck_5V"
+      "Power_Buck_5V_Compute"
+    ],
+    [
+      "f5447fcd-99de-4b78-91ff-861a713e68d1",
+      "Motor_WheelDriver"
+    ],
+    [
+      "e9458b63-d596-4321-86fd-ad5fcfcf494d",
+      "Power_Buck_12V"
+    ],
+    [
+      "1e067d8d-e8a8-481d-ab40-c8016ce22eb0",
+      "Power_Buck_5V_Actuators"
+    ],
+    [
+      "70c9705a-afb2-475a-a6a4-6cf804f4b2b1",
+      "Motor_Encoders"
     ]
   ],
   "text_variables": {}

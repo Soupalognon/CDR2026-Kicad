@@ -4,7 +4,228 @@
 	(generator_version "9.0")
 	(uuid "117fd49e-499d-4b54-b58c-f6b538ecca4a")
 	(paper "A4")
-	(lib_symbols)
+	(lib_symbols
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "5V_DEBUG est pour alimenter UNIQUEMENT le UC"
+		(exclude_from_sim no)
+		(at 150.114 142.494 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "b0a569f7-0101-48b0-ae2c-1c6b60ba946e")
+	)
 	(text "PCB Recommendations:\nFR-4 Glass Epoxy material with 2 oz. (70 μm) copper on both top and bottom layer is recommended for\nimproved thermal performance and better EMI margin (due to lower PCB trace inductance).\n	(From Motor Driver DRV8262 datasheet page 47)"
 		(exclude_from_sim no)
 		(at 226.06 158.242 0)
@@ -17,7 +238,7 @@
 	)
 	(text "Boost 24V 130W\nBuck 5V 17,5W\nLDO 3,3V"
 		(exclude_from_sim no)
-		(at 65.532 17.78 0)
+		(at 64.516 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27,9 +248,45 @@
 		)
 		(uuid "c772bc93-7fd9-4ea1-9c9a-5ddcab5ffa62")
 	)
+	(junction
+		(at 121.92 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e61d045-c991-435a-a715-d2ac9c4b9650")
+	)
 	(wire
 		(pts
-			(xy 121.92 77.47) (xy 125.73 77.47)
+			(xy 109.22 25.4) (xy 232.41 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "059d68b0-bcee-4760-bd26-84d75cf44252")
+	)
+	(wire
+		(pts
+			(xy 116.84 40.64) (xy 116.84 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0737eaa2-fc64-4719-b74d-f16cb86780c9")
+	)
+	(wire
+		(pts
+			(xy 109.22 27.94) (xy 232.41 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1821236e-499a-41e7-b8bd-5d9f6a779990")
+	)
+	(wire
+		(pts
+			(xy 121.92 69.85) (xy 125.73 69.85)
 		)
 		(stroke
 			(width 0)
@@ -39,7 +296,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 33.02) (xy 121.92 33.02)
+			(xy 109.22 34.29) (xy 121.92 34.29)
 		)
 		(stroke
 			(width 0)
@@ -47,9 +304,39 @@
 		)
 		(uuid "50d26f5c-0aaf-4cd2-9232-b67dda6a3be7")
 	)
+	(bus
+		(pts
+			(xy 175.26 71.12) (xy 232.41 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7729c13d-c097-4787-8047-feed16e4bec8")
+	)
+	(bus
+		(pts
+			(xy 175.26 73.66) (xy 232.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789711bf-f353-4611-8308-45e8901aecd8")
+	)
 	(wire
 		(pts
-			(xy 119.38 81.28) (xy 125.73 81.28)
+			(xy 232.41 34.29) (xy 121.92 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae25d867-e10e-48c9-a026-d13666a65360")
+	)
+	(wire
+		(pts
+			(xy 119.38 73.66) (xy 125.73 73.66)
 		)
 		(stroke
 			(width 0)
@@ -59,7 +346,17 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 38.1) (xy 119.38 81.28)
+			(xy 121.92 34.29) (xy 121.92 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9423736-5ded-4d58-8cf5-233742c5908d")
+	)
+	(wire
+		(pts
+			(xy 119.38 38.1) (xy 119.38 73.66)
 		)
 		(stroke
 			(width 0)
@@ -69,13 +366,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 33.02) (xy 121.92 77.47)
+			(xy 125.73 77.47) (xy 116.84 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd1d8463-b0a9-4159-8b61-cd3afecf8ed5")
+		(uuid "e31b03be-664e-4776-ae33-9aa626c18d99")
 	)
 	(wire
 		(pts
@@ -86,6 +383,654 @@
 			(type default)
 		)
 		(uuid "e97aaabd-10b9-49b1-a979-675a49215d97")
+	)
+	(wire
+		(pts
+			(xy 116.84 40.64) (xy 109.22 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f005ba-f8b2-4af9-86b9-64f862abdbcd")
+	)
+	(wire
+		(pts
+			(xy 109.22 22.86) (xy 232.41 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa08def2-5fa2-4edf-b49c-eae63bb9a73e")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 27.94 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000061ce43fb")
+		(property "Reference" "H1"
+			(at 27.8638 174.3202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC-MountingHole_Pad"
+			(at 27.8638 176.6316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
+			(at 27.94 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NC"
+			(at 27.94 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Reference" "NC"
+			(at 27.94 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS Reference" "NC"
+			(at 27.94 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cb816a88-1314-4f53-908a-1656eb569440")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a0087c-96a2-4cfb-88f5-1bbe7b10bcec")
+		(property "Reference" "#PWR0113"
+			(at 60.96 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1607561-f500-4e6f-87a0-56dc5250d8ed")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4355bbb8-d8c0-4906-816a-4b6e7a0b6b5a")
+		(property "Reference" "#PWR0112"
+			(at 60.96 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62d4e6cb-b92c-4652-8ef6-ba2038e6b5b8")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "553d09eb-6db9-4b17-a9cb-5d131d4e817d")
+		(property "Reference" "#PWR0110"
+			(at 36.83 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48aa43b0-a1a9-4e70-a83a-0e99420611e3")
+		)
+		(instances
+			(project ""
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56ef1824-434e-4e04-b690-78e994e530c9")
+		(property "Reference" "#PWR0111"
+			(at 36.83 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 190.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b803763b-2012-46ad-a17a-b7e1357285d0")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 27.94 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cceb13b-2911-47c3-bf26-922e429a2e26")
+		(property "Reference" "H2"
+			(at 27.8638 184.4802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC-MountingHole_Pad"
+			(at 27.8638 186.7916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
+			(at 27.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 27.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NC"
+			(at 27.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Reference" "NC"
+			(at 27.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS Reference" "NC"
+			(at 27.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f128882-1690-42f3-abb2-c654341a686f")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 52.07 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2ed7e3f-f16f-42b1-be5b-e9e6cb1d5c9c")
+		(property "Reference" "H3"
+			(at 51.9938 174.3202 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC-MountingHole_Pad"
+			(at 51.9938 176.6316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NC"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Reference" "NC"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS Reference" "NC"
+			(at 52.07 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1af127c7-4e17-43d1-aea6-81676739c8d2")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 52.07 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f808f560-ce13-4e66-a816-90c1ed407cb5")
+		(property "Reference" "H4"
+			(at 51.9938 184.4802 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NC-MountingHole_Pad"
+			(at 51.9938 186.7916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad_TopBottom"
+			(at 52.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NC"
+			(at 52.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Reference" "NC"
+			(at 52.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS Reference" "NC"
+			(at 52.07 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07b88f1b-00dd-4262-808a-d1f9632d308f")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 232.41 19.05)
@@ -103,7 +1048,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "a16960dc-56f6-4cf6-af27-6c174f94c7f8")
-		(property "Sheetname" "Driver Moteur"
+		(property "Sheetname" "Motor"
 			(at 232.41 18.3384 0)
 			(effects
 				(font
@@ -112,13 +1057,73 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DriverMoteur.kicad_sch"
+		(property "Sheetfile" "Motor.kicad_sch"
 			(at 232.41 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "3V3" input
+			(at 232.41 34.29 180)
+			(uuid "967000e8-40fc-402f-bfb6-1f0c6a429f52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "24V" input
+			(at 232.41 27.94 180)
+			(uuid "9428ecc2-efea-4209-bbce-4e38048d952f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "12V" input
+			(at 232.41 25.4 180)
+			(uuid "7fa84cb9-3dcc-440f-8fc5-f2460d84541c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V" input
+			(at 232.41 22.86 180)
+			(uuid "f25ce62a-10ff-4122-afbb-a6a02f1fa241")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO[0..6]" bidirectional
+			(at 232.41 71.12 180)
+			(uuid "837154a6-bce7-41f1-bddf-ac5c98f05a1d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WHEEL[0..7]" bidirectional
+			(at 232.41 73.66 180)
+			(uuid "429fcbe6-eb30-43c4-8e1b-7391ad01ac51")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -145,7 +1150,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b9176f6a-4299-4bca-a59b-5ff3df09c616")
-		(property "Sheetname" "µC"
+		(property "Sheetname" "MCU"
 			(at 125.73 65.3284 0)
 			(effects
 				(font
@@ -164,7 +1169,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 125.73 77.47 180)
+			(at 125.73 69.85 180)
 			(uuid "09a098c6-872a-4fff-bf34-737cb1176483")
 			(effects
 				(font
@@ -174,13 +1179,43 @@
 			)
 		)
 		(pin "5V_PC_EMBARQUE" input
-			(at 125.73 81.28 180)
+			(at 125.73 73.66 180)
 			(uuid "f7a43e6d-33b9-4b05-a528-4131ed703671")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "5V_DEBUG" output
+			(at 125.73 77.47 180)
+			(uuid "5b97344b-5755-43a3-9f19-a6945294c1a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SERVO[0..6]" bidirectional
+			(at 175.26 71.12 0)
+			(uuid "383fb515-3693-4b8b-9452-5b0f1ebe2c3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WHEEL[0..7]" bidirectional
+			(at 175.26 73.66 0)
+			(uuid "f4c91f9a-e090-467e-ba13-f84c40a29465")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -192,8 +1227,8 @@
 		)
 	)
 	(sheet
-		(at 20.32 22.86)
-		(size 88.9 38.1)
+		(at 20.32 16.51)
+		(size 88.9 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -207,8 +1242,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb")
-		(property "Sheetname" "Alimentation"
-			(at 20.32 22.1484 0)
+		(property "Sheetname" "Power"
+			(at 20.32 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,7 +1251,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Alimentation.kicad_sch"
+		(property "Sheetfile" "Power.kicad_sch"
 			(at 20.32 61.5446 0)
 			(effects
 				(font
@@ -226,7 +1261,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 109.22 33.02 0)
+			(at 109.22 34.29 0)
 			(uuid "9bc6f77b-237c-424d-9f71-7116376cb8c2")
 			(effects
 				(font
@@ -235,29 +1270,9 @@
 				(justify right)
 			)
 		)
-		(pin "5V" output
-			(at 109.22 38.1 0)
-			(uuid "302e3a83-9290-42e3-8efe-0ebdab74c1fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "24V" output
-			(at 109.22 43.18 0)
+			(at 109.22 27.94 0)
 			(uuid "16ac6b93-37a2-4516-b7ab-c8ca09f6d66d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "GPIO_ENABLE_24V" output
-			(at 109.22 46.99 0)
-			(uuid "c7bcb1c5-db0e-4306-ba2e-77bf1b465f2a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,6 +1293,56 @@
 		(pin "Vbatt" output
 			(at 109.22 54.61 0)
 			(uuid "e4109914-250f-4ae7-ac14-291dffdbc240")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_DEBUG" input
+			(at 109.22 40.64 0)
+			(uuid "f0e74b48-4797-4f54-afa5-b6736afa3a10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V" output
+			(at 109.22 25.4 0)
+			(uuid "db9ccdbf-fddf-4168-8d2b-88794534b40d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_ACTUATORS" output
+			(at 109.22 22.86 0)
+			(uuid "bae98f88-eb5b-4917-80c0-dd8ec8b1edbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_COMPUTE" output
+			(at 109.22 38.1 0)
+			(uuid "53f8c58c-d952-4b79-8ffd-aba5f43937e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO_ENABLE_POWER_SUPPLIES" input
+			(at 109.22 45.72 0)
+			(uuid "8ace3939-7789-4a21-acf9-17bacb76fe52")
 			(effects
 				(font
 					(size 1.27 1.27)

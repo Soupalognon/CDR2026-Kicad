@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c5726000-8839-4e11-b49a-123eee87595d")
+	(uuid "40da96b8-8f48-4eee-8e43-be35320ca8c6")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
@@ -2557,8 +2557,8 @@
 		)
 	)
 	(rectangle
-		(start 148.59 87.63)
-		(end 204.47 113.03)
+		(start 151.13 88.9)
+		(end 207.01 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -2566,51 +2566,21 @@
 		(fill
 			(type none)
 		)
-		(uuid 00e9e055-44b4-41e3-baf3-184dbc224eea)
+		(uuid 2c2a0b6f-3517-4bcd-a709-406c694af334)
 	)
-	(text "2x Transmotec PD4266-24-17-BFEC\n24V / 2,1A nominal\n4,2A nominal total\n"
+	(text "Current limit to 5A (example page 21 datasheet)"
 		(exclude_from_sim no)
-		(at 57.15 169.672 0)
+		(at 179.578 92.964 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "35a7257d-fdb1-495f-84d4-81a0452247d1")
-	)
-	(text "Current limit to 5A (example page 22 datasheet)"
-		(exclude_from_sim no)
-		(at 177.038 91.694 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "99d330cc-78fc-44c0-a829-88833a8e620d")
-	)
-	(text "Power loss calculation and dissipator estimation\n(page 33 to 35 datasheet)\nCalculations already done in datasheet (same example with 4A)\nConclusion: Dissipator with less than 4°C/W\n"
-		(exclude_from_sim no)
-		(at 57.15 178.816 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a995c761-5181-4458-93b9-9645f80ab778")
-	)
-	(text "Heat sink possibilities:\nWAVE-35-12 with anchors 125700D00000G --> Fan required minimum 3CFM\n374524B60023G with anchors 125700D00000G --> Fan required minimum 3,5CFM\n567-45AB with screws --> Fan required minimum 4CFM\n"
-		(exclude_from_sim no)
-		(at 57.404 188.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c3d7ff13-1036-4a96-be30-19fcfe28442c")
+		(uuid "24075124-7b7b-4414-aa56-ce44e088385e")
 	)
 	(text "Fan required minimum 3,5CFM"
 		(exclude_from_sim no)
-		(at 57.912 162.814 0)
+		(at 60.452 164.084 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2618,1247 +2588,1145 @@
 				(bold yes)
 			)
 		)
-		(uuid "d6eed14c-4617-47f7-8d22-46263ee55cbc")
+		(uuid "24229d26-4a2a-43d4-8187-49011fb74b93")
+	)
+	(text "Power loss calculation and dissipator estimation\n(page 33 to 35 datasheet)\nCalculations already done in datasheet (same example with 4A)\nConclusion: Dissipator with less than 4°C/W\n"
+		(exclude_from_sim no)
+		(at 59.69 180.086 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c583040-ba43-4d0f-a963-e7a842c7816f")
 	)
 	(text "Anchors for heat sink\nFootprint placement : \nhttps://www.mouser.fr/datasheet/2/2/Aavid_01112021_Board_Level_Cooling_3745-1953702.pdf"
 		(exclude_from_sim no)
-		(at 59.436 129.286 0)
+		(at 61.976 130.556 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "dd1e723e-f222-43c9-84b3-4dd70d36008c")
+		(uuid "5f60889a-9c54-454f-9015-09466f68b925")
 	)
 	(text "Default Configuration: \nOCPM = 1 --> Over Current Protection error = Retry\nMODE = 1 --> PWM mode\nToff = 1 --> Waiting time between change = 16µs\nDecay = HZ --> Auto detect mode"
 		(exclude_from_sim no)
-		(at 122.174 21.082 0)
+		(at 124.714 22.352 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "fe0b3227-f62c-481d-9efd-cc436b56b451")
+		(uuid "6b4d786d-782c-416c-99d0-21215c015b39")
+	)
+	(text "2x Transmotec PD4266-24-17-BFEC\n24V / 2,1A nominal\n4,2A nominal total\n"
+		(exclude_from_sim no)
+		(at 59.69 170.942 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "deddb284-5d32-4e62-89e4-01434a457122")
+	)
+	(text "Heat sink possibilities:\nWAVE-35-12 with anchors 125700D00000G --> Fan required minimum 3CFM\n374524B60023G with anchors 125700D00000G --> Fan required minimum 3,5CFM\n567-45AB with screws --> Fan required minimum 4CFM\n"
+		(exclude_from_sim no)
+		(at 59.944 190.246 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e45b3329-eb63-41bb-87e5-6c6bcceabc80")
 	)
 	(junction
-		(at 55.88 78.74)
+		(at 58.42 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "25fa06ee-c049-4e33-8326-b66f8ab92207")
+		(uuid "2cc84c04-3c56-4e02-8dc8-229ce6330bbd")
 	)
 	(junction
-		(at 55.88 104.14)
+		(at 58.42 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "30dd891e-2ee1-427b-b974-b9882c2f8f84")
+		(uuid "30853d8d-a45f-48c4-badd-70273da79d1b")
 	)
 	(junction
-		(at 193.04 63.5)
+		(at 186.69 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5aff6543-5efb-499d-a0da-7149ae2adc10")
+		(uuid "5539f778-9cd6-4cfa-9f75-311fcd378d2b")
 	)
 	(junction
-		(at 104.14 68.58)
+		(at 106.68 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6862b2fa-7f85-4727-957e-dc0fa86f23c5")
+		(uuid "5f28baa2-cd2b-44c2-bd58-92086b13108d")
 	)
 	(junction
-		(at 93.98 87.63)
+		(at 96.52 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "722d6729-4af0-4db9-a360-47c2208e2ae5")
+		(uuid "6a7842d8-608d-4a60-8367-f1e624c6caf5")
 	)
 	(junction
-		(at 55.88 96.52)
+		(at 165.1 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7406fa00-2ec0-4a46-b000-99e0688710f4")
+		(uuid "82307140-b6e2-4d38-9584-7e6974d6699f")
 	)
 	(junction
-		(at 171.45 63.5)
+		(at 184.15 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "749438fa-8aaa-461e-be5a-c5cccf80939d")
+		(uuid "a048cec4-9953-49fd-852a-0b28986b8578")
 	)
 	(junction
-		(at 55.88 71.12)
+		(at 195.58 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "af5805cc-7040-4ee3-bb3a-a6541f79826d")
+		(uuid "d9ff7312-36cc-48c1-9d9b-a648e94df55a")
 	)
 	(junction
-		(at 181.61 121.92)
+		(at 58.42 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d8be97bd-d396-4ec6-8b7d-89661b22852b")
+		(uuid "da97693b-7bd8-4b17-b794-bc9da97fb602")
 	)
 	(junction
-		(at 162.56 63.5)
+		(at 173.99 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "dbfd5297-3608-4990-80a1-49e519ff2d62")
+		(uuid "ec2e916c-a89d-481e-aef6-edee42ceae4e")
 	)
 	(junction
-		(at 184.15 63.5)
+		(at 58.42 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e6981bd5-deb0-4b3c-9072-0dd536347011")
+		(uuid "ef416bd3-04d2-409a-be96-559cb0d272db")
 	)
 	(no_connect
-		(at 46.99 138.43)
-		(uuid "0353243e-76e8-4302-9252-25ad46ac9814")
+		(at 49.53 147.32)
+		(uuid "00f6f96f-daec-4c6d-8000-74af7c82aee4")
 	)
 	(no_connect
-		(at 46.99 146.05)
-		(uuid "2c9fb0a0-62b8-454e-8d68-854f019a7646")
+		(at 96.52 95.25)
+		(uuid "497929a5-9082-4791-ad68-8b32b711baeb")
 	)
 	(no_connect
-		(at 93.98 83.82)
-		(uuid "446f7601-9397-4047-bc38-5829bcd1e18e")
+		(at 96.52 85.09)
+		(uuid "556f8b30-937b-4462-b4c4-a1550a57aeb8")
 	)
 	(no_connect
-		(at 93.98 93.98)
-		(uuid "70712842-4981-4bda-85e0-00398500c61a")
+		(at 49.53 149.86)
+		(uuid "ca348b85-4b3a-4bcc-b71c-91076a3d5f19")
 	)
 	(no_connect
-		(at 93.98 63.5)
-		(uuid "7f43f60b-2982-4b0a-b8c9-2ef42b9ccf17")
+		(at 96.52 64.77)
+		(uuid "dd4256f6-3ed8-4c73-9415-30c1aa958286")
 	)
 	(no_connect
-		(at 46.99 135.89)
-		(uuid "7f7f7195-2af0-48da-8f85-b41f1633d5a8")
+		(at 49.53 139.7)
+		(uuid "e1807c0f-0469-49bb-a803-7df004b0bcac")
 	)
 	(no_connect
-		(at 46.99 148.59)
-		(uuid "e7719560-37e0-4390-a73d-d8333cbb7e19")
+		(at 49.53 137.16)
+		(uuid "f78cb149-6dad-4e83-a4cb-62e90311f1cd")
 	)
 	(wire
 		(pts
-			(xy 96.52 109.22) (xy 93.98 109.22)
+			(xy 96.52 115.57) (xy 109.22 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02e7a80a-b7ab-4612-9020-741b1c7de680")
+		(uuid "02214213-a7bc-4de2-9938-125a1bbdd39d")
 	)
 	(wire
 		(pts
-			(xy 55.88 68.58) (xy 58.42 68.58)
+			(xy 109.22 115.57) (xy 109.22 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1068def8-1d7c-4c7c-8a8d-67a92445ba1c")
+		(uuid "05c5f24c-8273-4b91-9520-4514a6ac96d9")
 	)
 	(wire
 		(pts
-			(xy 55.88 106.68) (xy 58.42 106.68)
+			(xy 52.07 115.57) (xy 60.96 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11d38081-47ce-4e79-91b8-4ec046c7d1e6")
+		(uuid "1a446522-49ea-4093-8f0b-3b6b8b576652")
 	)
 	(wire
 		(pts
-			(xy 106.68 106.68) (xy 114.3 106.68)
+			(xy 109.22 113.03) (xy 109.22 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12321b78-55bd-4baf-b5f7-8df504f744ab")
+		(uuid "24a2c591-34de-4f3b-a69c-762f672fec47")
 	)
 	(wire
 		(pts
-			(xy 176.53 121.92) (xy 181.61 121.92)
+			(xy 96.52 113.03) (xy 109.22 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13224a01-e672-467b-8d1d-68ba79baf8a7")
+		(uuid "29410533-23a1-469e-b3ae-efb11e2a79e7")
 	)
 	(wire
 		(pts
-			(xy 49.53 63.5) (xy 58.42 63.5)
+			(xy 58.42 74.93) (xy 60.96 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "18b9d25a-d2ae-4886-84fe-baca265c98e7")
+		(uuid "31787973-a72b-46b3-8815-704f9418bbea")
 	)
 	(wire
 		(pts
-			(xy 55.88 104.14) (xy 55.88 106.68)
+			(xy 184.15 123.19) (xy 189.23 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d614b29-113c-4568-b91b-d3c8d2b8e5cf")
+		(uuid "31f5f635-b16c-4ae1-869a-1db39ad75c1d")
 	)
 	(wire
 		(pts
-			(xy 49.53 86.36) (xy 58.42 86.36)
+			(xy 156.21 64.77) (xy 165.1 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1e9dba3e-0318-4e6e-afd4-f5c2494c66a6")
+		(uuid "3585e6da-36c8-4a34-bf24-2b7a0ba4db9b")
 	)
 	(wire
 		(pts
-			(xy 55.88 96.52) (xy 58.42 96.52)
+			(xy 52.07 87.63) (xy 60.96 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fe9ed1d-7245-4816-b24c-5a13045617ad")
+		(uuid "3a45dcb9-55fa-4636-8978-2d8803073af4")
 	)
 	(wire
 		(pts
-			(xy 55.88 68.58) (xy 55.88 71.12)
+			(xy 58.42 97.79) (xy 58.42 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2418a735-c987-4845-aa52-0575ffd7f1d7")
+		(uuid "42b24e21-b30a-4b73-804c-1e9488617b85")
 	)
 	(wire
 		(pts
-			(xy 55.88 96.52) (xy 55.88 99.06)
+			(xy 101.6 88.9) (xy 96.52 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "251c961d-851a-4fc6-a197-8b497dd3f8ff")
+		(uuid "48d157be-5c1c-4f80-b85b-b8a305fff5b6")
 	)
 	(wire
 		(pts
-			(xy 248.92 21.59) (xy 256.54 21.59)
+			(xy 179.07 123.19) (xy 184.15 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "294c4bcc-b461-4d03-9b11-2ee884bba897")
+		(uuid "4a52d103-fc0c-4fb3-acb1-09d21a82e387")
 	)
 	(wire
 		(pts
-			(xy 55.88 81.28) (xy 58.42 81.28)
+			(xy 58.42 80.01) (xy 60.96 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29e34b4f-82f4-48be-88fa-940835310d6e")
+		(uuid "4e8c2ea3-1218-44c9-a1c5-8ac17e9fd167")
 	)
 	(wire
 		(pts
-			(xy 171.45 63.5) (xy 184.15 63.5)
+			(xy 58.42 105.41) (xy 60.96 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "319c84ab-610c-4cc3-8d90-f722620b54f2")
+		(uuid "51811596-574a-435d-85d6-fb5d29a5ecb4")
 	)
 	(wire
 		(pts
-			(xy 153.67 63.5) (xy 162.56 63.5)
+			(xy 251.46 25.4) (xy 259.08 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34369c0c-08e0-441f-a987-2657a16a742b")
+		(uuid "53c2a4f9-41cc-4c73-b3df-c862eb60a298")
 	)
 	(wire
 		(pts
-			(xy 93.98 87.63) (xy 93.98 86.36)
+			(xy 173.99 64.77) (xy 186.69 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3df8cd6d-e897-4fb3-bf68-6855c2c20e45")
+		(uuid "54aaf462-2a01-43af-b4fb-6f340905f84f")
 	)
 	(wire
 		(pts
-			(xy 93.98 71.12) (xy 118.11 71.12)
+			(xy 58.42 97.79) (xy 60.96 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "445bca35-9416-4787-92f7-8ec14b67a796")
+		(uuid "56162bf2-69d7-4e55-a33d-f0d6404921f2")
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 38.1 31.75)
+			(xy 109.22 120.65) (xy 116.84 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44b1628a-7de9-4815-8475-9d6b4674853f")
+		(uuid "657a9e36-207a-4c21-8eb8-13645c42e4f0")
 	)
 	(wire
 		(pts
-			(xy 55.88 71.12) (xy 58.42 71.12)
+			(xy 58.42 95.25) (xy 60.96 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4afab124-9579-4343-a413-0a412f7eba18")
+		(uuid "68c534a7-3c6d-42a6-8f78-4043055146b7")
 	)
 	(wire
 		(pts
-			(xy 181.61 121.92) (xy 186.69 121.92)
+			(xy 58.42 69.85) (xy 58.42 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4bad5394-a29c-40f1-80bd-5880bbceb964")
+		(uuid "6b21c8f5-eb3c-43db-bd6b-7a07b05f7aec")
 	)
 	(wire
 		(pts
-			(xy 55.88 71.12) (xy 55.88 73.66)
+			(xy 58.42 69.85) (xy 60.96 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5456c41d-1253-44e4-939c-3f0ec473bd2a")
+		(uuid "6ea69aeb-304e-4a85-a35f-cba7e36b817c")
 	)
 	(wire
 		(pts
-			(xy 93.98 111.76) (xy 106.68 111.76)
+			(xy 50.8 27.94) (xy 40.64 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "557be707-f7dc-476a-9b62-9348e5531907")
+		(uuid "823a9193-bfcf-48a4-9f8d-2ba51b8de4bc")
 	)
 	(wire
 		(pts
-			(xy 55.88 99.06) (xy 58.42 99.06)
+			(xy 251.46 22.86) (xy 259.08 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "594bc919-c450-467b-ac1f-64137265ef8d")
+		(uuid "86757b56-ad3c-4d08-a70c-7f4a92336a0b")
 	)
 	(wire
 		(pts
-			(xy 193.04 63.5) (xy 198.12 63.5)
+			(xy 58.42 80.01) (xy 58.42 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5bfd645c-7b48-43e1-893f-2758667ba94f")
+		(uuid "87d5fcd4-892d-460b-90a6-d150f5d3d417")
 	)
 	(wire
 		(pts
-			(xy 55.88 104.14) (xy 58.42 104.14)
+			(xy 195.58 64.77) (xy 200.66 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64b451a8-1e33-46ad-876b-5388f6a37497")
+		(uuid "8ab423a0-1287-4731-8111-f6fe502a2fe1")
 	)
 	(wire
 		(pts
-			(xy 106.68 111.76) (xy 106.68 106.68)
+			(xy 186.69 64.77) (xy 195.58 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6e55a7cd-5296-4dc7-95bb-93801eff0ef1")
+		(uuid "8ad00694-11de-492a-ab9f-e529054e65e4")
 	)
 	(wire
 		(pts
-			(xy 49.53 114.3) (xy 58.42 114.3)
+			(xy 52.07 113.03) (xy 60.96 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7518a5af-414c-47b7-9ae8-52fa12d6cd46")
+		(uuid "9ae9fc9f-31b8-4fbb-9795-3289e562d133")
 	)
 	(wire
 		(pts
-			(xy 55.88 101.6) (xy 55.88 104.14)
+			(xy 96.52 88.9) (xy 96.52 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7784f206-da21-4618-826b-bc02f8a463af")
+		(uuid "9bee57a1-e0b4-404e-bd27-aaf543398414")
 	)
 	(wire
 		(pts
-			(xy 184.15 63.5) (xy 193.04 63.5)
+			(xy 58.42 72.39) (xy 58.42 74.93)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e145236-f895-4f8e-9d68-37e562650c24")
+		(uuid "9d066afa-2551-470f-8a57-a4459e7413c2")
 	)
 	(wire
 		(pts
-			(xy 55.88 93.98) (xy 55.88 96.52)
+			(xy 52.07 64.77) (xy 60.96 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f48224f-1a93-4561-979b-ede8306efa4b")
+		(uuid "a3f0f25a-b92b-4357-a964-65e5d7cadadd")
 	)
 	(wire
 		(pts
-			(xy 104.14 68.58) (xy 106.68 68.58)
+			(xy 96.52 77.47) (xy 124.46 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80082d1c-c6d0-48d0-9f7b-80459d5c4230")
+		(uuid "a62a7a3d-a03a-4a3e-b1d9-a529f1c633d1")
 	)
 	(wire
 		(pts
-			(xy 93.98 66.04) (xy 96.52 66.04)
+			(xy 99.06 110.49) (xy 96.52 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "80e19f74-0dd7-4f40-9050-945591376e83")
+		(uuid "a84d5772-12e9-4dd6-9667-3b8dacba1bad")
 	)
 	(wire
 		(pts
-			(xy 55.88 101.6) (xy 58.42 101.6)
+			(xy 52.07 90.17) (xy 60.96 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8231458d-6dbd-4723-8989-e322609ee3b7")
+		(uuid "adb6a415-aaec-4c5f-88f3-9578363295dd")
 	)
 	(wire
 		(pts
-			(xy 99.06 87.63) (xy 93.98 87.63)
+			(xy 58.42 77.47) (xy 60.96 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e4e7fef-4ec5-415d-a1ea-cd6068c22581")
+		(uuid "b45c62a6-7f36-4398-97d2-3eb02461571b")
 	)
 	(wire
 		(pts
-			(xy 93.98 76.2) (xy 121.92 76.2)
+			(xy 109.22 107.95) (xy 116.84 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "909174c9-0a8a-42a6-8089-74a826222972")
+		(uuid "bc6576b9-1a5b-4afa-b2b6-0adcfbff65bc")
 	)
 	(wire
 		(pts
-			(xy 106.68 119.38) (xy 114.3 119.38)
+			(xy 58.42 72.39) (xy 60.96 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a07c44d1-656b-4ad0-9273-fdbeb64046d7")
+		(uuid "bec37308-0ba2-42f6-a494-58bed945d665")
 	)
 	(wire
 		(pts
-			(xy 55.88 78.74) (xy 55.88 81.28)
+			(xy 96.52 88.9) (xy 96.52 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a31a28a4-d5fc-423b-bcdb-eecba0eee865")
+		(uuid "c99d677f-6f8f-4101-bad5-5911fae18bc8")
 	)
 	(wire
 		(pts
-			(xy 104.14 68.58) (xy 93.98 68.58)
+			(xy 58.42 77.47) (xy 58.42 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3e5e3e4-282a-4983-99e4-0849b95d8f99")
+		(uuid "cf658c41-b3bb-4447-97b3-792da9566d95")
 	)
 	(wire
 		(pts
-			(xy 49.53 88.9) (xy 58.42 88.9)
+			(xy 58.42 95.25) (xy 58.42 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adf055ad-5b96-425f-aac9-d91576b4eac0")
+		(uuid "cfced35e-9591-4f2d-94ac-b247e859b1ae")
 	)
 	(wire
 		(pts
-			(xy 176.53 144.78) (xy 186.69 144.78)
+			(xy 58.42 102.87) (xy 60.96 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b5f991e4-abb6-476c-b7d9-4b05f42fad29")
+		(uuid "d0fb91eb-5f22-4370-9e77-d24ee98b4731")
 	)
 	(wire
 		(pts
-			(xy 48.26 26.67) (xy 38.1 26.67)
+			(xy 58.42 82.55) (xy 60.96 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c4867d16-67d5-4e9e-90ab-0a8049a0cedf")
+		(uuid "d911966a-0c9c-4e6e-9c17-6059bba0dabb")
 	)
 	(wire
 		(pts
-			(xy 162.56 63.5) (xy 171.45 63.5)
+			(xy 96.52 72.39) (xy 120.65 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c7dc4042-0104-4bce-913b-debdb2727803")
+		(uuid "d92158c9-5c6f-441b-8560-b40f4f08dd1b")
 	)
 	(wire
 		(pts
-			(xy 55.88 76.2) (xy 55.88 78.74)
+			(xy 106.68 69.85) (xy 96.52 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c974e69d-c294-41f3-8383-db30004d3f95")
+		(uuid "e876d0aa-87e5-4caa-8263-c1fb297afcdd")
 	)
 	(wire
 		(pts
-			(xy 55.88 93.98) (xy 58.42 93.98)
+			(xy 165.1 64.77) (xy 173.99 64.77)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d2bd56f4-63a8-4c9f-8ed7-0b7468eb29f8")
+		(uuid "ebd079d8-d333-4219-b8c4-e64a50848450")
 	)
 	(wire
 		(pts
-			(xy 248.92 24.13) (xy 256.54 24.13)
+			(xy 58.42 107.95) (xy 60.96 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9914f45-b2f4-42b1-b613-ae9f084ca498")
+		(uuid "eed04eea-2d17-443f-90e1-15e71eb45f47")
 	)
 	(wire
 		(pts
-			(xy 106.68 114.3) (xy 106.68 119.38)
+			(xy 106.68 69.85) (xy 109.22 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da795f7f-75a9-4167-9286-a5ec9c04d01e")
+		(uuid "f011ad71-52b7-49bc-9cf3-0856f1be77c8")
 	)
 	(wire
 		(pts
-			(xy 55.88 73.66) (xy 58.42 73.66)
+			(xy 58.42 102.87) (xy 58.42 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "db55103d-ce6e-4f63-9308-4d2bac907ed4")
+		(uuid "f2b40c4c-a12a-420a-a6c0-9e6a45be986a")
 	)
 	(wire
 		(pts
-			(xy 93.98 114.3) (xy 106.68 114.3)
+			(xy 96.52 67.31) (xy 99.06 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc23ebea-d334-4fb7-bc06-195c54e811d1")
+		(uuid "f38eb3be-34e9-4e6f-9900-0f5addb47c2b")
 	)
 	(wire
 		(pts
-			(xy 49.53 111.76) (xy 58.42 111.76)
+			(xy 179.07 146.05) (xy 189.23 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e6a33297-8f91-4b38-a7be-f80cee8c4ecf")
+		(uuid "f56c1b86-8ed8-4400-8567-d3b5c1c9f76d")
 	)
 	(wire
 		(pts
-			(xy 55.88 76.2) (xy 58.42 76.2)
+			(xy 58.42 100.33) (xy 60.96 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ebe6061a-ea1c-455a-bbf0-6a0107ddbce3")
+		(uuid "f5781837-58a3-468e-81c0-7a7054ba556c")
 	)
 	(wire
 		(pts
-			(xy 93.98 87.63) (xy 93.98 88.9)
+			(xy 58.42 105.41) (xy 58.42 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7452f4d-49b7-47d7-b4f0-5c35f397bb54")
+		(uuid "f7247d5b-852e-44c6-9d6c-90d2f22c0ffc")
 	)
 	(wire
 		(pts
-			(xy 55.88 78.74) (xy 58.42 78.74)
+			(xy 50.8 33.02) (xy 40.64 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fdf1f53f-2000-471d-86a0-1bda8677e3ee")
+		(uuid "f8c1828b-b430-4211-a8d6-33564a9baa6c")
+	)
+	(label "3V3"
+		(at 120.65 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "003a2d30-2fc9-41b4-992b-5b4155877016")
 	)
 	(label "VM"
-		(at 49.53 88.9 180)
+		(at 50.8 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "037af338-b153-49ee-9094-492a72a1579b")
+		(uuid "0f0cd239-1e99-47a9-9361-7b05fd77f83d")
 	)
 	(label "VM"
-		(at 153.67 63.5 180)
+		(at 156.21 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "16e110a8-81ac-46c6-a3df-2c3eb0c2d40f")
-	)
-	(label "Motor2_High"
-		(at 55.88 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1a8819cd-0cf6-48f0-b747-bf56a351456c")
-	)
-	(label "VM"
-		(at 49.53 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1ca6a4f7-ac7f-4274-b031-1dfa79fd206a")
-	)
-	(label "3V3"
-		(at 104.14 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "259d497a-172c-46b5-90a9-38b1d0e7685f")
-	)
-	(label "CurrentSenseMotor2"
-		(at 248.92 24.13 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "29cd9458-dd89-4ac0-a7a2-ab7017833055")
-	)
-	(label "CurrentSenseMotor1"
-		(at 93.98 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "29fec380-574f-4768-89ab-7b6c347896e0")
-	)
-	(label "Motor1_Low"
-		(at 55.88 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "36606f6e-d45b-4dcc-9638-538d8d4d8d95")
-	)
-	(label "Motor1_High"
-		(at 55.88 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3dcfddc5-22f0-4b04-aba6-9096686c1714")
-	)
-	(label "VM"
-		(at 48.26 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "56c6c109-9760-43cc-bf83-233fcb6c649e")
-	)
-	(label "3V3"
-		(at 118.11 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5e4c85df-dfb6-4820-82dc-d6d7e37e7c03")
-	)
-	(label "CurrentSenseMotor1"
-		(at 171.45 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "61c68d5c-aa39-4f6c-bbec-7713bebe13e9")
-	)
-	(label "3V3"
-		(at 166.37 31.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "71a7c65f-55b9-463e-afc4-0a2533f798d6")
-	)
-	(label "Motor2_High"
-		(at 246.38 85.09 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f84d2ce-9e34-4dcc-8a7d-ae827d3e790c")
-	)
-	(label "VM"
-		(at 49.53 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d597859-80b4-41a9-a8ed-34ff798ff767")
-	)
-	(label "Motor1_High"
-		(at 246.38 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e20ac6a-4d6b-4c17-bc2b-bc817f12f825")
-	)
-	(label "DECAY"
-		(at 176.53 144.78 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "91d32800-aca3-453c-9be3-31b8dceea274")
-	)
-	(label "VM"
-		(at 49.53 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "920fc632-93b5-471b-b43f-ce62cfe077c8")
-	)
-	(label "3V3"
-		(at 125.73 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b0a36f0-f146-4fa4-ba65-cc11e5497d6b")
-	)
-	(label "Motor2_Low"
-		(at 246.38 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7db7432-ea71-4b9f-8a41-b1b7d1558783")
-	)
-	(label "3V3"
-		(at 190.5 139.7 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b4b9b660-660a-45dc-b75a-1f9bb0f2fd66")
-	)
-	(label "3V3"
-		(at 48.26 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b72fff2b-41ea-4805-bd5e-ffe0eaac6a1b")
-	)
-	(label "Motor1_Low"
-		(at 246.38 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf947b13-fcc0-4d01-9feb-d2839d273088")
-	)
-	(label "3V3"
-		(at 99.06 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c6430a15-0618-4aeb-93c7-7f01861297f5")
-	)
-	(label "3V3"
-		(at 96.52 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ca2ac083-2962-4bcf-88eb-0dbdea36b7ac")
+		(uuid "18565d9d-0dbb-4529-aeff-e81f645005b6")
 	)
 	(label "TOFF"
-		(at 93.98 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cb1b68ae-367c-488c-b3fb-71b458adea49")
-	)
-	(label "CurrentSenseMotor2"
-		(at 195.58 96.52 180)
+		(at 179.07 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "cef55db6-8ade-459a-aeb8-e2ef846a4cba")
-	)
-	(label "Motor2_Low"
-		(at 55.88 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cf878ce9-5213-4a0f-a8af-c267e67ca144")
-	)
-	(label "VCP"
-		(at 193.04 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d617af87-ceec-42fe-a2ea-d9061af3f83b")
-	)
-	(label "CurrentSenseMotor2"
-		(at 93.98 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e04e5a7b-0088-473b-a6ce-d9bb60781107")
-	)
-	(label "DECAY"
-		(at 93.98 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "edf8ecc2-3474-47c8-ae21-4f8753e8d87a")
+		(uuid "1ff908b4-bf4a-41eb-9f5e-6b6b3f73c7ef")
 	)
 	(label "3V3"
-		(at 190.5 116.84 0)
+		(at 99.06 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f0875df2-5bb1-4c85-b40c-d0137b48d012")
+		(uuid "263f958f-d771-4007-9b09-18518fead8ff")
 	)
-	(label "CurrentSenseMotor1"
-		(at 248.92 21.59 180)
+	(label "DECAY"
+		(at 179.07 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "fb8acd2c-d4d9-4cca-b8dd-60ebf0e524d8")
-	)
-	(label "TOFF"
-		(at 176.53 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fc2a2ee5-548e-47ba-a094-8aa68fd015ad")
+		(uuid "3a5866f1-5aa8-4f6f-b7ee-98c74c3f5455")
 	)
 	(label "VCP"
-		(at 49.53 114.3 180)
+		(at 52.07 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "fcad6826-0155-4aa3-aa37-47487cbf201c")
+		(uuid "418f5955-ea52-4da6-8554-40d76710bacb")
 	)
-	(hierarchical_label "IN2"
+	(label "Motor2_High"
+		(at 248.92 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "475f8bd6-c134-43dc-b47f-761711b00cf8")
+	)
+	(label "Motor2_Low"
+		(at 248.92 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "485ac494-44a9-49ae-a149-0de1b4a3cf56")
+	)
+	(label "3V3"
+		(at 101.6 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "55c61046-4888-4ee6-aedf-f49fc9dd1899")
+	)
+	(label "VCP"
+		(at 195.58 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "570efee7-d0a5-40a9-8095-4eb9f66e80e6")
+	)
+	(label "CurrentSenseMotor2"
+		(at 251.46 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d95ff53-c78c-449c-a9ea-6ddf82bfdea6")
+	)
+	(label "3V3"
+		(at 193.04 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60954cad-8e23-4766-8f10-4c5d0c160169")
+	)
+	(label "VM"
+		(at 52.07 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6add9e81-ba14-4440-aba6-c5ecdd6972fb")
+	)
+	(label "CurrentSenseMotor1"
+		(at 251.46 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6fa73a5c-0541-4e5a-b03b-144aa63423d2")
+	)
+	(label "CurrentSenseMotor1"
+		(at 96.52 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70470e9e-5ab6-4269-ba0c-24602d43468c")
+	)
+	(label "Motor1_Low"
+		(at 248.92 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a927d37-7f22-4690-8482-e5de550ab8d5")
+	)
+	(label "3V3"
+		(at 128.27 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7a9bb1f9-7418-4d51-bd90-e8b965abcebf")
+	)
+	(label "CurrentSenseMotor2"
+		(at 96.52 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e4ffc00-129a-4e42-9933-3b90628a28bd")
+	)
+	(label "Motor1_High"
+		(at 58.42 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94f9214b-7366-485a-bbf6-d58ee307d85d")
+	)
+	(label "VM"
+		(at 52.07 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "99e23453-449c-42d9-95d0-b618f29c52cb")
+	)
+	(label "3V3"
+		(at 193.04 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ccc1247-636b-429b-86fb-0fce59d74e22")
+	)
+	(label "TOFF"
+		(at 96.52 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a46a7038-be27-4f79-940f-594d09521465")
+	)
+	(label "CurrentSenseMotor2"
+		(at 198.12 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b977e9b4-fd8f-4601-b615-e205e50fe257")
+	)
+	(label "Motor2_High"
+		(at 58.42 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcf462c7-c957-487e-ad8a-3933345aba6e")
+	)
+	(label "DECAY"
+		(at 96.52 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c5de41a7-fb28-4034-91cb-07739e3a4738")
+	)
+	(label "3V3"
+		(at 50.8 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c89c0212-b1bf-4d64-a06b-82064e55d97b")
+	)
+	(label "3V3"
+		(at 168.91 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca3736e4-cafd-4763-95b1-c97481f353fb")
+	)
+	(label "Motor1_Low"
+		(at 58.42 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db8e6c98-995c-449a-adf6-497bbf916d24")
+	)
+	(label "CurrentSenseMotor1"
+		(at 173.99 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1430d53-a7b2-4600-887d-9864bea3e98a")
+	)
+	(label "3V3"
+		(at 106.68 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8c4266e-a958-442f-8258-05c8fa6798bd")
+	)
+	(label "Motor1_High"
+		(at 248.92 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9c751b3-afcc-43ee-b64c-96271144133a")
+	)
+	(label "VM"
+		(at 52.07 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f2e2963c-a6d0-40bb-a5a4-cea623b41c90")
+	)
+	(label "VM"
+		(at 52.07 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f7e6810f-480b-4355-9eb2-99a5b59ffcb2")
+	)
+	(label "Motor2_Low"
+		(at 58.42 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe8d0ab6-8233-4d96-9288-be390a9d790a")
+	)
+	(hierarchical_label "PWM1"
 		(shape input)
-		(at 93.98 104.14 0)
+		(at 96.52 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "0096719c-e7df-4f48-9e49-6b67fdc7e115")
-	)
-	(hierarchical_label "CurrentSenseMotor2"
-		(shape output)
-		(at 256.54 24.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0406cad1-302d-4890-a365-a74a354c34ca")
-	)
-	(hierarchical_label "SLEEP"
-		(shape input)
-		(at 96.52 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "10bbc231-7e53-4bbc-b379-0815c94fdc2d")
-	)
-	(hierarchical_label "IN1"
-		(shape input)
-		(at 93.98 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "144d241e-ad19-4914-ac7a-09a1f715282b")
-	)
-	(hierarchical_label "IN4"
-		(shape input)
-		(at 93.98 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "452fcc40-0a28-4ffc-a874-08021652068d")
-	)
-	(hierarchical_label "CurrentSenseMotor1"
-		(shape output)
-		(at 256.54 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "572b669e-65a8-4333-9dc9-df466c050a1d")
-	)
-	(hierarchical_label "3V3"
-		(shape input)
-		(at 38.1 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6ad556a4-5ca0-4075-9bc3-6a20f4900668")
-	)
-	(hierarchical_label "NFAULT"
-		(shape output)
-		(at 106.68 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f7af0d2-a8d2-4076-8e1d-8441bd2cbc16")
+		(uuid "047bd20d-285e-44eb-b690-eb87acb1f1e1")
 	)
 	(hierarchical_label "24V"
 		(shape input)
-		(at 38.1 31.75 180)
+		(at 40.64 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a38cad9a-47e7-4546-b308-f76a01204be4")
+		(uuid "2fa2af96-a10d-4d00-b1ad-f68eb2590e27")
 	)
-	(hierarchical_label "IN3"
+	(hierarchical_label "PWM3"
 		(shape input)
-		(at 93.98 101.6 0)
+		(at 96.52 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "e54f3667-dac3-4ebe-a151-b94d675f3b7f")
+		(uuid "3f482852-c7be-402f-90ef-1b2a61996bfa")
+	)
+	(hierarchical_label "CurrentSenseMotor2"
+		(shape output)
+		(at 259.08 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8145adb1-5f05-4e26-ac0b-f0bd20467f1f")
+	)
+	(hierarchical_label "SLEEP"
+		(shape input)
+		(at 99.06 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "88c3235a-c399-417a-93af-724baf3dead9")
+	)
+	(hierarchical_label "CurrentSenseMotor1"
+		(shape output)
+		(at 259.08 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b22d6e5-1d9e-40bc-a200-a6efcebe212c")
+	)
+	(hierarchical_label "NFAULT"
+		(shape output)
+		(at 109.22 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f082a03-a217-4ed6-90c6-fbf7e6f776ac")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 40.64 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "979fe029-92ce-4563-90b2-ab86fa56e6ba")
+	)
+	(hierarchical_label "PWM4"
+		(shape input)
+		(at 96.52 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7301a16-9067-4e9b-864d-0c61e28a08bf")
+	)
+	(hierarchical_label "PWM2"
+		(shape input)
+		(at 96.52 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eede51d1-fcf0-46be-bab6-db4db3825f0a")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 195.58 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06132bd3-2298-4cd8-ac47-aec616bc3a6f")
-		(property "Reference" "#PWR035"
-			(at 195.58 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 195.58 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e6c5ba9d-5c09-48b4-89e2-e7d440f45d50")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fc525f4-bf0d-433c-aefe-6423fdef31f8")
-		(property "Reference" "#PWR030"
-			(at 184.15 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd8df31c-68d7-465c-b8dd-6bca6cf4acdc")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Open")
-		(at 190.5 144.78 270)
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 193.04 123.19 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1461cf56-2a6f-497f-827b-0132bf106218")
-		(property "Reference" "JP2"
-			(at 193.04 143.5099 90)
+		(uuid "01bb971a-8bf9-47f6-8daf-fab32ea785d6")
+		(property "Reference" "JP10"
+			(at 195.58 121.9199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3866,8 +3734,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SolderJumper_3_Open"
-			(at 193.04 146.0499 90)
+		(property "Value" "SolderJumper"
+			(at 195.58 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,8 +3743,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 190.5 144.78 0)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 193.04 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +3753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 144.78 0)
+			(at 193.04 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,28 +3761,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 190.5 144.78 0)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 193.04 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "4b0aba3a-a172-4a81-a49d-40f01f29b9ac")
 		)
 		(pin "3"
-			(uuid "945d310c-f19a-4275-ad04-2c824dc698ca")
-		)
-		(pin "2"
-			(uuid "6d058453-afbb-4542-b2b0-78c68178ea4e")
+			(uuid "a6d6a540-c122-4a0c-88a2-be195203d243")
 		)
 		(pin "1"
-			(uuid "e88f7727-eb27-4d6c-af1c-ff4a95cd0b3d")
+			(uuid "925ae476-e4d2-40f8-8440-fb8e7b5b8efc")
 		)
 		(instances
-			(project ""
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "JP2")
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "JP10")
 					(unit 1)
 				)
 			)
@@ -3922,16 +3790,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 83.82 270)
+		(at 184.15 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "16d73e17-31a8-4db8-bfe6-5c36b17369c7")
-		(property "Reference" "#PWR023"
-			(at 52.07 83.82 0)
+		(uuid "0516836b-83a1-4ddc-9491-9bbca2f38f25")
+		(property "Reference" "#PWR096"
+			(at 184.15 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3940,7 +3808,139 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 83.8199 90)
+			(at 184.15 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecedc096-5575-4274-8b19-e2f4790e7f5c")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "076004e9-f38e-424e-91db-d078bbb3fe41")
+		(property "Reference" "#PWR098"
+			(at 193.04 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09556603-866e-4dad-8f4e-4fe11b7a3765")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07fcf9fe-de8a-4c3a-bddf-f48fd09b4fab")
+		(property "Reference" "#PWR087"
+			(at 54.61 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3949,7 +3949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 83.82 0)
+			(at 60.96 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +3958,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 83.82 0)
+			(at 60.96 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3967,7 +3967,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 83.82 0)
+			(at 60.96 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,154 +3976,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cfd21e1b-78b4-41c0-9eda-13d01cf67c3d")
+			(uuid "654ce97c-8396-4f38-bd4a-de49576a07b7")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys:39501-1002")
-		(at 246.38 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "176deb58-d901-4dc3-ae71-4a9798a9011d")
-		(property "Reference" "J7"
-			(at 262.89 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "39501-1002"
-			(at 262.89 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "395011002"
-			(at 262.89 169.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/2/39501-1002.pdf"
-			(at 262.89 269.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pluggable Terminal Blocks 3.5MM EURO HDR 02P VT CLOSED"
-			(at 246.38 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.6"
-			(at 262.89 469.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 262.89 569.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "39501-1002"
-			(at 262.89 669.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-39501-1002"
-			(at 262.89 769.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39501-1002?qs=sv5fFeGb%252BE57lLylXvB48A%3D%3D"
-			(at 262.89 869.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 262.89 969.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 262.89 1069.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "efa793ac-34ce-4ed7-90ff-d0b829925f3f")
-		)
-		(pin "2"
-			(uuid "d51186b9-f5df-4cae-80a1-a7ae3d3189e8")
-		)
-		(instances
-			(project ""
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "J7")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -4131,16 +3989,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 76.2 0)
+		(at 96.52 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "180085fb-4dbf-4bc9-9567-e636e00f98ad")
-		(property "Reference" "#PWR031"
-			(at 198.12 82.55 0)
+		(uuid "08d8db18-506e-44a3-86f3-cfe45dd90cfc")
+		(property "Reference" "#PWR089"
+			(at 102.87 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,347 +4007,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eedc5f73-7cf7-42c9-af21-048ed0a9f6a4")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "278f6ac8-b721-40ca-bf2c-0c73ee8bc524")
-		(property "Reference" "#PWR029"
-			(at 171.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70a0e9da-9909-4457-b6c0-7f665938adbe")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys:39501-1002")
-		(at 246.38 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f16b3d1-fcb6-4613-a96a-b488d0d8655b")
-		(property "Reference" "J8"
-			(at 262.89 85.0899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "39501-1002"
-			(at 262.89 87.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "395011002"
-			(at 262.89 180.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/2/39501-1002.pdf"
-			(at 262.89 280.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pluggable Terminal Blocks 3.5MM EURO HDR 02P VT CLOSED"
-			(at 246.38 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "9.6"
-			(at 262.89 480.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 262.89 580.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "39501-1002"
-			(at 262.89 680.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-39501-1002"
-			(at 262.89 780.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39501-1002?qs=sv5fFeGb%252BE57lLylXvB48A%3D%3D"
-			(at 262.89 880.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 262.89 980.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 262.89 1080.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c100277-4fc5-440e-92c4-96420d43e807")
-		)
-		(pin "2"
-			(uuid "1ece05dd-0ee1-4e91-a7ac-222ccc42d1e0")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 181.61 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "39f4ba58-3f6f-4d22-bd8e-3af3d941284c")
-		(property "Reference" "#PWR039"
-			(at 181.61 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "27900e81-2c5c-4038-9989-19fa7b6f3813")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b94af5e-e848-425c-a476-98408360f502")
-		(property "Reference" "#PWR027"
-			(at 100.33 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 60.9599 90)
+			(at 100.33 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4498,7 +4016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 60.96 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4507,7 +4025,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 60.96 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4516,7 +4034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 60.96 0)
+			(at 96.52 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,843 +4043,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b64dcf08-c996-4d55-8e83-72ca9791dd8e")
+			(uuid "2ee24403-767f-4831-8ab3-aa7415f519b9")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 166.37 44.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c61a1b6-a19c-456d-96e8-d3a806cd0b56")
-		(property "Reference" "C13"
-			(at 171.196 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF/X7R"
-			(at 171.958 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPC2012X94N"
-			(at 262.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
-			(at 362.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 166.37 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at 562.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 662.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
-			(at 762.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-0805DC104MAT2A"
-			(at 862.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
-			(at 962.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0805DC104MAT2A"
-			(at 1062.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
-			(at 1162.56 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d2b03710-77c4-496d-997d-743cd96db1b0")
-		)
-		(pin "1"
-			(uuid "4472fab4-654b-461b-9ebf-627889ae1d3e")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:UCH1V101MCS1GS")
-		(at 198.12 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "59b6cb64-4f41-4aa7-ad7e-15858b0595ad")
-		(property "Reference" "C12"
-			(at 203.962 69.088 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF"
-			(at 204.47 71.374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPAE660X800N"
-			(at 101.93 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
-			(at 1.93 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
-			(at 198.12 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8"
-			(at -198.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at -298.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
-			(at -398.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCH1V101MCS1GS"
-			(at -498.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
-			(at -598.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -698.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -798.07 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcbd199b-8853-4b21-b089-be04aa197cfa")
-		)
-		(pin "2"
-			(uuid "b420bfc3-8848-4310-a3ab-be30e046ff87")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_new:125700D00000G")
-		(at 46.99 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6274ddcc-7a84-4f52-9b9e-0c2937674a30")
-		(property "Reference" "U2"
-			(at 63.5 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "125700D00000G"
-			(at 63.5 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "125700D00000G"
-			(at 63.5 240.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.mouser.com/datasheet/2/2/Aavid-Board-Level-Heatsinks-Catalog-2018-1507171.pdf"
-			(at 63.5 340.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heat Sinks Solder Anchor, 3.61 n Thermal Resistance, 1.6mm PCB Thickness"
-			(at 46.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.19"
-			(at 63.5 540.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Aavid Thermalloy"
-			(at 63.5 640.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "125700D00000G"
-			(at 63.5 740.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "532-125700D00000G"
-			(at 63.5 840.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aavid/125700D00000G?qs=U7T%2FEnMyvTtVFmt9%2FDIChA%3D%3D"
-			(at 63.5 940.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "125700D00000G"
-			(at 63.5 1040.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/125700d00000g/aavid-thermalloy?region=europe"
-			(at 63.5 1140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c844306-5e57-427c-83cd-c5ad06c8505f")
-		)
-		(pin "1"
-			(uuid "46548c61-ed08-4108-a9ca-cb69d198f7bd")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 114.3 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "68873a31-db64-4ebb-98fa-6ca9c055842f")
-		(property "Reference" "C7"
-			(at 119.126 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF/X7R"
-			(at 119.888 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPC2012X94N"
-			(at 210.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
-			(at 310.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 114.3 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at 510.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 610.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
-			(at 710.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-0805DC104MAT2A"
-			(at 810.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
-			(at 910.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0805DC104MAT2A"
-			(at 1010.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
-			(at 1110.49 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "be452de6-8031-436a-bc33-ecca10534dd6")
-		)
-		(pin "1"
-			(uuid "e977f9eb-edf5-4b02-bbe3-9fc6ad4e601b")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:UCH1V101MCS1GS")
-		(at 184.15 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69f7fe08-3f51-4805-85a0-00ad45be7870")
-		(property "Reference" "C11"
-			(at 189.992 69.088 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF"
-			(at 190.5 71.374 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPAE660X800N"
-			(at 87.96 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
-			(at -12.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
-			(at 184.15 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "8"
-			(at -212.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at -312.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
-			(at -412.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCH1V101MCS1GS"
-			(at -512.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
-			(at -612.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -712.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -812.04 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1718607b-9236-4a8e-92e3-30f72be3d484")
-		)
-		(pin "2"
-			(uuid "3b95498a-424b-4529-9709-f10601312d39")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 93.98 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c0e046f-ef0e-4a13-9fab-a754e00c5c8b")
-		(property "Reference" "#PWR036"
-			(at 100.33 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 93.98 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2b98a55-72bc-4185-a9e8-2b4f7e29f657")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c478ad8-ca33-486a-bce6-bf7f163081c3")
-		(property "Reference" "#PWR040"
-			(at 190.5 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a49588b-62af-490a-ad2e-1a6e60148810")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR040")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -5369,15 +4056,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 100.33 180)
+		(at 173.99 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "6fa1d1ef-2378-4d95-b0cb-5a31bbe53a3a")
-		(property "Reference" "R4"
-			(at 174.498 99.06 0)
+		(uuid "0a168327-c5f0-4566-973d-a9d493c1aa72")
+		(property "Reference" "R41"
+			(at 177.038 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5385,7 +4072,7 @@
 			)
 		)
 		(property "Value" "3,09k"
-			(at 176.276 100.838 0)
+			(at 178.816 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5393,7 +4080,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.228 100.33 90)
+			(at 175.768 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +4089,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 100.33 0)
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,7 +4098,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 171.45 100.33 0)
+			(at 173.99 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5420,15 +4107,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c7e3678c-f3a9-4003-a35f-db63eb081dfc")
+			(uuid "582895bc-85ca-4301-be0a-3143d2a635e4")
 		)
 		(pin "2"
-			(uuid "df414e36-c921-4faa-8ae1-b45cd5324724")
+			(uuid "c82b1ea5-7004-43c6-8fea-a9dee7d40c3b")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "R4")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -5436,16 +4123,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 60.96 270)
+		(at 193.04 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8643acb1-f823-48b0-b110-baff1c4e1742")
-		(property "Reference" "#PWR022"
-			(at 52.07 60.96 0)
+		(uuid "1a9ac42d-9b8d-487b-b737-4ca9bda45fe1")
+		(property "Reference" "#PWR099"
+			(at 193.04 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5454,16 +4141,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 60.9599 90)
+			(at 193.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 60.96 0)
+			(at 193.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5472,7 +4158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 60.96 0)
+			(at 193.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5481,7 +4167,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 60.96 0)
+			(at 193.04 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5490,293 +4176,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e42f1fd-ef90-4962-8db1-43205201c006")
-		)
-		(instances
-			(project ""
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_new:125700D00000G")
-		(at 46.99 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "883a45e6-c523-4139-85f7-8224155edf3e")
-		(property "Reference" "U1"
-			(at 63.5 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "125700D00000G"
-			(at 63.5 138.4299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "125700D00000G"
-			(at 63.5 230.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.mouser.com/datasheet/2/2/Aavid-Board-Level-Heatsinks-Catalog-2018-1507171.pdf"
-			(at 63.5 330.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heat Sinks Solder Anchor, 3.61 n Thermal Resistance, 1.6mm PCB Thickness"
-			(at 46.99 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "7.19"
-			(at 63.5 530.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Aavid Thermalloy"
-			(at 63.5 630.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "125700D00000G"
-			(at 63.5 730.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "532-125700D00000G"
-			(at 63.5 830.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aavid/125700D00000G?qs=U7T%2FEnMyvTtVFmt9%2FDIChA%3D%3D"
-			(at 63.5 930.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "125700D00000G"
-			(at 63.5 1030.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/125700d00000g/aavid-thermalloy?region=europe"
-			(at 63.5 1130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c09dbe01-67f1-4126-884e-ed85dc05d0aa")
-		)
-		(pin "1"
-			(uuid "93978131-abe0-4184-b9bb-c66d221d5a67")
-		)
-		(instances
-			(project ""
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 193.04 50.8 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f922723-c810-447a-b2cc-c0d3de173144")
-		(property "Reference" "C8"
-			(at 188.214 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 188.468 57.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPC2012X94N"
-			(at 96.85 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
-			(at -3.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 193.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at -203.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -303.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
-			(at -403.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-0805DC104MAT2A"
-			(at -503.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
-			(at -603.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0805DC104MAT2A"
-			(at -703.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
-			(at -803.15 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "452bc675-dc28-4386-8e42-2b55fe1cb621")
-		)
-		(pin "1"
-			(uuid "e4625e74-e0ce-4e69-a9d1-a11f6ffc2035")
+			(uuid "529d949d-3132-4683-b809-bc199f31a1cd")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "C8")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -5784,16 +4189,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 66.04 270)
+		(at 186.69 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b341dac-b1cd-4f2a-82ef-25071b47dbed")
-		(property "Reference" "#PWR024"
-			(at 52.07 66.04 0)
+		(uuid "1ee124c9-f52c-4693-b3cc-85d88268282a")
+		(property "Reference" "#PWR097"
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5802,16 +4207,15 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 66.0399 90)
+			(at 186.69 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 66.04 0)
+			(at 186.69 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5820,7 +4224,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 66.04 0)
+			(at 186.69 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5829,7 +4233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 66.04 0)
+			(at 186.69 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5838,12 +4242,220 @@
 			)
 		)
 		(pin "1"
-			(uuid "681133f4-d3a1-4475-a6ad-d2585f2323f8")
+			(uuid "34249f4b-ba86-4da1-90ee-4e23b9914a40")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR024")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR097")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "220f7a2c-20b5-4ef9-b85c-95effaae3801")
+		(property "Reference" "#PWR094"
+			(at 173.99 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afd53f11-f572-4664-8e47-8845a0c91512")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:39501-1002")
+		(at 248.92 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "253aa42b-dbcd-4b0c-b73b-5bcf885c9d6a")
+		(property "Reference" "J12"
+			(at 265.43 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39501-1002"
+			(at 265.43 78.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "395011002"
+			(at 265.43 171.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/2/39501-1002.pdf"
+			(at 265.43 271.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pluggable Terminal Blocks 3.5MM EURO HDR 02P VT CLOSED"
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.6"
+			(at 265.43 471.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 265.43 571.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39501-1002"
+			(at 265.43 671.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-39501-1002"
+			(at 265.43 771.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39501-1002?qs=sv5fFeGb%252BE57lLylXvB48A%3D%3D"
+			(at 265.43 871.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 265.43 971.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 265.43 1071.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c458531-4cb0-43ec-ba1a-29b758d34ec9")
+		)
+		(pin "2"
+			(uuid "b9c33392-dd97-42bd-bbf9-39c396f336c3")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -5851,23 +4463,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.14 64.77 180)
+		(at 184.15 127 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a7e71d4e-1bfe-4ec5-bb52-26c0e9f13a25")
-		(property "Reference" "R1"
-			(at 107.188 63.5 0)
+		(uuid "2541b980-3e44-46db-bda1-59711af7b56e")
+		(property "Reference" "R42"
+			(at 187.198 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
-			(at 107.442 65.532 0)
+		(property "Value" "NC"
+			(at 187.452 127.762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +4487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.918 64.77 90)
+			(at 185.928 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,7 +4496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 64.77 0)
+			(at 184.15 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,7 +4505,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.14 64.77 0)
+			(at 184.15 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,155 +4514,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a7b9032-8e83-452d-8e50-739cadb67b0f")
+			(uuid "52c93daf-5651-4931-a2c2-c97b573e70b4")
 		)
 		(pin "2"
-			(uuid "5aeb7d63-8669-44be-b798-16c3ec886512")
-		)
-		(instances
-			(project ""
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 118.11 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b7fd9f6a-1ef3-4a08-8647-7c623b8d931d")
-		(property "Reference" "R3"
-			(at 121.158 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 121.412 68.072 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.888 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 118.11 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b897a74c-0d20-4024-8457-c52f60d1e94c")
-		)
-		(pin "2"
-			(uuid "7d46f40f-5f85-4b6e-99ac-8b46e53566fb")
+			(uuid "060d90e8-dad6-4902-a1fd-2617a6a985f0")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 125.73 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b969095d-6a49-499a-99a0-3f07ff5902f6")
-		(property "Reference" "JP1"
-			(at 128.27 74.9299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper"
-			(at 128.27 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 125.73 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3acab503-248c-4b1c-bd64-c0d92d0779dc")
-		)
-		(pin "3"
-			(uuid "355f755f-0236-403c-a1c0-9bcbed10c164")
-		)
-		(pin "1"
-			(uuid "21f518ef-9858-4f01-a048-d4ff9e082e5a")
-		)
-		(instances
-			(project ""
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "JP1")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -6058,16 +4530,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 76.2 0)
+		(at 165.1 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9c83d83-c7a0-4e88-b5d9-26264c9af7f6")
-		(property "Reference" "#PWR028"
-			(at 162.56 82.55 0)
+		(uuid "26f9a069-b2c5-4f2b-8b61-e4dec4c35e81")
+		(property "Reference" "#PWR092"
+			(at 165.1 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6076,7 +4548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 81.28 0)
+			(at 165.1 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6084,7 +4556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 76.2 0)
+			(at 165.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6093,7 +4565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 76.2 0)
+			(at 165.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6102,7 +4574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 76.2 0)
+			(at 165.1 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6111,151 +4583,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd56389d-5a78-4c25-9908-8055093c070b")
+			(uuid "f3c9edcd-43c9-4940-b189-3ec719d4c682")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 166.37 44.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bfc3159e-5fec-4226-ba18-3ac4f2d4f455")
-		(property "Reference" "#PWR032"
-			(at 166.37 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "872ae726-fa51-47cd-91fc-d27df25839fa")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR032")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 190.5 121.92 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d183078d-0865-468e-bad6-be2a50f7b627")
-		(property "Reference" "JP3"
-			(at 193.04 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SolderJumper"
-			(at 193.04 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
-			(at 190.5 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 190.5 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b5afd678-890f-4b7e-981e-2b6d1f708499")
-		)
-		(pin "3"
-			(uuid "3809c530-1c71-4411-93e3-7b580b1306f7")
-		)
-		(pin "1"
-			(uuid "a121282d-099a-472b-ba63-7f761abdccf1")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "JP3")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -6263,16 +4596,16 @@
 	)
 	(symbol
 		(lib_id "SamacSys:DRV8262DDVR")
-		(at 58.42 60.96 0)
+		(at 60.96 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d215d790-9246-473c-b7bc-fa2ed27e452d")
-		(property "Reference" "AC1"
-			(at 76.2 53.34 0)
+		(uuid "27ef5a57-bda4-426c-8981-6afab2191e30")
+		(property "Reference" "AC2"
+			(at 78.74 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +4613,7 @@
 			)
 		)
 		(property "Value" "DRV8262DDVR"
-			(at 76.2 55.88 0)
+			(at 78.74 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +4621,7 @@
 			)
 		)
 		(property "Footprint" "SOP64P810X120-44N"
-			(at 90.17 155.88 0)
+			(at 92.71 157.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6298,7 +4631,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8262.pdf?ts=1720091498816&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
-			(at 90.17 255.88 0)
+			(at 92.71 257.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6308,7 +4641,7 @@
 			)
 		)
 		(property "Description" "Motor / Motion / Ignition Controllers & Drivers 65-V single or dual H-bridge motor driver with integrated current sense and regulation"
-			(at 58.42 60.96 0)
+			(at 60.96 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6317,7 +4650,7 @@
 			)
 		)
 		(property "Height" "1.2"
-			(at 90.17 455.88 0)
+			(at 92.71 457.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6327,7 +4660,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 90.17 555.88 0)
+			(at 92.71 557.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +4670,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "DRV8262DDVR"
-			(at 90.17 655.88 0)
+			(at 92.71 657.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +4680,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 90.17 755.88 0)
+			(at 92.71 757.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6357,7 +4690,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 90.17 855.88 0)
+			(at 92.71 857.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6367,7 +4700,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 90.17 955.88 0)
+			(at 92.71 957.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +4710,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 90.17 1055.88 0)
+			(at 92.71 1057.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,141 +4720,141 @@
 			)
 		)
 		(pin "26"
-			(uuid "ed3d78a4-f5d8-40ab-a229-3c73b7fdb9a3")
+			(uuid "87d574c7-7e18-4140-92a5-caddf667bc8c")
 		)
 		(pin "30"
-			(uuid "d6e818ba-fe73-4d04-a37b-2c098e0c91b6")
+			(uuid "ad2a7fb3-3302-415d-8c6e-46970546e153")
 		)
 		(pin "29"
-			(uuid "3dee532a-02d9-44e7-8595-dbd0a82e3d8a")
+			(uuid "ec1ac94e-6dac-4277-8742-ce1c326da204")
 		)
 		(pin "31"
-			(uuid "7b3d40fb-3346-4470-bf2f-d69044c3caca")
+			(uuid "2f815ff8-3129-4a29-8255-adaaad4c63da")
 		)
 		(pin "25"
-			(uuid "96be88d3-bf04-4530-b7cf-62bcda0a89d0")
+			(uuid "7199ce02-0a43-46cc-8492-8ba90884100d")
 		)
 		(pin "28"
-			(uuid "81e14f90-4b3e-45de-82a0-5aff6386b873")
+			(uuid "1c804758-881d-4bc1-b3bb-8bb63fdf875f")
 		)
 		(pin "27"
-			(uuid "1b0e5fa7-8a1f-421a-8a24-8a2d8f0f4314")
+			(uuid "8db79eb3-a74e-49b6-8b9b-7fcf930cfe1c")
 		)
 		(pin "23"
-			(uuid "510be417-583d-4d56-89da-babd43c81409")
+			(uuid "a03623ad-267d-4686-9300-85dbb5407dee")
 		)
 		(pin "24"
-			(uuid "2890e8ef-398a-449d-bdac-5e1fa29dfe23")
+			(uuid "1947c3eb-18fe-4ea6-b194-ba6601b70d15")
 		)
 		(pin "14"
-			(uuid "fe49e799-0a3a-484b-b32a-74a9f01fe2e1")
+			(uuid "7083f525-8a29-4425-bdb6-d5cdea48fb8e")
 		)
 		(pin "44"
-			(uuid "1a3e44ca-9539-413f-95b5-89441c3547b4")
+			(uuid "203ec0a4-8a7b-431f-b6bd-69b0a1a510ea")
 		)
 		(pin "43"
-			(uuid "7f909420-b76c-46fa-97e2-5d7f498ee4cd")
+			(uuid "6997fb3e-bda3-47b4-b98c-02e13e398f1a")
 		)
 		(pin "37"
-			(uuid "7bdac734-9fca-4888-8491-b2514586a19f")
+			(uuid "c4a79102-586d-45ba-a2de-f0adacbc3663")
 		)
 		(pin "42"
-			(uuid "22606091-d9e1-4a21-930d-06924ad3bf61")
+			(uuid "f8195655-f3fc-4394-a519-2777c370d28f")
 		)
 		(pin "35"
-			(uuid "2ae5e04d-8125-40d9-b8f2-52dc9e3bafef")
+			(uuid "c5f744f5-654c-4d2a-bdcd-ba58e009fb86")
 		)
 		(pin "16"
-			(uuid "878e407c-b9fe-4917-b499-cd52a5e85acd")
+			(uuid "50a727ef-f3a1-4af4-836e-105036df129e")
 		)
 		(pin "34"
-			(uuid "04e011f7-d6de-479b-a4f3-6e5aecc7af23")
+			(uuid "f566d3f8-7b7f-4fb7-b1fb-acf7307100ab")
 		)
 		(pin "33"
-			(uuid "bb485541-29ef-41e6-abbe-5bc6951708ef")
+			(uuid "2f1e58d0-3bf2-4c06-b846-4de1942bc1cd")
 		)
 		(pin "13"
-			(uuid "2f447680-f4c9-43a9-9826-493b0940944e")
+			(uuid "d36fbdc3-bb39-485c-87f1-02bed91dea23")
 		)
 		(pin "10"
-			(uuid "f95e2643-14f3-4fe7-9bb6-701867629862")
+			(uuid "cdf77bfc-0a60-4b37-907f-9fb285898e2c")
 		)
 		(pin "40"
-			(uuid "5fb48c2b-132d-4a44-8f58-d6609960c773")
+			(uuid "b7a23b71-f893-4a58-9c5c-6af3d69fe148")
 		)
 		(pin "22"
-			(uuid "3218fdf7-b098-44a2-a1f5-7343577e7916")
+			(uuid "4a518ddd-8d71-47e0-839e-ff44e994694b")
 		)
 		(pin "32"
-			(uuid "5bbfadf4-8c12-4e50-87be-02d5c110f8b8")
+			(uuid "866e1cce-477e-4886-9a4e-b5ca7ea8bc8f")
 		)
 		(pin "36"
-			(uuid "8d01d890-870a-4550-aa81-14bc61474b4d")
+			(uuid "141c4e49-3fec-4641-a190-6683c8671607")
 		)
 		(pin "1"
-			(uuid "9d19a354-934e-4130-81a6-bde848b62c1c")
+			(uuid "aa6270b2-dedc-4311-b687-1c783ca5a490")
 		)
 		(pin "2"
-			(uuid "bebdcb45-aa65-4a69-9c66-7a11dc88dcc3")
+			(uuid "3038d14a-87da-4aaa-a6a4-ef04e3da112e")
 		)
 		(pin "4"
-			(uuid "7a804660-1d15-40a6-97d0-f898259bf392")
+			(uuid "627453a4-9046-4511-975e-5850d6cfc9a4")
 		)
 		(pin "17"
-			(uuid "97bebbad-47a8-4792-b061-0dc697fe9d1f")
+			(uuid "6a0f2373-462a-4ab9-8a0d-fa21663af405")
 		)
 		(pin "5"
-			(uuid "f84d8e62-93e6-4754-a1bd-1d8403175905")
+			(uuid "65c65a49-429c-4cad-b215-3c26aa9bcaa4")
 		)
 		(pin "19"
-			(uuid "b19969ca-0edc-4c0d-b50d-225a6156f205")
+			(uuid "eefcf8c6-1c30-481b-977f-883f4c9d7f20")
 		)
 		(pin "38"
-			(uuid "a81fad10-2ca5-460b-930a-c5372429f863")
+			(uuid "7435de02-3d38-456a-afbb-e5a52af8ec31")
 		)
 		(pin "18"
-			(uuid "d55907d0-a5e6-43b6-963f-273c01ab80c2")
+			(uuid "8880e462-1a8b-4aab-a18f-3403b52c099f")
 		)
 		(pin "15"
-			(uuid "771f87ab-4b97-4f26-863e-f26d78c1ba06")
+			(uuid "c7036919-048c-4c2f-92f7-9449ce12f548")
 		)
 		(pin "21"
-			(uuid "b418d5d9-561e-42e0-8686-2c5614cbb37b")
+			(uuid "cae384a1-79f7-4ad6-92a0-af7f4b7af1c3")
 		)
 		(pin "6"
-			(uuid "bfb2ac25-d6f4-4581-9e99-4098418ff65c")
+			(uuid "27d154cc-6aec-488f-97fa-93369985a299")
 		)
 		(pin "39"
-			(uuid "98817afe-b685-41e3-8f05-98d200df361f")
+			(uuid "2572d5a6-fa15-422a-ac71-3d4c8033ecfe")
 		)
 		(pin "20"
-			(uuid "93f7d13c-5776-410c-8f5d-ae93cb9182f3")
+			(uuid "028687d7-0560-452c-9e43-a6c76ffb2681")
 		)
 		(pin "9"
-			(uuid "e6c29fec-52a0-451c-adaf-c110fe8b9cca")
+			(uuid "1f3b1083-74ed-4502-80d3-ec27e5dd3ec2")
 		)
 		(pin "3"
-			(uuid "0cc36b00-83e4-4662-a42a-110dba215572")
+			(uuid "1034ea95-1565-4fdb-b5d2-263edd067a65")
 		)
 		(pin "41"
-			(uuid "6a0a9182-11d6-41c0-8ae0-0c7304092d1e")
+			(uuid "f4c3601a-a19a-424d-a739-b41da2f7b0c2")
 		)
 		(pin "8"
-			(uuid "af258e6c-d5e4-44bc-82b3-01a0f6f53604")
+			(uuid "39a17957-1bd0-4d5b-a0ce-1e8dee78da00")
 		)
 		(pin "11"
-			(uuid "74649fdd-12a4-4190-afc9-2a2413cfdbab")
+			(uuid "c051bf8e-3d21-416b-8294-8d9ecdd78b22")
 		)
 		(pin "7"
-			(uuid "4d7c6de7-5062-4718-ba19-6258583c95b2")
+			(uuid "460cb7eb-493f-4b95-aa10-ab20db774a28")
 		)
 		(pin "12"
-			(uuid "2545f0b0-09da-4049-8ca6-7eef0662c8ac")
+			(uuid "17700df4-933d-4169-8e48-79dd740b3274")
 		)
 		(instances
-			(project ""
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "AC1")
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "AC2")
 					(unit 1)
 				)
 			)
@@ -6529,16 +4862,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 58.42 109.22 270)
+		(at 96.52 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d3febb0f-2453-423b-a50c-907fece93fc8")
-		(property "Reference" "#PWR026"
-			(at 52.07 109.22 0)
+		(uuid "2a494f9a-6c08-4ecf-8b61-d0a8ae80cf2b")
+		(property "Reference" "#PWR090"
+			(at 102.87 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6547,7 +4880,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 54.61 109.2199 90)
+			(at 100.33 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +4889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 109.22 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6565,7 +4898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 109.22 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6574,7 +4907,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 109.22 0)
+			(at 96.52 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6583,145 +4916,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ce55ab2-1099-4c1b-b150-9a531e1827c1")
+			(uuid "923855e4-9b27-4132-a2ee-d7363b47f83a")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 91.44 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc5a5576-e5c2-4b64-99a0-13c8bd94fdfd")
-		(property "Reference" "#PWR025"
-			(at 52.07 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 91.4399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "400b6272-d37a-4bea-aa4d-9a35ed62f794")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4598e86-adb5-41a1-9c0f-b4c877b47db9")
-		(property "Reference" "#PWR033"
-			(at 125.73 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c07f944f-d364-4b30-ad23-938f25b2fdfe")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR033")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -6729,15 +4929,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 195.58 100.33 180)
+		(at 198.12 101.6 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e9d5850e-6f90-4c3a-8d83-7804da66a61b")
-		(property "Reference" "R10"
-			(at 198.628 99.06 0)
+		(uuid "43172b81-fb24-4ec0-bc87-44ea3100ee5d")
+		(property "Reference" "R43"
+			(at 201.168 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +4945,7 @@
 			)
 		)
 		(property "Value" "3,09k"
-			(at 199.644 101.092 0)
+			(at 202.184 102.362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6753,7 +4953,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 197.358 100.33 90)
+			(at 199.898 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,7 +4962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 100.33 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6771,7 +4971,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 195.58 100.33 0)
+			(at 198.12 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6780,15 +4980,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6a82d0c-256c-4695-acb3-15b304a76209")
+			(uuid "77e18f5a-ee0b-49d5-bebc-cfe12ac0d4fa")
 		)
 		(pin "2"
-			(uuid "f5813414-5430-4a19-9b0d-065e0b1061a9")
+			(uuid "2b30db48-250b-486b-aca2-5254fe963aa0")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "R10")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -6796,16 +4996,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 104.14 0)
+		(at 60.96 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee7f601c-3b0a-48e3-b64b-3bd254500142")
-		(property "Reference" "#PWR034"
-			(at 171.45 110.49 0)
+		(uuid "4a9ba2d6-6eb9-41bc-93a5-290c4b61fa13")
+		(property "Reference" "#PWR084"
+			(at 54.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,15 +5014,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 109.22 0)
+			(at 57.15 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 104.14 0)
+			(at 60.96 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6831,7 +5032,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 104.14 0)
+			(at 60.96 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6840,7 +5041,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 104.14 0)
+			(at 60.96 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6849,357 +5050,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "65c18ee2-5ca4-437a-aa57-fd8b78f6560e")
+			(uuid "5a610aa1-740c-450b-adcd-f408ada46990")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:Heatsink")
-		(at 55.88 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2387983-aa8b-4a4f-b5aa-831777e76c77")
-		(property "Reference" "HS1"
-			(at 59.69 156.8449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "374524B60023G"
-			(at 59.69 159.3849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 56.1848 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 56.1848 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Heatsink"
-			(at 55.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "374524B60023G"
-			(at 55.88 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project ""
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "HS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 190.5 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2a83322-a47c-49aa-babf-d23f067eb699")
-		(property "Reference" "#PWR041"
-			(at 190.5 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 190.5 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d953e0f-e8fa-449e-bdb3-9fab2669f020")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 181.61 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f51dbe6e-d2eb-48d9-ab77-6428ec2b5d49")
-		(property "Reference" "R12"
-			(at 184.658 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NC"
-			(at 184.912 126.492 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 183.388 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1720a1fd-965e-4309-a66b-87841daab442")
-		)
-		(pin "2"
-			(uuid "85d54401-f2f5-4594-9081-b86c18287529")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 162.56 63.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f93fdbda-526e-4f4b-acff-dc7206779ce1")
-		(property "Reference" "C9"
-			(at 156.464 68.834 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.01 uF"
-			(at 155.956 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CAPC2012X94N"
-			(at 66.37 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
-			(at -33.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 162.56 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at -233.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -333.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
-			(at -433.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-0805DC104MAT2A"
-			(at -533.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
-			(at -633.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0805DC104MAT2A"
-			(at -733.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
-			(at -833.63 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8b9a32ab-6b16-49d4-8093-04d9060ba901")
-		)
-		(pin "1"
-			(uuid "d10a249e-bf5f-4bb2-b3ab-5e8fa47e2a88")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "C9")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -7207,15 +5063,15 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:UCH1V101MCS1GS")
-		(at 171.45 63.5 270)
+		(at 200.66 64.77 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fa55e81f-9f15-4d3d-83b1-f52009524328")
-		(property "Reference" "C10"
-			(at 177.292 69.088 90)
+		(uuid "4c072402-b146-457d-988a-e90e60a18b5a")
+		(property "Reference" "C85"
+			(at 206.502 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7223,7 +5079,7 @@
 			)
 		)
 		(property "Value" "100uF"
-			(at 177.8 71.374 90)
+			(at 207.01 72.644 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7231,7 +5087,7 @@
 			)
 		)
 		(property "Footprint" "CAPAE660X800N"
-			(at 75.26 72.39 0)
+			(at 104.47 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7241,7 +5097,7 @@
 			)
 		)
 		(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
-			(at -24.74 72.39 0)
+			(at 4.47 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7251,7 +5107,7 @@
 			)
 		)
 		(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
-			(at 171.45 63.5 0)
+			(at 200.66 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +5116,7 @@
 			)
 		)
 		(property "Height" "8"
-			(at -224.74 72.39 0)
+			(at -195.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7270,7 +5126,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nichicon"
-			(at -324.74 72.39 0)
+			(at -295.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7280,7 +5136,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
-			(at -424.74 72.39 0)
+			(at -395.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7290,7 +5146,7 @@
 			)
 		)
 		(property "Mouser Part Number" "647-UCH1V101MCS1GS"
-			(at -524.74 72.39 0)
+			(at -495.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7300,7 +5156,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
-			(at -624.74 72.39 0)
+			(at -595.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +5166,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -724.74 72.39 0)
+			(at -695.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +5176,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -824.74 72.39 0)
+			(at -795.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,15 +5186,2159 @@
 			)
 		)
 		(pin "1"
-			(uuid "01e21b3e-9a67-4ae3-9dde-516f4857d6d9")
+			(uuid "eb3ff746-022b-4218-98f1-54f90edbb70a")
 		)
 		(pin "2"
-			(uuid "06981b79-a44d-4f1d-a477-fb43e80e8cf4")
+			(uuid "93b72aa8-f219-45a4-a2f0-11e6b3039bfb")
 		)
 		(instances
 			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8"
-					(reference "C10")
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "C85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 195.58 52.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4d18ad28-3420-418e-a2d1-300df4eaa80c")
+		(property "Reference" "C84"
+			(at 190.754 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 191.008 59.182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 99.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at -0.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at -200.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -300.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+			(at -400.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805DC104MAT2A"
+			(at -500.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
+			(at -600.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0805DC104MAT2A"
+			(at -700.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
+			(at -800.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ab712ece-c0d3-46a7-afac-bf520214e7f9")
+		)
+		(pin "1"
+			(uuid "037aef90-fad1-496a-ac65-4fc2bfaef6dc")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "C84")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56107adb-5664-4bca-b069-88a2e8b480fd")
+		(property "Reference" "#PWR0101"
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "235aafd8-611a-4c7e-9878-2cc018df5281")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:UCH1V101MCS1GS")
+		(at 186.69 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "576b6d8d-53cb-4a58-8e74-5a38ea538cae")
+		(property "Reference" "C83"
+			(at 192.532 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 193.04 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPAE660X800N"
+			(at 90.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
+			(at -9.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
+			(at 186.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at -209.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nichicon"
+			(at -309.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
+			(at -409.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "647-UCH1V101MCS1GS"
+			(at -509.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
+			(at -609.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -709.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -809.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7da8933-4755-4a64-b582-9c2ef53d189e")
+		)
+		(pin "2"
+			(uuid "f3f73652-f5ae-425b-8567-6c3f61210aae")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "C83")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57756d59-0eff-4a0f-832d-8e923c983ae3")
+		(property "Reference" "#PWR095"
+			(at 173.99 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66eef5b7-cf09-46ac-a8c8-0c8c6930b9da")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "673f24dc-77a0-45a9-8b0b-67fea11053c1")
+		(property "Reference" "#PWR086"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "695abf68-ee54-4db4-b280-9f1c473fbbdf")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7162a98d-e36e-4c41-96c6-0d7dd32086f8")
+		(property "Reference" "#PWR093"
+			(at 168.91 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f616a86-380f-4a9b-9f77-9f8f85bfebb6")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 165.1 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79502fd6-3efa-4271-95e1-0dfb88f0d2ac")
+		(property "Reference" "C80"
+			(at 159.004 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.01 uF"
+			(at 158.496 72.898 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 68.91 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at -31.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
+			(at 165.1 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at -231.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at -331.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+			(at -431.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805DC104MAT2A"
+			(at -531.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
+			(at -631.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0805DC104MAT2A"
+			(at -731.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
+			(at -831.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef357c19-0c05-40fb-9167-b92c089123b5")
+		)
+		(pin "1"
+			(uuid "18472bc2-8600-43ff-834e-128d37785f72")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "C80")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82a9d119-908c-491a-9be9-a8c3d3e36a38")
+		(property "Reference" "#PWR085"
+			(at 54.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc39cbf4-65f8-40aa-8f37-4703e8e19b48")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 68.58 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85f723da-f02d-41eb-8ab2-47c54ca4f8b8")
+		(property "Reference" "R38"
+			(at 123.698 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 123.952 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.428 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fb96d31-296e-4f1d-91ac-dd14ddbef335")
+		)
+		(pin "2"
+			(uuid "2fea1043-e814-44f7-8b56-74f6d4a4e9d4")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "86727a7f-9daa-49e2-8aa2-67dee065f3ac")
+		(property "Reference" "R37"
+			(at 109.728 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 109.982 66.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 108.458 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e238c5cd-a01e-493a-a361-fc3fa0bd0314")
+		)
+		(pin "2"
+			(uuid "a86781b9-e2ec-441e-80cb-c2a23a5b5dc8")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 116.84 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87bff8e8-ce4a-4198-922e-5dee758a816b")
+		(property "Reference" "C79"
+			(at 121.666 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF/X7R"
+			(at 122.428 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 213.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at 313.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
+			(at 116.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 513.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 613.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+			(at 713.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805DC104MAT2A"
+			(at 813.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
+			(at 913.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0805DC104MAT2A"
+			(at 1013.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
+			(at 1113.03 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "73c3f527-a241-4983-bb44-5e5dc2b985ab")
+		)
+		(pin "1"
+			(uuid "68b842cb-0234-497d-b9f9-0f09b88d09e0")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 168.91 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9db24af2-1ca2-4910-b1b0-094efcb9d83d")
+		(property "Reference" "C81"
+			(at 173.736 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF/X7R"
+			(at 174.498 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC2012X94N"
+			(at 265.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
+			(at 365.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
+			(at 168.91 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 565.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Kyocera AVX"
+			(at 665.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+			(at 765.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-0805DC104MAT2A"
+			(at 865.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
+			(at 965.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "0805DC104MAT2A"
+			(at 1065.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
+			(at 1165.1 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ae63e04-5129-4846-b5b5-5fbb5082b1b3")
+		)
+		(pin "1"
+			(uuid "438bd37c-9955-4b51-9150-e5836e2eeafe")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys:39501-1002")
+		(at 248.92 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0d9535d-e4ae-4121-9fe9-8b6381793d42")
+		(property "Reference" "J13"
+			(at 265.43 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "39501-1002"
+			(at 265.43 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "395011002"
+			(at 265.43 181.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/2/39501-1002.pdf"
+			(at 265.43 281.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pluggable Terminal Blocks 3.5MM EURO HDR 02P VT CLOSED"
+			(at 248.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "9.6"
+			(at 265.43 481.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Molex"
+			(at 265.43 581.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39501-1002"
+			(at 265.43 681.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "538-39501-1002"
+			(at 265.43 781.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39501-1002?qs=sv5fFeGb%252BE57lLylXvB48A%3D%3D"
+			(at 265.43 881.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 265.43 981.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 265.43 1081.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fdf01dd-5c0e-48f5-9005-8886f800868b")
+		)
+		(pin "2"
+			(uuid "e3950c62-d95c-4766-bab3-a62a2dcbadbb")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 58.42 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b10c1c04-9144-4189-8849-85c9b9ee3c53")
+		(property "Reference" "HS3"
+			(at 62.23 158.1149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "374524B60023G"
+			(at 62.23 160.6549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.7248 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.7248 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 58.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "374524B60023G"
+			(at 58.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "HS3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:UCH1V101MCS1GS")
+		(at 173.99 64.77 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b57a01a6-6481-4dde-ab36-96f171266a0e")
+		(property "Reference" "C82"
+			(at 179.832 70.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 180.34 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPAE660X800N"
+			(at 77.8 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
+			(at -22.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
+			(at 173.99 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "8"
+			(at -222.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nichicon"
+			(at -322.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
+			(at -422.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "647-UCH1V101MCS1GS"
+			(at -522.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
+			(at -622.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at -722.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at -822.2 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dbb3c5b7-6ecb-4f87-a8f3-22a262b8d66e")
+		)
+		(pin "2"
+			(uuid "1e26767c-0096-4a57-a8cd-65303aa6d536")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "C82")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Bridged12")
+		(at 128.27 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b620fb12-18c4-4ead-afb6-ac3f8c922573")
+		(property "Reference" "JP9"
+			(at 130.81 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper"
+			(at 130.81 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6f6462b5-fff0-4611-8047-ae72c425749b")
+		)
+		(pin "3"
+			(uuid "bfa849a5-f91f-47d6-93f9-722a285ccf05")
+		)
+		(pin "1"
+			(uuid "0b3264e0-57d9-477a-a87c-3018a2142dfe")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "JP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6b0c943-aa5a-4848-8772-7cd051b28e41")
+		(property "Reference" "#PWR091"
+			(at 128.27 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe81b229-6fa0-4c3b-ae3a-c560052180e7")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:125700D00000G")
+		(at 49.53 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b903189c-b099-4d3d-bedd-9cf3c631e564")
+		(property "Reference" "U7"
+			(at 66.04 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "125700D00000G"
+			(at 66.04 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "125700D00000G"
+			(at 66.04 242.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/datasheet/2/2/Aavid-Board-Level-Heatsinks-Catalog-2018-1507171.pdf"
+			(at 66.04 342.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heat Sinks Solder Anchor, 3.61 n Thermal Resistance, 1.6mm PCB Thickness"
+			(at 49.53 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.19"
+			(at 66.04 542.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Aavid Thermalloy"
+			(at 66.04 642.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "125700D00000G"
+			(at 66.04 742.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "532-125700D00000G"
+			(at 66.04 842.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aavid/125700D00000G?qs=U7T%2FEnMyvTtVFmt9%2FDIChA%3D%3D"
+			(at 66.04 942.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "125700D00000G"
+			(at 66.04 1042.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/125700d00000g/aavid-thermalloy?region=europe"
+			(at 66.04 1142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e20adfb3-f280-40a5-83f3-49bf5a7c9cba")
+		)
+		(pin "1"
+			(uuid "79cce76f-d644-471c-b02e-97e01f3ba7c1")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 193.04 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cae1e219-0a55-49fe-8ad5-87ec65af9c59")
+		(property "Reference" "JP11"
+			(at 195.58 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 195.58 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 193.04 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "14e506c4-f8a9-431c-9ba4-38135cc251dc")
+		)
+		(pin "2"
+			(uuid "81cf4614-4ded-4905-964e-e3f6bedf7169")
+		)
+		(pin "1"
+			(uuid "fc4bc7e3-734e-417b-99cf-9799e0b492e4")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "JP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 110.49 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8176d83-7ba3-41a5-a31c-145bd1a7bf93")
+		(property "Reference" "#PWR088"
+			(at 54.61 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2cd380fa-71ee-48ed-a4f1-7cb5f67e6708")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 198.12 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df0f8201-c51f-4f17-8cc0-f20aa0054edf")
+		(property "Reference" "#PWR0100"
+			(at 198.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 198.12 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 198.12 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c067077-7e69-4442-bf4d-a80429f745f4")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:125700D00000G")
+		(at 49.53 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e81e6280-50b1-43c9-a735-cd74dfba7724")
+		(property "Reference" "U6"
+			(at 66.04 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "125700D00000G"
+			(at 66.04 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "125700D00000G"
+			(at 66.04 232.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.mouser.com/datasheet/2/2/Aavid-Board-Level-Heatsinks-Catalog-2018-1507171.pdf"
+			(at 66.04 332.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heat Sinks Solder Anchor, 3.61 n Thermal Resistance, 1.6mm PCB Thickness"
+			(at 49.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "7.19"
+			(at 66.04 532.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Aavid Thermalloy"
+			(at 66.04 632.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "125700D00000G"
+			(at 66.04 732.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "532-125700D00000G"
+			(at 66.04 832.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aavid/125700D00000G?qs=U7T%2FEnMyvTtVFmt9%2FDIChA%3D%3D"
+			(at 66.04 932.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "125700D00000G"
+			(at 66.04 1032.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/125700d00000g/aavid-thermalloy?region=europe"
+			(at 66.04 1132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2f524dc2-9c15-4129-b851-598205d3afe0")
+		)
+		(pin "1"
+			(uuid "3f6f47a3-a546-441a-bfa3-c3eb60efc94b")
+		)
+		(instances
+			(project "PCB"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "U6")
 					(unit 1)
 				)
 			)

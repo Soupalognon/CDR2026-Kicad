@@ -2304,7 +2304,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 22.86) (xy 256.54 22.86)
+			(xy 36.83 17.78) (xy 30.48 17.78)
 		)
 		(stroke
 			(width 0)
@@ -2623,12 +2623,12 @@
 		(uuid "93f6cf70-bf7a-42e8-b6ca-9a92c6126707")
 	)
 	(label "GPIO_ENABLE"
-		(at 250.19 22.86 180)
+		(at 36.83 17.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "9940e3d3-93d0-4c90-bdd9-99bd209b0488")
 	)
@@ -2712,7 +2712,7 @@
 		)
 		(uuid "fa8769d3-d1f5-4154-8e41-aceac562b9a8")
 	)
-	(hierarchical_label "24V"
+	(hierarchical_label "OUT"
 		(shape output)
 		(at 256.54 30.48 0)
 		(effects
@@ -2723,18 +2723,18 @@
 		)
 		(uuid "644b88c7-ab76-40dc-83b8-1218f8089e55")
 	)
-	(hierarchical_label "GPIO_ENABLE"
-		(shape output)
-		(at 256.54 22.86 0)
+	(hierarchical_label "GPIO_ENABLE_24V"
+		(shape input)
+		(at 30.48 17.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "83e787a9-bf8f-4cb9-af9c-1f29183d3286")
 	)
-	(hierarchical_label "IN_24V"
+	(hierarchical_label "IN"
 		(shape input)
 		(at 30.48 22.86 180)
 		(effects
@@ -3109,7 +3109,7 @@
 				)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "100k"
 			(at 249.936 85.09 0)
 			(effects
 				(font
