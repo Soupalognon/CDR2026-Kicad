@@ -467,6 +467,17 @@
 		)
 		(uuid "febe69cc-59ae-4a95-80b2-7278411b8aa4")
 	)
+	(hierarchical_label "SECONDARY_MOTOR[0..7]"
+		(shape bidirectional)
+		(at 48.26 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3bbe875e-5fba-4dfd-85aa-69c34c6a1f13")
+	)
 	(hierarchical_label "GPIO_PGOOD_24V"
 		(shape input)
 		(at 48.26 105.41 180)
@@ -480,7 +491,7 @@
 	)
 	(hierarchical_label "WHEEL[0..7]"
 		(shape bidirectional)
-		(at 48.26 93.98 180)
+		(at 48.26 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -491,7 +502,7 @@
 	)
 	(hierarchical_label "SERVO[0..6]"
 		(shape bidirectional)
-		(at 48.26 91.44 180)
+		(at 48.26 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -513,7 +524,7 @@
 	)
 	(hierarchical_label "ENCODER[0..3]"
 		(shape bidirectional)
-		(at 48.26 96.52 180)
+		(at 48.26 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -724,7 +735,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
-					(page "8")
+					(page "5")
 				)
 			)
 		)
@@ -856,7 +867,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
-					(page "9")
+					(page "4")
 				)
 			)
 		)
@@ -1106,7 +1117,7 @@
 			)
 		)
 		(pin "SERVO[0..6]" bidirectional
-			(at 48.26 91.44 180)
+			(at 48.26 83.82 180)
 			(uuid "ff7b005e-a1ed-499d-8810-e8c8a06d230d")
 			(effects
 				(font
@@ -1116,7 +1127,7 @@
 			)
 		)
 		(pin "WHEEL[0..7]" bidirectional
-			(at 48.26 93.98 180)
+			(at 48.26 86.36 180)
 			(uuid "5a5052d1-2724-4941-b435-96d990e9fc0d")
 			(effects
 				(font
@@ -1126,7 +1137,7 @@
 			)
 		)
 		(pin "ENCODER[0..3]" bidirectional
-			(at 48.26 96.52 180)
+			(at 48.26 88.9 180)
 			(uuid "f3914c56-df6a-4d38-9de3-b655311cca18")
 			(effects
 				(font
@@ -1155,10 +1166,20 @@
 				(justify left)
 			)
 		)
+		(pin "SECONDARY_MOTOR[0..7]" bidirectional
+			(at 48.26 91.44 180)
+			(uuid "60e3c3da-b5b7-4430-afa4-cedada3431de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616"
-					(page "10")
+					(page "3")
 				)
 			)
 		)

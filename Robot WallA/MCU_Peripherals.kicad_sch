@@ -8843,7 +8843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a2cd138-0d28-4acc-9195-590ac42ec3a6")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR017"
 			(at 219.71 34.29 0)
 			(effects
 				(font
@@ -8894,7 +8894,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR045")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8909,7 +8909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ab2aa01-987e-4cb8-9d9c-0132d47520c1")
-		(property "Reference" "R9"
+		(property "Reference" "R20"
 			(at 25.146 173.482 0)
 			(effects
 				(font
@@ -8925,7 +8925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 30.48 272.72 0)
 			(effects
 				(font
@@ -8954,68 +8954,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 30.48 572.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 30.48 672.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" ""
 			(at 30.48 772.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
-			(at 30.48 872.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 30.48 972.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW060310K0FKEI"
-			(at 30.48 1072.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
-			(at 30.48 1172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9033,7 +8973,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R9")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -9049,7 +8989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ccc68b6-e09c-43ac-a870-231e2eeabe1d")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR027"
 			(at 279.4 71.12 0)
 			(effects
 				(font
@@ -9101,7 +9041,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR053")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9117,7 +9057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f22a3f1-0a46-46be-847d-02a13ab05685")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR033"
 			(at 113.03 187.96 0)
 			(effects
 				(font
@@ -9168,7 +9108,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR039")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -9183,7 +9123,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11018701-2112-4dec-82f2-c0dd2fc27a02")
-		(property "Reference" "C19"
+		(property "Reference" "C25"
 			(at 172.212 115.57 0)
 			(effects
 				(font
@@ -9199,7 +9139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 72.72 118.11 0)
 			(effects
 				(font
@@ -9209,7 +9149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+		(property "Datasheet" ""
 			(at -27.28 118.11 0)
 			(effects
 				(font
@@ -9228,68 +9168,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.9"
-			(at -227.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at -327.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R7BB104"
+		(property "Manufacturer_Part_Number" ""
 			(at -427.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-CC603KRX7R7BB104"
-			(at -527.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R7BB104?qs=AgBp2OyFlx8KPmNTlFoWXA%3D%3D"
-			(at -627.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CC0603KRX7R7BB104"
-			(at -727.28 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc0603krx7r7bb104/yageo?utm_currency=USD&region=europe"
-			(at -827.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9307,7 +9187,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "C19")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -9322,7 +9202,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15b1885b-62fb-4d92-b0c7-85f21a9a7e37")
-		(property "Reference" "R28"
+		(property "Reference" "R2"
 			(at 223.012 22.606 0)
 			(effects
 				(font
@@ -9338,7 +9218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 221.488 24.13 90)
 			(effects
 				(font
@@ -9374,7 +9254,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R28")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -9390,7 +9270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b7d9b9-4a03-4b8c-8fa0-590d84bfa82f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR023"
 			(at 279.4 63.5 0)
 			(effects
 				(font
@@ -9442,7 +9322,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR050")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9457,7 +9337,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "192e4ad4-c023-4871-a7ca-797d9df2a6b1")
-		(property "Reference" "R15"
+		(property "Reference" "R4"
 			(at 57.15 54.61 0)
 			(effects
 				(font
@@ -9465,7 +9345,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50R"
 			(at 62.23 54.864 0)
 			(effects
 				(font
@@ -9473,7 +9353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 155.88 49.53 0)
 			(effects
 				(font
@@ -9502,68 +9382,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 455.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 555.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TNPW060350R0DEEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 655.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
-			(at 755.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW060350R0DEEA?qs=%252BXxaIXUDbq0Dy60vjyo7yg%3D%3D"
-			(at 855.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 955.88 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1055.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9581,7 +9401,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R15")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9596,7 +9416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e914819-fabf-4056-9f24-498089b8ae18")
-		(property "Reference" "C15"
+		(property "Reference" "C27"
 			(at 130.048 115.57 0)
 			(effects
 				(font
@@ -9612,7 +9432,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 229.54 113.03 0)
 			(effects
 				(font
@@ -9622,7 +9442,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+		(property "Datasheet" ""
 			(at 329.54 113.03 0)
 			(effects
 				(font
@@ -9641,68 +9461,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.9"
-			(at 529.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 629.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R7BB104"
+		(property "Manufacturer_Part_Number" ""
 			(at 729.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-CC603KRX7R7BB104"
-			(at 829.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R7BB104?qs=AgBp2OyFlx8KPmNTlFoWXA%3D%3D"
-			(at 929.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CC0603KRX7R7BB104"
-			(at 1029.54 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc0603krx7r7bb104/yageo?utm_currency=USD&region=europe"
-			(at 1129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9720,7 +9480,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "C15")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -9735,7 +9495,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2114e64c-0873-4e92-b16d-e5eea890efac")
-		(property "Reference" "R10"
+		(property "Reference" "R24"
 			(at 25.146 181.102 0)
 			(effects
 				(font
@@ -9751,7 +9511,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 30.48 280.34 0)
 			(effects
 				(font
@@ -9780,68 +9540,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 30.48 580.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 30.48 680.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" ""
 			(at 30.48 780.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
-			(at 30.48 880.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 30.48 980.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW060310K0FKEI"
-			(at 30.48 1080.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
-			(at 30.48 1180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9859,7 +9559,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R10")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -9875,7 +9575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2626acf5-4237-41f3-a280-b406b552ca9d")
-		(property "Reference" "C20"
+		(property "Reference" "C29"
 			(at 193.04 143.5099 90)
 			(effects
 				(font
@@ -9893,7 +9593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPC3216X145N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 285.42 142.24 0)
 			(effects
 				(font
@@ -9922,68 +9622,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.45"
-			(at 585.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 685.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC1206KKX7RDBB102"
+		(property "Manufacturer_Part_Number" ""
 			(at 785.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-CC206KKX7RDBB102"
-			(at 885.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CC1206KKX7RDBB102?qs=vTakOoo5QyK%2FBV1e3XHXiQ%3D%3D"
-			(at 985.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CC1206KKX7RDBB102"
-			(at 1085.42 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc1206kkx7rdbb102/yageo?utm_currency=USD&region=nac"
-			(at 1185.42 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10001,7 +9641,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "C20")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -10017,7 +9657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343fe53e-69cb-47de-b16c-0e44603dc7b9")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR020"
 			(at 233.68 53.34 0)
 			(effects
 				(font
@@ -10069,7 +9709,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR048")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10101,7 +9741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P940X597-16N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P940X597-16N"
 			(at 134.62 171.12 0)
 			(effects
 				(font
@@ -10130,68 +9770,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "5.97"
-			(at 134.62 471.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "PULSE"
-			(at 134.62 571.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "H1102NL"
 			(at 134.62 671.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "673-H1102NL"
-			(at 134.62 771.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Pulse-Electronics/H1102NL?qs=EKu32SdDin%2FHU33L94JZxw%3D%3D"
-			(at 134.62 871.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "H1102NL"
-			(at 134.62 971.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/h1102nl/pulse-electronics-corporation?utm_currency=USD&region=europe"
-			(at 134.62 1071.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10267,7 +9847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36bc99eb-992a-433e-8c86-e3db26606613")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR022"
 			(at 127 62.23 0)
 			(effects
 				(font
@@ -10318,7 +9898,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR040")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10333,7 +9913,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36bcf927-a069-4210-ac87-f6ebcc5fd199")
-		(property "Reference" "R8"
+		(property "Reference" "R19"
 			(at 25.146 165.862 0)
 			(effects
 				(font
@@ -10349,7 +9929,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 30.48 265.1 0)
 			(effects
 				(font
@@ -10378,68 +9958,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 30.48 565.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 30.48 665.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" ""
 			(at 30.48 765.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
-			(at 30.48 865.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 30.48 965.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW060310K0FKEI"
-			(at 30.48 1065.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
-			(at 30.48 1165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,7 +9977,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R8")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -10472,7 +9992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3e64e938-876b-4303-a5a4-56603b12325e")
-		(property "Reference" "IC3"
+		(property "Reference" "IC5"
 			(at 81.026 104.648 0)
 			(effects
 				(font
@@ -10488,7 +10008,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X100-25N-D"
+		(property "Footprint" "SamacSys_Parts:QFN50P400X400X100-25N-D"
 			(at 88.9 205.41 0)
 			(effects
 				(font
@@ -10517,68 +10037,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1"
-			(at 88.9 505.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Microchip"
-			(at 88.9 605.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "LAN8742A-CZ-TR"
 			(at 88.9 705.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "579-LAN8742A-CZ-TR"
-			(at 88.9 805.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/LAN8742A-CZ-TR?qs=6qKXPk0vzx0Y6uPCt7MXWw%3D%3D"
-			(at 88.9 905.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "LAN8742A-CZ-TR"
-			(at 88.9 1005.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lan8742a-cz-tr/microchip-technology?utm_currency=USD&region=nac"
-			(at 88.9 1105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10125,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "IC3")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -10680,7 +10140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40af0f97-a3a0-4e62-aa87-40ed7bf9b673")
-		(property "Reference" "R20"
+		(property "Reference" "R22"
 			(at 85.09 168.91 0)
 			(effects
 				(font
@@ -10688,7 +10148,7 @@
 				)
 			)
 		)
-		(property "Value" "1K5"
+		(property "Value" "1.5k"
 			(at 90.424 168.656 0)
 			(effects
 				(font
@@ -10696,7 +10156,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 183.82 163.83 0)
 			(effects
 				(font
@@ -10725,68 +10185,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 483.82 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 583.82 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06031K50FKED"
+		(property "Manufacturer_Part_Number" ""
 			(at 683.82 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 783.82 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 883.82 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW06031K50FKED"
-			(at 983.82 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw06031k50fked/vishay?region=nac"
-			(at 1083.82 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10804,7 +10204,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R20")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10819,7 +10219,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45f7ef1e-991b-4f96-9f7c-a20d0b80a4ea")
-		(property "Reference" "R12"
+		(property "Reference" "R6"
 			(at 53.34 63.5 0)
 			(effects
 				(font
@@ -10827,7 +10227,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50R"
 			(at 58.42 63.754 0)
 			(effects
 				(font
@@ -10835,7 +10235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 152.07 58.42 0)
 			(effects
 				(font
@@ -10864,68 +10264,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 452.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 552.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TNPW060350R0DEEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 652.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
-			(at 752.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW060350R0DEEA?qs=%252BXxaIXUDbq0Dy60vjyo7yg%3D%3D"
-			(at 852.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 952.07 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1052.07 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10943,7 +10283,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R12")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10959,7 +10299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "487de0fa-168e-4d95-a750-40c208d92132")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR032"
 			(at 189.23 167.64 0)
 			(effects
 				(font
@@ -11010,7 +10350,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR044")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11026,7 +10366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4992d5c5-d107-44b3-bd40-53e0b70b23fa")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR026"
 			(at 279.4 68.58 0)
 			(effects
 				(font
@@ -11078,7 +10418,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR052")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -11094,7 +10434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e9022b5-e8b8-450e-8296-ef87fdc5e311")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR018"
 			(at 227.33 34.29 0)
 			(effects
 				(font
@@ -11145,7 +10485,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR046")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -11160,7 +10500,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "51c87356-6fe5-4d0b-8fe5-d6b449c4a503")
-		(property "Reference" "R29"
+		(property "Reference" "R12"
 			(at 221.488 118.11 90)
 			(effects
 				(font
@@ -11169,7 +10509,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "75R"
 			(at 215.392 118.11 90)
 			(effects
 				(font
@@ -11178,7 +10518,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 315.9 113.03 0)
 			(effects
 				(font
@@ -11207,68 +10547,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 615.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 715.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-0775RL"
+		(property "Manufacturer_Part_Number" ""
 			(at 815.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-0775RL"
-			(at 915.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-0775RL?qs=NEN%2FsE%2FLsvOyCMLfQoUEYg%3D%3D"
-			(at 1015.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-0775RL"
-			(at 1115.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-0775rl/yageo?region=europe"
-			(at 1215.9 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11286,7 +10566,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R29")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11302,7 +10582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58503691-1f2c-4aef-88cc-0340e3157841")
-		(property "Reference" "C14"
+		(property "Reference" "C31"
 			(at 129.54 170.1799 90)
 			(effects
 				(font
@@ -11320,7 +10600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 29.54 173.99 0)
 			(effects
 				(font
@@ -11349,68 +10629,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.9"
-			(at -270.46 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at -370.46 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC0603KRX5R7BB105"
+		(property "Manufacturer_Part_Number" ""
 			(at -470.46 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-CC603KRX5R7BB105"
-			(at -570.46 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX5R7BB105?qs=GgnqJ2f3nHgfglcojISamw%3D%3D"
-			(at -670.46 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CC0603KRX5R7BB105"
-			(at -770.46 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc0603krx5r7bb105/yageo?utm_currency=USD&region=europe"
-			(at -870.46 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +10648,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "C14")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -11444,7 +10664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58e18f2a-6f18-42f2-b5ab-ff4f8453ee08")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR030"
 			(at 168.91 134.62 0)
 			(effects
 				(font
@@ -11495,7 +10715,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR042")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -11511,7 +10731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a7781b1-6be5-4ede-af42-c3be2d292596")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR025"
 			(at 233.68 68.58 0)
 			(effects
 				(font
@@ -11563,7 +10783,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR049")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11579,7 +10799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6254f2fe-c3aa-42d2-82e2-05a33d85a495")
-		(property "Reference" "J20"
+		(property "Reference" "J3"
 			(at 194.31 69.85 0)
 			(effects
 				(font
@@ -11595,7 +10815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SS90000009"
+		(property "Footprint" "SamacSys_Parts:SS90000009"
 			(at 205.74 172.39 0)
 			(effects
 				(font
@@ -11624,68 +10844,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "13.38"
-			(at 205.74 472.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Bel"
-			(at 205.74 572.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "SS-90000-009"
 			(at 205.74 672.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 205.74 772.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 205.74 872.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 205.74 972.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 205.74 1072.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11739,7 +10899,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "J20")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11754,7 +10914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74f5bfb7-0954-4fb3-b5aa-b2ffbfcc1d27")
-		(property "Reference" "R26"
+		(property "Reference" "R11"
 			(at 211.328 118.11 90)
 			(effects
 				(font
@@ -11763,7 +10923,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "75R"
 			(at 205.232 118.11 90)
 			(effects
 				(font
@@ -11772,7 +10932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 305.74 113.03 0)
 			(effects
 				(font
@@ -11801,68 +10961,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 605.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 705.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-0775RL"
+		(property "Manufacturer_Part_Number" ""
 			(at 805.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-0775RL"
-			(at 905.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-0775RL?qs=NEN%2FsE%2FLsvOyCMLfQoUEYg%3D%3D"
-			(at 1005.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-0775RL"
-			(at 1105.74 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-0775rl/yageo?region=europe"
-			(at 1205.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11880,7 +10980,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R26")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -11896,7 +10996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b8948d7-7b20-488a-893d-802022bdaff3")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR031"
 			(at 234.95 166.37 0)
 			(effects
 				(font
@@ -11947,7 +11047,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR047")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -11962,7 +11062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "891a11b4-39d3-4ae2-8efd-3996a1f156b7")
-		(property "Reference" "R14"
+		(property "Reference" "R25"
 			(at 54.356 175.26 0)
 			(effects
 				(font
@@ -11970,7 +11070,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "33R"
 			(at 59.944 175.26 0)
 			(effects
 				(font
@@ -11978,7 +11078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.34 170.18 0)
 			(effects
 				(font
@@ -12007,68 +11107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 453.34 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 553.34 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRG0603F33R"
+		(property "Manufacturer_Part_Number" ""
 			(at 653.34 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "279-CRG0603F33R"
-			(at 753.34 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0603F33R?qs=VHcS2MTj4gbr%2F4h49h58wA%3D%3D"
-			(at 853.34 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 953.34 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1053.34 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12086,7 +11126,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R14")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -12102,7 +11142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d506af4-e9b3-46d9-963c-3a3c0e78f482")
-		(property "Reference" "FB1"
+		(property "Reference" "FB2"
 			(at 128.27 40.6399 0)
 			(effects
 				(font
@@ -12111,7 +11151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BEAD"
+		(property "Value" "Bead 600R"
 			(at 128.27 43.1799 0)
 			(effects
 				(font
@@ -12120,7 +11160,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BEADC1608X95N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 128.27 135.56 0)
 			(effects
 				(font
@@ -12149,68 +11189,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.95"
-			(at 128.27 435.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TAITEC"
-			(at 128.27 535.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "FCM1608KF-601T05"
+		(property "Manufacturer_Part_Number" "FCM 1608KF-601T03"
 			(at 128.27 635.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 128.27 735.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 128.27 835.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 128.27 935.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 128.27 1035.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12228,7 +11208,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "FB1")
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -12239,27 +11219,28 @@
 		(at 210.82 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "8ea107cf-e597-4b1d-b785-4edd9882062d")
-		(property "Reference" "JP2"
-			(at 213.106 157.48 0)
+		(property "Reference" "JP5"
+			(at 210.82 161.544 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
-			(at 211.328 161.29 0)
+		(property "Value" "SolderJumper"
+			(at 212.09 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 210.82 160.02 0)
 			(effects
 				(font
@@ -12295,7 +11276,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "JP2")
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -12310,7 +11291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9033dfd4-a299-49ce-94f2-719d5e823781")
-		(property "Reference" "C18"
+		(property "Reference" "C28"
 			(at 152.908 115.57 0)
 			(effects
 				(font
@@ -12326,7 +11307,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 252.4 113.03 0)
 			(effects
 				(font
@@ -12336,7 +11317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+		(property "Datasheet" ""
 			(at 352.4 113.03 0)
 			(effects
 				(font
@@ -12355,68 +11336,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.9"
-			(at 552.4 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 652.4 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R7BB104"
+		(property "Manufacturer_Part_Number" ""
 			(at 752.4 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-CC603KRX7R7BB104"
-			(at 852.4 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R7BB104?qs=AgBp2OyFlx8KPmNTlFoWXA%3D%3D"
-			(at 952.4 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CC0603KRX7R7BB104"
-			(at 1052.4 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc0603krx7r7bb104/yageo?utm_currency=USD&region=europe"
-			(at 1152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12434,7 +11355,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "C18")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -12450,7 +11371,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91804c8d-002d-4d3d-b798-7e0854aa3b54")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR029"
 			(at 123.19 129.54 0)
 			(effects
 				(font
@@ -12501,7 +11422,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR041")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -12533,7 +11454,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-6N"
 			(at 100.33 154.61 0)
 			(effects
 				(font
@@ -12562,68 +11483,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.45"
-			(at 100.33 454.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 100.33 554.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "USBLC6-4SC6"
 			(at 100.33 654.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-USBLC6-4SC6"
-			(at 100.33 754.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-4SC6?qs=k9dH%2Fx4GHJCNdehb8zInZg%3D%3D"
-			(at 100.33 854.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "USBLC6-4SC6"
-			(at 100.33 954.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/usblc6-4sc6/stmicroelectronics?utm_currency=USD&region=nac"
-			(at 100.33 1054.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12668,7 +11529,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9317b52d-2cbb-495e-801a-5f1d6f6c6244")
-		(property "Reference" "C13"
+		(property "Reference" "C26"
 			(at 119.888 115.57 0)
 			(effects
 				(font
@@ -12684,7 +11545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 219.38 113.03 0)
 			(effects
 				(font
@@ -12694,7 +11555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+		(property "Datasheet" ""
 			(at 319.38 113.03 0)
 			(effects
 				(font
@@ -12713,68 +11574,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.9"
-			(at 519.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 619.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R7BB104"
+		(property "Manufacturer_Part_Number" ""
 			(at 719.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-CC603KRX7R7BB104"
-			(at 819.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R7BB104?qs=AgBp2OyFlx8KPmNTlFoWXA%3D%3D"
-			(at 919.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CC0603KRX7R7BB104"
-			(at 1019.38 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc0603krx7r7bb104/yageo?utm_currency=USD&region=europe"
-			(at 1119.38 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12792,7 +11593,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "C13")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -12807,7 +11608,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b6cc8de-5cf6-4c8d-bcf3-1e17ff792831")
-		(property "Reference" "R21"
+		(property "Reference" "R13"
 			(at 110.49 125.73 0)
 			(effects
 				(font
@@ -12815,7 +11616,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "0R"
 			(at 110.49 131.064 0)
 			(effects
 				(font
@@ -12823,7 +11624,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 115.57 224.46 0)
 			(effects
 				(font
@@ -12852,68 +11653,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 115.57 524.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 115.57 624.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW06030000Z0EI"
+		(property "Manufacturer_Part_Number" ""
 			(at 115.57 724.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW06030000Z0EI"
-			(at 115.57 824.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06030000Z0EI?qs=%252B6g0mu59x7L7KQG%252Bwwt0jQ%3D%3D"
-			(at 115.57 924.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW06030000Z0EI"
-			(at 115.57 1024.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw06030000z0ei/vishay?utm_currency=USD&region=nac"
-			(at 115.57 1124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12931,7 +11672,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R21")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -12946,7 +11687,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d860eba-f7c1-4be7-b9f7-a731f1ea6432")
-		(property "Reference" "R25"
+		(property "Reference" "R10"
 			(at 201.168 118.11 90)
 			(effects
 				(font
@@ -12955,7 +11696,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "75R"
 			(at 195.072 118.11 90)
 			(effects
 				(font
@@ -12964,7 +11705,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 295.58 113.03 0)
 			(effects
 				(font
@@ -12993,68 +11734,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 595.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 695.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-0775RL"
+		(property "Manufacturer_Part_Number" ""
 			(at 795.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-0775RL"
-			(at 895.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-0775RL?qs=NEN%2FsE%2FLsvOyCMLfQoUEYg%3D%3D"
-			(at 995.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-0775RL"
-			(at 1095.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-0775rl/yageo?region=europe"
-			(at 1195.58 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13072,7 +11753,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R25")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -13088,7 +11769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8d9dae6-74fd-4ea2-af42-935fe77b8c81")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR021"
 			(at 69.85 62.23 0)
 			(effects
 				(font
@@ -13139,7 +11820,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR038")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -13154,7 +11835,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0e783c8-d6f9-4e2c-8d83-d0b6ca9b9ce8")
-		(property "Reference" "C16"
+		(property "Reference" "C32"
 			(at 135.128 171.45 0)
 			(effects
 				(font
@@ -13170,7 +11851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 234.62 168.91 0)
 			(effects
 				(font
@@ -13180,7 +11861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+		(property "Datasheet" ""
 			(at 334.62 168.91 0)
 			(effects
 				(font
@@ -13199,68 +11880,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.9"
-			(at 534.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 634.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R7BB104"
+		(property "Manufacturer_Part_Number" ""
 			(at 734.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-CC603KRX7R7BB104"
-			(at 834.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R7BB104?qs=AgBp2OyFlx8KPmNTlFoWXA%3D%3D"
-			(at 934.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CC0603KRX7R7BB104"
-			(at 1034.62 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc0603krx7r7bb104/yageo?utm_currency=USD&region=europe"
-			(at 1134.62 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13278,7 +11899,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "C16")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -13293,7 +11914,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3174052-ddfe-4f0b-b85a-aceb5ee8a5fc")
-		(property "Reference" "R16"
+		(property "Reference" "R7"
 			(at 60.96 63.5 0)
 			(effects
 				(font
@@ -13301,7 +11922,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50R"
 			(at 66.04 63.754 0)
 			(effects
 				(font
@@ -13309,7 +11930,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 159.69 58.42 0)
 			(effects
 				(font
@@ -13338,68 +11959,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 459.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 559.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TNPW060350R0DEEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 659.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
-			(at 759.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW060350R0DEEA?qs=%252BXxaIXUDbq0Dy60vjyo7yg%3D%3D"
-			(at 859.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 959.69 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1059.69 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13417,7 +11978,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R16")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -13428,27 +11989,28 @@
 		(at 210.82 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "bb7549de-45c2-4e3e-baf1-e260994273a5")
-		(property "Reference" "JP1"
-			(at 213.106 153.67 0)
+		(property "Reference" "JP4"
+			(at 210.82 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Open"
+		(property "Value" "SolderJumper"
 			(at 211.328 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 210.82 156.21 0)
 			(effects
 				(font
@@ -13484,7 +12046,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "JP1")
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -13499,7 +12061,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc026a56-e248-4e15-b0df-2abb116fdf4b")
-		(property "Reference" "R22"
+		(property "Reference" "R14"
 			(at 110.49 133.096 0)
 			(effects
 				(font
@@ -13507,7 +12069,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "33R"
 			(at 110.49 138.684 0)
 			(effects
 				(font
@@ -13515,7 +12077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 115.57 232.08 0)
 			(effects
 				(font
@@ -13544,68 +12106,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 115.57 532.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 115.57 632.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRG0603F33R"
+		(property "Manufacturer_Part_Number" ""
 			(at 115.57 732.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "279-CRG0603F33R"
-			(at 115.57 832.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0603F33R?qs=VHcS2MTj4gbr%2F4h49h58wA%3D%3D"
-			(at 115.57 932.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 115.57 1032.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 115.57 1132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13623,7 +12125,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R22")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13639,7 +12141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc1b0ea0-1ff3-49f3-b723-d13eaa6307e5")
-		(property "Reference" "C12"
+		(property "Reference" "C30"
 			(at 116.84 170.1799 90)
 			(effects
 				(font
@@ -13657,7 +12159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 16.84 173.99 0)
 			(effects
 				(font
@@ -13686,68 +12188,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.9"
-			(at -283.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at -383.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC0603JRNPO9BN471"
+		(property "Manufacturer_Part_Number" ""
 			(at -483.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-C0603JRNPO9BN471"
-			(at -583.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603JRNPO9BN471?qs=AgBp2OyFlx9uIuxyIqUPWA%3D%3D"
-			(at -683.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -783.16 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -883.16 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13765,7 +12207,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "C12")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -13781,7 +12223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf533afc-e315-41ff-9cd6-4be8391f4c92")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR028"
 			(at 57.15 78.74 0)
 			(effects
 				(font
@@ -13832,7 +12274,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR036")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13847,7 +12289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0511f79-9828-4b7a-a1e9-2bdea9f5a655")
-		(property "Reference" "R27"
+		(property "Reference" "R15"
 			(at 219.964 138.938 0)
 			(effects
 				(font
@@ -13856,7 +12298,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "270R"
 			(at 214.376 138.938 0)
 			(effects
 				(font
@@ -13865,7 +12307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 313.36 135.89 0)
 			(effects
 				(font
@@ -13894,68 +12336,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 613.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 713.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-07270RL"
+		(property "Manufacturer_Part_Number" ""
 			(at 813.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-07270RL"
-			(at 913.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-07270RL?qs=diQw95jMAePl%252BPNr4oNP6Q%3D%3D"
-			(at 1013.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-07270RL"
-			(at 1113.36 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07270rl/yageo?region=nac"
-			(at 1213.36 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13973,7 +12355,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R27")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -13988,7 +12370,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c23bc8a9-d716-4dd1-b2a6-41a93658e9ec")
-		(property "Reference" "R30"
+		(property "Reference" "R16"
 			(at 223.012 141.224 0)
 			(effects
 				(font
@@ -14004,7 +12386,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 322.25 135.89 0)
 			(effects
 				(font
@@ -14033,68 +12415,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 622.25 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 722.25 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" ""
 			(at 822.25 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
-			(at 922.25 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 1022.25 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW060310K0FKEI"
-			(at 1122.25 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
-			(at 1222.25 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14112,7 +12434,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R30")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -14128,7 +12450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c44309a5-af87-4c9e-98ff-2fd6c12b3c9d")
-		(property "Reference" "IC5"
+		(property "Reference" "IC3"
 			(at 203.2 39.37 0)
 			(effects
 				(font
@@ -14144,7 +12466,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "SamacSys_Parts:SOT95P280X145-6N"
 			(at 213.36 141.91 0)
 			(effects
 				(font
@@ -14173,68 +12495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.45"
-			(at 213.36 441.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 213.36 541.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "USBLC6-4SC6"
 			(at 213.36 641.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "511-USBLC6-4SC6"
-			(at 213.36 741.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/USBLC6-4SC6?qs=k9dH%2Fx4GHJCNdehb8zInZg%3D%3D"
-			(at 213.36 841.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "USBLC6-4SC6"
-			(at 213.36 941.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/usblc6-4sc6/stmicroelectronics?utm_currency=USD&region=nac"
-			(at 213.36 1041.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14264,7 +12526,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "IC5")
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -14280,7 +12542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c60f2bea-274c-4e05-94a9-bc3bbeba8172")
-		(property "Reference" "J21"
+		(property "Reference" "J2"
 			(at 256.54 45.72 0)
 			(effects
 				(font
@@ -14296,7 +12558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "USB421603A"
+		(property "Footprint" "SamacSys_Parts:USB421603A"
 			(at 269.24 148.26 0)
 			(effects
 				(font
@@ -14325,68 +12587,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" ""
-			(at 269.24 448.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "GCT (GLOBAL CONNECTOR TECHNOLOGY)"
-			(at 269.24 548.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "USB4216-03-A"
 			(at 269.24 648.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "640-USB4216-03-A"
-			(at 269.24 748.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/GCT/USB4216-03-A?qs=Tc%252BHE9vUsnv1G2UWLFIexA%3D%3D"
-			(at 269.24 848.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 269.24 948.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 269.24 1048.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14446,7 +12648,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "J21")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -14461,7 +12663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caafa5ed-fb4d-49d2-bdd4-56405f790d60")
-		(property "Reference" "R11"
+		(property "Reference" "R21"
 			(at 46.736 167.64 0)
 			(effects
 				(font
@@ -14469,7 +12671,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "33R"
 			(at 52.324 167.64 0)
 			(effects
 				(font
@@ -14477,7 +12679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 145.72 162.56 0)
 			(effects
 				(font
@@ -14506,68 +12708,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 445.72 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at 545.72 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRG0603F33R"
+		(property "Manufacturer_Part_Number" ""
 			(at 645.72 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "279-CRG0603F33R"
-			(at 745.72 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0603F33R?qs=VHcS2MTj4gbr%2F4h49h58wA%3D%3D"
-			(at 845.72 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 945.72 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1045.72 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14585,7 +12727,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R11")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -14601,7 +12743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb7aeb80-57cd-4467-8922-d2cbf1749563")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR024"
 			(at 279.4 66.04 0)
 			(effects
 				(font
@@ -14653,7 +12795,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR051")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14684,7 +12826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 197.79 163.83 0)
 			(effects
 				(font
@@ -14713,68 +12855,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 497.79 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 597.79 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" ""
 			(at 697.79 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
-			(at 797.79 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 897.79 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW060310K0FKEI"
-			(at 997.79 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
-			(at 1097.79 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14807,7 +12889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4440dba-c2b4-4048-ac4e-5fd38b411df1")
-		(property "Reference" "R17"
+		(property "Reference" "R26"
 			(at 61.722 175.514 0)
 			(effects
 				(font
@@ -14823,7 +12905,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 160.96 170.18 0)
 			(effects
 				(font
@@ -14852,68 +12934,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
-			(at 460.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 560.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRCW060310K0FKEI"
+		(property "Manufacturer_Part_Number" ""
 			(at 660.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CRCW060310K0FKEI"
-			(at 760.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW060310K0FKEI?qs=3qWEzBg5KnKofE%252B8acPBRA%3D%3D"
-			(at 860.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CRCW060310K0FKEI"
-			(at 960.96 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/crcw060310k0fkei/vishay?utm_currency=USD&region=nac"
-			(at 1060.96 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14931,7 +12953,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R17")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -14946,7 +12968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4a1fb4c-750d-4b72-94d4-08bc5593fee7")
-		(property "Reference" "R13"
+		(property "Reference" "R8"
 			(at 54.356 94.234 0)
 			(effects
 				(font
@@ -14954,7 +12976,7 @@
 				)
 			)
 		)
-		(property "Value" "12K1"
+		(property "Value" "12.1k"
 			(at 59.944 94.234 0)
 			(effects
 				(font
@@ -14962,7 +12984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1609X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.34 88.9 0)
 			(effects
 				(font
@@ -14991,68 +13013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 453.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 553.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-P03F1212V"
+		(property "Manufacturer_Part_Number" ""
 			(at 653.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ERJ-P03F1212V"
-			(at 753.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P03F1212V?qs=18kBAoNi3c8cWfKXlKmFJQ%3D%3D"
-			(at 853.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 953.34 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1053.34 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15070,7 +13032,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R13")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -15085,7 +13047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7725144-cba2-430c-8481-239aa5dbc521")
-		(property "Reference" "R32"
+		(property "Reference" "R17"
 			(at 237.744 138.938 0)
 			(effects
 				(font
@@ -15094,7 +13056,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "270R"
 			(at 232.156 138.938 0)
 			(effects
 				(font
@@ -15103,7 +13065,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 331.14 135.89 0)
 			(effects
 				(font
@@ -15132,68 +13094,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 631.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 731.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-07270RL"
+		(property "Manufacturer_Part_Number" ""
 			(at 831.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-07270RL"
-			(at 931.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Yageo/RC0603FR-07270RL?qs=diQw95jMAePl%252BPNr4oNP6Q%3D%3D"
-			(at 1031.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-07270RL"
-			(at 1131.14 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-07270rl/yageo?region=nac"
-			(at 1231.14 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15211,7 +13113,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R32")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -15226,7 +13128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d81745fc-6fef-4940-be83-04059aa9a226")
-		(property "Reference" "R18"
+		(property "Reference" "R5"
 			(at 64.77 54.61 0)
 			(effects
 				(font
@@ -15234,7 +13136,7 @@
 				)
 			)
 		)
-		(property "Value" "50"
+		(property "Value" "50R"
 			(at 69.85 54.864 0)
 			(effects
 				(font
@@ -15242,7 +13144,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 163.5 49.53 0)
 			(effects
 				(font
@@ -15271,68 +13173,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 463.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 563.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TNPW060350R0DEEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 663.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-TNPW060350R0DEEA"
-			(at 763.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/TNPW060350R0DEEA?qs=%252BXxaIXUDbq0Dy60vjyo7yg%3D%3D"
-			(at 863.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 963.5 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 1063.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15350,7 +13192,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R18")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15365,7 +13207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dcb0199d-da5e-43cf-984a-80187e1144a0")
-		(property "Reference" "C17"
+		(property "Reference" "C24"
 			(at 146.05 114.2999 90)
 			(effects
 				(font
@@ -15383,7 +13225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CAPPM3216X180N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 46.05 118.11 0)
 			(effects
 				(font
@@ -15412,68 +13254,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.8"
-			(at -253.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -353.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TAJA106K016R"
+		(property "Manufacturer_Part_Number" ""
 			(at -453.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at -553.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/TAJA106K016R?qs=Nxq7uuo%252ByTl%252BA3Mq7Lq9Dg%3D%3D"
-			(at -653.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -753.95 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -853.95 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15491,7 +13273,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "C17")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -15506,7 +13288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e383e1a4-170d-4927-b96f-6eb35c36a6bb")
-		(property "Reference" "R24"
+		(property "Reference" "R9"
 			(at 191.008 118.11 90)
 			(effects
 				(font
@@ -15515,7 +13297,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "75"
+		(property "Value" "75R"
 			(at 184.912 118.11 90)
 			(effects
 				(font
@@ -15524,7 +13306,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 285.42 113.03 0)
 			(effects
 				(font
@@ -15553,68 +13335,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at 585.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "KEMET"
-			(at 685.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0603FR-0775RL"
+		(property "Manufacturer_Part_Number" ""
 			(at 785.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-RC0603FR-0775RL"
-			(at 885.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/RC0603FR-0775RL?qs=NEN%2FsE%2FLsvOyCMLfQoUEYg%3D%3D"
-			(at 985.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "RC0603FR-0775RL"
-			(at 1085.42 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/rc0603fr-0775rl/yageo?region=europe"
-			(at 1185.42 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15632,7 +13354,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R24")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -15648,7 +13370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e462df65-4ac6-4c2f-94ad-8e6b0bea9678")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR034"
 			(at 64.77 190.5 0)
 			(effects
 				(font
@@ -15699,7 +13421,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR037")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15714,7 +13436,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eb9c8a2f-6e09-4d36-acb3-0fcd370169d7")
-		(property "Reference" "C11"
+		(property "Reference" "C23"
 			(at 114.3 58.928 0)
 			(effects
 				(font
@@ -15730,7 +13452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC1608X90N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 116.84 158.42 0)
 			(effects
 				(font
@@ -15740,7 +13462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/en/Chart/Download/pdf/CC0603KRX7R7BB104"
+		(property "Datasheet" ""
 			(at 116.84 258.42 0)
 			(effects
 				(font
@@ -15759,68 +13481,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.9"
-			(at 116.84 458.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "YAGEO"
-			(at 116.84 558.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CC0603KRX7R7BB104"
+		(property "Manufacturer_Part_Number" ""
 			(at 116.84 658.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "603-CC603KRX7R7BB104"
-			(at 116.84 758.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/YAGEO/CC0603KRX7R7BB104?qs=AgBp2OyFlx8KPmNTlFoWXA%3D%3D"
-			(at 116.84 858.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "CC0603KRX7R7BB104"
-			(at 116.84 958.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cc0603krx7r7bb104/yageo?utm_currency=USD&region=europe"
-			(at 116.84 1058.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15838,7 +13500,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "C11")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -15853,7 +13515,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ec33f52b-d91b-4f2f-9cb5-a25585a12e83")
-		(property "Reference" "R31"
+		(property "Reference" "R3"
 			(at 230.632 22.606 0)
 			(effects
 				(font
@@ -15869,7 +13531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 229.108 24.13 90)
 			(effects
 				(font
@@ -15905,7 +13567,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R31")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -15920,7 +13582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f33c2b7c-292f-498c-b823-6cc88620e739")
-		(property "Reference" "R19"
+		(property "Reference" "R18"
 			(at 75.184 175.26 0)
 			(effects
 				(font
@@ -15928,7 +13590,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "33R"
 			(at 69.596 175.26 0)
 			(effects
 				(font
@@ -15936,7 +13598,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at -23.8 180.34 0)
 			(effects
 				(font
@@ -15965,68 +13627,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.55"
-			(at -323.8 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "TE Connectivity"
-			(at -423.8 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CRG0603F33R"
+		(property "Manufacturer_Part_Number" ""
 			(at -523.8 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "279-CRG0603F33R"
-			(at -623.8 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Holsworthy/CRG0603F33R?qs=VHcS2MTj4gbr%2F4h49h58wA%3D%3D"
-			(at -723.8 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -823.8 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -923.8 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16044,7 +13646,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "R19")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -16060,7 +13662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f59be752-42ec-4f6a-9bca-15664b31b78f")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR019"
 			(at 182.88 49.53 0)
 			(effects
 				(font
@@ -16111,7 +13713,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#PWR043")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -16127,7 +13729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa7e553b-e740-413f-b5e6-cbec1a13cdd8")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG01"
 			(at 187.325 160.02 0)
 			(effects
 				(font
@@ -16179,7 +13781,7 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/6ae8cb66-0d01-49c6-940e-175426e825e5"
-					(reference "#FLG02")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)

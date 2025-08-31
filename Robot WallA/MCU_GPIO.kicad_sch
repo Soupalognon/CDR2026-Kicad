@@ -10140,7 +10140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c9d1865-15eb-49a0-8279-475e50e1a588")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR041"
 			(at 88.9 33.02 0)
 			(effects
 				(font
@@ -10191,7 +10191,7 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/bbbc8572-1c1d-475a-b954-9d9deb469a14"
-					(reference "#PWR028")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10207,7 +10207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e981ff-e14b-4bef-949a-57832a5b8484")
-		(property "Reference" "J19"
+		(property "Reference" "J5"
 			(at 213.36 24.13 0)
 			(effects
 				(font
@@ -10478,7 +10478,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/bbbc8572-1c1d-475a-b954-9d9deb469a14"
-					(reference "J19")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -10494,7 +10494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "706b3198-6323-48fe-95e8-c5b418d181fb")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR043"
 			(at 226.06 114.3 0)
 			(effects
 				(font
@@ -10545,7 +10545,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/bbbc8572-1c1d-475a-b954-9d9deb469a14"
-					(reference "#PWR033")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -10561,7 +10561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71e2276e-99ee-4e2e-8231-6951ca8d236f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR047"
 			(at 88.9 121.92 0)
 			(effects
 				(font
@@ -10612,7 +10612,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/bbbc8572-1c1d-475a-b954-9d9deb469a14"
-					(reference "#PWR029")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10628,7 +10628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81d3cf92-4e18-4751-b36e-a5b62ce112a8")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR044"
 			(at 200.66 116.84 0)
 			(effects
 				(font
@@ -10679,7 +10679,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/bbbc8572-1c1d-475a-b954-9d9deb469a14"
-					(reference "#PWR031")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -10695,7 +10695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85133ff4-388b-41c7-8367-077501efeb58")
-		(property "Reference" "J18"
+		(property "Reference" "J6"
 			(at 76.2 26.67 0)
 			(effects
 				(font
@@ -10966,7 +10966,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/bbbc8572-1c1d-475a-b954-9d9deb469a14"
-					(reference "J18")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -10982,7 +10982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89747bd6-9a4b-4061-9e6d-955888197072")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR046"
 			(at 226.06 119.38 0)
 			(effects
 				(font
@@ -11033,7 +11033,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/bbbc8572-1c1d-475a-b954-9d9deb469a14"
-					(reference "#PWR035")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11049,7 +11049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8fb2a48c-5c47-451f-8bd3-8c7f1fb6a11e")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR042"
 			(at 200.66 114.3 0)
 			(effects
 				(font
@@ -11100,7 +11100,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/bbbc8572-1c1d-475a-b954-9d9deb469a14"
-					(reference "#PWR030")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -11116,7 +11116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b8775d3-a7d0-4b02-82c6-536fd3b96748")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR045"
 			(at 226.06 116.84 0)
 			(effects
 				(font
@@ -11167,7 +11167,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/bbbc8572-1c1d-475a-b954-9d9deb469a14"
-					(reference "#PWR034")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11183,7 +11183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6f93e73-90b3-48de-867d-0633b319c754")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR040"
 			(at 226.06 30.48 0)
 			(effects
 				(font
@@ -11234,7 +11234,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/bbbc8572-1c1d-475a-b954-9d9deb469a14"
-					(reference "#PWR032")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)

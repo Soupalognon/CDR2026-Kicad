@@ -3743,7 +3743,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 193.04 123.19 0)
 			(effects
 				(font
@@ -3798,7 +3798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0516836b-83a1-4ddc-9491-9bbca2f38f25")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0100"
 			(at 184.15 137.16 0)
 			(effects
 				(font
@@ -3848,7 +3848,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR091")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -3864,7 +3864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "076004e9-f38e-424e-91db-d078bbb3fe41")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR099"
 			(at 193.04 134.62 0)
 			(effects
 				(font
@@ -3914,7 +3914,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR093")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -3930,7 +3930,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07fcf9fe-de8a-4c3a-bddf-f48fd09b4fab")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR095"
 			(at 54.61 92.71 0)
 			(effects
 				(font
@@ -3981,7 +3981,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR082")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -3997,7 +3997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08d8db18-506e-44a3-86f3-cfe45dd90cfc")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR086"
 			(at 102.87 62.23 0)
 			(effects
 				(font
@@ -4048,7 +4048,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR084")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -4079,7 +4079,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.768 101.6 90)
 			(effects
 				(font
@@ -4131,7 +4131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a9ac42d-9b8d-487b-b737-4ca9bda45fe1")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0101"
 			(at 193.04 157.48 0)
 			(effects
 				(font
@@ -4181,7 +4181,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR094")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -4197,7 +4197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ee124c9-f52c-4693-b3cc-85d88268282a")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR091"
 			(at 186.69 83.82 0)
 			(effects
 				(font
@@ -4247,7 +4247,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR092")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -4263,7 +4263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "220f7a2c-20b5-4ef9-b85c-95effaae3801")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR090"
 			(at 173.99 83.82 0)
 			(effects
 				(font
@@ -4313,7 +4313,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR089")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -4329,7 +4329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "253aa42b-dbcd-4b0c-b73b-5bcf885c9d6a")
-		(property "Reference" "J23"
+		(property "Reference" "J13"
 			(at 265.43 76.1999 0)
 			(effects
 				(font
@@ -4347,7 +4347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "395011002"
+		(property "Footprint" "SamacSys_Parts:395011002"
 			(at 265.43 171.12 0)
 			(effects
 				(font
@@ -4376,68 +4376,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "9.6"
-			(at 265.43 471.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 265.43 571.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "39501-1002"
 			(at 265.43 671.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-39501-1002"
-			(at 265.43 771.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39501-1002?qs=sv5fFeGb%252BE57lLylXvB48A%3D%3D"
-			(at 265.43 871.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 265.43 971.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 265.43 1071.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4395,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "J23")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -4468,9 +4408,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2541b980-3e44-46db-bda1-59711af7b56e")
-		(property "Reference" "R42"
+		(property "Reference" "R43"
 			(at 187.198 125.73 0)
 			(effects
 				(font
@@ -4478,7 +4418,7 @@
 				)
 			)
 		)
-		(property "Value" "NC"
+		(property "Value" "100k"
 			(at 187.452 127.762 0)
 			(effects
 				(font
@@ -4486,7 +4426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 185.928 127 90)
 			(effects
 				(font
@@ -4522,7 +4462,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "R42")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -4538,7 +4478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26f9a069-b2c5-4f2b-8b61-e4dec4c35e81")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR089"
 			(at 165.1 83.82 0)
 			(effects
 				(font
@@ -4588,7 +4528,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR087")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -4604,7 +4544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a494f9a-6c08-4ecf-8b61-d0a8ae80cf2b")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR088"
 			(at 102.87 74.93 0)
 			(effects
 				(font
@@ -4655,7 +4595,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR085")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -4670,7 +4610,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43172b81-fb24-4ec0-bc87-44ea3100ee5d")
-		(property "Reference" "R43"
+		(property "Reference" "R42"
 			(at 201.168 100.33 0)
 			(effects
 				(font
@@ -4686,7 +4626,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 199.898 101.6 90)
 			(effects
 				(font
@@ -4722,7 +4662,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "R43")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -4738,7 +4678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9ba2d6-6eb9-41bc-93a5-290c4b61fa13")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR085"
 			(at 54.61 62.23 0)
 			(effects
 				(font
@@ -4789,7 +4729,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR079")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -4804,7 +4744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c072402-b146-457d-988a-e90e60a18b5a")
-		(property "Reference" "C81"
+		(property "Reference" "C99"
 			(at 206.502 70.358 90)
 			(effects
 				(font
@@ -4812,15 +4752,15 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
-			(at 207.01 72.644 90)
+		(property "Value" "100uF/50V"
+			(at 206.756 73.914 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CAPAE660X800N"
+		(property "Footprint" "SamacSys_Parts:CAPAE830X1050N"
 			(at 104.47 73.66 0)
 			(effects
 				(font
@@ -4849,68 +4789,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "8"
-			(at -195.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at -295.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
+		(property "Manufacturer_Part_Number" "EDK107M050A9MAA"
 			(at -395.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCH1V101MCS1GS"
-			(at -495.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
-			(at -595.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -695.53 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -795.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4928,7 +4808,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C81")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -4943,7 +4823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d18ad28-3420-418e-a2d1-300df4eaa80c")
-		(property "Reference" "C80"
+		(property "Reference" "C95"
 			(at 190.754 57.15 90)
 			(effects
 				(font
@@ -4951,15 +4831,15 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
-			(at 191.008 59.182 90)
+		(property "Value" "1uF/50V"
+			(at 187.96 59.182 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X94N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.39 60.96 0)
 			(effects
 				(font
@@ -4988,68 +4868,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.94"
-			(at -200.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -300.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+		(property "Manufacturer_Part_Number" ""
 			(at -400.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-0805DC104MAT2A"
-			(at -500.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
-			(at -600.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0805DC104MAT2A"
-			(at -700.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
-			(at -800.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +4887,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C80")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -5083,7 +4903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "56107adb-5664-4bca-b069-88a2e8b480fd")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR092"
 			(at 200.66 83.82 0)
 			(effects
 				(font
@@ -5133,7 +4953,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR096")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -5148,7 +4968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "576b6d8d-53cb-4a58-8e74-5a38ea538cae")
-		(property "Reference" "C79"
+		(property "Reference" "C98"
 			(at 192.532 70.358 90)
 			(effects
 				(font
@@ -5156,15 +4976,15 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
-			(at 193.04 72.644 90)
+		(property "Value" "100uF/50V"
+			(at 192.786 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CAPAE660X800N"
+		(property "Footprint" "SamacSys_Parts:CAPAE830X1050N"
 			(at 90.5 73.66 0)
 			(effects
 				(font
@@ -5193,68 +5013,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "8"
-			(at -209.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at -309.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
+		(property "Manufacturer_Part_Number" "EDK107M050A9MAA"
 			(at -409.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCH1V101MCS1GS"
-			(at -509.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
-			(at -609.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -709.5 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -809.5 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5272,7 +5032,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C79")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -5288,7 +5048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57756d59-0eff-4a0f-832d-8e923c983ae3")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR096"
 			(at 173.99 111.76 0)
 			(effects
 				(font
@@ -5338,7 +5098,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR090")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -5354,7 +5114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6688fe89-1a79-488c-92a6-8ceefc9edc0b")
-		(property "Reference" "AC1"
+		(property "Reference" "IC8"
 			(at 78.74 54.61 0)
 			(effects
 				(font
@@ -5370,7 +5130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP64P810X120-44N"
+		(property "Footprint" "SamacSys_Parts:SOP64P810X120-44N"
 			(at 92.71 157.15 0)
 			(effects
 				(font
@@ -5399,68 +5159,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "1.2"
-			(at 92.71 457.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 92.71 557.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "DRV8262DDVR"
 			(at 92.71 657.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 92.71 757.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 92.71 857.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 92.71 957.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 92.71 1057.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5304,7 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "AC1")
+					(reference "IC8")
 					(unit 1)
 				)
 			)
@@ -5620,7 +5320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "673f24dc-77a0-45a9-8b0b-67fea11053c1")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR094"
 			(at 54.61 85.09 0)
 			(effects
 				(font
@@ -5671,7 +5371,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR081")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -5687,7 +5387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7162a98d-e36e-4c41-96c6-0d7dd32086f8")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR084"
 			(at 168.91 52.07 0)
 			(effects
 				(font
@@ -5737,7 +5437,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR088")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5752,7 +5452,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79502fd6-3efa-4271-95e1-0dfb88f0d2ac")
-		(property "Reference" "C76"
+		(property "Reference" "C96"
 			(at 159.004 70.104 90)
 			(effects
 				(font
@@ -5760,7 +5460,7 @@
 				)
 			)
 		)
-		(property "Value" "0.01 uF"
+		(property "Value" "10nF/50V"
 			(at 158.496 72.898 90)
 			(effects
 				(font
@@ -5768,7 +5468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X94N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.91 73.66 0)
 			(effects
 				(font
@@ -5797,68 +5497,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.94"
-			(at -231.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at -331.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+		(property "Manufacturer_Part_Number" ""
 			(at -431.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-0805DC104MAT2A"
-			(at -531.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
-			(at -631.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0805DC104MAT2A"
-			(at -731.09 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
-			(at -831.09 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +5516,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C76")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -5892,7 +5532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82a9d119-908c-491a-9be9-a8c3d3e36a38")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR087"
 			(at 54.61 67.31 0)
 			(effects
 				(font
@@ -5943,7 +5583,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR080")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -5974,7 +5614,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 122.428 68.58 90)
 			(effects
 				(font
@@ -6041,7 +5681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 108.458 66.04 90)
 			(effects
 				(font
@@ -6092,7 +5732,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87bff8e8-ce4a-4198-922e-5dee758a816b")
-		(property "Reference" "C75"
+		(property "Reference" "C100"
 			(at 121.666 114.3 90)
 			(effects
 				(font
@@ -6100,7 +5740,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF/X7R"
+		(property "Value" "100nF/50V"
 			(at 122.428 116.84 90)
 			(effects
 				(font
@@ -6108,7 +5748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X94N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 213.03 111.76 0)
 			(effects
 				(font
@@ -6137,68 +5777,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.94"
-			(at 513.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 613.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+		(property "Manufacturer_Part_Number" ""
 			(at 713.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-0805DC104MAT2A"
-			(at 813.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
-			(at 913.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0805DC104MAT2A"
-			(at 1013.03 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
-			(at 1113.03 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6216,7 +5796,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C75")
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -6231,7 +5811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9db24af2-1ca2-4910-b1b0-094efcb9d83d")
-		(property "Reference" "C77"
+		(property "Reference" "C94"
 			(at 173.736 39.37 90)
 			(effects
 				(font
@@ -6239,7 +5819,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF/X7R"
+		(property "Value" "100nF"
 			(at 174.498 41.91 90)
 			(effects
 				(font
@@ -6247,7 +5827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAPC2012X94N"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 265.1 36.83 0)
 			(effects
 				(font
@@ -6276,68 +5856,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.94"
-			(at 565.1 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Kyocera AVX"
-			(at 665.1 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "0805DC104MAT2A"
+		(property "Manufacturer_Part_Number" ""
 			(at 765.1 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "581-0805DC104MAT2A"
-			(at 865.1 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=581-0805DC104MAT2A"
-			(at 965.1 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "0805DC104MAT2A"
-			(at 1065.1 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/0805dc104mat2a/avx"
-			(at 1165.1 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6355,7 +5875,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C77")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -6371,7 +5891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0d9535d-e4ae-4121-9fe9-8b6381793d42")
-		(property "Reference" "J24"
+		(property "Reference" "J14"
 			(at 265.43 86.3599 0)
 			(effects
 				(font
@@ -6389,7 +5909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "395011002"
+		(property "Footprint" "SamacSys_Parts:395011002"
 			(at 265.43 181.28 0)
 			(effects
 				(font
@@ -6418,68 +5938,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "9.6"
-			(at 265.43 481.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 265.43 581.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "39501-1002"
 			(at 265.43 681.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "538-39501-1002"
-			(at 265.43 781.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Molex/39501-1002?qs=sv5fFeGb%252BE57lLylXvB48A%3D%3D"
-			(at 265.43 881.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 265.43 981.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 265.43 1081.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6497,7 +5957,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "J24")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -6585,7 +6045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b57a01a6-6481-4dde-ab36-96f171266a0e")
-		(property "Reference" "C78"
+		(property "Reference" "C97"
 			(at 179.832 70.358 90)
 			(effects
 				(font
@@ -6593,15 +6053,15 @@
 				)
 			)
 		)
-		(property "Value" "100uF"
-			(at 180.34 72.644 90)
+		(property "Value" "100uF/50V"
+			(at 179.832 74.168 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "CAPAE660X800N"
+		(property "Footprint" "SamacSys_Parts:CAPAE830X1050N"
 			(at 77.8 73.66 0)
 			(effects
 				(font
@@ -6630,68 +6090,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "8"
-			(at -222.2 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nichicon"
-			(at -322.2 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
+		(property "Manufacturer_Part_Number" "EDK107M050A9MAA"
 			(at -422.2 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "647-UCH1V101MCS1GS"
-			(at -522.2 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
-			(at -622.2 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at -722.2 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at -822.2 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6709,7 +6109,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C78")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -6743,7 +6143,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_Pad1.0x1.5mm"
 			(at 128.27 77.47 0)
 			(effects
 				(font
@@ -6798,7 +6198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6b0c943-aa5a-4848-8772-7cd051b28e41")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR093"
 			(at 128.27 88.9 0)
 			(effects
 				(font
@@ -6848,7 +6248,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR086")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -6882,7 +6282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "125700D00000G"
+		(property "Footprint" "SamacSys_Parts:125700D00000G"
 			(at 66.04 242.24 0)
 			(effects
 				(font
@@ -6911,68 +6311,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "7.19"
-			(at 66.04 542.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Aavid Thermalloy"
-			(at 66.04 642.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "125700D00000G"
 			(at 66.04 742.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "532-125700D00000G"
-			(at 66.04 842.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aavid/125700D00000G?qs=U7T%2FEnMyvTtVFmt9%2FDIChA%3D%3D"
-			(at 66.04 942.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "125700D00000G"
-			(at 66.04 1042.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/125700d00000g/aavid-thermalloy?region=europe"
-			(at 66.04 1142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +6355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SolderJumper_3_Open"
+		(property "Value" "SolderJumper"
 			(at 195.58 147.3199 90)
 			(effects
 				(font
@@ -7024,7 +6364,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 193.04 146.05 0)
 			(effects
 				(font
@@ -7079,7 +6419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8176d83-7ba3-41a5-a31c-145bd1a7bf93")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR098"
 			(at 54.61 110.49 0)
 			(effects
 				(font
@@ -7130,7 +6470,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR083")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -7146,7 +6486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df0f8201-c51f-4f17-8cc0-f20aa0054edf")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR097"
 			(at 198.12 111.76 0)
 			(effects
 				(font
@@ -7196,7 +6536,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "#PWR095")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -7230,7 +6570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "125700D00000G"
+		(property "Footprint" "SamacSys_Parts:125700D00000G"
 			(at 66.04 232.08 0)
 			(effects
 				(font
@@ -7259,68 +6599,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "7.19"
-			(at 66.04 532.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Aavid Thermalloy"
-			(at 66.04 632.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Part_Number" "125700D00000G"
 			(at 66.04 732.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "532-125700D00000G"
-			(at 66.04 832.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Aavid/125700D00000G?qs=U7T%2FEnMyvTtVFmt9%2FDIChA%3D%3D"
-			(at 66.04 932.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "125700D00000G"
-			(at 66.04 1032.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/125700d00000g/aavid-thermalloy?region=europe"
-			(at 66.04 1132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
