@@ -1,0 +1,1537 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "bcf807c1-1be4-43db-be7c-c2844507d78c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_new:BM03B-SRSS-TB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BM03B-SRSS-TB"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BM03BSRSSTB"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-2/32971.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "CONN HEADER SMD 3POS 1MM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.25"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BM03B-SRSS-TB"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "N/A"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST/BM03B-SRSS-TB?qs=cIziFXvMxOVukqkiHi0bdg%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BM03B-SRSS-TB_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "SamacSys_new:BM04B-GHS-TBT_LF__SN_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BM04B-GHS-TBT_LF__SN_"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "BM04BGHSTBTLFSN"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "GH Series 1.25 mm Pitch 4 Position Single Row Top Entry Shrouded Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.2"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BM04B-GHS-TBT(LF)(SN)"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "306-BM04BGHSTBTLFSNN"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-GHS-TBTLFSN?qs=cdbOS8ANM9DuBD4arU9XYQ%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BM04B-GHS-TBT_LF__SN__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "1:Vout\n2:GND\n3:Vcc"
+		(exclude_from_sim no)
+		(at 231.14 68.326 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "009ae3d4-6177-4ed3-8a3e-cf49029837a2")
+	)
+	(text "Pour capteur Pololu\nhttps://www.pololu.com/product/5464"
+		(exclude_from_sim no)
+		(at 243.84 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4b0f72c0-cc54-42e1-81e2-a3446b16a2ee")
+	)
+	(text "Pour capteur B5W-LB2101-1\nanalogique 5V\nhttps://omronfs.omron.com/en_US/ecb/products/pdf/en-b5w_lb_series_users_manual.pdf"
+		(exclude_from_sim no)
+		(at 240.284 17.272 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61320b09-efdc-499f-913b-d4053755f317")
+	)
+	(text "Pour capteur GP2Y0A41SK0F\nanalogique 5V\nConnecteur 12001W90-3P-S3-HF\n"
+		(exclude_from_sim no)
+		(at 243.078 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7472c37d-335e-4506-83e9-fd6d8e24958e")
+	)
+	(text "1:Pulse\n2:GND\n3:Vout\n4:Vcc"
+		(exclude_from_sim no)
+		(at 262.636 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5b8eea2-804a-478f-82d8-b6ae591c4f10")
+	)
+	(text "UART\nI2C\n0-10V\n4-20mA\n\n3 broches\nVCC\nVout\nGND\n\n4 broches\nVCC\nVout\nGnd\nsignal\n\nAlim \n5v\n12v\n24v"
+		(exclude_from_sim no)
+		(at 135.382 88.392 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "e13116fd-9cfa-45e2-ba15-7db3620bb417")
+	)
+	(text "1:Vout\n2:GND\n3:Vcc"
+		(exclude_from_sim no)
+		(at 263.144 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e56c75bf-5a00-44e4-ba7f-99dea66193f8")
+	)
+	(bus_entry
+		(at 60.96 26.67)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e4241b-5fbd-4ea6-a6ed-72e04994e726")
+	)
+	(bus_entry
+		(at 60.96 34.29)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5748027a-1e5b-4246-bc37-93509dd6aa18")
+	)
+	(bus_entry
+		(at 60.96 36.83)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "781e717f-9874-4139-a865-fc54b414b9fa")
+	)
+	(bus_entry
+		(at 60.96 24.13)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cafb31c-28ea-4c78-927a-424a3b228b16")
+	)
+	(bus_entry
+		(at 60.96 29.21)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6f5f25-21fe-4c5d-a024-0d74ac25b51f")
+	)
+	(bus_entry
+		(at 60.96 41.91)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2d7dec6-6412-428f-ab50-4ceedeb66339")
+	)
+	(bus_entry
+		(at 60.96 39.37)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad581da9-e537-4dde-bfc1-521c06da18e0")
+	)
+	(bus_entry
+		(at 60.96 31.75)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b90bf07b-75a9-4764-91ed-20ff07a21bd2")
+	)
+	(bus
+		(pts
+			(xy 60.96 26.67) (xy 60.96 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ee092a4-0c78-4258-8b06-7e9d7dbb6d18")
+	)
+	(bus
+		(pts
+			(xy 60.96 24.13) (xy 60.96 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1639fd16-d769-4ba0-a489-8dbe29fcbb42")
+	)
+	(wire
+		(pts
+			(xy 43.18 41.91) (xy 58.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21cbc8e8-6fec-4ac3-8781-1cd5a6b4a718")
+	)
+	(bus
+		(pts
+			(xy 60.96 20.32) (xy 60.96 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298ed11c-b202-4595-aaa4-2ff7f448630b")
+	)
+	(wire
+		(pts
+			(xy 43.18 34.29) (xy 58.42 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dad6fa1-da3c-4071-b166-514536971ceb")
+	)
+	(bus
+		(pts
+			(xy 62.23 20.32) (xy 62.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c44057-11a4-46c8-9f2d-6e2c7cab73d8")
+	)
+	(bus
+		(pts
+			(xy 60.96 31.75) (xy 60.96 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eec58bd-269c-4007-ae0b-2ac0d8b5e43a")
+	)
+	(bus
+		(pts
+			(xy 60.96 29.21) (xy 60.96 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592e598b-0115-49af-870b-7e072e79a6d4")
+	)
+	(wire
+		(pts
+			(xy 43.18 31.75) (xy 58.42 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772f08c0-f4af-4b17-b283-a361a0a27a69")
+	)
+	(wire
+		(pts
+			(xy 43.18 36.83) (xy 58.42 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7edf7a25-593f-4a0e-bf6b-e65659972021")
+	)
+	(bus
+		(pts
+			(xy 60.96 36.83) (xy 60.96 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a062c39-63dd-4d33-b610-ddf905ebe190")
+	)
+	(bus
+		(pts
+			(xy 60.96 41.91) (xy 60.96 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bb7312f-5783-45c8-9520-9b5b325cbdc8")
+	)
+	(wire
+		(pts
+			(xy 43.18 39.37) (xy 58.42 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b29cc9-aab9-4392-b107-3b3af4979859")
+	)
+	(bus
+		(pts
+			(xy 60.96 39.37) (xy 60.96 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3665048-49df-4ff8-941f-64397fd9d7c9")
+	)
+	(wire
+		(pts
+			(xy 43.18 44.45) (xy 58.42 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acb530da-6246-496b-b7b6-7d21a1459fb3")
+	)
+	(bus
+		(pts
+			(xy 62.23 20.32) (xy 60.96 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf568a6a-d6d7-4b86-908d-56cacf391b4a")
+	)
+	(bus
+		(pts
+			(xy 60.96 34.29) (xy 60.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d867b6ce-3eb5-4841-a91f-f60d2327c02c")
+	)
+	(wire
+		(pts
+			(xy 43.18 29.21) (xy 58.42 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8d31538-b239-436a-9c17-cbc6b09722ef")
+	)
+	(bus
+		(pts
+			(xy 60.96 44.45) (xy 62.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc92a2b3-dccd-46b4-82cb-fa12229222c6")
+	)
+	(wire
+		(pts
+			(xy 43.18 26.67) (xy 58.42 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1bd940c-41d1-4ec8-894a-3769ca78eb55")
+	)
+	(label "Sensor_ADC2"
+		(at 43.18 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2fd64caa-6a7b-41c0-ab29-a54bfe04dadd")
+	)
+	(label "SENSOR4"
+		(at 57.15 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45d2e0dd-c1d4-4981-83d5-c40b60eeb5a2")
+	)
+	(label "Sensor_InputCapture4"
+		(at 43.18 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a1f3aba-dd30-4a0c-904f-e09a07892c4f")
+	)
+	(label "Sensor_InputCapture3"
+		(at 43.18 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e03a946-86d1-4a08-ad31-e77b72a316ac")
+	)
+	(label "SENSORS1"
+		(at 57.15 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93b7fb12-ab9d-4689-ac81-bbad4e71ba77")
+	)
+	(label "Sensor_ADC4"
+		(at 43.18 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "94dfad00-197d-4534-8f1a-3760e58df234")
+	)
+	(label "SENSORS0"
+		(at 57.15 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9609cf14-4265-4b1b-b5ce-c263fbd52e41")
+	)
+	(label "SENSORS6"
+		(at 57.15 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a170f107-590d-4575-8ff0-c156af9f7289")
+	)
+	(label "SENSORS5"
+		(at 57.15 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5af3729-16cc-4584-9d26-e633ba938065")
+	)
+	(label "Sensor_InputCapture1"
+		(at 43.18 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ae272ea9-74bc-4ed2-b7c3-73c320794f05")
+	)
+	(label "Sensor_ADC3"
+		(at 43.18 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2759fa5-bb88-4dbb-bd53-97b3bfaa7b54")
+	)
+	(label "Sensor_ADC1"
+		(at 43.18 26.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b6bdcd4a-ce9e-49e9-98ff-085aee4ce862")
+	)
+	(label "Sensor_InputCapture2"
+		(at 43.18 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b94e72d1-b996-414e-afe4-c6466b4d235f")
+	)
+	(label "SENSOR3"
+		(at 57.15 34.29 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d347a3e9-6a85-45ab-967d-23ceffbf5df0")
+	)
+	(label "SENSORS2"
+		(at 57.15 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4242cb5-02b0-4acf-b8ca-1d3c13d04a72")
+	)
+	(label "SENSORS7"
+		(at 57.15 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffa539f0-dd7a-427e-9471-57e6d8d37749")
+	)
+	(hierarchical_label "SENSORS[0..7]"
+		(shape bidirectional)
+		(at 60.96 20.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59c618fe-5530-4f93-91a2-98b3a879c093")
+	)
+	(symbol
+		(lib_id "SamacSys_new:BM04B-GHS-TBT_LF__SN_")
+		(at 231.14 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10cf4b9a-3cfe-4185-b202-bd4262c70428")
+		(property "Reference" "J32"
+			(at 242.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM04B-GHS-TBT_LF__SN_"
+			(at 242.57 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BM04BGHSTBTLFSN"
+			(at 250.19 125.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+			(at 250.19 225.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "GH Series 1.25 mm Pitch 4 Position Single Row Top Entry Shrouded Header"
+			(at 231.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.2"
+			(at 250.19 425.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 250.19 525.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM04B-GHS-TBT(LF)(SN)"
+			(at 250.19 625.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "306-BM04BGHSTBTLFSNN"
+			(at 250.19 725.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-GHS-TBTLFSN?qs=cdbOS8ANM9DuBD4arU9XYQ%3D%3D"
+			(at 250.19 825.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 250.19 925.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 250.19 1025.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3c6a1d2a-130f-4a20-a7fa-45d31b76ee9d")
+		)
+		(pin "2"
+			(uuid "e5079936-5552-4809-8b01-7d5a84a5113a")
+		)
+		(pin "3"
+			(uuid "cc77299e-bff7-4510-9dd5-7da8d893231c")
+		)
+		(pin "1"
+			(uuid "5adfdd48-5e69-4a49-9853-ed3d1c364c5c")
+		)
+		(pin "4"
+			(uuid "df390e9a-db7a-4e42-8709-1cd4afb75e09")
+		)
+		(pin "5"
+			(uuid "a370233b-f3e2-48c3-9fea-d8fe4a6d1426")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "J32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:BM03B-SRSS-TB")
+		(at 232.41 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24bed202-d06c-4e17-a865-2d40d152c016")
+		(property "Reference" "J34"
+			(at 243.84 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM03B-SRSS-TB"
+			(at 243.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BM03BSRSSTB"
+			(at 251.46 195.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-2/32971.pdf"
+			(at 251.46 295.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD 3POS 1MM"
+			(at 232.41 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.25"
+			(at 251.46 495.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 251.46 595.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM03B-SRSS-TB"
+			(at 251.46 695.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 251.46 795.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST/BM03B-SRSS-TB?qs=cIziFXvMxOVukqkiHi0bdg%3D%3D"
+			(at 251.46 895.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 251.46 995.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 251.46 1095.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MP1"
+			(uuid "0f66c01b-b2b4-4e86-857d-e69a2628e1f0")
+		)
+		(pin "3"
+			(uuid "64d7c06c-508e-4709-930a-eb058eda2f5c")
+		)
+		(pin "1"
+			(uuid "85d774ba-9fd7-4d12-917a-b9d22b7f293a")
+		)
+		(pin "MP2"
+			(uuid "1c41912c-90ee-457b-9872-e98d93a290fb")
+		)
+		(pin "2"
+			(uuid "7ae9a067-7727-4376-adfb-49854cf6781f")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 243.84 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "446ae0d0-f6d7-4665-ae23-114a7560346e")
+		(property "Reference" "J33"
+			(at 246.38 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 246.38 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
+			(at 243.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 243.84 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf96ed73-abae-4d9b-9fc5-de9c2f329564")
+		)
+		(pin "1"
+			(uuid "48caae61-29b4-44ed-9c81-a26946c1baea")
+		)
+		(pin "3"
+			(uuid "233e66fe-3773-4e7d-8b0b-6b0c3316a0fd")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "J33")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

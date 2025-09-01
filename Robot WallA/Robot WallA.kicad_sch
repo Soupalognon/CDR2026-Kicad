@@ -1056,7 +1056,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5ce9258e-32d5-433f-8167-eea4677c6e11")
-		(property "Sheetname" "DistanceMeter"
+		(property "Sheetname" "Sensors"
 			(at 213.36 107.2384 0)
 			(effects
 				(font
@@ -1065,7 +1065,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "DistanceMeter.kicad_sch"
+		(property "Sheetfile" "Sensors.kicad_sch"
 			(at 213.36 145.3646 0)
 			(effects
 				(font
