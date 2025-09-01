@@ -236,7 +236,7 @@
 		)
 		(uuid "b10b57bd-ec14-4c8e-8a8a-e7c8932308ac")
 	)
-	(text "Boost 24V 130W --> Pour les moteurs principaux\nBuck 12V 34,8W --> Pour les actionneurs\nBuck 5V Compute   17,5W --> Pour le PC embarqué et le UC\nBuck 5V Actuators 17,5W --> Pour les actionneurs\nLDO 3,3V --> Pour le UC"
+	(text "Boost 24V 130W --> Pour les moteurs principaux\nBuck 12V 69,6W --> Pour les actionneurs\nBuck 5V Compute   17,5W --> Pour le PC embarqué et le UC\nBuck 5V Actuators 17,5W --> Pour les actionneurs\nLDO 3,3V --> Pour le UC"
 		(exclude_from_sim no)
 		(at 61.468 73.406 0)
 		(effects
