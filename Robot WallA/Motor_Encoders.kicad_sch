@@ -758,7 +758,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "058ca9c4-637e-426d-a2f8-736f8325faa0")
-		(property "Reference" "J15"
+		(property "Reference" "J17"
 			(at 146.05 76.1999 0)
 			(effects
 				(font
@@ -830,7 +830,7 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/70c9705a-afb2-475a-a6a4-6cf804f4b2b1"
-					(reference "J15")
+					(reference "J17")
 					(unit 1)
 				)
 			)
@@ -925,7 +925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55db4ea0-3e12-4e8e-a2f4-ff722be12cda")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0107"
 			(at 104.14 46.99 0)
 			(effects
 				(font
@@ -976,7 +976,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/70c9705a-afb2-475a-a6a4-6cf804f4b2b1"
-					(reference "#PWR0102")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -1150,7 +1150,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d85558d-af81-4204-a7e6-16c78069e862")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0108"
 			(at 123.19 81.28 0)
 			(effects
 				(font
@@ -1201,7 +1201,7 @@
 		(instances
 			(project ""
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/70c9705a-afb2-475a-a6a4-6cf804f4b2b1"
-					(reference "#PWR0103")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -1217,7 +1217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8503892-e64a-463f-b424-84bd0ce948cb")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0109"
 			(at 123.19 97.79 0)
 			(effects
 				(font
@@ -1268,7 +1268,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/70c9705a-afb2-475a-a6a4-6cf804f4b2b1"
-					(reference "#PWR0104")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -1363,7 +1363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4e0e834-2034-4aae-b00e-7db6812fb0fe")
-		(property "Reference" "J16"
+		(property "Reference" "J18"
 			(at 146.05 92.7099 0)
 			(effects
 				(font
@@ -1435,7 +1435,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/70c9705a-afb2-475a-a6a4-6cf804f4b2b1"
-					(reference "J16")
+					(reference "J18")
 					(unit 1)
 				)
 			)

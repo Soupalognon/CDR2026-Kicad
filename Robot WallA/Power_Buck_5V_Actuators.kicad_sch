@@ -2627,6 +2627,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "TC33X2503E"
+			(at 120.65 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "da14c724-661e-460c-8f19-c5324a11e8ac")
 		)
@@ -2655,7 +2664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "055ff921-8b8f-41e5-b339-7860f653d5e6")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 33.02 60.96 0)
 			(effects
 				(font
@@ -2705,7 +2714,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2799,7 +2808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "095fee98-9364-49cf-98f8-f1f6f3e20270")
-		(property "Reference" "J12"
+		(property "Reference" "J14"
 			(at 170.18 86.3599 0)
 			(effects
 				(font
@@ -2892,7 +2901,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "J12")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2975,7 +2984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31ca908f-2913-46ed-887f-1f32f3891f17")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR065"
 			(at 132.08 87.63 0)
 			(effects
 				(font
@@ -3026,7 +3035,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -3042,7 +3051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3cb9c941-5fbf-461c-a807-ed49f6a5629a")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 227.076 101.854 0)
 			(effects
 				(font
@@ -3094,7 +3103,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3109,7 +3118,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59356f71-c51d-4745-a6fc-861b5384fc96")
-		(property "Reference" "R53"
+		(property "Reference" "R30"
 			(at 154.94 49.53 90)
 			(effects
 				(font
@@ -3161,7 +3170,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "R53")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -3177,7 +3186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a3dc0c2-5ce5-4993-afc4-34ffa3c17f13")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR061"
 			(at 165.1 49.53 0)
 			(effects
 				(font
@@ -3228,7 +3237,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "#PWR0126")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -3448,7 +3457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8022326f-d19b-418d-a333-20f68c3b768d")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR067"
 			(at 223.52 132.08 0)
 			(effects
 				(font
@@ -3498,7 +3507,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "#PWR064")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -3581,7 +3590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92e9e4cb-8374-4227-ab65-5b3e94ac41c2")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR066"
 			(at 120.65 107.95 0)
 			(effects
 				(font
@@ -3631,7 +3640,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "#PWR063")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -3964,6 +3973,15 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Part_Number" "BSS138"
+			(at 226.06 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "84d05dda-0aeb-4249-a857-9ca1ab2dd3ae")
 		)
@@ -3993,7 +4011,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c22eed3b-3c67-47be-99b6-2585f5a832b7")
-		(property "Reference" "D16"
+		(property "Reference" "D5"
 			(at 144.78 46.99 0)
 			(effects
 				(font
@@ -4054,7 +4072,7 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "D16")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4070,7 +4088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8216c8f-f4bd-4f87-8bbf-c08d563dad10")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 200.66 62.23 0)
 			(effects
 				(font
@@ -4120,7 +4138,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "#PWR060")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -4136,7 +4154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdfd0e04-2141-4d65-b092-cd2ffb2aa5fc")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 132.08 85.09 0)
 			(effects
 				(font
@@ -4187,7 +4205,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -4270,7 +4288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e623c408-43a9-48df-bce1-ec3196db0493")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 236.22 121.92 90)
 			(effects
 				(font
@@ -4322,7 +4340,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/1e067d8d-e8a8-481d-ab40-c8016ce22eb0"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)

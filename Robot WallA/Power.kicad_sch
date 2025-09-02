@@ -1569,6 +1569,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 91.44) (xy 257.81 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a56c60d-7970-4940-bb2f-ea56f434a2eb")
+	)
+	(wire
+		(pts
 			(xy 127 80.01) (xy 130.81 80.01)
 		)
 		(stroke
@@ -1676,6 +1686,16 @@
 			(type default)
 		)
 		(uuid "90c91f40-e8a9-49fb-8b3d-d28aa46439eb")
+	)
+	(wire
+		(pts
+			(xy 254 99.06) (xy 257.81 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93a90ef6-b84b-4539-aafe-8967cded39d6")
 	)
 	(wire
 		(pts
@@ -1857,6 +1877,16 @@
 		)
 		(uuid "34fcf5a7-819d-4ebe-888e-48a2000e49ba")
 	)
+	(label "5V_ACTUATORS"
+		(at 254 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3a49fd8b-2d07-4fb7-9cb3-f96e748ff6ad")
+	)
 	(label "GPIO_ENABLE_POWER_SUPPLIES"
 		(at 130.81 86.36 180)
 		(effects
@@ -1946,6 +1976,16 @@
 			(justify right bottom)
 		)
 		(uuid "97c690d6-8be0-4b0d-a6d5-58ccfd1ae905")
+	)
+	(label "12V"
+		(at 254 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a36a26d0-4ed8-40eb-9cf1-ed530732c63e")
 	)
 	(label "5V_COMPUTE"
 		(at 69.85 172.72 180)
@@ -2202,7 +2242,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "198edcf6-37f6-481a-94b5-5fa863c9b7cb")
-		(property "Reference" "J10"
+		(property "Reference" "J12"
 			(at 112.014 132.334 90)
 			(effects
 				(font
@@ -2256,7 +2296,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
-					(reference "J10")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2272,7 +2312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bebd031-18f9-4b4a-a3a7-2b2afdfcfab2")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 34.29 100.33 0)
 			(effects
 				(font
@@ -2322,7 +2362,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2479,6 +2519,72 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 257.81 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "267c79c8-387d-44cf-819f-dc1c3ad62449")
+		(property "Reference" "#PWR048"
+			(at 251.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.016 88.646 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2a03f71-129b-429c-986f-a485a31c7fe1")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2643,7 +2749,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c83cd16-b6a0-48ed-9369-99eb1c7ed5e2")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 148.59 189.23 0)
 			(effects
 				(font
@@ -2693,7 +2799,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -2709,7 +2815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cba3887-76b6-4e3c-9488-f210e65f959e")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR051"
 			(at 111.76 175.26 0)
 			(effects
 				(font
@@ -2760,7 +2866,85 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
-					(reference "#PWR049")
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 262.89 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50372a40-bf18-4b62-ab20-1999d9276aa4")
+		(property "Reference" "J9"
+			(at 268.732 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 276.352 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SHDR2W50P0X200_1X2_590X450X600P"
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B2B-PH-K-S(LF)(SN)"
+			(at 262.89 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d75665f5-7eec-4fbd-95e9-acfc2e5e68df")
+		)
+		(pin "2"
+			(uuid "9d841938-cec0-4f0a-b18c-514db460ce27")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2833,6 +3017,84 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
 					(reference "N2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 262.89 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61d5c430-0c37-4823-ac59-2ff96cdc5fa2")
+		(property "Reference" "J10"
+			(at 268.732 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 276.352 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SHDR2W50P0X200_1X2_590X450X600P"
+			(at 262.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 262.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B2B-PH-K-S(LF)(SN)"
+			(at 262.89 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed6574db-e14d-472e-a610-4e96725eb821")
+		)
+		(pin "2"
+			(uuid "29bafb54-1609-4d54-8c0e-a58a6e9e854d")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -3141,6 +3403,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 257.81 96.52 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "701b150f-ffe6-4ccc-8805-f322e1fba67b")
+		(property "Reference" "#PWR050"
+			(at 251.46 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.016 96.266 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 257.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcc29ae3-ec1c-453d-a7af-b08c8cd17a31")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 93.98 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3149,7 +3477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7184f055-5251-4b82-a719-a339f78ce315")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR052"
 			(at 93.98 186.69 0)
 			(effects
 				(font
@@ -3199,7 +3527,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
-					(reference "#PWR050")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3357,7 +3685,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88cf44e3-5f08-41f6-b4b3-fa262f2a133f")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 110.744 103.124 90)
 			(effects
 				(font
@@ -3411,7 +3739,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -3427,7 +3755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2427135-47be-489d-b70e-bc6907ac5b08")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 160.02 189.23 0)
 			(effects
 				(font
@@ -3477,7 +3805,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -3712,7 +4040,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ddd5b93a-226f-42e1-a052-d87e1265f0e8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR053"
 			(at 102.87 186.69 0)
 			(effects
 				(font
@@ -3762,7 +4090,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
-					(reference "#PWR051")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)

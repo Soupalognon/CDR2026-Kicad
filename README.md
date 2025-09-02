@@ -18,6 +18,8 @@ Conception of PCB for robot Wall-A
     - 4 servomoteurs classiques type PWM
 - Capteurs:
     - 2 encodeurs 5V
+    - 4 capteur de distance Pulse Width
+    - 4 capteurs de distance ADC 0-3V3
 - Communications:
     - 1 USB FS 12Mb/s pour PC embarqué
     - 1 Ethernet 100Mb/s pour PC embarqué
@@ -27,7 +29,6 @@ Conception of PCB for robot Wall-A
 
 # Ce qu'il manque actuellement
 - Entrées interrupteurs (des on/off classique)
-- savoir combien de capteurs de distance
 - sorties d'alimentation 12V et 5V (2 de chaque)
     - Pour un Lidar ou autre
 - Entrée interupteurs pour config de stratégie

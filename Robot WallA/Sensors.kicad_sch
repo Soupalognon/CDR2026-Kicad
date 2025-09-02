@@ -646,50 +646,171 @@
 			)
 			(embedded_fonts no)
 		)
-	)
-	(text "1:Vout\n2:GND\n3:Vcc"
-		(exclude_from_sim no)
-		(at 231.14 68.326 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
 			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
 		)
-		(uuid "009ae3d4-6177-4ed3-8a3e-cf49029837a2")
+	)
+	(rectangle
+		(start 82.55 105.41)
+		(end 207.01 154.94)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 985195de-8f3f-4578-ad72-7f32299d3f0c)
+	)
+	(rectangle
+		(start 82.55 44.45)
+		(end 207.01 100.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e6e1dd2c-41d1-4198-9f60-0b8c03d39f98)
 	)
 	(text "Pour capteur Pololu\nhttps://www.pololu.com/product/5464"
 		(exclude_from_sim no)
-		(at 243.84 89.408 0)
+		(at 83.312 109.728 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
+			(justify left)
 		)
 		(uuid "4b0f72c0-cc54-42e1-81e2-a3446b16a2ee")
 	)
-	(text "Pour capteur B5W-LB2101-1\nanalogique 5V\nhttps://omronfs.omron.com/en_US/ecb/products/pdf/en-b5w_lb_series_users_manual.pdf"
+	(text "Pour capteur B5W-LB2101-1\nanalogique 5V"
 		(exclude_from_sim no)
-		(at 240.284 17.272 0)
+		(at 83.312 50.546 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
+			(justify left)
 		)
 		(uuid "61320b09-efdc-499f-913b-d4053755f317")
 	)
-	(text "Pour capteur GP2Y0A41SK0F\nanalogique 5V\nConnecteur 12001W90-3P-S3-HF\n"
+	(text "1:Vout\n2:GND\n3:Vcc"
 		(exclude_from_sim no)
-		(at 243.078 59.69 0)
+		(at 153.162 109.982 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "7472c37d-335e-4506-83e9-fd6d8e24958e")
+		(uuid "99a2af8d-fcd1-4ad3-b90c-e046c14827d5")
 	)
 	(text "1:Pulse\n2:GND\n3:Vout\n4:Vcc"
 		(exclude_from_sim no)
-		(at 262.636 33.528 0)
+		(at 138.938 49.276 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -697,25 +818,24 @@
 		)
 		(uuid "c5b8eea2-804a-478f-82d8-b6ae591c4f10")
 	)
-	(text "UART\nI2C\n0-10V\n4-20mA\n\n3 broches\nVCC\nVout\nGND\n\n4 broches\nVCC\nVout\nGnd\nsignal\n\nAlim \n5v\n12v\n24v"
+	(text "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b5w_lb_series_users_manual.pdf"
 		(exclude_from_sim no)
-		(at 135.382 88.392 0)
-		(effects
-			(font
-				(size 3 3)
-			)
-		)
-		(uuid "e13116fd-9cfa-45e2-ba15-7db3620bb417")
-	)
-	(text "1:Vout\n2:GND\n3:Vcc"
-		(exclude_from_sim no)
-		(at 263.144 102.87 0)
+		(at 162.052 98.806 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "e56c75bf-5a00-44e4-ba7f-99dea66193f8")
+		(uuid "cd06c854-566c-4668-a1a1-59d2c7e930d9")
+	)
+	(bus_entry
+		(at 62.23 24.13)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ba69653-9ca9-4524-bebb-47ab8f1842d6")
 	)
 	(bus_entry
 		(at 60.96 26.67)
@@ -734,6 +854,33 @@
 			(type default)
 		)
 		(uuid "5748027a-1e5b-4246-bc37-93509dd6aa18")
+	)
+	(bus_entry
+		(at 62.23 31.75)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7f199f-1192-49df-aa57-9367b3f8184b")
+	)
+	(bus_entry
+		(at 62.23 26.67)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edd8b31-047a-4a34-9499-adb96f3c925c")
+	)
+	(bus_entry
+		(at 62.23 29.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dd6ab6-12b3-4baf-b899-6856766b225b")
 	)
 	(bus_entry
 		(at 60.96 36.83)
@@ -801,6 +948,16 @@
 	)
 	(bus
 		(pts
+			(xy 62.23 24.13) (xy 62.23 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffc53f7-cae8-4c98-ac2e-c974a646f244")
+	)
+	(bus
+		(pts
 			(xy 60.96 24.13) (xy 60.96 26.67)
 		)
 		(stroke
@@ -808,6 +965,16 @@
 			(type default)
 		)
 		(uuid "1639fd16-d769-4ba0-a489-8dbe29fcbb42")
+	)
+	(bus
+		(pts
+			(xy 62.23 31.75) (xy 62.23 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d2f08e-bb74-4cc6-8cb7-226e6e322e91")
 	)
 	(wire
 		(pts
@@ -831,6 +998,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 57.15) (xy 46.99 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b70e5e-1a67-44b9-b073-d9cea249ac90")
+	)
+	(wire
+		(pts
 			(xy 43.18 34.29) (xy 58.42 34.29)
 		)
 		(stroke
@@ -841,7 +1018,7 @@
 	)
 	(bus
 		(pts
-			(xy 62.23 20.32) (xy 62.23 44.45)
+			(xy 62.23 20.32) (xy 62.23 24.13)
 		)
 		(stroke
 			(width 0)
@@ -891,6 +1068,16 @@
 	)
 	(bus
 		(pts
+			(xy 62.23 29.21) (xy 62.23 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88eef16b-36e1-46b4-8703-873b94a10738")
+	)
+	(bus
+		(pts
 			(xy 60.96 36.83) (xy 60.96 39.37)
 		)
 		(stroke
@@ -908,6 +1095,16 @@
 			(type default)
 		)
 		(uuid "8bb7312f-5783-45c8-9520-9b5b325cbdc8")
+	)
+	(wire
+		(pts
+			(xy 80.01 29.21) (xy 64.77 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d098d2a-3ae8-417c-abae-f645f880ca66")
 	)
 	(wire
 		(pts
@@ -939,6 +1136,36 @@
 		)
 		(uuid "acb530da-6246-496b-b7b6-7d21a1459fb3")
 	)
+	(wire
+		(pts
+			(xy 80.01 34.29) (xy 64.77 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0a086e-6ad9-4247-86cd-c369709d7d52")
+	)
+	(wire
+		(pts
+			(xy 80.01 31.75) (xy 64.77 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c11bf2-91ce-4f80-8888-eda1103659bd")
+	)
+	(wire
+		(pts
+			(xy 80.01 26.67) (xy 64.77 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b528840d-1aff-4da5-ab9a-c3a3f3122332")
+	)
 	(bus
 		(pts
 			(xy 62.23 20.32) (xy 60.96 20.32)
@@ -948,6 +1175,16 @@
 			(type default)
 		)
 		(uuid "bf568a6a-d6d7-4b86-908d-56cacf391b4a")
+	)
+	(wire
+		(pts
+			(xy 40.64 53.34) (xy 46.99 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0920a62-bc19-4f0d-82e9-cb9834ce53e9")
 	)
 	(bus
 		(pts
@@ -989,6 +1226,96 @@
 		)
 		(uuid "e1bd940c-41d1-4ec8-894a-3769ca78eb55")
 	)
+	(bus
+		(pts
+			(xy 62.23 26.67) (xy 62.23 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f29a6508-4c93-4941-9943-730956735de5")
+	)
+	(label "12V"
+		(at 185.42 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03e6c1a3-3b33-4795-a28d-70d08778e25a")
+	)
+	(label "Vcc"
+		(at 185.42 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "064a9157-9462-49c7-b24e-7ff38d71ffeb")
+	)
+	(label "Sensor_ADC4"
+		(at 176.53 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "111c6faf-8500-4c50-be5a-4607e35f0173")
+	)
+	(label "Sensor_Pulse3"
+		(at 43.18 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17be868d-889f-48df-8335-02695eb60f9a")
+	)
+	(label "Vcc2"
+		(at 185.42 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "185d5975-a9ec-475a-ac4d-5cf8b4c9e626")
+	)
+	(label "12V"
+		(at 46.99 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a8a2ceb-887a-4c31-9d3a-86c11e5ed3f2")
+	)
+	(label "Vcc2"
+		(at 176.53 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "225807b9-c1a5-4ef7-a51b-404e75983756")
+	)
+	(label "Sensor_Pulse4"
+		(at 43.18 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "27afe661-c47b-49fd-ab3a-71ff54194244")
+	)
 	(label "Sensor_ADC2"
 		(at 43.18 29.21 180)
 		(effects
@@ -999,7 +1326,37 @@
 		)
 		(uuid "2fd64caa-6a7b-41c0-ab29-a54bfe04dadd")
 	)
-	(label "SENSOR4"
+	(label "Vcc2"
+		(at 124.46 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "331362f3-faa4-4b1f-94f7-c2361174ec6c")
+	)
+	(label "Sensor_Pulse1"
+		(at 43.18 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39e6d496-1427-4fea-818c-e940fbd575fa")
+	)
+	(label "Vcc2"
+		(at 176.53 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42a941e0-8211-4203-a478-40407c15fe3a")
+	)
+	(label "SENSORS4"
 		(at 57.15 36.83 180)
 		(effects
 			(font
@@ -1009,25 +1366,105 @@
 		)
 		(uuid "45d2e0dd-c1d4-4981-83d5-c40b60eeb5a2")
 	)
-	(label "Sensor_InputCapture4"
-		(at 43.18 44.45 180)
+	(label "Sensor_Pulse3"
+		(at 176.53 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "4d7cf1b6-0846-4d7a-8d71-aae50fd6c871")
+	)
+	(label "Vcc"
+		(at 168.91 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dd2ec6f-09e4-430c-a22a-ce78404cc502")
+	)
+	(label "Sensor_InputCapture2"
+		(at 115.57 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e146578-6b10-4911-9622-40b0d7d1ecaa")
+	)
+	(label "Sensor_Pulse2"
+		(at 124.46 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4f1936c8-ac62-4639-86d3-3b4a5d0b53ad")
+	)
+	(label "Sensor_InputCapture4"
+		(at 80.01 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "5a1f3aba-dd30-4a0c-904f-e09a07892c4f")
 	)
-	(label "Sensor_InputCapture3"
-		(at 43.18 41.91 180)
+	(label "Vcc"
+		(at 115.57 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
+		)
+		(uuid "5b3b5324-ad39-4770-ba32-a67168094ce2")
+	)
+	(label "Sensor_ADC3"
+		(at 176.53 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c895fa6-739f-4d80-84cd-4b5a9e33c35a")
+	)
+	(label "SENSORS10"
+		(at 66.04 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "742c1425-c95b-4783-88b2-53bcb7bc41fb")
+	)
+	(label "Sensor_InputCapture3"
+		(at 80.01 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "7e03a946-86d1-4a08-ad31-e77b72a316ac")
+	)
+	(label "Sensor_InputCapture3"
+		(at 168.91 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d3e1495-f004-4c18-a755-866656ec0bd9")
 	)
 	(label "SENSORS1"
 		(at 57.15 29.21 180)
@@ -1059,6 +1496,26 @@
 		)
 		(uuid "9609cf14-4265-4b1b-b5ce-c263fbd52e41")
 	)
+	(label "12V"
+		(at 185.42 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d3beaa2-8d84-4bc6-87fb-7e45e941504b")
+	)
+	(label "Sensor_ADC2"
+		(at 124.46 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fdeb3d3-bf9d-42af-8a51-192f155a7830")
+	)
 	(label "SENSORS6"
 		(at 57.15 41.91 180)
 		(effects
@@ -1079,13 +1536,23 @@
 		)
 		(uuid "a5af3729-16cc-4584-9d26-e633ba938065")
 	)
-	(label "Sensor_InputCapture1"
-		(at 43.18 36.83 180)
+	(label "5V"
+		(at 185.42 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
+		)
+		(uuid "ab482aa1-b8c6-4cee-bc4c-441da68eac07")
+	)
+	(label "Sensor_InputCapture1"
+		(at 80.01 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
 		(uuid "ae272ea9-74bc-4ed2-b7c3-73c320794f05")
 	)
@@ -1109,7 +1576,37 @@
 		)
 		(uuid "b6bdcd4a-ce9e-49e9-98ff-085aee4ce862")
 	)
+	(label "Vcc"
+		(at 115.57 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b7a679bf-ca19-486c-baca-e8002102c3e4")
+	)
 	(label "Sensor_InputCapture2"
+		(at 80.01 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b94e72d1-b996-414e-afe4-c6466b4d235f")
+	)
+	(label "Vcc"
+		(at 168.91 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be7b11a0-900a-4088-b8f4-1339763a7554")
+	)
+	(label "Sensor_Pulse2"
 		(at 43.18 39.37 180)
 		(effects
 			(font
@@ -1117,9 +1614,39 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "b94e72d1-b996-414e-afe4-c6466b4d235f")
+		(uuid "c0ace716-c343-4672-a9dc-661048782cdf")
 	)
-	(label "SENSOR3"
+	(label "Sensor_Pulse4"
+		(at 176.53 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ce97c976-5a71-4e15-83c1-0e374b514922")
+	)
+	(label "SENSORS11"
+		(at 66.04 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d06d9b29-6ec2-4527-9900-df4351898d84")
+	)
+	(label "Sensor_Pulse1"
+		(at 124.46 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d29f49cf-e68b-4c0c-a2f7-8f423468ff71")
+	)
+	(label "SENSORS3"
 		(at 57.15 34.29 180)
 		(effects
 			(font
@@ -1128,6 +1655,56 @@
 			(justify right bottom)
 		)
 		(uuid "d347a3e9-6a85-45ab-967d-23ceffbf5df0")
+	)
+	(label "SENSORS8"
+		(at 66.04 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d351ad9b-42ea-4ebf-80b6-0a1444691d1b")
+	)
+	(label "SENSORS9"
+		(at 66.04 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dccf4167-50cd-4f5a-ae97-c641d73680a0")
+	)
+	(label "5V"
+		(at 46.99 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de7b4375-1e06-4eb0-b047-0a9141501eef")
+	)
+	(label "Vcc2"
+		(at 124.46 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df27ad53-af6f-4758-af9c-7e6f3e88822c")
+	)
+	(label "Sensor_InputCapture4"
+		(at 168.91 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e2dbaab5-a33c-4752-821f-b02d37256a4d")
 	)
 	(label "SENSORS2"
 		(at 57.15 31.75 180)
@@ -1139,6 +1716,36 @@
 		)
 		(uuid "e4242cb5-02b0-4acf-b8ca-1d3c13d04a72")
 	)
+	(label "Sensor_InputCapture1"
+		(at 115.57 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f121d014-37c9-4ed4-b2de-eea315c0ab43")
+	)
+	(label "Sensor_ADC1"
+		(at 124.46 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4f66355-3f5c-4551-b0d2-46f0cd947f20")
+	)
+	(label "5V"
+		(at 185.42 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f95ad91a-3c81-4a7c-a5e0-fad90d35a7af")
+	)
 	(label "SENSORS7"
 		(at 57.15 44.45 180)
 		(effects
@@ -1149,7 +1756,7 @@
 		)
 		(uuid "ffa539f0-dd7a-427e-9471-57e6d8d37749")
 	)
-	(hierarchical_label "SENSORS[0..7]"
+	(hierarchical_label "SENSORS[0..11]"
 		(shape bidirectional)
 		(at 60.96 20.32 180)
 		(effects
@@ -1160,9 +1767,100 @@
 		)
 		(uuid "59c618fe-5530-4f93-91a2-98b3a879c093")
 	)
+	(hierarchical_label "12V"
+		(shape input)
+		(at 40.64 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a1dbf7b2-ced7-4df9-b08b-5c0b46237871")
+	)
+	(hierarchical_label "5V"
+		(shape input)
+		(at 40.64 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7100ae4-d191-4e28-8093-13a3bc91c848")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 124.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a62d9a1-358c-4d0a-8f14-8b1f24a43415")
+		(property "Reference" "#PWR0142"
+			(at 139.7 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 124.4601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c3d1a95-17c7-4467-b909-c8b064a6dcf2")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "SamacSys_new:BM04B-GHS-TBT_LF__SN_")
-		(at 231.14 30.48 0)
+		(at 101.6 67.31 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1170,8 +1868,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10cf4b9a-3cfe-4185-b202-bd4262c70428")
-		(property "Reference" "J32"
-			(at 242.57 22.86 0)
+		(property "Reference" "J35"
+			(at 113.03 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1179,15 +1877,15 @@
 			)
 		)
 		(property "Value" "BM04B-GHS-TBT_LF__SN_"
-			(at 242.57 25.4 0)
+			(at 113.03 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BM04BGHSTBTLFSN"
-			(at 250.19 125.4 0)
+		(property "Footprint" "SamacSys_Parts:BM04BGHSTBTLFSN"
+			(at 120.65 -27.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1895,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-			(at 250.19 225.4 0)
+			(at 120.65 -127.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +1905,7 @@
 			)
 		)
 		(property "Description" "GH Series 1.25 mm Pitch 4 Position Single Row Top Entry Shrouded Header"
-			(at 231.14 30.48 0)
+			(at 101.6 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1216,7 +1914,7 @@
 			)
 		)
 		(property "Height" "4.2"
-			(at 250.19 425.4 0)
+			(at 120.65 -327.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1924,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 250.19 525.4 0)
+			(at 120.65 -427.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1236,7 +1934,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BM04B-GHS-TBT(LF)(SN)"
-			(at 250.19 625.4 0)
+			(at 120.65 -527.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1246,7 +1944,7 @@
 			)
 		)
 		(property "Mouser Part Number" "306-BM04BGHSTBTLFSNN"
-			(at 250.19 725.4 0)
+			(at 120.65 -627.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1954,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-GHS-TBTLFSN?qs=cdbOS8ANM9DuBD4arU9XYQ%3D%3D"
-			(at 250.19 825.4 0)
+			(at 120.65 -727.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1964,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 250.19 925.4 0)
+			(at 120.65 -827.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,7 +1974,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 250.19 1025.4 0)
+			(at 120.65 -927.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1306,7 +2004,210 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
-					(reference "J32")
+					(reference "J35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 85.09 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12bd0ad2-2ffd-4fa1-b4f2-2acec5d8567f")
+		(property "Reference" "#PWR0136"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 85.0901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c62cf91a-e34b-4ee2-a15a-85fe496364df")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "177a859f-d666-4076-a324-c7a7c236b9ac")
+		(property "Reference" "#PWR0129"
+			(at 182.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 62.2301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc92d567-4ff3-429d-8771-acb2d9c476a9")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 87.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18ade533-bd19-4a40-9734-abbe49dd9819")
+		(property "Reference" "#PWR0139"
+			(at 147.32 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 87.6301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d61f8cfd-b54c-4334-9883-2f4579058556")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -1314,16 +2215,17 @@
 	)
 	(symbol
 		(lib_id "SamacSys_new:BM03B-SRSS-TB")
-		(at 232.41 100.33 0)
+		(at 146.05 127 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "24bed202-d06c-4e17-a865-2d40d152c016")
-		(property "Reference" "J34"
-			(at 243.84 92.71 0)
+		(uuid "18caeb5f-ea71-4f38-9b66-6f80f9299126")
+		(property "Reference" "J41"
+			(at 157.48 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,15 +2233,15 @@
 			)
 		)
 		(property "Value" "BM03B-SRSS-TB"
-			(at 243.84 95.25 0)
+			(at 157.48 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "BM03BSRSSTB"
-			(at 251.46 195.25 0)
+		(property "Footprint" "SamacSys_Parts:BM03BSRSSTB"
+			(at 165.1 32.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +2251,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-2/32971.pdf"
-			(at 251.46 295.25 0)
+			(at 165.1 -67.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +2261,7 @@
 			)
 		)
 		(property "Description" "CONN HEADER SMD 3POS 1MM"
-			(at 232.41 100.33 0)
+			(at 146.05 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1368,7 +2270,7 @@
 			)
 		)
 		(property "Height" "4.25"
-			(at 251.46 495.25 0)
+			(at 165.1 -267.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1378,7 +2280,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 251.46 595.25 0)
+			(at 165.1 -367.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1388,7 +2290,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BM03B-SRSS-TB"
-			(at 251.46 695.25 0)
+			(at 165.1 -467.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +2300,7 @@
 			)
 		)
 		(property "Mouser Part Number" "N/A"
-			(at 251.46 795.25 0)
+			(at 165.1 -567.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +2310,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST/BM03B-SRSS-TB?qs=cIziFXvMxOVukqkiHi0bdg%3D%3D"
-			(at 251.46 895.25 0)
+			(at 165.1 -667.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1418,7 +2320,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 251.46 995.25 0)
+			(at 165.1 -767.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +2330,225 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 251.46 1095.25 0)
+			(at 165.1 -867.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MP1"
+			(uuid "f27a3a87-a9b3-468e-aca5-cb1f80521b97")
+		)
+		(pin "3"
+			(uuid "9c6943e9-80a0-4faa-b438-03648b92acc2")
+		)
+		(pin "1"
+			(uuid "a5551c7a-bfd6-4b7b-b371-13888fe2b2e4")
+		)
+		(pin "MP2"
+			(uuid "a5fc274b-fd4b-4b47-9b4a-15c61cdc4f04")
+		)
+		(pin "2"
+			(uuid "55fb827a-831f-47c8-a998-1a49b65ee846")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "J41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 144.78 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dd1b04c-87d8-4418-a8b1-229b45f6f996")
+		(property "Reference" "#PWR0150"
+			(at 86.36 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 144.7801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "adb74cd6-a35b-4d78-bd1b-fce0ae614e4c")
+		)
+		(instances
+			(project ""
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:BM03B-SRSS-TB")
+		(at 92.71 144.78 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24bed202-d06c-4e17-a865-2d40d152c016")
+		(property "Reference" "J42"
+			(at 104.14 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM03B-SRSS-TB"
+			(at 104.14 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:BM03BSRSSTB"
+			(at 111.76 49.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-2/32971.pdf"
+			(at 111.76 -50.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD 3POS 1MM"
+			(at 92.71 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.25"
+			(at 111.76 -250.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 111.76 -350.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM03B-SRSS-TB"
+			(at 111.76 -450.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 111.76 -550.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST/BM03B-SRSS-TB?qs=cIziFXvMxOVukqkiHi0bdg%3D%3D"
+			(at 111.76 -650.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 111.76 -750.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 111.76 -850.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1455,7 +2575,667 @@
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
-					(reference "J34")
+					(reference "J42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 124.46 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38a0bbfb-f7d0-45e9-b442-268678afe1ea")
+		(property "Reference" "#PWR0143"
+			(at 175.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 124.4601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9686d40d-6d8b-46c0-b54d-0be46bab75e1")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 142.24 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3bcd4f23-e22a-4041-9808-2485361f9740")
+		(property "Reference" "#PWR0147"
+			(at 121.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 142.2401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad570a64-28c7-422a-8680-8864b4d7b155")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:BM04B-GHS-TBT_LF__SN_")
+		(at 101.6 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c44bc5d-5812-44ff-9d9a-343fa8f8be9a")
+		(property "Reference" "J37"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM04B-GHS-TBT_LF__SN_"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:BM04BGHSTBTLFSN"
+			(at 120.65 -7.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+			(at 120.65 -107.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "GH Series 1.25 mm Pitch 4 Position Single Row Top Entry Shrouded Header"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.2"
+			(at 120.65 -307.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 120.65 -407.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM04B-GHS-TBT(LF)(SN)"
+			(at 120.65 -507.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "306-BM04BGHSTBTLFSNN"
+			(at 120.65 -607.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-GHS-TBTLFSN?qs=cdbOS8ANM9DuBD4arU9XYQ%3D%3D"
+			(at 120.65 -707.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 120.65 -807.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 120.65 -907.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "3dc9cf43-e61e-4c98-af74-9201b6ea136c")
+		)
+		(pin "2"
+			(uuid "13725c48-028f-4062-80fd-377cbbfd4e15")
+		)
+		(pin "3"
+			(uuid "d14b0174-06d7-479e-a75d-4cea039a4b50")
+		)
+		(pin "1"
+			(uuid "d9d71007-5f1f-489d-be8f-24a082a90bbf")
+		)
+		(pin "4"
+			(uuid "5d383843-a244-4be4-82ff-99346b78e1a6")
+		)
+		(pin "5"
+			(uuid "7763661b-0a82-41f9-8a3c-fff78b05b123")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:BM04B-GHS-TBT_LF__SN_")
+		(at 153.67 67.31 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46846818-4c5f-4f25-a413-463b2cca1736")
+		(property "Reference" "J36"
+			(at 165.1 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM04B-GHS-TBT_LF__SN_"
+			(at 165.1 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:BM04BGHSTBTLFSN"
+			(at 172.72 -27.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+			(at 172.72 -127.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "GH Series 1.25 mm Pitch 4 Position Single Row Top Entry Shrouded Header"
+			(at 153.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.2"
+			(at 172.72 -327.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 172.72 -427.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM04B-GHS-TBT(LF)(SN)"
+			(at 172.72 -527.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "306-BM04BGHSTBTLFSNN"
+			(at 172.72 -627.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-GHS-TBTLFSN?qs=cdbOS8ANM9DuBD4arU9XYQ%3D%3D"
+			(at 172.72 -727.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 172.72 -827.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 172.72 -927.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "ab3b1592-1eb0-4f74-944b-7b19d13e34b0")
+		)
+		(pin "2"
+			(uuid "cf3ebd2a-c545-4917-8986-61fd15015c94")
+		)
+		(pin "3"
+			(uuid "edff5ae9-7471-41f6-8abc-50b2a91e7601")
+		)
+		(pin "1"
+			(uuid "349027fa-5486-41e5-9655-11e2bf736b99")
+		)
+		(pin "4"
+			(uuid "23e91d8a-e4e0-43fd-b48c-ece965dc95a6")
+		)
+		(pin "5"
+			(uuid "6ec43f6b-75dd-44af-9af5-0845e6c73653")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "J36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:BM03B-SRSS-TB")
+		(at 146.05 144.78 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46d63410-37be-4d40-b504-01e85cfece72")
+		(property "Reference" "J43"
+			(at 157.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM03B-SRSS-TB"
+			(at 157.48 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:BM03BSRSSTB"
+			(at 165.1 49.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-2/32971.pdf"
+			(at 165.1 -50.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD 3POS 1MM"
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.25"
+			(at 165.1 -250.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 165.1 -350.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM03B-SRSS-TB"
+			(at 165.1 -450.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 165.1 -550.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST/BM03B-SRSS-TB?qs=cIziFXvMxOVukqkiHi0bdg%3D%3D"
+			(at 165.1 -650.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 165.1 -750.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 165.1 -850.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MP1"
+			(uuid "e1fa7974-0250-4018-94fd-b0a2ea10dc36")
+		)
+		(pin "3"
+			(uuid "ac147928-7eff-4cc6-844d-c66c9b4660a3")
+		)
+		(pin "1"
+			(uuid "2c3186b2-9a7e-4c5b-a75c-d412860587ae")
+		)
+		(pin "MP2"
+			(uuid "97113faf-682e-48f0-becc-1d21c17c99af")
+		)
+		(pin "2"
+			(uuid "04cc2fbb-27f9-4cd4-949b-aff70b94ae57")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "J43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 87.63 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a6d6497-c04b-4c8a-88c4-5277722157b0")
+		(property "Reference" "#PWR0138"
+			(at 95.25 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 87.6301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f1f9253-842b-4ed5-b48c-ed3260c4eb2a")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -1463,16 +3243,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 243.84 67.31 0)
+		(at 190.5 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "446ae0d0-f6d7-4665-ae23-114a7560346e")
-		(property "Reference" "J33"
-			(at 246.38 66.0399 0)
+		(uuid "5f418643-797b-4a5c-8ba1-352ba7e3b524")
+		(property "Reference" "J34"
+			(at 193.04 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1481,7 +3261,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 246.38 68.5799 0)
+			(at 193.04 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,8 +3269,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
-			(at 243.84 67.31 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 190.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1499,7 +3279,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 243.84 67.31 0)
+			(at 190.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1508,7 +3288,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 243.84 67.31 0)
+			(at 190.5 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1516,19 +3296,1480 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "bf96ed73-abae-4d9b-9fc5-de9c2f329564")
-		)
 		(pin "1"
-			(uuid "48caae61-29b4-44ed-9c81-a26946c1baea")
+			(uuid "80631076-059f-4142-8165-1bd6f1f20fbc")
+		)
+		(pin "2"
+			(uuid "d106fcf4-46b9-42cd-92d9-25c437c67f93")
 		)
 		(pin "3"
-			(uuid "233e66fe-3773-4e7d-8b0b-6b0c3316a0fd")
+			(uuid "92ddc618-3586-4f10-ac9f-1ec23d136664")
 		)
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
-					(reference "J33")
+					(reference "J34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 124.46 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "604cb742-5b18-457a-9d4d-c35d0f739a34")
+		(property "Reference" "#PWR0140"
+			(at 86.36 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 124.4601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "24fcf714-f094-4206-815d-c77a0cf154d3")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 127 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b481121-f6b5-4a37-9d82-f9d8d9c10680")
+		(property "Reference" "#PWR0145"
+			(at 139.7 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 127.0001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e18814a7-1f70-4491-8204-df298bc3bbec")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 144.78 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7282dddd-f9cb-4b23-88cf-db7ebc699c1b")
+		(property "Reference" "#PWR0151"
+			(at 139.7 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 144.7801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d09456e-c5fe-439c-b1d9-b5187eee915d")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82a04872-0d0c-435f-9e10-a6ff117ea8c7")
+		(property "Reference" "#PWR0134"
+			(at 130.81 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 82.5501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2446f7f-d7dc-4675-bd25-43de3d482050")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 124.46 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "836e344e-9b47-4373-a04e-2911db1739b6")
+		(property "Reference" "#PWR0141"
+			(at 121.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 124.4601 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f231646-1140-46ed-ad33-e955d1f18f6e")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "903edb91-ec79-4715-a7ff-28bf1be33bd5")
+		(property "Reference" "#PWR0131"
+			(at 147.32 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 64.7701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3ea6cfa-fb26-4878-b026-30ea853916a7")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 142.24 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "958d33eb-8668-4a07-bae8-e2e04cd265c7")
+		(property "Reference" "#PWR0148"
+			(at 139.7 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.24 142.2401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ec7b075-ba47-4e79-a26a-03ddf0d9a2cd")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f41e65d-2f05-4251-ac79-2c5160e22201")
+		(property "Reference" "#PWR0128"
+			(at 130.81 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 62.2301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8cef7588-c08d-4e8d-986d-0b0f247404b1")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:BM04B-GHS-TBT_LF__SN_")
+		(at 153.67 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fc5350c-4339-4f42-9f64-cbc8e4564105")
+		(property "Reference" "J38"
+			(at 165.1 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM04B-GHS-TBT_LF__SN_"
+			(at 165.1 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:BM04BGHSTBTLFSN"
+			(at 172.72 -7.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
+			(at 172.72 -107.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "GH Series 1.25 mm Pitch 4 Position Single Row Top Entry Shrouded Header"
+			(at 153.67 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.2"
+			(at 172.72 -307.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 172.72 -407.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM04B-GHS-TBT(LF)(SN)"
+			(at 172.72 -507.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "306-BM04BGHSTBTLFSNN"
+			(at 172.72 -607.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/BM04B-GHS-TBTLFSN?qs=cdbOS8ANM9DuBD4arU9XYQ%3D%3D"
+			(at 172.72 -707.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 172.72 -807.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 172.72 -907.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1d30bed9-be44-4b50-bbb2-905e1d28e4a6")
+		)
+		(pin "2"
+			(uuid "bf326277-5a0c-47b1-97d7-2caf5329c092")
+		)
+		(pin "3"
+			(uuid "ca350ee1-8311-4c0d-8566-09d665f54cc5")
+		)
+		(pin "1"
+			(uuid "42e4f630-9435-4ddc-bdeb-2fb050dbee58")
+		)
+		(pin "4"
+			(uuid "455ee02b-72de-4246-8f9c-a33995cce022")
+		)
+		(pin "5"
+			(uuid "386fbb49-e5c4-454e-934a-b3400842ad8c")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "J38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 142.24 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7597792-57a3-4ebe-8686-59aade7c4df6")
+		(property "Reference" "#PWR0146"
+			(at 86.36 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 142.2401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "833ccca4-a51b-49f8-a7ff-6892a1335eba")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 190.5 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a792ba1e-4d38-4d92-b46f-293577a5b4d7")
+		(property "Reference" "J39"
+			(at 193.04 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 193.04 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 190.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4070db09-8c8f-48d9-a18a-f52e6d818fc6")
+		)
+		(pin "2"
+			(uuid "063856a5-676f-4c0f-8823-d5da694200e5")
+		)
+		(pin "3"
+			(uuid "250e973b-dbdc-47bd-9e26-950a1007634f")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "J39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 67.31 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac9220de-24df-4990-bcf0-460891425d18")
+		(property "Reference" "#PWR0133"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 67.3101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a521b53a-0edf-4a1d-8e86-ae7dfbe78ba7")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 85.09 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0d0a797-a1f2-494a-8d03-292fb2bfdf7a")
+		(property "Reference" "#PWR0137"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 149.86 85.0901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2c3a698-22f3-4a5c-87e1-d755565f0fdb")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 64.77 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba6561f4-3051-418a-ac18-a73aa3abf4fc")
+		(property "Reference" "#PWR0130"
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 64.7701 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "194aa654-6854-44b8-ac1e-4d5bd2a7e050")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 127 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc6a1a76-50d1-4066-ba13-70f5b2dc4b9d")
+		(property "Reference" "#PWR0144"
+			(at 86.36 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 127.0001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e503746d-136b-4b8f-9008-bd5b3244a004")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c34ebfc0-837c-4f13-af72-ff46c3ca0565")
+		(property "Reference" "#PWR0135"
+			(at 182.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 82.5501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c24f405-c83a-4b26-943c-f18b3436b8a4")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 67.31 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50e180d-fb05-4cda-a8cd-44adb2d0a2e9")
+		(property "Reference" "#PWR0132"
+			(at 95.25 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 97.79 67.3101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3d461d3-6826-4710-a4dd-56358e71f58d")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_new:BM03B-SRSS-TB")
+		(at 92.71 127 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7b851ba-5b63-43a4-8ca2-e07d463abc06")
+		(property "Reference" "J40"
+			(at 104.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BM03B-SRSS-TB"
+			(at 104.14 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:BM03BSRSSTB"
+			(at 111.76 32.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/dk/DKDS-2/32971.pdf"
+			(at 111.76 -67.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN HEADER SMD 3POS 1MM"
+			(at 92.71 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.25"
+			(at 111.76 -267.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 111.76 -367.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BM03B-SRSS-TB"
+			(at 111.76 -467.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 111.76 -567.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST/BM03B-SRSS-TB?qs=cIziFXvMxOVukqkiHi0bdg%3D%3D"
+			(at 111.76 -667.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 111.76 -767.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 111.76 -867.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "MP1"
+			(uuid "6005c0fd-1c68-4da2-95ef-cf990995efb2")
+		)
+		(pin "3"
+			(uuid "8114b0cf-945b-4a5f-9a1a-816f45ded222")
+		)
+		(pin "1"
+			(uuid "c39defb4-48f0-4401-925e-daf3a15dc31a")
+		)
+		(pin "MP2"
+			(uuid "6da4d8cc-14a9-4b4b-acd8-a5087fe0a853")
+		)
+		(pin "2"
+			(uuid "77430851-9d0d-4cab-bc04-80088ae49b62")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "J40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 142.24 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb33a648-b418-4c20-ae1e-5a3b59b84b29")
+		(property "Reference" "#PWR0149"
+			(at 175.26 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 142.2401 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03371ac5-cdc2-4581-aa0a-393a79907438")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/5ce9258e-32d5-433f-8167-eea4677c6e11"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
