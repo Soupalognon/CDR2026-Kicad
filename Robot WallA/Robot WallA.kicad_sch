@@ -428,7 +428,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 34.29) (xy 121.92 34.29)
+			(xy 121.92 34.29) (xy 232.41 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1156,7 +1156,7 @@
 				(justify left top)
 			)
 		)
-		(pin "SENSORS[0..11]" bidirectional
+		(pin "SENSORS[0..15]" bidirectional
 			(at 213.36 127 180)
 			(uuid "f1ce052d-3be9-48f2-b8b0-64ee58acb2e3")
 			(effects
@@ -1440,7 +1440,7 @@
 				(justify right)
 			)
 		)
-		(pin "SENSORS[0..11]" bidirectional
+		(pin "SENSORS[0..15]" bidirectional
 			(at 175.26 127 0)
 			(uuid "8072c2af-0ec7-4119-a7c0-c6009a2a8c58")
 			(effects

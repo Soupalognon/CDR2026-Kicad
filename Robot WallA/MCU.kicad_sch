@@ -467,7 +467,7 @@
 		)
 		(uuid "febe69cc-59ae-4a95-80b2-7278411b8aa4")
 	)
-	(hierarchical_label "SENSORS[0..11]"
+	(hierarchical_label "SENSORS[0..15]"
 		(shape bidirectional)
 		(at 48.26 93.98 180)
 		(effects
@@ -1187,7 +1187,7 @@
 				(justify left)
 			)
 		)
-		(pin "SENSORS[0..11]" bidirectional
+		(pin "SENSORS[0..15]" bidirectional
 			(at 48.26 93.98 180)
 			(uuid "63b88d7f-b999-4cb8-98e8-4cd8503c7512")
 			(effects

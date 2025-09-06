@@ -1048,7 +1048,7 @@
 		)
 		(uuid "0f32dc16-622d-4ad8-8747-8967ea8baf3f")
 	)
-	(label "SERVO_TX_ENABLE"
+	(label "SERVO_ROBOTIS_TX_ENABLE"
 		(at 148.59 33.02 180)
 		(effects
 			(font
@@ -1288,7 +1288,7 @@
 		)
 		(uuid "3e2404df-c57b-40d6-ae62-6ae49aae8280")
 	)
-	(label "SERVO_TX_ENABLE"
+	(label "SERVO_ROBOTIS_TX_ENABLE"
 		(at 71.12 149.86 180)
 		(effects
 			(font
