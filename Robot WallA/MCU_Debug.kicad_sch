@@ -1824,6 +1824,54 @@
 		)
 		(uuid "14fcf728-ee1e-4861-95aa-156efa6fb3ef")
 	)
+	(label "D-"
+		(at 158.75 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "28c706ad-878a-41ad-9edb-7fe9f0a1a125")
+	)
+	(label "D+"
+		(at 158.75 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f0fc2fb-ff02-472a-b9f2-9d47000e9d39")
+	)
+	(label "D+"
+		(at 196.85 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "638db606-4843-44bb-bf69-56c9d38a0b5f")
+	)
+	(label "D-"
+		(at 196.85 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+		(uuid "95d1b65e-bb25-4361-9f43-30d431f25d63")
+	)
 	(label "3V3"
 		(at 81.28 99.06 180)
 		(effects
@@ -1917,6 +1965,66 @@
 			(justify right)
 		)
 		(uuid "fa7d6822-5f82-4a3b-8ed6-94e6afda0ee0")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 114.3 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60d1cf5b-f065-43f4-8848-7e07c7909d9b")
+		(property "Netclass" "DiffPair_90R"
+			(at 201.168 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -116.84 -41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 116.84 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "817ccc9a-1c10-445f-8823-170fbd61862a")
+		(property "Netclass" "DiffPair_90R"
+			(at 201.168 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -116.84 -39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")

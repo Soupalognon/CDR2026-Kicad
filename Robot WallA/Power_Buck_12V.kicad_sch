@@ -1810,6 +1810,18 @@
 		(uuid "1a2354a4-b888-4c76-8d76-ff7721af4d08")
 	)
 	(junction
+		(at 232.41 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e2d81c1-0baa-495a-8e38-69f70285e1d7")
+	)
+	(junction
+		(at 39.37 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20ab3b88-f653-4e6b-81f5-6918acffb49c")
+	)
+	(junction
 		(at 137.16 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1834,10 +1846,34 @@
 		(uuid "3a744144-2897-4672-abad-96df7644e7f1")
 	)
 	(junction
+		(at 208.28 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c6aef62-e753-4f8b-93ef-026811e9b2a3")
+	)
+	(junction
 		(at 215.9 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f7fc641-60d6-4a14-a7e1-173c17a4b8c1")
+	)
+	(junction
+		(at 85.09 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de8f136-6d9c-4356-bae7-32198cbfdd38")
+	)
+	(junction
+		(at 242.57 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56d59c39-d8e4-4f79-ab65-6d1523174ed4")
+	)
+	(junction
+		(at 208.28 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5da1b442-90ab-4073-b94e-b12843e459cf")
 	)
 	(junction
 		(at 137.16 123.19)
@@ -1846,10 +1882,34 @@
 		(uuid "672240ad-558b-4872-ace2-7f47aaf9be6a")
 	)
 	(junction
+		(at 53.34 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bc43b63-4e2d-40e5-b848-d48105fec9f4")
+	)
+	(junction
+		(at 62.23 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c398112-5727-4207-8726-2cb6bc7e6257")
+	)
+	(junction
+		(at 71.12 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72ea2943-131b-4a4d-bee3-a0edc1e4d9cc")
+	)
+	(junction
 		(at 208.28 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73af8eee-5883-4057-91c9-1b1043206158")
+	)
+	(junction
+		(at 39.37 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76ceba43-eef9-40a1-b7c3-b34fa968d29c")
 	)
 	(junction
 		(at 232.41 50.8)
@@ -1862,6 +1922,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8514e0ce-1080-444d-b303-fcc0e4ffae03")
+	)
+	(junction
+		(at 53.34 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90d729de-4b22-46f0-9f8f-1421b05aac15")
 	)
 	(junction
 		(at 111.76 120.65)
@@ -1882,6 +1948,12 @@
 		(uuid "a841db61-c747-4d01-89da-98f1d02a5b34")
 	)
 	(junction
+		(at 222.25 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b09cffae-5ea0-402e-bd71-d5ced6ef5dfe")
+	)
+	(junction
 		(at 63.5 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1898,6 +1970,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caa4106d-e3e2-4ab5-ad21-715d3f2f03ac")
+	)
+	(junction
+		(at 232.41 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc0e681b-22e5-4700-ab90-bfcc2993b77a")
+	)
+	(junction
+		(at 71.12 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf914d86-b485-4ad8-9f07-429d98c42736")
+	)
+	(junction
+		(at 222.25 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d36d15c6-5b67-41aa-acf0-a58fc6e06c99")
 	)
 	(junction
 		(at 222.25 50.8)
@@ -1924,6 +2014,12 @@
 		(uuid "de10d76e-a8e1-4b24-bc95-0881c69c91a3")
 	)
 	(junction
+		(at 85.09 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2392333-6108-4ae4-aee9-96d3794ff741")
+	)
+	(junction
 		(at 242.57 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1934,6 +2030,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed787f7a-4ef4-41ff-8290-af127cadd21f")
+	)
+	(junction
+		(at 62.23 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f065608d-9fbb-453d-92b9-e10e4f427b1b")
 	)
 	(junction
 		(at 137.16 82.55)
@@ -1954,10 +2056,26 @@
 		(uuid "faa2ba35-6b1d-4e47-aff3-01c2ed8dd146")
 	)
 	(junction
+		(at 242.57 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fcf88879-a66a-4394-a150-33a0ce0a08d6")
+	)
+	(junction
 		(at 226.06 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd33595f-ae5d-4c11-8e43-2a94ad41b532")
+	)
+	(wire
+		(pts
+			(xy 208.28 67.31) (xy 222.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025bc2d0-b9a4-4d36-9537-b3d2ed3266ee")
 	)
 	(wire
 		(pts
@@ -1981,6 +2099,26 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 67.31) (xy 232.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09aa8171-6e50-41ce-876d-8234d227fcfe")
+	)
+	(wire
+		(pts
+			(xy 199.39 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10616b31-5198-4738-886f-00084bf46a43")
+	)
+	(wire
+		(pts
 			(xy 199.39 50.8) (xy 208.28 50.8)
 		)
 		(stroke
@@ -1988,6 +2126,26 @@
 			(type default)
 		)
 		(uuid "11358415-dfee-4f72-850a-5e336794388a")
+	)
+	(wire
+		(pts
+			(xy 208.28 74.93) (xy 222.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1268db84-befc-4c84-9c21-2144d3f8720a")
+	)
+	(wire
+		(pts
+			(xy 199.39 74.93) (xy 208.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c6002d-6db5-4021-91fb-d7df91d350e7")
 	)
 	(wire
 		(pts
@@ -2101,6 +2259,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 67.31) (xy 85.09 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429f8939-315b-4a58-89da-8ea321834d1b")
+	)
+	(wire
+		(pts
 			(xy 135.89 102.87) (xy 137.16 102.87)
 		)
 		(stroke
@@ -2191,6 +2359,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 74.93) (xy 95.25 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5dd767-cca0-41da-ad0b-d15cc63ee130")
+	)
+	(wire
+		(pts
 			(xy 72.39 57.15) (xy 86.36 57.15)
 		)
 		(stroke
@@ -2241,6 +2419,26 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 67.31) (xy 256.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "624978e1-abfa-4bef-9896-e0320fc41a2d")
+	)
+	(wire
+		(pts
+			(xy 53.34 67.31) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65539b88-1190-4007-a869-2d8df39452de")
+	)
+	(wire
+		(pts
 			(xy 226.06 116.84) (xy 226.06 115.57)
 		)
 		(stroke
@@ -2268,6 +2466,16 @@
 			(type default)
 		)
 		(uuid "6f6abd14-8b26-44c3-a051-708a2c9d1e88")
+	)
+	(wire
+		(pts
+			(xy 30.48 67.31) (xy 39.37 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffd584d-bea6-42fa-b0e8-1ad877361eee")
 	)
 	(wire
 		(pts
@@ -2361,6 +2569,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 74.93) (xy 53.34 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8beaa3ed-63c4-48a8-b282-502d85a1e7a3")
+	)
+	(wire
+		(pts
 			(xy 137.16 135.89) (xy 133.35 135.89)
 		)
 		(stroke
@@ -2401,6 +2619,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 67.31) (xy 53.34 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f6bb172-1399-417f-bca6-636eead36753")
+	)
+	(wire
+		(pts
 			(xy 232.41 50.8) (xy 242.57 50.8)
 		)
 		(stroke
@@ -2418,6 +2646,16 @@
 			(type default)
 		)
 		(uuid "b461c6fa-965e-496c-9b3f-145e992fabfa")
+	)
+	(wire
+		(pts
+			(xy 30.48 74.93) (xy 39.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47380af-42a6-462a-8158-7d3a78529617")
 	)
 	(wire
 		(pts
@@ -2471,6 +2709,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 74.93) (xy 71.12 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c301c0db-4c92-4c75-a383-0be2d2703c9e")
+	)
+	(wire
+		(pts
 			(xy 40.64 49.53) (xy 54.61 49.53)
 		)
 		(stroke
@@ -2481,6 +2729,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 74.93) (xy 85.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7abec77-6e42-41af-99c9-256d4d336511")
+	)
+	(wire
+		(pts
 			(xy 137.16 77.47) (xy 137.16 80.01)
 		)
 		(stroke
@@ -2488,6 +2746,26 @@
 			(type default)
 		)
 		(uuid "ce555074-10a3-47f3-94c2-c418b172b511")
+	)
+	(wire
+		(pts
+			(xy 85.09 67.31) (xy 95.25 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d622e1b7-d197-427b-8fd5-12dd2a52c8ee")
+	)
+	(wire
+		(pts
+			(xy 53.34 74.93) (xy 62.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d912ee3f-a761-4a73-b7d4-811b9524f4a2")
 	)
 	(wire
 		(pts
@@ -2511,6 +2789,36 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 67.31) (xy 71.12 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de3006e4-a63b-44a7-8fa7-a205df24422d")
+	)
+	(wire
+		(pts
+			(xy 242.57 74.93) (xy 256.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df4e22f7-35b2-49b1-9ad3-ad67c490834c")
+	)
+	(wire
+		(pts
+			(xy 232.41 67.31) (xy 242.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df81c9ff-4110-4399-b6b1-f4f2febc4823")
+	)
+	(wire
+		(pts
 			(xy 226.06 124.46) (xy 215.9 124.46)
 		)
 		(stroke
@@ -2528,6 +2836,16 @@
 			(type default)
 		)
 		(uuid "e878feda-4e2d-4055-b09b-1abbde3a0ca8")
+	)
+	(wire
+		(pts
+			(xy 222.25 74.93) (xy 232.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecf329c3-bef7-4edb-9a8c-ac0157ce6ffb")
 	)
 	(wire
 		(pts
@@ -2578,6 +2896,16 @@
 			(type default)
 		)
 		(uuid "f9bd064f-4aa9-492d-ae8e-3b7f756785e3")
+	)
+	(wire
+		(pts
+			(xy 232.41 74.93) (xy 242.57 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbbe7ed1-6d1e-46a4-a1c8-e4f4e7b81f99")
 	)
 	(wire
 		(pts
@@ -2658,6 +2986,26 @@
 			(justify right bottom)
 		)
 		(uuid "4d8c7868-c660-4f91-8567-7fe9d8c3a810")
+	)
+	(label "IN"
+		(at 30.48 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4fd03721-d049-4004-bed6-6d02dd1cda0c")
+	)
+	(label "12V"
+		(at 199.39 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "585de06b-0099-4b90-9d46-a7cf1b134dc5")
 	)
 	(label "GPIO_ENABLE"
 		(at 44.45 22.86 0)
@@ -2859,6 +3207,151 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 222.25 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13a66bd7-4954-413f-afaf-dad7ba9e1476")
+		(property "Reference" "C124"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF/50V"
+			(at 222.25 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 223.2152 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 222.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa18ce9c-b9a7-4475-9ba7-2a025881d54d")
+		)
+		(pin "2"
+			(uuid "9b62300c-9f5d-43c6-b141-b8412c55f516")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 39.37 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a8eeb76-a22a-401a-acdd-ce55e54cf74e")
+		(property "Reference" "C117"
+			(at 32.766 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120uF/25V"
+			(at 33.782 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:EEE0JA331XP"
+			(at 40.3352 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EEE-FNV121XUP"
+			(at 39.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95b9377c-9569-482f-bcb5-a6214201fc7d")
+		)
+		(pin "2"
+			(uuid "896db8fa-07ab-4d78-a189-4e8082bf6eca")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 226.06 120.65 0)
 		(mirror y)
@@ -3036,6 +3529,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 208.28 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bc6dd96-f879-4a92-8c0d-68d4d289d945")
+		(property "Reference" "C123"
+			(at 200.914 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF/25V"
+			(at 203.708 74.168 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:EEE1AA220WR"
+			(at 209.2452 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EEE-FN1E220R"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de05c6d9-889e-4f4c-bbd7-444dd346416e")
+		)
+		(pin "2"
+			(uuid "c605ccc2-fb66-4a39-8f05-ba4809ab8bc7")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C123")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 157.48 52.07 90)
 		(unit 1)
@@ -3103,6 +3683,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 256.54 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46c57f21-fd73-4393-afdf-ade3baf74b00")
+		(property "Reference" "C127"
+			(at 251.46 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10nF/50V"
+			(at 256.54 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 257.5052 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 256.54 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "114b58ce-6ace-4a35-bdef-f72f837d270a")
+		)
+		(pin "2"
+			(uuid "5a1d9fee-85ec-4ba9-acb5-211c3403c5e6")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C127")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 208.28 54.61 0)
 		(unit 1)
@@ -3129,7 +3776,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "SamacSys_Parts:EEE1AA220WR"
 			(at 209.2452 58.42 0)
 			(effects
 				(font
@@ -3148,6 +3795,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at 208.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EEE-FN1E220R"
 			(at 208.28 54.61 0)
 			(effects
 				(font
@@ -3600,6 +4265,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 85.09 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59f19728-3572-461c-b1d2-a7f23354e876")
+		(property "Reference" "C121"
+			(at 81.026 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF/25V"
+			(at 85.09 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 86.0552 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 85.09 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b72fe45-8b57-40ae-884e-48d6e91b01c3")
+		)
+		(pin "2"
+			(uuid "c1edfdec-8ae2-456e-8d47-cc107379abe5")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 215.9 124.46 0)
 		(mirror y)
@@ -3661,6 +4393,73 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 232.41 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6714b3be-e08b-483d-84cf-930ae5442237")
+		(property "Reference" "C125"
+			(at 227.584 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF/50V"
+			(at 232.41 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 233.3752 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 232.41 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5306b1e5-9e0e-4bef-9d92-157525f5fe10")
+		)
+		(pin "2"
+			(uuid "e4423ffa-eaac-4e57-9875-f8485b471190")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C125")
 					(unit 1)
 				)
 			)
@@ -4191,6 +4990,73 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 53.34 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a18ab5a0-5833-4c88-8c1e-9013f1c58a78")
+		(property "Reference" "C118"
+			(at 49.276 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47nF/25V"
+			(at 53.34 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 54.3052 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8b21530-5a26-4269-ba77-ec42fbe1f639")
+		)
+		(pin "2"
+			(uuid "7663bf97-a99f-4c47-83c0-4adb5d9dbe8f")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 232.41 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4390,6 +5256,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 95.25 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9d3a26b-7a1f-45d4-8d55-844cf81f10af")
+		(property "Reference" "C122"
+			(at 91.186 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF/25V"
+			(at 95.25 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 96.2152 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e35c3b92-c32c-43fd-9ca9-e109dcffe393")
+		)
+		(pin "2"
+			(uuid "e3940da6-8932-4467-a4d7-7fcf3d341393")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 218.44 115.57 0)
 		(mirror y)
@@ -4544,6 +5477,139 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 199.39 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e252a12e-658d-4e32-8f6f-43970191f2d6")
+		(property "Reference" "#PWR0172"
+			(at 199.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f5bb636-38e1-49b4-bb7c-12ba48d03c94")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 62.23 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7682c1c-86ad-49d0-b322-0cdd3edda77a")
+		(property "Reference" "C119"
+			(at 58.166 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47nF/25V"
+			(at 62.23 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 63.1952 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7ebc0b0-6e1b-4784-b1cc-8b30f8ed36c1")
+		)
+		(pin "2"
+			(uuid "8643b3c4-fa4e-42e9-ab5e-c252fbab87d3")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 137.16 90.17 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4604,6 +5670,72 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 30.48 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f06c2f32-5167-46c1-afb0-ed93e07cb13d")
+		(property "Reference" "#PWR0171"
+			(at 30.48 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 30.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55bb1a0a-1101-4efa-9fd8-c14fa98884da")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -4744,6 +5876,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 71.12 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f56c48b4-19a7-4936-a1c4-a910ef8602d7")
+		(property "Reference" "C120"
+			(at 67.056 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47nF/25V"
+			(at 71.12 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 72.0852 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "988b302e-937d-4067-8456-a19a0bc088e5")
+		)
+		(pin "2"
+			(uuid "1da5146c-36f3-48f9-8d40-def4baf19fd0")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 199.39 58.42 0)
 		(unit 1)
@@ -4804,6 +6003,73 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
 					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc72d86b-ae01-4aa4-a484-43b4513891f8")
+		(property "Reference" "C126"
+			(at 237.744 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF/50V"
+			(at 242.57 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 243.5352 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 242.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72de3ac2-7f6a-49ce-ae2b-d87ba992e072")
+		)
+		(pin "2"
+			(uuid "e8003864-913f-44d7-8e7b-71dd3a498039")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/e9458b63-d596-4321-86fd-ad5fcfcf494d"
+					(reference "C126")
 					(unit 1)
 				)
 			)

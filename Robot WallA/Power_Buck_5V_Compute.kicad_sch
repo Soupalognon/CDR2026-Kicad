@@ -1049,12 +1049,6 @@
 		(uuid "36d1ddd6-72bd-4946-8893-223012b3dc4e")
 	)
 	(junction
-		(at 209.55 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a12d1ed-f915-4507-88db-5a4ad4a5fb69")
-	)
-	(junction
 		(at 138.43 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1091,12 +1085,6 @@
 		(uuid "7cd5b9e9-b9dc-4983-b67b-197d0e75dd62")
 	)
 	(junction
-		(at 209.55 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8046f71c-a2e4-4a3b-b7eb-c239279dc70a")
-	)
-	(junction
 		(at 233.68 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1125,6 +1113,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1e3ffdf-25b8-44b5-a51d-c8baabc54ccd")
+	)
+	(junction
+		(at 209.55 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b248ec9e-42d1-4479-bb78-508ab1d851dc")
 	)
 	(junction
 		(at 223.52 48.26)
@@ -1157,6 +1151,12 @@
 		(uuid "e4d13ccb-244b-4b14-8e77-d1f0999c2fa1")
 	)
 	(junction
+		(at 209.55 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e793a96e-abd2-4eea-86ce-15a4eb362328")
+	)
+	(junction
 		(at 64.77 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1181,16 +1181,6 @@
 			(type default)
 		)
 		(uuid "0345e5c0-bc85-4ded-a50b-e4a2a9e1fad8")
-	)
-	(wire
-		(pts
-			(xy 200.66 48.26) (xy 209.55 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10d80b2e-7feb-4e76-8c91-85d9ff86e5d8")
 	)
 	(wire
 		(pts
@@ -1291,6 +1281,16 @@
 			(type default)
 		)
 		(uuid "4311b659-a690-4baf-af7c-d0376b04a98f")
+	)
+	(wire
+		(pts
+			(xy 209.55 55.88) (xy 223.52 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "488b64bc-cfe5-41df-b755-6bbd1c1abcc0")
 	)
 	(wire
 		(pts
@@ -1414,16 +1414,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 55.88) (xy 209.55 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a09a25ec-c623-4195-b987-6808f6b9913e")
-	)
-	(wire
-		(pts
 			(xy 87.63 54.61) (xy 97.79 54.61)
 		)
 		(stroke
@@ -1444,7 +1434,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 55.88) (xy 223.52 55.88)
+			(xy 200.66 55.88) (xy 209.55 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1524,7 +1514,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 48.26) (xy 223.52 48.26)
+			(xy 200.66 48.26) (xy 209.55 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1541,6 +1531,16 @@
 			(type default)
 		)
 		(uuid "fd5d0634-bc8f-4741-9c97-61c626cda995")
+	)
+	(wire
+		(pts
+			(xy 209.55 48.26) (xy 223.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdbc02e4-766b-42d2-baed-80f55cd10815")
 	)
 	(label "5V"
 		(at 133.35 78.74 180)
@@ -2385,75 +2385,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 209.55 52.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a4e1f24-fa35-4f40-b8a3-ac7bb838b5b7")
-		(property "Reference" "C46"
-			(at 202.946 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF/25V"
-			(at 204.978 55.118 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 210.5152 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 209.55 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad9cc823-d87d-4814-ae15-cf199f3c317a")
-		)
-		(pin "2"
-			(uuid "5435188b-2cda-4e7d-beea-d327447cadd8")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/690dff04-39a8-47af-a544-90bdf7825c98"
-					(reference "C46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "SamacSys_Parts:NID35-5")
 		(at 138.43 74.93 0)
 		(unit 1)
@@ -2624,6 +2555,93 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/690dff04-39a8-47af-a544-90bdf7825c98"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 209.55 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab535258-a5d6-495f-9c29-3d63114f748e")
+		(property "Reference" "C46"
+			(at 202.946 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF/25V"
+			(at 204.978 55.118 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:EEE1AA220WR"
+			(at 210.5152 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.5"
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "EEE-FN1E220R"
+			(at 209.55 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "494f9cb9-d652-405a-b869-f6de81ff469c")
+		)
+		(pin "2"
+			(uuid "575c10fd-3676-41e4-a4dc-c83f3cd9ffb8")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/690dff04-39a8-47af-a544-90bdf7825c98"
+					(reference "C46")
 					(unit 1)
 				)
 			)

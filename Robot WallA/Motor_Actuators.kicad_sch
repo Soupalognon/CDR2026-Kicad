@@ -3415,14 +3415,6 @@
 		(color 0 0 0 0)
 		(uuid "fba62049-1f6a-4c7b-a1e5-5e5c3ddce499")
 	)
-	(no_connect
-		(at 26.67 177.8)
-		(uuid "5f861966-b0d5-441a-b822-550faf21faa9")
-	)
-	(no_connect
-		(at 26.67 180.34)
-		(uuid "617255a7-d023-4e24-8b34-ca37e9173bd1")
-	)
 	(wire
 		(pts
 			(xy 240.03 73.66) (xy 243.84 73.66)
@@ -3552,16 +3544,6 @@
 			(type default)
 		)
 		(uuid "2ac05979-6ebd-47ff-aa86-5bc5b6582b43")
-	)
-	(wire
-		(pts
-			(xy 105.41 111.76) (xy 105.41 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c979c99-f717-4cf5-b710-9e8f422cae2d")
 	)
 	(wire
 		(pts
@@ -4105,6 +4087,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 63.5) (xy 215.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80d1a15-3937-4815-9ead-bf5a49100483")
+	)
+	(wire
+		(pts
 			(xy 118.11 187.96) (xy 129.54 187.96)
 		)
 		(stroke
@@ -4192,6 +4184,16 @@
 			(type default)
 		)
 		(uuid "e1019144-d3d2-4e12-aed1-de35866db92c")
+	)
+	(wire
+		(pts
+			(xy 105.41 111.76) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e26dc802-66a0-4972-8710-e29780376e2b")
 	)
 	(wire
 		(pts
@@ -4373,6 +4375,26 @@
 		)
 		(uuid "1a6bc817-a84b-424e-bd74-b90caeaf2ee4")
 	)
+	(label "Motor1_Low"
+		(at 71.12 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "209a5d43-c923-4326-ad88-cde7790b2ccc")
+		(property "Netclass" "HighCurrent_3A"
+			(at 90.424 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(label "5V"
 		(at 205.74 142.24 180)
 		(effects
@@ -4383,7 +4405,7 @@
 		)
 		(uuid "20a96ccc-3859-4e7f-932f-8d168399d494")
 	)
-	(label "5V"
+	(label "5V_ROBOTIS"
 		(at 195.58 31.75 0)
 		(effects
 			(font
@@ -4391,7 +4413,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "243991a5-7161-4835-9174-91ac2b53589b")
+		(uuid "27ac6d91-22ff-4110-89ba-246cbe4d4173")
 	)
 	(label "PWR_2"
 		(at 205.74 119.38 180)
@@ -4402,6 +4424,16 @@
 			(justify right bottom)
 		)
 		(uuid "287a646a-2d0b-4362-9318-dd7ec1f09bd7")
+		(property "Netclass" "HighCurrent_3A"
+			(at 226.822 116.332 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "DATA"
 		(at 243.84 40.64 180)
@@ -4422,16 +4454,26 @@
 			(justify right bottom)
 		)
 		(uuid "2d534294-0a20-4281-87d5-049e9f56279b")
+		(property "Netclass" "HighCurrent_3A"
+			(at 227.584 106.172 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
-	(label "5V"
-		(at 215.9 68.58 180)
+	(label "5V_ROBOTIS"
+		(at 138.43 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "368adb4b-9ee5-4473-b7a1-123018ed00c7")
+		(uuid "3843f0fb-d672-41ed-8c8c-f30d97fdde14")
 	)
 	(label "12V"
 		(at 205.74 116.84 180)
@@ -4453,6 +4495,16 @@
 		)
 		(uuid "3f895297-5e74-467f-88b7-a9640fe0ab4b")
 	)
+	(label "5V_ROBOTIS"
+		(at 215.9 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41b74281-f247-48cc-bdd3-ea7da02f3c79")
+	)
 	(label "12V"
 		(at 243.84 50.8 180)
 		(effects
@@ -4472,6 +4524,16 @@
 			(justify right bottom)
 		)
 		(uuid "4730bee0-4128-4df4-b715-b2f2b8d775b9")
+		(property "Netclass" "HighCurrent_3A"
+			(at 68.072 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "12V"
 		(at 243.84 63.5 180)
@@ -4482,6 +4544,46 @@
 			(justify right bottom)
 		)
 		(uuid "47c273fc-cdb2-462b-9caf-822a97850482")
+	)
+	(label "Motor1_High"
+		(at 71.12 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e03f57a-50ca-49e0-a742-67fa9f313568")
+		(property "Netclass" "HighCurrent_3A"
+			(at 90.424 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(label "Motor2_High"
+		(at 71.12 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "51ff412c-3d86-4d04-ba59-82fdbdc83334")
+		(property "Netclass" "HighCurrent_3A"
+			(at 90.424 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "5V"
 		(at 54.61 111.76 180)
@@ -4524,12 +4626,12 @@
 		(uuid "6dbce2b4-fb3e-4b36-8ac4-d01dd27441ab")
 	)
 	(label "5V"
-		(at 140.97 29.21 0)
+		(at 135.89 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "77a6e4e8-7a14-4264-b946-5a83671133b4")
 	)
@@ -4573,6 +4675,16 @@
 		)
 		(uuid "85ef05c0-9f38-4cf7-9c98-64f6bb300575")
 	)
+	(label "5V_ROBOTIS"
+		(at 143.51 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87f55483-01cf-451d-937d-07bba172a31c")
+	)
 	(label "PWR_3"
 		(at 205.74 129.54 180)
 		(effects
@@ -4582,6 +4694,16 @@
 			(justify right bottom)
 		)
 		(uuid "8a48cf21-e5f8-43b3-b428-5f7d16ca6ca5")
+		(property "Netclass" "HighCurrent_3A"
+			(at 227.076 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "12V"
 		(at 209.55 34.29 180)
@@ -4602,16 +4724,6 @@
 			(justify right bottom)
 		)
 		(uuid "98923fdc-ff11-48c0-944e-957a90a17cad")
-	)
-	(label "5V"
-		(at 140.97 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99ac8a48-2b42-481c-ba99-224a34732729")
 	)
 	(label "DATA"
 		(at 243.84 78.74 180)
@@ -4642,6 +4754,16 @@
 			(justify right bottom)
 		)
 		(uuid "a2457566-42c4-4ede-a361-c4489fd6650b")
+		(property "Netclass" "HighCurrent_3A"
+			(at 227.076 136.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
 	)
 	(label "TX_UC_5V"
 		(at 173.99 80.01 180)
@@ -4703,6 +4825,16 @@
 		)
 		(uuid "c60f1507-b26d-4312-b681-6338bf2675ab")
 	)
+	(label "5V_ROBOTIS"
+		(at 138.43 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca1d2883-0995-4db4-8461-a1b4dad5f69f")
+	)
 	(label "12V"
 		(at 205.74 127 180)
 		(effects
@@ -4712,16 +4844,6 @@
 			(justify right bottom)
 		)
 		(uuid "cd99e763-ae96-42a0-b1f8-dce9c49b917f")
-	)
-	(label "5V"
-		(at 173.99 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cfe108a3-a990-4794-9b66-266a6b2f0c38")
 	)
 	(label "PWR_1"
 		(at 247.65 104.14 180)
@@ -4742,6 +4864,26 @@
 			(justify right bottom)
 		)
 		(uuid "d6e9ca56-598e-41ba-92a0-9ea98571b1ca")
+	)
+	(label "Motor2_Low"
+		(at 71.12 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eab58adb-937c-4c2f-b60b-acb830fea457")
+		(property "Netclass" "HighCurrent_3A"
+			(at 90.424 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(label "DATA"
 		(at 243.84 53.34 180)
@@ -4772,6 +4914,16 @@
 			(justify left bottom)
 		)
 		(uuid "f8ce8581-74c9-439e-891f-129760bdeb11")
+	)
+	(label "5V_ROBOTIS"
+		(at 173.99 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbf1b39c-1900-4685-b8bb-3c87310e80e1")
 	)
 	(label "TX_ENABLE"
 		(at 201.93 72.39 0)
@@ -5091,7 +5243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 148.59 38.1 0)
 			(effects
 				(font
@@ -5421,6 +5573,82 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 139.7 73.66 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "110b12e7-a3a0-4f8d-9753-857af0ef14dd")
+		(property "Reference" "R26"
+			(at 139.7 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 139.7 75.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 139.7 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 139.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36bedfbd-174f-4201-bf8e-cb0aa19f80c5")
+		)
+		(pin "2"
+			(uuid "87ca0f9a-2ce1-4171-b1a4-371e054ad935")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -6796,6 +7024,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 26.67 180.34 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49e5410e-e9f2-451b-8732-3f583c84bf44")
+		(property "Reference" "#PWR0174"
+			(at 20.32 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.098 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30b98cfa-b7a2-4319-9d68-db0eef2dfa20")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5819WS")
 		(at 110.49 152.4 270)
 		(unit 1)
@@ -8006,7 +8299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 148.59 58.42 0)
 			(effects
 				(font
@@ -8548,6 +8841,71 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 177.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afa03378-9cd6-46e3-bfd7-0b3c90a89db4")
+		(property "Reference" "#PWR0173"
+			(at 20.32 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.098 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a1d4ba8-2202-4662-a466-309351a37bbe")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
