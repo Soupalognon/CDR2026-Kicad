@@ -226,7 +226,7 @@
 		)
 		(uuid "b0a569f7-0101-48b0-ae2c-1c6b60ba946e")
 	)
-	(text "PCB Recommendations:\nFR-4 Glass Epoxy material with 2 oz. (70 μm) copper on both top and bottom layer is recommended for\nimproved thermal performance and better EMI margin (due to lower PCB trace inductance).\n	(From Motor Driver DRV8262 datasheet page 47)"
+	(text "PCB Recommendations:\nFR-4 Glass Epoxy material with 2 oz. (70 μm) copper on both top and bottom layer is recommended for\nimproved thermal performance and better EMI margin (due to lower PCB trace inductance).\n	(From Motor Driver DRV8262 datasheet page 46)"
 		(exclude_from_sim no)
 		(at 226.06 158.242 0)
 		(effects
@@ -247,6 +247,18 @@
 			)
 		)
 		(uuid "c772bc93-7fd9-4ea1-9c9a-5ddcab5ffa62")
+	)
+	(text "Manufacturer:\nJLCPCB\n4 layers\n1.6mm\n2oz outer layer\n0.5oz inner layer\nhttps://jlcpcb.com/impedance\nhttps://jlcpcb.com/capabilities/pcb-capabilities"
+		(exclude_from_sim no)
+		(at 116.84 177.292 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e94aeec8-b60e-4686-a121-513bafe13135")
 	)
 	(junction
 		(at 203.2 25.4)
