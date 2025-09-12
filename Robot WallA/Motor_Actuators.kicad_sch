@@ -3224,16 +3224,22 @@
 		(uuid "1a6eca05-73a9-47ab-9c25-bd68bacd8e60")
 	)
 	(junction
+		(at 207.01 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20afc455-7ec6-43a6-b06e-0b651e8521f3")
+	)
+	(junction
 		(at 144.78 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "387792a6-c28a-4764-88a5-0673aaf29f97")
 	)
 	(junction
-		(at 214.63 46.99)
+		(at 195.58 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "409b6c27-0d37-4c53-a094-84ef14d66b1d")
+		(uuid "3fefeaa0-824d-40cd-a180-ccb2609d26a5")
 	)
 	(junction
 		(at 215.9 76.2)
@@ -3246,6 +3252,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49b9bf88-1b12-42b7-9c13-aaee92324e14")
+	)
+	(junction
+		(at 207.01 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a882702-08c8-4d8d-b33c-584aec21210f")
 	)
 	(junction
 		(at 153.67 38.1)
@@ -3264,12 +3276,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "551421b2-a5e0-491b-88d9-befb8c5b6ccf")
-	)
-	(junction
-		(at 214.63 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f1996e3-2a65-4eef-b389-7a2977afd920")
 	)
 	(junction
 		(at 100.33 116.84)
@@ -3300,6 +3306,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7af535d2-b4a8-41c2-b5fd-60d6b894b056")
+	)
+	(junction
+		(at 184.15 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7deb1b30-7137-48f6-93e8-66e5d105442a")
 	)
 	(junction
 		(at 110.49 116.84)
@@ -3368,10 +3380,22 @@
 		(uuid "bce34389-0112-4618-85ea-d881f4994d7d")
 	)
 	(junction
+		(at 195.58 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0a57a3b-a2ea-4d75-a806-845917f3174d")
+	)
+	(junction
 		(at 105.41 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d75c4002-c5bb-48b1-8556-50ae1580f8bc")
+	)
+	(junction
+		(at 184.15 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7edadea-1fb6-4346-ac16-8a202094c67b")
 	)
 	(junction
 		(at 39.37 135.89)
@@ -3607,16 +3631,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 46.99) (xy 223.52 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3da46a06-b91a-470f-b658-f9bb4c64d0bf")
-	)
-	(wire
-		(pts
 			(xy 240.03 48.26) (xy 243.84 48.26)
 		)
 		(stroke
@@ -3667,7 +3681,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 46.99) (xy 214.63 46.99)
+			(xy 181.61 40.64) (xy 184.15 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3967,6 +3981,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 27.94) (xy 207.01 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a23472e3-1299-4c40-bda1-961433678634")
+	)
+	(wire
+		(pts
 			(xy 49.53 158.75) (xy 49.53 162.56)
 		)
 		(stroke
@@ -4004,6 +4028,16 @@
 			(type default)
 		)
 		(uuid "ad8649e5-5b93-470f-ada2-fea7970b269b")
+	)
+	(wire
+		(pts
+			(xy 207.01 27.94) (xy 218.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "add43ce0-2ad9-4eaf-a807-7a8a364345be")
 	)
 	(wire
 		(pts
@@ -4057,23 +4091,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 34.29) (xy 214.63 34.29)
+			(xy 195.58 40.64) (xy 207.01 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf870696-e6cd-4b96-91ca-5e37ac9cd2a4")
+	)
+	(wire
+		(pts
+			(xy 181.61 27.94) (xy 184.15 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c223ea97-5c36-41b9-923d-377e112201c0")
-	)
-	(wire
-		(pts
-			(xy 214.63 34.29) (xy 223.52 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3b4f923-f675-4b95-bd89-ecb11b25eea3")
 	)
 	(wire
 		(pts
@@ -4187,6 +4221,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 40.64) (xy 218.44 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1a6eba8-5a27-4186-86d1-6e3e14a6201a")
+	)
+	(wire
+		(pts
 			(xy 105.41 111.76) (xy 105.41 116.84)
 		)
 		(stroke
@@ -4224,6 +4268,26 @@
 			(type default)
 		)
 		(uuid "e656cc3c-6a76-4eb1-a0f6-d4928a67bec6")
+	)
+	(wire
+		(pts
+			(xy 184.15 27.94) (xy 195.58 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e745ff1a-27b1-4319-924f-2d47570641c0")
+	)
+	(wire
+		(pts
+			(xy 184.15 40.64) (xy 195.58 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea9d943b-3ae0-493e-89ce-062b4598e501")
 	)
 	(wire
 		(pts
@@ -4406,7 +4470,7 @@
 		(uuid "20a96ccc-3859-4e7f-932f-8d168399d494")
 	)
 	(label "5V_ROBOTIS"
-		(at 195.58 31.75 0)
+		(at 191.77 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4636,7 +4700,7 @@
 		(uuid "77a6e4e8-7a14-4264-b946-5a83671133b4")
 	)
 	(label "TX_ENABLE"
-		(at 180.34 35.56 180)
+		(at 176.53 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4706,7 +4770,7 @@
 		)
 	)
 	(label "12V"
-		(at 209.55 34.29 180)
+		(at 181.61 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5656,7 +5720,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 195.58 31.75 270)
+		(at 191.77 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5664,7 +5728,7 @@
 		(dnp no)
 		(uuid "1a92828b-52c1-4dd1-82bd-12e2aec51ff2")
 		(property "Reference" "C105"
-			(at 189.484 37.084 90)
+			(at 185.674 49.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +5736,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 188.976 39.878 90)
+			(at 185.166 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5744,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 99.39 40.64 0)
+			(at 95.58 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5690,7 +5754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -0.61 40.64 0)
+			(at -4.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +5764,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 195.58 31.75 0)
+			(at 191.77 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5709,7 +5773,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at -400.61 40.64 0)
+			(at -404.42 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,6 +6331,86 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 184.15 27.94 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d2050b9-13a3-4acb-a2ba-169015dd068d")
+		(property "Reference" "C106"
+			(at 189.484 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 187.706 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 280.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 380.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 780.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1be7944-9675-49a7-91fa-20f05a0d2842")
+		)
+		(pin "1"
+			(uuid "ca5b37fb-b988-4483-a5fc-c92314b22ea3")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 115.57 270)
 		(unit 1)
@@ -6476,6 +6620,86 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 195.58 27.94 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e27e463-aa77-4613-bbaf-7cb37fcedff7")
+		(property "Reference" "C107"
+			(at 200.914 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 199.136 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 291.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 391.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 791.77 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "35756b79-7fa3-4e3c-829f-7c57ec385630")
+		)
+		(pin "1"
+			(uuid "e8c41c97-21fa-4008-b7e5-8c82feed8a92")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -7313,87 +7537,8 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:UCH1V101MCS1GS")
-		(at 223.52 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52070187-30b5-496f-bc56-6e0af920a361")
-		(property "Reference" "C107"
-			(at 229.362 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF"
-			(at 229.87 42.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:CAPAE830X1050N"
-			(at 127.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
-			(at 27.33 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
-			(at 223.52 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EDK107M050A9MAA"
-			(at -372.67 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d5932a25-a34a-4171-9d0e-e73c950fd85e")
-		)
-		(pin "2"
-			(uuid "68ad4d79-768f-4c80-a89d-e234ba36c3f8")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "C107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 195.58 44.45 0)
+		(at 191.77 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7402,7 +7547,7 @@
 		(fields_autoplaced yes)
 		(uuid "5eb9ef43-1b17-46b0-af25-68f6917103f2")
 		(property "Reference" "#PWR0112"
-			(at 195.58 50.8 0)
+			(at 191.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7411,7 +7556,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 49.53 0)
+			(at 191.77 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7419,7 +7564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 44.45 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7428,7 +7573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 44.45 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7437,7 +7582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 44.45 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8706,7 +8851,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 43.18 0)
+		(at 176.53 55.88 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8716,7 +8861,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a36e579-1610-4308-8adc-2428379a370f")
 		(property "Reference" "#PWR0111"
-			(at 180.34 49.53 0)
+			(at 176.53 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8725,7 +8870,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 48.26 0)
+			(at 176.53 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8733,7 +8878,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 43.18 0)
+			(at 176.53 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8742,7 +8887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 43.18 0)
+			(at 176.53 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +8896,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 43.18 0)
+			(at 176.53 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8766,6 +8911,86 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 218.44 27.94 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b818b8b-699a-437e-9921-6fcfe62115c6")
+		(property "Reference" "C131"
+			(at 223.774 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 221.996 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 314.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 414.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 814.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "376820f7-6219-4d1d-b335-3d64cfb3cfc6")
+		)
+		(pin "1"
+			(uuid "0e1d775e-e3fe-4878-9f45-c4bf701db159")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C131")
 					(unit 1)
 				)
 			)
@@ -9126,7 +9351,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 39.37 0)
+		(at 176.53 52.07 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9135,7 +9360,7 @@
 		(dnp no)
 		(uuid "b66d46e4-56ae-441d-aaed-1347aaae482c")
 		(property "Reference" "R48"
-			(at 183.642 38.1 0)
+			(at 179.832 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +9368,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 183.896 40.132 0)
+			(at 180.086 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,7 +9376,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 182.118 39.37 90)
+			(at 178.308 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9160,7 +9385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 39.37 0)
+			(at 176.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,7 +9394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 39.37 0)
+			(at 176.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9177,7 +9402,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 180.34 39.37 0)
+			(at 176.53 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9414,16 +9639,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 209.55 46.99 270)
+		(at 181.61 40.64 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bdd96f92-d6b0-4749-baf3-6f98d1d54fb0")
 		(property "Reference" "#PWR0113"
-			(at 203.2 46.99 0)
+			(at 175.26 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9432,7 +9656,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 46.9899 90)
+			(at 177.8 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,7 +9665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 46.99 0)
+			(at 181.61 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +9674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 46.99 0)
+			(at 181.61 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +9683,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 209.55 46.99 0)
+			(at 181.61 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9824,6 +10048,86 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "C112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 207.01 27.94 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da085727-85a8-4244-a306-24a41c88cb12")
+		(property "Reference" "C130"
+			(at 212.344 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 210.566 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 303.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 403.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 803.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6d18017-8a3e-4e69-83c0-29e4667be5e7")
+		)
+		(pin "1"
+			(uuid "99698146-c7b3-45f5-95e3-19bf386ff35d")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C130")
 					(unit 1)
 				)
 			)
@@ -10379,85 +10683,6 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "#FLG012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 214.63 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f25cb2f3-1f47-4654-9fde-2808c174c86e")
-		(property "Reference" "C106"
-			(at 208.534 39.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 208.026 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 118.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 18.44 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 214.63 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at -381.56 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1646db53-622c-4c0c-bea2-4ca96f195678")
-		)
-		(pin "1"
-			(uuid "848ede41-80f1-4dae-b645-2f51656dcbb3")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "C106")
 					(unit 1)
 				)
 			)
