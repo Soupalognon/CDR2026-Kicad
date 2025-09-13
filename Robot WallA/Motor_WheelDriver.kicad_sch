@@ -1119,241 +1119,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SamacSys_Parts:UCH1V101MCS1GS"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "UCH1V101MCS1GS"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "CAPAE660X800N"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "8"
-				(at 8.89 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Nichicon"
-				(at 8.89 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "UCH1V101MCS1GS"
-				(at 8.89 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "647-UCH1V101MCS1GS"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nichicon/UCH1V101MCS1GS?qs=DPoM0jnrROVcVOKIbT3qQw%3D%3D"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 8.89 -896.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 8.89 -996.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "UCH1V101MCS1GS_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 1.778) (xy 4.064 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 1.27) (xy 3.556 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 5.08 2.54)
-					(end 5.842 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 10.16 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_new:125700D00000G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2621,6 +2386,19 @@
 		)
 		(uuid "6b4d786d-782c-416c-99d0-21215c015b39")
 	)
+	(text "ATTENTION!!\nPour simplifier le routage, \nles phases du moteurs on été invérsées!\nAtention au câblage!"
+		(exclude_from_sim no)
+		(at 236.22 100.076 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "bf7d41e4-00c1-4869-b8ff-f08332535919")
+	)
 	(text "2x Transmotec PD4266-24-17-BFEC\n24V / 2,1A nominal\n4,2A nominal total\n"
 		(exclude_from_sim no)
 		(at 59.69 170.942 0)
@@ -2660,16 +2438,16 @@
 		(uuid "30853d8d-a45f-48c4-badd-70273da79d1b")
 	)
 	(junction
-		(at 154.94 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "359c9e13-5c31-4361-8c2a-10ba43f0c827")
-	)
-	(junction
 		(at 168.91 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52ab3a6f-492e-4231-93eb-4bc181db2785")
+	)
+	(junction
+		(at 154.94 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55c32b62-06c4-4048-b5fd-898258ddbc93")
 	)
 	(junction
 		(at 106.68 69.85)
@@ -2678,16 +2456,10 @@
 		(uuid "5f28baa2-cd2b-44c2-bd58-92086b13108d")
 	)
 	(junction
-		(at 196.85 57.15)
+		(at 198.12 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "63a94995-c051-40f2-809c-808d02305660")
-	)
-	(junction
-		(at 212.09 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a595730-989b-41d7-aa43-5a235c33b2a4")
+		(uuid "64d476d2-6536-469f-977e-d2d55462b88c")
 	)
 	(junction
 		(at 96.52 88.9)
@@ -2708,22 +2480,16 @@
 		(uuid "a048cec4-9953-49fd-852a-0b28986b8578")
 	)
 	(junction
-		(at 212.09 57.15)
+		(at 198.12 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a1182e3b-9040-4e30-81d7-adb8f05225c3")
+		(uuid "b8ff3f8a-9c02-48a3-8ea5-a15e88303acf")
 	)
 	(junction
 		(at 154.94 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc92beea-dd7b-4722-a4d7-c828219f26ca")
-	)
-	(junction
-		(at 196.85 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bf109195-1fe8-4864-946f-3d4f5b3c1e7c")
 	)
 	(junction
 		(at 58.42 97.79)
@@ -2773,16 +2539,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 69.85) (xy 212.09 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0049e314-7937-4a2e-aff8-a20c5619fb05")
-	)
-	(wire
-		(pts
 			(xy 96.52 115.57) (xy 109.22 115.57)
 		)
 		(stroke
@@ -2803,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 57.15) (xy 196.85 57.15)
+			(xy 182.88 57.15) (xy 198.12 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2853,7 +2609,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 69.85) (xy 196.85 69.85)
+			(xy 182.88 69.85) (xy 198.12 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2953,16 +2709,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 69.85) (xy 227.33 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bee9ede-0aa9-49f6-83f7-12b3b4a89c8f")
-	)
-	(wire
-		(pts
 			(xy 58.42 80.01) (xy 60.96 80.01)
 		)
 		(stroke
@@ -3010,6 +2756,16 @@
 			(type default)
 		)
 		(uuid "56162bf2-69d7-4e55-a33d-f0d6404921f2")
+	)
+	(wire
+		(pts
+			(xy 198.12 69.85) (xy 213.36 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b02b090-58f4-4b57-a7cc-f474948eaadd")
 	)
 	(wire
 		(pts
@@ -3083,16 +2839,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 57.15) (xy 212.09 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9714f070-31f6-4edc-aad4-ad46f26f44cc")
-	)
-	(wire
-		(pts
 			(xy 52.07 113.03) (xy 60.96 113.03)
 		)
 		(stroke
@@ -3153,16 +2899,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 57.15) (xy 227.33 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8c61e0d-e774-47fb-84d8-ee0fc80c78bc")
-	)
-	(wire
-		(pts
 			(xy 52.07 90.17) (xy 60.96 90.17)
 		)
 		(stroke
@@ -3200,6 +2936,16 @@
 			(type default)
 		)
 		(uuid "bec37308-0ba2-42f6-a494-58bed945d665")
+	)
+	(wire
+		(pts
+			(xy 154.94 69.85) (xy 168.91 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c964ae08-efe0-4f44-890b-6451d7f9689e")
 	)
 	(wire
 		(pts
@@ -3243,13 +2989,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 69.85) (xy 168.91 69.85)
+			(xy 198.12 57.15) (xy 213.36 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d20bff53-f57c-4d76-8044-7168d3413b4b")
+		(uuid "d902ed4d-00a5-4195-8804-bf9174a60ab0")
 	)
 	(wire
 		(pts
@@ -3452,7 +3198,7 @@
 		(uuid "418f5955-ea52-4da6-8554-40d76710bacb")
 	)
 	(label "Motor2_High"
-		(at 248.92 86.36 180)
+		(at 248.92 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3462,7 +3208,7 @@
 		(uuid "475f8bd6-c134-43dc-b47f-761711b00cf8")
 	)
 	(label "Motor2_Low"
-		(at 248.92 88.9 180)
+		(at 248.92 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3572,7 +3318,7 @@
 		(uuid "8e4ffc00-129a-4e42-9933-3b90628a28bd")
 	)
 	(label "Motor1_High"
-		(at 58.42 105.41 180)
+		(at 58.42 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3622,7 +3368,7 @@
 		(uuid "b977e9b4-fd8f-4601-b615-e205e50fe257")
 	)
 	(label "Motor2_High"
-		(at 58.42 72.39 180)
+		(at 58.42 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3662,7 +3408,7 @@
 		(uuid "ca3736e4-cafd-4763-95b1-c97481f353fb")
 	)
 	(label "Motor1_Low"
-		(at 58.42 97.79 180)
+		(at 58.42 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3732,7 +3478,7 @@
 		(uuid "f7e6810f-480b-4355-9eb2-99a5b59ffcb2")
 	)
 	(label "Motor2_Low"
-		(at 58.42 80.01 180)
+		(at 58.42 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4122,7 +3868,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 227.33 57.15 90)
+		(at 213.36 57.15 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4131,7 +3877,7 @@
 		(dnp no)
 		(uuid "0642a62e-4e6e-4794-9848-3f4b30955b60")
 		(property "Reference" "C129"
-			(at 233.426 62.484 90)
+			(at 219.456 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +3885,7 @@
 			)
 		)
 		(property "Value" "100nF/50V"
-			(at 233.934 65.278 90)
+			(at 219.964 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +3893,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 323.52 66.04 0)
+			(at 309.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4157,7 +3903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 423.52 66.04 0)
+			(at 409.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +3913,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 227.33 57.15 0)
+			(at 213.36 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +3922,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 823.52 66.04 0)
+			(at 809.55 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4469,7 +4215,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 212.09 57.15 90)
+		(at 198.12 57.15 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4478,7 +4224,7 @@
 		(dnp no)
 		(uuid "1846f9f4-f79a-42a4-94e7-5b21945a43e4")
 		(property "Reference" "C128"
-			(at 218.186 62.484 90)
+			(at 204.216 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4486,7 +4232,7 @@
 			)
 		)
 		(property "Value" "100nF/50V"
-			(at 218.694 65.278 90)
+			(at 204.724 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4494,7 +4240,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 308.28 66.04 0)
+			(at 294.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4504,7 +4250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 408.28 66.04 0)
+			(at 394.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4514,7 +4260,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 57.15 0)
+			(at 198.12 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4523,7 +4269,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 808.28 66.04 0)
+			(at 794.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4615,7 +4361,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 196.85 57.15 90)
+		(at 182.88 57.15 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4624,7 +4370,7 @@
 		(dnp no)
 		(uuid "2100d0ac-5203-48e4-a4f9-9cdaecd4d71e")
 		(property "Reference" "C99"
-			(at 202.946 62.484 90)
+			(at 188.976 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4378,7 @@
 			)
 		)
 		(property "Value" "100nF/50V"
-			(at 203.454 65.278 90)
+			(at 189.484 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +4386,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 293.04 66.04 0)
+			(at 279.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +4396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 393.04 66.04 0)
+			(at 379.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4660,7 +4406,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 57.15 0)
+			(at 182.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4669,7 +4415,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 793.04 66.04 0)
+			(at 779.07 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4508,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys:39501-1002")
-		(at 248.92 76.2 0)
+		(at 248.92 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4771,7 +4517,7 @@
 		(fields_autoplaced yes)
 		(uuid "253aa42b-dbcd-4b0c-b73b-5bcf885c9d6a")
 		(property "Reference" "J15"
-			(at 265.43 76.1999 0)
+			(at 265.43 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4780,7 +4526,7 @@
 			)
 		)
 		(property "Value" "39501-1002"
-			(at 265.43 78.7399 0)
+			(at 265.43 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +4535,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:395011002"
-			(at 265.43 171.12 0)
+			(at 265.43 181.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +4545,7 @@
 			)
 		)
 		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/2/39501-1002.pdf"
-			(at 265.43 271.12 0)
+			(at 265.43 281.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4809,7 +4555,7 @@
 			)
 		)
 		(property "Description" "Pluggable Terminal Blocks 3.5MM EURO HDR 02P VT CLOSED"
-			(at 248.92 76.2 0)
+			(at 248.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +4564,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "39501-1002"
-			(at 265.43 671.12 0)
+			(at 265.43 681.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,7 +5343,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 168.91 57.15 90)
+		(at 154.94 57.15 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5606,7 +5352,7 @@
 		(dnp no)
 		(uuid "79502fd6-3efa-4271-95e1-0dfb88f0d2ac")
 		(property "Reference" "C96"
-			(at 175.006 62.484 90)
+			(at 161.036 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5360,7 @@
 			)
 		)
 		(property "Value" "10nF/50V"
-			(at 175.514 65.278 90)
+			(at 161.544 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5622,7 +5368,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 265.1 66.04 0)
+			(at 251.13 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,7 +5378,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
-			(at 365.1 66.04 0)
+			(at 351.13 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +5388,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 168.91 57.15 0)
+			(at 154.94 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +5397,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 765.1 66.04 0)
+			(at 751.13 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +5782,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys:39501-1002")
-		(at 248.92 86.36 0)
+		(at 248.92 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6045,7 +5791,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0d9535d-e4ae-4121-9fe9-8b6381793d42")
 		(property "Reference" "J16"
-			(at 265.43 86.3599 0)
+			(at 265.43 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +5800,7 @@
 			)
 		)
 		(property "Value" "39501-1002"
-			(at 265.43 88.8999 0)
+			(at 265.43 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +5809,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:395011002"
-			(at 265.43 181.28 0)
+			(at 265.43 171.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +5819,7 @@
 			)
 		)
 		(property "Datasheet" "https://mouser.componentsearchengine.com/Datasheets/2/39501-1002.pdf"
-			(at 265.43 281.28 0)
+			(at 265.43 271.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +5829,7 @@
 			)
 		)
 		(property "Description" "Pluggable Terminal Blocks 3.5MM EURO HDR 02P VT CLOSED"
-			(at 248.92 86.36 0)
+			(at 248.92 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +5838,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "39501-1002"
-			(at 265.43 681.28 0)
+			(at 265.43 671.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,85 +5930,6 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
 					(reference "HS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:UCH1V101MCS1GS")
-		(at 154.94 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b57a01a6-6481-4dde-ab36-96f171266a0e")
-		(property "Reference" "C97"
-			(at 160.782 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF/50V"
-			(at 160.782 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:CAPAE830X1050N"
-			(at 58.75 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
-			(at -41.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
-			(at 154.94 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EDK107M050A9MAA"
-			(at -441.25 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbb3c5b7-6ecb-4f87-a8f3-22a262b8d66e")
-		)
-		(pin "2"
-			(uuid "1e26767c-0096-4a57-a8cd-65303aa6d536")
-		)
-		(instances
-			(project "PCB"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
-					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -6564,7 +6231,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 182.88 57.15 90)
+		(at 168.91 57.15 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6573,7 +6240,7 @@
 		(dnp no)
 		(uuid "cced3638-9ff5-4fa8-a1c4-81d8e4916bc9")
 		(property "Reference" "C98"
-			(at 188.976 62.484 90)
+			(at 175.006 62.484 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6581,7 +6248,7 @@
 			)
 		)
 		(property "Value" "100nF/50V"
-			(at 189.484 65.278 90)
+			(at 175.514 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,7 +6256,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 279.07 66.04 0)
+			(at 265.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6599,7 +6266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 379.07 66.04 0)
+			(at 365.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6609,7 +6276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 57.15 0)
+			(at 168.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +6285,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 779.07 66.04 0)
+			(at 765.1 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
