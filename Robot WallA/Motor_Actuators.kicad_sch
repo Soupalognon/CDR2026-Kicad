@@ -912,6 +912,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Open"
 			(pin_numbers
 				(hide yes)
@@ -3212,10 +3362,28 @@
 		(uuid "085ff09e-fe5e-4bce-b132-7e3a7e50b87f")
 	)
 	(junction
+		(at 90.17 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08b351d2-4aa9-48e8-bf31-29c3261cd1e5")
+	)
+	(junction
 		(at 100.33 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ab4c4bc-b061-43ff-bdba-b65b88ac2b54")
+	)
+	(junction
+		(at 90.17 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "133e9a32-0764-4596-82e9-7d50c596332c")
+	)
+	(junction
+		(at 101.6 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a1fee56-0cb6-49c8-accc-84f5ecc2f53c")
 	)
 	(junction
 		(at 39.37 125.73)
@@ -3228,6 +3396,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20afc455-7ec6-43a6-b06e-0b651e8521f3")
+	)
+	(junction
+		(at 101.6 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25568e0c-ea22-48f7-a619-ac16da0c495d")
 	)
 	(junction
 		(at 144.78 38.1)
@@ -3302,12 +3476,6 @@
 		(uuid "73dd6126-2b2b-4ec2-93fa-978079d5e3d3")
 	)
 	(junction
-		(at 92.71 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7af535d2-b4a8-41c2-b5fd-60d6b894b056")
-	)
-	(junction
 		(at 184.15 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3326,28 +3494,22 @@
 		(uuid "8520729d-0d67-45a9-ab3c-6caa87cdc22a")
 	)
 	(junction
-		(at 92.71 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88ecbb6a-6b14-4542-8ebc-6b7262bc9534")
-	)
-	(junction
 		(at 153.67 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d37fd7a-5ad6-4a75-ba32-62ecaecfac39")
 	)
 	(junction
-		(at 106.68 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ef72930-c5bc-4133-8a30-d5bf74009ae0")
-	)
-	(junction
 		(at 203.2 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91316574-b491-47d2-b476-72754c8dda34")
+	)
+	(junction
+		(at 113.03 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98db8d13-dfe4-407d-afb4-730576ec0e80")
 	)
 	(junction
 		(at 39.37 133.35)
@@ -3360,24 +3522,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a958bdb2-937d-4eed-bda9-8594cddcc3d9")
-	)
-	(junction
-		(at 129.54 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a95f4ed4-f278-444b-abdf-ae026decfa3e")
-	)
-	(junction
-		(at 129.54 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1a20d15-30f2-4af6-9f9a-dbe44d726b41")
-	)
-	(junction
-		(at 118.11 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bce34389-0112-4618-85ea-d881f4994d7d")
 	)
 	(junction
 		(at 195.58 40.64)
@@ -3404,12 +3548,6 @@
 		(uuid "dfb04e2d-bbb8-442c-b6ee-ad4952a3e3bb")
 	)
 	(junction
-		(at 106.68 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4a122bb-d8b0-4077-8abb-3182200eb68a")
-	)
-	(junction
 		(at 49.53 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3422,10 +3560,10 @@
 		(uuid "ee54109a-8890-41ac-be93-195563d3decb")
 	)
 	(junction
-		(at 118.11 175.26)
+		(at 113.03 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f2436d65-9705-4f52-aba3-9176727398ae")
+		(uuid "f2cc82c6-7f73-4182-811d-5277daa9384d")
 	)
 	(junction
 		(at 110.49 156.21)
@@ -3461,26 +3599,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 187.96) (xy 106.68 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cd73df2-a897-41ea-83b0-0e999da09f2e")
-	)
-	(wire
-		(pts
-			(xy 118.11 175.26) (xy 129.54 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d11e74b-4ac1-43cd-8ffa-8c0af32837c0")
-	)
-	(wire
-		(pts
 			(xy 100.33 116.84) (xy 105.41 116.84)
 		)
 		(stroke
@@ -3488,6 +3606,16 @@
 			(type default)
 		)
 		(uuid "0f6a2354-a21b-4032-95ba-565cfb4a6edb")
+	)
+	(wire
+		(pts
+			(xy 113.03 175.26) (xy 124.46 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "107461bc-2de5-4a93-9f0c-c903f37cfdca")
 	)
 	(wire
 		(pts
@@ -3531,7 +3659,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 187.96) (xy 92.71 187.96)
+			(xy 78.74 187.96) (xy 90.17 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3651,7 +3779,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 175.26) (xy 92.71 175.26)
+			(xy 78.74 175.26) (xy 90.17 175.26)
 		)
 		(stroke
 			(width 0)
@@ -3891,6 +4019,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 187.96) (xy 113.03 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c5a7238-8e2f-4da5-bdb3-1bc59d3ba3a0")
+	)
+	(wire
+		(pts
 			(xy 69.85 130.81) (xy 90.17 130.81)
 		)
 		(stroke
@@ -3898,6 +4036,16 @@
 			(type default)
 		)
 		(uuid "7d5f8237-3434-4c47-ae6a-9f7b675a7bd4")
+	)
+	(wire
+		(pts
+			(xy 101.6 175.26) (xy 113.03 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da41a2c-1d99-4665-93a1-b883b93d3ca3")
 	)
 	(wire
 		(pts
@@ -3931,6 +4079,26 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 187.96) (xy 101.6 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838ef66e-3429-461c-ba28-13f78de5cc34")
+	)
+	(wire
+		(pts
+			(xy 43.18 40.64) (xy 36.83 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dd6c96-8989-40c7-8eb9-218dec61adbe")
+	)
+	(wire
+		(pts
 			(xy 120.65 124.46) (xy 120.65 140.97)
 		)
 		(stroke
@@ -3948,6 +4116,16 @@
 			(type default)
 		)
 		(uuid "8e7ea4fe-f284-41c7-8914-f903c435b04a")
+	)
+	(wire
+		(pts
+			(xy 90.17 175.26) (xy 101.6 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ba86630-b00a-40bd-b4d2-ac18b4d8b432")
 	)
 	(wire
 		(pts
@@ -4061,23 +4239,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 175.26) (xy 140.97 175.26)
+			(xy 43.18 36.83) (xy 36.83 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b705d333-9774-40d2-96ee-0648608dc548")
-	)
-	(wire
-		(pts
-			(xy 92.71 175.26) (xy 106.68 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b871cac5-deea-4a55-a9e7-f6e88ec55a8b")
+		(uuid "b38842d2-a61b-4288-bfe4-58594207312a")
 	)
 	(wire
 		(pts
@@ -4131,13 +4299,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 187.96) (xy 129.54 187.96)
+			(xy 113.03 187.96) (xy 124.46 187.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c8dd3288-9d46-4cb8-a5b3-0b2c930a54b4")
+		(uuid "cc399d44-cbfd-4a70-9bb4-c3b68ae8090b")
 	)
 	(wire
 		(pts
@@ -4148,26 +4316,6 @@
 			(type default)
 		)
 		(uuid "d0ea169b-e2eb-4b65-b70b-e1593a29654c")
-	)
-	(wire
-		(pts
-			(xy 106.68 187.96) (xy 118.11 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d30ad7b5-df70-47a3-83fd-fb61a3948dfc")
-	)
-	(wire
-		(pts
-			(xy 106.68 175.26) (xy 118.11 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3792e90-0174-4e2d-b2c1-3459f87e394a")
 	)
 	(wire
 		(pts
@@ -4198,16 +4346,6 @@
 			(type default)
 		)
 		(uuid "dec06dd9-36a8-43f6-9a9e-b4f5432a3f06")
-	)
-	(wire
-		(pts
-			(xy 129.54 187.96) (xy 140.97 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0da67dd-3e69-474e-8079-ccec45f8c427")
 	)
 	(wire
 		(pts
@@ -4379,6 +4517,16 @@
 		)
 		(uuid "010cc56d-c71b-4fdb-9504-ef0448be35da")
 	)
+	(label "RX_UC"
+		(at 135.89 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "031af84f-17ef-4699-9704-e8291e5b7793")
+	)
 	(label "TX_ENABLE"
 		(at 43.18 30.48 0)
 		(effects
@@ -4508,6 +4656,16 @@
 			(justify right bottom)
 		)
 		(uuid "2a827d1f-19d8-4ae7-89f4-c33b73e3ce75")
+	)
+	(label "RX_UC"
+		(at 127 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2bae0ab0-c569-4fa6-aa2a-246e15138d4b")
 	)
 	(label "PWR_1"
 		(at 205.74 109.22 180)
@@ -4659,6 +4817,16 @@
 		)
 		(uuid "52a94fb1-ad08-40c9-944e-0c67e48c8d94")
 	)
+	(label "TX_UC"
+		(at 43.18 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5818de18-b126-4b3e-bcf5-1e28b514334b")
+	)
 	(label "PWR_5"
 		(at 57.15 111.76 0)
 		(effects
@@ -4679,6 +4847,16 @@
 		)
 		(uuid "5d454e59-18b7-4f9b-b7df-1bcb044bf7e4")
 	)
+	(label "TX_UC"
+		(at 135.89 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6a7cea83-92e0-4d1d-bdb3-48eeb1ef75af")
+	)
 	(label "RX_UC_5V"
 		(at 158.75 58.42 0)
 		(effects
@@ -4690,7 +4868,7 @@
 		(uuid "6dbce2b4-fb3e-4b36-8ac4-d01dd27441ab")
 	)
 	(label "5V"
-		(at 135.89 73.66 180)
+		(at 137.16 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4740,7 +4918,7 @@
 		(uuid "85ef05c0-9f38-4cf7-9c98-64f6bb300575")
 	)
 	(label "5V_ROBOTIS"
-		(at 143.51 73.66 0)
+		(at 144.78 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4779,6 +4957,16 @@
 		)
 		(uuid "8f1cf3e5-0a81-4e3a-afa1-82c0a29d54ea")
 	)
+	(label "TX_UC"
+		(at 127 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "946624c2-b074-4738-a3bd-9f7ecd1c3c20")
+	)
 	(label "12V"
 		(at 205.74 137.16 180)
 		(effects
@@ -4788,6 +4976,16 @@
 			(justify right bottom)
 		)
 		(uuid "98923fdc-ff11-48c0-944e-957a90a17cad")
+	)
+	(label "RX_UC"
+		(at 43.18 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "98a1a42a-a921-455d-98a0-9a6901404ae9")
 	)
 	(label "DATA"
 		(at 243.84 78.74 180)
@@ -4869,6 +5067,16 @@
 		)
 		(uuid "bc2566cf-dc9f-4acf-b583-ba9e95f60860")
 	)
+	(label "TX_UC_5V"
+		(at 146.05 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be2fc0f7-97e3-4310-ac66-801b11195d6e")
+	)
 	(label "12V"
 		(at 205.74 106.68 180)
 		(effects
@@ -4948,6 +5156,16 @@
 				(justify left)
 			)
 		)
+	)
+	(label "RX_UC_5V"
+		(at 146.05 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef8839e0-7099-4d5f-9a2d-400cac58ad0f")
 	)
 	(label "DATA"
 		(at 243.84 53.34 180)
@@ -5031,17 +5249,6 @@
 			(justify right)
 		)
 		(uuid "29eb3728-1c1e-488b-a92a-e790395c3fba")
-	)
-	(hierarchical_label "RX_UC"
-		(shape output)
-		(at 127 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2af7d188-2954-49f0-bf6c-95041733865e")
 	)
 	(hierarchical_label "PWM6"
 		(shape input)
@@ -5131,6 +5338,17 @@
 		)
 		(uuid "9730d8a5-0057-495a-a3db-3dae54005c5d")
 	)
+	(hierarchical_label "TX_UC"
+		(shape input)
+		(at 36.83 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bec2e122-b77c-4daf-8b2f-0f7f647f505b")
+	)
 	(hierarchical_label "IN3"
 		(shape input)
 		(at 35.56 133.35 180)
@@ -5142,16 +5360,16 @@
 		)
 		(uuid "bf5e82b7-251d-4862-be47-a10faced8646")
 	)
-	(hierarchical_label "TX_UC"
-		(shape input)
-		(at 127 38.1 180)
+	(hierarchical_label "RX_UC"
+		(shape output)
+		(at 36.83 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "cc21bc50-f90a-46eb-8819-e2a0da8a0262")
+		(uuid "ca4a2f4e-800a-442b-b2f8-de7d95e82f99")
 	)
 	(hierarchical_label "CurrentSense1"
 		(shape input)
@@ -5205,7 +5423,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000062464466")
 		(property "Reference" "Q4"
 			(at 138.43 41.402 90)
@@ -5362,7 +5580,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "022abe62-4d4a-4313-990b-71736c54aab1")
 		(property "Reference" "R47"
 			(at 150.0378 34.29 90)
@@ -5644,7 +5862,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 73.66 90)
+		(at 140.97 82.55 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5653,7 +5871,7 @@
 		(dnp no)
 		(uuid "110b12e7-a3a0-4f8d-9753-857af0ef14dd")
 		(property "Reference" "R26"
-			(at 139.7 73.66 90)
+			(at 140.97 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5661,7 +5879,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 139.7 75.692 90)
+			(at 140.97 84.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,7 +5887,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 139.7 71.882 90)
+			(at 140.97 80.772 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +5896,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 73.66 0)
+			(at 140.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5905,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 73.66 0)
+			(at 140.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5695,7 +5913,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 139.7 73.66 0)
+			(at 140.97 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +6017,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 106.68 175.26 270)
+		(at 90.17 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5807,7 +6025,7 @@
 		(dnp no)
 		(uuid "1c2ee0a1-1e91-47ca-a52c-2e21dbebf0f3")
 		(property "Reference" "C111"
-			(at 112.268 180.594 90)
+			(at 95.758 180.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5815,7 +6033,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 112.268 182.626 90)
+			(at 95.758 182.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5823,7 +6041,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 10.49 184.15 0)
+			(at -6.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +6051,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
-			(at -89.51 184.15 0)
+			(at -106.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5843,7 +6061,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 106.68 175.26 0)
+			(at 90.17 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5852,7 +6070,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at -489.51 184.15 0)
+			(at -506.02 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5951,7 +6169,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "23e59318-7168-4453-89a6-a6cd0bda8439")
 		(property "Reference" "Q5"
 			(at 138.176 62.23 90)
@@ -6187,7 +6405,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 129.54 175.26 270)
+		(at 113.03 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6195,7 +6413,7 @@
 		(dnp no)
 		(uuid "29c264cf-5fe7-48da-b2a0-0f11cbcdf7a0")
 		(property "Reference" "C113"
-			(at 135.128 180.594 90)
+			(at 118.618 180.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6203,7 +6421,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 135.128 182.626 90)
+			(at 118.618 182.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6211,7 +6429,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 33.35 184.15 0)
+			(at 16.84 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6221,7 +6439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -66.65 184.15 0)
+			(at -83.16 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6231,7 +6449,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 129.54 175.26 0)
+			(at 113.03 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6240,7 +6458,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at -466.65 184.15 0)
+			(at -483.16 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,6 +6623,73 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 140.97 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dd5e2a2-8d49-4361-9830-e2f3d87c3b42")
+		(property "Reference" "JP16"
+			(at 140.97 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Closed"
+			(at 140.97 71.374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cbf844ef-f9ca-424f-b7b9-03b3054f50a2")
+		)
+		(pin "1"
+			(uuid "719f3533-224d-47b8-a29f-c46773491e3d")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "JP16")
 					(unit 1)
 				)
 			)
@@ -8340,85 +8625,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:UCH1V101MCS1GS")
-		(at 92.71 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "85ffc2d3-2bec-4659-acce-a379cdb20bf3")
-		(property "Reference" "C110"
-			(at 98.552 180.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100uF"
-			(at 99.06 183.134 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:CAPAE830X1050N"
-			(at -3.48 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://nz.mouser.com/datasheet/2/293/e_uch-1903304.pdf"
-			(at -103.48 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Aluminum Electrolytic Capacitors - SMD 35V 100uf 20% SMD, high vibration"
-			(at 92.71 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "EDK107M050A9MAA"
-			(at -503.48 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13c51efe-237d-48e4-90c5-1d8c8341e24a")
-		)
-		(pin "2"
-			(uuid "2492863b-7a18-4703-8aee-8fae7483a484")
-		)
-		(instances
-			(project "Robot WallA"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "C110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 153.67 58.42 0)
 		(mirror y)
@@ -9976,7 +10182,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 118.11 175.26 270)
+		(at 101.6 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9984,7 +10190,7 @@
 		(dnp no)
 		(uuid "c8582183-5675-4d35-9304-9d7afda05a01")
 		(property "Reference" "C112"
-			(at 123.698 180.594 90)
+			(at 107.188 180.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9992,7 +10198,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 123.698 182.626 90)
+			(at 107.188 182.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10000,7 +10206,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 21.92 184.15 0)
+			(at 5.41 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10010,7 +10216,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/X7RDielectric.pdf"
-			(at -78.08 184.15 0)
+			(at -94.59 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10020,7 +10226,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 118.11 175.26 0)
+			(at 101.6 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,7 +10235,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at -478.08 184.15 0)
+			(at -494.59 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +10589,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:0805DC104MAT2A")
-		(at 140.97 175.26 270)
+		(at 124.46 175.26 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10391,7 +10597,7 @@
 		(dnp no)
 		(uuid "e4e5f654-6104-49e9-b90d-5f51b2b46fc9")
 		(property "Reference" "C114"
-			(at 146.558 180.594 90)
+			(at 130.048 180.594 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10399,7 +10605,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 146.558 182.626 90)
+			(at 130.048 182.626 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10407,7 +10613,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 44.78 184.15 0)
+			(at 28.27 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10417,7 +10623,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -55.22 184.15 0)
+			(at -71.73 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10427,7 +10633,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 35V .1uF X7R 0805 20% Tol"
-			(at 140.97 175.26 0)
+			(at 124.46 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10436,7 +10642,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at -455.22 184.15 0)
+			(at -471.73 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10468,7 +10674,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e8840c50-4a70-43ff-ac17-f04581e17167")
 		(property "Reference" "R49"
 			(at 150.0378 54.61 90)
@@ -10925,6 +11131,73 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "#PWR0114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 140.97 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff352a77-2ee3-409a-a58e-0ceb6c4aa78d")
+		(property "Reference" "JP17"
+			(at 140.97 73.914 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Closed"
+			(at 140.97 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "32ef193c-2050-4f9a-8ff9-76d0ff3ad4c8")
+		)
+		(pin "1"
+			(uuid "cd613496-eb5a-4743-baf1-1bb54346e1df")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "JP17")
 					(unit 1)
 				)
 			)

@@ -3811,16 +3811,6 @@
 		)
 		(uuid 8d415ab7-6254-47ce-a41c-5a7d72890570)
 	)
-	(text "Ne pas oublier pair différentiel !?"
-		(exclude_from_sim no)
-		(at 179.578 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0ed77a84-ab8c-41f4-b6fe-9d43f33a091e")
-	)
 	(text "USB C - PC Embarqué"
 		(exclude_from_sim no)
 		(at 242.824 38.1 0)
@@ -5637,7 +5627,7 @@
 		(uuid "12e92d11-6abd-468b-af3a-88fa386d9d70")
 	)
 	(label "PHY_CLK_25MHZ"
-		(at 30.48 116.84 180)
+		(at 43.18 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)

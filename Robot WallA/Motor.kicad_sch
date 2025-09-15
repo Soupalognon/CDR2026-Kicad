@@ -1970,7 +1970,7 @@
 				(justify left)
 			)
 		)
-		(pin "ENCODER_LEFT_1" input
+		(pin "ENCODER_LEFT_1" output
 			(at 137.16 76.2 180)
 			(uuid "16610847-fe92-4dad-984c-55ce322edb9a")
 			(effects
@@ -1980,7 +1980,7 @@
 				(justify left)
 			)
 		)
-		(pin "ENCODER_LEFT_2" input
+		(pin "ENCODER_LEFT_2" output
 			(at 137.16 78.74 180)
 			(uuid "30914ebd-51af-4d42-898c-5c4b5e456ab2")
 			(effects
@@ -1990,7 +1990,7 @@
 				(justify left)
 			)
 		)
-		(pin "ENCODER_RIGHT_1" input
+		(pin "ENCODER_RIGHT_1" output
 			(at 137.16 83.82 180)
 			(uuid "2758ffbc-dc6a-4688-8482-8a18ba7bef8e")
 			(effects
@@ -2000,7 +2000,7 @@
 				(justify left)
 			)
 		)
-		(pin "ENCODER_RIGHT_2" input
+		(pin "ENCODER_RIGHT_2" output
 			(at 137.16 86.36 180)
 			(uuid "25845d6d-43ff-4545-b595-c7ff903cd90a")
 			(effects

@@ -250,12 +250,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "missing_unit|1943100|1257300|1ad29468-77fe-41e9-8794-38f5ee0ae40d|00000000-0000-0000-0000-000000000000|/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/996b1006-76bc-4b31-b64b-1da2a3c9bad6|/117fd49e-499d-4b54-b58c-f6b538ecca4a/b9176f6a-4299-4bca-a59b-5ff3df09c616/996b1006-76bc-4b31-b64b-1da2a3c9bad6|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -490,7 +485,7 @@
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.15,
         "microvia_drill": 0.2,
@@ -548,7 +543,7 @@
         "via_drill": 0.5
       },
       {
-        "clearance": 0.5,
+        "clearance": 0.4,
         "name": "HighCurrent_5A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,

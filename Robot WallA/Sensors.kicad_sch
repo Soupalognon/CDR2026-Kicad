@@ -2445,7 +2445,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BM02BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:BM02BSRSSTBLFSN"
 			(at 151.13 279.07 0)
 			(effects
 				(font
@@ -3676,7 +3676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BM02BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:BM02BSRSSTBLFSN"
 			(at 151.13 260.02 0)
 			(effects
 				(font
@@ -4327,7 +4327,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BM02BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:BM02BSRSSTBLFSN"
 			(at 105.41 279.07 0)
 			(effects
 				(font
@@ -4744,7 +4744,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BM02BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:BM02BSRSSTBLFSN"
 			(at 105.41 260.02 0)
 			(effects
 				(font
