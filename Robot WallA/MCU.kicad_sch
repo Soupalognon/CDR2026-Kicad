@@ -693,7 +693,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3V3_PER" input
+		(pin "3V3" input
 			(at 194.31 124.46 180)
 			(uuid "ab7f1ee8-ef71-4b83-b0a1-2e2f34c1c9a6")
 			(effects

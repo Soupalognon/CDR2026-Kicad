@@ -8170,7 +8170,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+		(property "Footprint" "SamacSys_Parts:QFN50P400X400X100-25N-D"
 			(at 96.52 123.19 0)
 			(effects
 				(font
