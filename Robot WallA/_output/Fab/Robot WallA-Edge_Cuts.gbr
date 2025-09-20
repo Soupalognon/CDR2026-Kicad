@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.4*%
+%TF.CreationDate,2025-09-20T23:31:29+02:00*%
+%TF.ProjectId,Robot WallA,526f626f-7420-4576-916c-6c412e6b6963,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.4) date 2025-09-20 23:31:29*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X55210000Y-39480000D02*
+X225210000Y-39480000D01*
+X225210000Y-139480000D01*
+X55210000Y-139480000D01*
+X55210000Y-39480000D01*
+M02*

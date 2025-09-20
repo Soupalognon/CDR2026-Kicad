@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "ddd96011-5575-40d6-960e-5f82d944e6a5")
 	(paper "A4")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -5501,6 +5509,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 138.43 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9fbb68e6-7b65-4823-be61-83e9759a12a8")
 		)
@@ -5580,6 +5597,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 153.67 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c5980d3-a1f4-46d7-91e1-3ab1d6e96632")
 		)
@@ -5646,6 +5672,15 @@
 		)
 		(property "Manufacturer_Part_Number" ""
 			(at 144.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 144.78 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5779,6 +5814,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 38.1 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 38.1 158.75 0)
 			(effects
 				(font
@@ -5931,6 +5975,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 120.65 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79e26c7b-29c9-4cb3-b298-1e8dc6ed60ad")
 		)
@@ -6000,6 +6053,15 @@
 		)
 		(property "Manufacturer_Part_Number" ""
 			(at 140.97 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 140.97 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6086,6 +6148,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 191.77 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "780f2399-45e1-4c22-8be8-9d7738c097d7")
 		)
@@ -6162,6 +6233,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 90.17 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6313,6 +6393,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 138.43 49.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "792f68f3-404d-4fbb-a49f-88d45155b9eb")
 		)
@@ -6378,6 +6467,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 205.74 132.08 0)
 			(effects
 				(font
@@ -6471,6 +6569,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 247.65 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0238daa4-8cf1-4ff1-884b-fddea9d2318f")
 		)
@@ -6550,6 +6657,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 113.03 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6699,6 +6815,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 184.15 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a1be7944-9675-49a7-91fa-20f05a0d2842")
 		)
@@ -6758,6 +6883,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 140.97 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 140.97 69.85 0)
 			(effects
 				(font
@@ -6915,6 +7049,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c5fdc51a-be5b-4f40-b7ac-97910419250a")
 		)
@@ -7058,6 +7201,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 195.58 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7207,6 +7359,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 54.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93130922-011f-44fc-a20e-1992735164f6")
 		)
@@ -7289,6 +7450,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 26.67 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "651df033-a987-4797-8344-169cf9dd5aab")
 		)
@@ -7359,6 +7529,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5819HW-7-F"
+			(at 90.17 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 90.17 152.4 90)
 			(effects
 				(font
@@ -7449,6 +7628,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 243.84 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f4dc360e-fb90-4bb6-913b-6d10affad39d")
 		)
@@ -7522,6 +7710,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5819HW-7-F"
+			(at 110.49 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 110.49 120.65 90)
 			(effects
 				(font
@@ -7610,6 +7807,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 210.82 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0014f5c1-3878-4cf8-b893-6b348671e408")
 		)
@@ -7672,6 +7878,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 205.74 111.76 0)
 			(effects
 				(font
@@ -7826,6 +8041,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 110.49 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5425b46-bea6-44c0-b405-303c43e80d48")
 		)
@@ -7964,6 +8188,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5819HW-7-F"
+			(at 100.33 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 100.33 152.4 90)
 			(effects
 				(font
@@ -8238,6 +8471,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 38.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5e8794ef-e07c-42d3-8fe5-74759f947635")
 		)
@@ -8381,6 +8623,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 215.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a379feb1-e9c2-4ff2-9246-7596aee75c31")
 		)
@@ -8460,6 +8711,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 243.84 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8543,6 +8803,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 200.66 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -8695,6 +8964,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 124.46 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d71fb58b-5c37-4b9f-8c81-f9ba5a1d636a")
 		)
@@ -8777,6 +9055,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 247.65 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "adc463a3-e582-444f-be76-2241b8dfb810")
 		)
@@ -8842,6 +9129,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 52.07 100.33 0)
 			(effects
 				(font
@@ -8989,6 +9285,15 @@
 		)
 		(property "Manufacturer_Part_Number" ""
 			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 153.67 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9205,6 +9510,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 90.17 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1969ca34-b82e-4a33-b630-e965753535e1")
 		)
@@ -9348,6 +9662,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 78.74 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9498,6 +9821,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 218.44 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "376820f7-6219-4d1d-b335-3d64cfb3cfc6")
 		)
@@ -9565,6 +9897,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 46.99 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 46.99 166.37 0)
 			(effects
 				(font
@@ -9775,6 +10116,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 205.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0680a548-8689-46f4-9f5b-ace22751b7fd")
 		)
@@ -9840,6 +10190,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 205.74 101.6 0)
 			(effects
 				(font
@@ -9919,6 +10278,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 176.53 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 176.53 52.07 0)
 			(effects
 				(font
@@ -10064,6 +10432,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5819HW-7-F"
+			(at 100.33 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 100.33 120.65 90)
 			(effects
 				(font
@@ -10285,6 +10662,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "5cf98b39-7866-4471-82c8-368b604808e6")
 		)
@@ -10473,6 +10859,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 243.84 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d2150a16-43bb-40cc-92a3-b348e448107c")
 		)
@@ -10552,6 +10947,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 101.6 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -10635,6 +11039,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 207.01 27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f6d18017-8a3e-4e69-83c0-29e4667be5e7")
 		)
@@ -10705,6 +11118,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "1N5819HW-7-F"
+			(at 120.65 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 120.65 120.65 90)
 			(effects
 				(font
@@ -10795,6 +11217,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 243.84 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "edb461f2-0e16-41f9-a5e0-2b663977c74d")
 		)
@@ -10880,6 +11311,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 247.65 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "865c8a16-df8f-4467-95c0-5a2d41e8a056")
 		)
@@ -10962,6 +11402,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 124.46 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fdc6707d-9a39-4710-93d7-0501c87e936f")
 		)
@@ -11031,6 +11480,15 @@
 		)
 		(property "Manufacturer_Part_Number" ""
 			(at 144.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 144.78 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11117,6 +11575,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 247.65 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11266,6 +11733,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 49.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9de05d1-9f54-40d0-9a16-50215bcdb42a")
 		)
@@ -11344,6 +11820,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11491,6 +11976,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 140.97 76.2 0)
 			(effects
 				(font

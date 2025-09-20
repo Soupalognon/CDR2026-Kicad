@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "82b2250b-908a-4f0f-a503-322148b4369a")
 	(paper "A4")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -1942,6 +1950,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 124.46 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "841bc3e6-7129-4cf2-9f23-5dc1f3f2ba65")
 		)
@@ -2011,6 +2028,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FCM 1608KF-601T03"
+			(at 123.19 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 123.19 83.82 90)
 			(effects
 				(font
@@ -2153,6 +2179,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 177.8 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd48afbd-e7b2-4ba2-84af-530515b09552")
 		)
@@ -2212,6 +2247,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 223.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 223.52 123.19 0)
 			(effects
 				(font
@@ -2287,6 +2331,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 142.24 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d7d157e-1446-4ecb-baa3-9530cd3a1f8f")
 		)
@@ -2346,6 +2399,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 80.01 60.96 0)
 			(effects
 				(font
@@ -2430,6 +2492,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 194.31 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5065b27d-e80d-43d3-bf7d-79a334a7129a")
 		)
@@ -2495,6 +2566,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 97.79 60.96 0)
 			(effects
 				(font
@@ -2702,6 +2782,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 168.91 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3129ad9-9a89-4f20-8ea8-176ffa5df840")
 		)
@@ -2761,6 +2850,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 129.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 129.54 87.63 0)
 			(effects
 				(font
@@ -2836,6 +2934,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 186.69 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a66fa06a-cacc-4201-99f2-d19672b30d2c")
 		)
@@ -2895,6 +3002,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 234.95 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 234.95 123.19 0)
 			(effects
 				(font
@@ -2970,6 +3086,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 106.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ee67954c-3b98-4ab1-800b-90bae6321889")
 		)
@@ -3029,6 +3154,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 133.35 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 133.35 60.96 0)
 			(effects
 				(font
@@ -3104,6 +3238,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 160.02 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "decc8daf-5e4d-40b4-bb0f-2fe135ba008b")
 		)
@@ -3163,6 +3306,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 88.9 60.96 0)
 			(effects
 				(font
@@ -3238,6 +3390,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 204.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89172a20-62e7-4c49-b239-b41cb71a6c4f")
 		)
@@ -3297,6 +3458,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 213.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 213.36 60.96 0)
 			(effects
 				(font
@@ -3368,6 +3538,15 @@
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 			(at 83.82 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 83.82 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,6 +3626,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 189.23 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 189.23 125.73 0)
 			(effects
 				(font
@@ -3586,6 +3774,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 115.57 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df61afc7-d0d1-4e85-8b2c-09aa63f5b832")
 		)
@@ -3649,6 +3846,15 @@
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 			(at 123.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 123.19 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,6 +3998,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 195.58 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fe53465-09b5-4608-9625-dc1095e24b5b")
 		)
@@ -3855,6 +4070,15 @@
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 			(at 157.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 157.48 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3932,6 +4156,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 191.77 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 191.77 113.03 0)
 			(effects
 				(font
@@ -4131,6 +4364,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 151.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 151.13 60.96 0)
 			(effects
 				(font

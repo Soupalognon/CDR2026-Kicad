@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "d89a4eb9-443c-41d5-86a0-73273275b77b")
 	(paper "A4")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -2641,6 +2649,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 257.81 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9538224e-3226-40b2-adca-77479e6aa16d")
 		)
@@ -2700,6 +2717,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 118.11 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 118.11 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2851,6 +2877,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 34.29 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dac0c37e-efd5-4382-9e4a-edd08cb60d5e")
 		)
@@ -2920,6 +2955,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SS0520_R1_00001"
+			(at 77.47 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 77.47 162.56 0)
 			(effects
 				(font
@@ -3070,6 +3114,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 257.81 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f689d61a-3aae-4ef4-bb5d-df8388cb0b2f")
 		)
@@ -3136,6 +3189,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SS0520_R1_00001"
+			(at 77.47 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 77.47 172.72 0)
 			(effects
 				(font
@@ -3214,6 +3276,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "15-29-1024"
+			(at 36.83 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 36.83 137.16 0)
 			(effects
 				(font
@@ -3427,6 +3498,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 262.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d75665f5-7eec-4fbd-95e9-acfc2e5e68df")
 		)
@@ -3505,6 +3585,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 36.83 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb"
@@ -3570,6 +3659,15 @@
 		)
 		(property "Manufacturer_Part_Number" "B2B-PH-K-S(LF)(SN)"
 			(at 262.89 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 262.89 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,6 +3751,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 127 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a50f5700-3781-4c49-a717-d32668c3d534")
 		)
@@ -3722,6 +3829,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 116.84 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64ff5b29-5de9-4caa-8e5f-8973f86d2fab")
 		)
@@ -3781,6 +3897,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 160.02 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 160.02 179.07 0)
 			(effects
 				(font
@@ -3865,6 +3990,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 257.81 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "acf609ba-76c3-454a-b96c-903273f8f443")
 		)
@@ -3939,6 +4073,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 118.11 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4159,6 +4302,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 123.19 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7f672bfb-f44f-4a09-8ddf-9a009581193b")
 		)
@@ -4235,6 +4387,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 257.81 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b65219c-1767-4583-b10f-db30cdb0507d")
 		)
@@ -4291,6 +4452,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 148.59 179.07 0)
 			(effects
 				(font
@@ -4361,6 +4531,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 116.84 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 116.84 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4501,6 +4680,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 102.87 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe993783-4d29-41be-bdfe-5a13c6258030")
 		)
@@ -4570,6 +4758,15 @@
 		)
 		(property "Manufacturer_Part_Number" ""
 			(at 257.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 257.81 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,6 +4847,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 124.46 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fd7fca85-2eed-47b6-8d81-2db27bc65d80")
 		)
@@ -4718,6 +4924,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "JB12S5001R"
+			(at 123.19 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 123.19 80.01 90)
 			(effects
 				(font
@@ -4926,6 +5141,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 93.98 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c38c4ae-80a9-4b8f-b688-b33b3b3e2166")
 		)
@@ -4996,6 +5220,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "15-29-1024"
+			(at 36.83 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 36.83 119.38 0)
 			(effects
 				(font

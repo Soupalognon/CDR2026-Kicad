@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "793c4641-e88d-465e-9555-986b476c4f0e")
 	(paper "A4")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "SamacSys_Parts:0805DC104MAT2A"
 			(pin_names
@@ -935,6 +943,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "26351941-f013-4da5-8c34-055dc9ea1505")
 		)
@@ -1017,6 +1034,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 146.05 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1166,6 +1192,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 119.38 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f667dc93-1800-4d7e-b418-0c0deb0574f7")
 		)
@@ -1242,6 +1277,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 158.75 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1458,6 +1502,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 133.35 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d3a8fee6-075d-4f34-b468-6d5099204194")
 		)
@@ -1537,6 +1590,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 129.54 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "61f0ee3c-d909-4854-8b3b-8eed8d4de837")
 	(paper "A4")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -7254,6 +7262,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MH4"
 			(uuid "8c38511c-5062-449d-99c8-4f08c732b212")
 		)
@@ -7357,6 +7374,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69fa9cae-97c6-4530-aeac-3b67a6d147a2")
 		)
@@ -7416,6 +7442,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 201.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 201.93 41.91 0)
 			(effects
 				(font
@@ -7559,6 +7594,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "39248c6c-ce50-4359-a0e3-00a5bb12165a")
 		)
@@ -7619,6 +7663,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 71.12 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 71.12 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7693,6 +7746,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "43722a89-68d6-46e8-bb5f-920eaeaa32e6")
 		)
@@ -7752,6 +7814,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -7894,6 +7965,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 58.42 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5acf9502-53b3-4408-945d-036103e4fb95")
 		)
@@ -7953,6 +8033,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 267.97 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 267.97 118.11 0)
 			(effects
 				(font
@@ -8110,6 +8199,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 96.52 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a2aa28dd-125d-4028-9e35-3255478e2dcd")
 		)
@@ -8260,6 +8358,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 177.8 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59dadd2c-2ef3-4eac-9ffa-7cad37d4884e")
 		)
@@ -8390,6 +8497,15 @@
 			)
 		)
 		(property "Description" "LAN8720 Ethernet PHY with RMII interface, QFN-24"
+			(at 95.25 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 95.25 96.52 0)
 			(effects
 				(font
@@ -8534,6 +8650,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 52.07 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4bb3477-7880-4437-af18-4cb19d24cbd9")
 		)
@@ -8661,6 +8786,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 193.04 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 193.04 147.32 0)
 			(effects
 				(font
@@ -8807,6 +8941,15 @@
 		)
 		(property "Manufacturer_Part_Number" "CC1206KKX7RDBB102"
 			(at 102.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 102.87 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9030,6 +9173,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 106.68 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd9e7471-097c-4fc3-94f1-1090e3926c4f")
 		)
@@ -9164,6 +9316,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 207.01 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7af5d4b9-a219-4bf0-99a6-ad074643b525")
 		)
@@ -9233,6 +9394,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C120F5GACTU"
+			(at 48.26 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 48.26 123.19 0)
 			(effects
 				(font
@@ -9501,6 +9671,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 260.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 260.35 118.11 0)
 			(effects
 				(font
@@ -9789,6 +9968,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 90.17 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ce0c94fe-f202-4490-aafc-6aeb4ba10da6")
 		)
@@ -9849,6 +10037,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 38.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 38.1 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9923,6 +10120,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 38.1 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53e8984f-4e78-448c-b94e-43cb59006041")
 		)
@@ -9982,6 +10188,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 254 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 254 118.11 0)
 			(effects
 				(font
@@ -10057,6 +10272,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 50.8 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6d985e0-f1f9-475e-be3b-fcb9ea2d3279")
 		)
@@ -10117,6 +10341,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 38.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 38.1 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10523,6 +10756,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 45.72 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7b331c17-de6c-4337-83fd-7e57a5dfbe97")
 		)
@@ -10656,6 +10898,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 213.36 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a8af4ed-28f9-49e7-8eb9-85821d8e80e7")
 		)
@@ -10715,6 +10966,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 193.04 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 193.04 129.54 0)
 			(effects
 				(font
@@ -10792,6 +11052,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FCM 1608KF-601T03"
+			(at 68.58 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 68.58 25.4 90)
 			(effects
 				(font
@@ -10878,6 +11147,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 30.48 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11025,6 +11303,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 43.18 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02569dde-973d-4788-a9b7-c88400414eaa")
 		)
@@ -11094,6 +11381,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ECS-250-10-33B-CWN-TR3"
+			(at 63.5 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 63.5 115.57 0)
 			(effects
 				(font
@@ -11175,6 +11471,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 199.39 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf1d857a-5fc9-426d-a79f-ac2cfafaf49f")
 		)
@@ -11235,6 +11540,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, open"
+			(at 193.04 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 193.04 151.13 0)
 			(effects
 				(font
@@ -11387,6 +11701,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 158.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -11580,6 +11903,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 203.2 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "10d9a494-b095-4c52-a6ad-e662dd5315b2")
 		)
@@ -11639,6 +11971,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 69.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 69.85 106.68 0)
 			(effects
 				(font
@@ -11794,6 +12135,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 171.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b89c61da-e8f7-4a95-bbfd-e0f546f73dfb")
 		)
@@ -11883,6 +12233,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12144,6 +12503,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 96.52 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9dbd10e1-f848-4cee-a281-753a786b7bbc")
 		)
@@ -12272,6 +12640,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 55.88 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 55.88 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12427,6 +12804,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 43.18 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9c40911e-ed46-4361-b42b-f542ea51827f")
 		)
@@ -12509,6 +12895,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 170.18 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8dc1a59c-b61e-48fc-9408-55afbae2e6cc")
 		)
@@ -12569,6 +12964,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 38.1 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 38.1 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12709,6 +13113,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 116.84 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6c3d0a2-5936-4af7-837d-8899354fa4f8")
 		)
@@ -12789,6 +13202,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 71.12 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7fcb1f4b-27a9-486f-8b44-0e9f4b18202d")
 		)
@@ -12860,6 +13282,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 209.55 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 209.55 41.91 0)
 			(effects
 				(font

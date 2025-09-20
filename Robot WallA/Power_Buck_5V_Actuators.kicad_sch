@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "c499a238-a786-45d4-af12-2d3173de67a1")
 	(paper "A4")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "Converter_DCDC:PTN78060W_EUW-7"
 			(exclude_from_sim no)
@@ -2486,6 +2494,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 55.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53249ae2-6b53-4137-b857-3e8b5a407984")
 		)
@@ -2560,6 +2577,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BSS138"
+			(at 115.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 115.57 104.14 0)
 			(effects
 				(font
@@ -2647,6 +2673,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1cefb06d-b888-4439-938b-d8da32f7e54a")
 		)
@@ -2707,6 +2742,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 107.95 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 107.95 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2849,6 +2893,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 248.92 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "99c9d128-369b-4fb7-999c-d3c8483fe4a1")
 		)
@@ -2908,6 +2961,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -2983,6 +3045,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 157.48 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3721a1ab-e428-484d-a11f-7573f4ecbc80")
 		)
@@ -3043,6 +3114,15 @@
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
 			(at 238.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 238.76 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3251,6 +3331,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 255.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53fb38d8-b699-4335-87f1-1c61456f0ab9")
 		)
@@ -3322,6 +3411,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "TC42X-2-202E"
+			(at 248.92 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 248.92 124.46 0)
 			(effects
 				(font
@@ -3475,6 +3573,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4da8e7a7-a375-4af8-9a7f-853c4bca4ab3")
 		)
@@ -3544,6 +3651,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "PTN78060WAD"
+			(at 140.97 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 140.97 99.06 0)
 			(effects
 				(font
@@ -3635,6 +3751,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C3225X7R1H225K250AB"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -3787,6 +3912,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f41bef39-81a8-4bf8-a4bd-ee4ad92ae3ad")
 		)
@@ -3857,6 +3991,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 217.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 217.17 49.53 0)
 			(effects
 				(font
@@ -3942,6 +4085,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 231.14 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d54a490-6b44-455e-99ac-076c5b02f489")
 		)
@@ -4002,6 +4154,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 243.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 243.84 106.68 0)
 			(effects
 				(font
@@ -4287,6 +4448,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 241.3 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34bcd798-026d-4518-8b82-7cefff1b716c")
 		)
@@ -4346,6 +4516,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 73.66 50.8 0)
 			(effects
 				(font

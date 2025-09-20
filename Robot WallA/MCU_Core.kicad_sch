@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "8af8a976-4e93-439e-aa1c-9323204b95d5")
 	(paper "A3")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -11541,6 +11549,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 212.09 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ebf8f8dd-a0e4-4249-a164-2bd44109863b")
 		)
@@ -11610,6 +11627,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " SML-D12W8WT86C"
+			(at 41.91 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 41.91 167.64 0)
 			(effects
 				(font
@@ -11786,6 +11812,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 49.53 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3804f5b1-2fe2-4d10-86e8-556c90ad4aea")
 		)
@@ -11855,6 +11890,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " CSL1901DW1"
+			(at 41.91 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 41.91 175.26 0)
 			(effects
 				(font
@@ -11940,6 +11984,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 38.1 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12038,6 +12091,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 41.91 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3199d4bb-1e79-4ab4-ade9-1d3d2d09ca7a")
 		)
@@ -12107,6 +12169,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C120F5GACTU"
+			(at 224.79 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 224.79 220.98 0)
 			(effects
 				(font
@@ -12284,6 +12355,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 49.53 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c97f873f-1824-4c6c-93ba-572e4690846d")
 		)
@@ -12388,6 +12468,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 49.53 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0226fdf0-18ca-4264-b81d-f4f3f931d562")
 		)
@@ -12465,6 +12554,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 41.91 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "834f7efd-99e4-4cb2-acbc-6af889030359")
 		)
@@ -12532,6 +12630,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
+			(at 49.53 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 49.53 96.52 0)
 			(effects
 				(font
@@ -12734,6 +12841,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 49.53 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "795a45be-d099-424c-b467-7b6b979c1e0b")
 		)
@@ -12878,6 +12994,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 218.44 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6051420f-b723-4381-a3a4-f1cb944b2d62")
 		)
@@ -12987,6 +13112,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 49.53 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e5c0f96-84c2-4e9f-8560-04988633ba4a")
 		)
@@ -13056,6 +13190,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "APT1608LVBC/D"
+			(at 41.91 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 41.91 160.02 0)
 			(effects
 				(font
@@ -13140,6 +13283,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 146.05 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

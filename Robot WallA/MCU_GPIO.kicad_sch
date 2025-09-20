@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "9b6fda51-43d8-4f54-8e7c-e41727ce51f4")
 	(paper "A4")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "SamacSys_new:10129383-916001ALF"
 			(exclude_from_sim no)
@@ -2356,7 +2364,7 @@
 				)
 			)
 		)
-		(property "Footprint" "10129383916001ALF"
+		(property "Footprint" "SamacSys_Parts:10129383916001ALF"
 			(at 132.08 185.09 0)
 			(effects
 				(font
@@ -2452,6 +2460,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2605,7 +2622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "10129383916001ALF"
+		(property "Footprint" "SamacSys_Parts:10129383916001ALF"
 			(at 86.36 185.09 0)
 			(effects
 				(font
@@ -2701,6 +2718,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 67.31 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

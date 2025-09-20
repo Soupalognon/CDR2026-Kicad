@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "bcf807c1-1be4-43db-be7c-c2844507d78c")
 	(paper "A4")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
@@ -2561,7 +2569,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM02BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:SM02BSRSSTBLFSN"
 			(at 95.25 260.02 0)
 			(effects
 				(font
@@ -2657,6 +2665,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 76.2 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3046,7 +3063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM02BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:SM02BSRSSTBLFSN"
 			(at 49.53 279.07 0)
 			(effects
 				(font
@@ -3145,6 +3162,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 30.48 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "8abf89b9-f8d8-494e-8767-91d48b207ecb")
 		)
@@ -3228,6 +3254,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 142.24 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3379,6 +3414,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 140.97 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "394f4056-a6ee-4940-b2ae-9d4900f42340")
 		)
@@ -3489,7 +3533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM03BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:SM03BSRSSTBLFSN"
 			(at 234.95 23.19 0)
 			(effects
 				(font
@@ -3585,6 +3629,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 215.9 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3840,7 +3893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM02BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:SM02BSRSSTBLFSN"
 			(at 95.25 279.07 0)
 			(effects
 				(font
@@ -3936,6 +3989,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 76.2 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4211,6 +4273,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 139.7 54.61 0)
 			(effects
 				(font
@@ -4641,6 +4712,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 130.81 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d31364e8-b2bc-41fd-8b65-ab8b7a6ed758")
 		)
@@ -4806,6 +4886,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 171.45 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5434,6 +5523,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 140.97 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4070db09-8c8f-48d9-a18a-f52e6d818fc6")
 		)
@@ -5670,6 +5768,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5998,7 +6105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM02BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:SM02BSRSSTBLFSN"
 			(at 49.53 260.02 0)
 			(effects
 				(font
@@ -6094,6 +6201,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 30.48 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6318,6 +6434,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 132.08 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "49e4ae39-9980-4874-9f04-c51b83d9ada5")
 		)
@@ -6483,6 +6608,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 171.45 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "MP2"
 			(uuid "f0a062fc-a632-4e1d-ae4a-f67b2f62dd50")
 		)
@@ -6605,7 +6739,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM03BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:SM03BSRSSTBLFSN"
 			(at 181.61 23.19 0)
 			(effects
 				(font
@@ -6704,6 +6838,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 162.56 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6de5163a-af4d-4a47-9017-ee1e956a64c9")
 		)
@@ -6755,7 +6898,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM03BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:SM03BSRSSTBLFSN"
 			(at 181.61 40.97 0)
 			(effects
 				(font
@@ -6851,6 +6994,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 162.56 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6971,7 +7123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SM03BSRSSTBLFSN"
+		(property "Footprint" "SamacSys_Parts:SM03BSRSSTBLFSN"
 			(at 234.95 40.97 0)
 			(effects
 				(font
@@ -7067,6 +7219,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 215.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -7309,6 +7470,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 223.52 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

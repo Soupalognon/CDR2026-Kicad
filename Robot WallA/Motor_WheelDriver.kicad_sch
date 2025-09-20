@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "40da96b8-8f48-4eee-8e43-be35320ca8c6")
 	(paper "A4")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "Device:R"
 			(pin_numbers
@@ -3782,6 +3790,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 193.04 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4b0aba3a-a172-4a81-a49d-40f01f29b9ac")
 		)
@@ -3928,6 +3945,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 213.36 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4198,6 +4224,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 173.99 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "582895bc-85ca-4301-be0a-3143d2a635e4")
 		)
@@ -4275,6 +4310,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 198.12 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4421,6 +4465,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 182.88 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4573,6 +4626,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 248.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c458531-4cb0-43ec-ba1a-29b758d34ec9")
 		)
@@ -4632,6 +4694,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 184.15 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 184.15 127 0)
 			(effects
 				(font
@@ -4766,6 +4837,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 198.12 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 198.12 101.6 0)
 			(effects
 				(font
@@ -4921,6 +5001,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 154.94 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ab712ece-c0d3-46a7-afac-bf520214e7f9")
 		)
@@ -5064,6 +5153,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 60.96 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5406,6 +5504,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 154.94 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ef357c19-0c05-40fb-9167-b92c089123b5")
 		)
@@ -5540,6 +5647,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fb96d31-296e-4f1d-91ac-dd14ddbef335")
 		)
@@ -5599,6 +5715,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 106.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -5686,6 +5811,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 116.84 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "73c3f527-a241-4983-bb44-5e5dc2b985ab")
 		)
@@ -5762,6 +5896,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5847,6 +5990,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 248.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fdf01dd-5c0e-48f5-9005-8886f800868b")
 		)
@@ -5926,6 +6078,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 58.42 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
@@ -5983,6 +6144,15 @@
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 128.27 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6141,6 +6311,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 49.53 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e20adfb3-f280-40a5-83f3-49bf5a7c9cba")
 		)
@@ -6204,6 +6383,15 @@
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
 			(at 193.04 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 193.04 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,6 +6479,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 168.91 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6506,6 +6703,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 49.53 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

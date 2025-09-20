@@ -4,6 +4,14 @@
 	(generator_version "9.0")
 	(uuid "66f31863-ee99-46bb-8dd9-cfb0b849e2ae")
 	(paper "A4")
+	(title_block
+		(title "Robot Wall-A")
+		(date "2025-09-20")
+		(rev "v1.0")
+		(company "Socotec Monitoring")
+		(comment 1 "GDU")
+		(comment 2 "THO")
+	)
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -3159,6 +3167,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e74ce33-6478-4d1c-9139-7b38f9825311")
 		)
@@ -3360,6 +3377,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 44.45 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6036b6a5-661e-4dbe-882a-75971ff8881f")
 		)
@@ -3495,6 +3521,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 246.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c3322bc-392b-45a4-95da-cb8b8da7333f")
 		)
@@ -3554,6 +3589,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 215.9 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 215.9 46.99 0)
 			(effects
 				(font
@@ -3688,6 +3732,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 149.86 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -3909,6 +3962,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 231.14 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
@@ -3963,6 +4025,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 162.56 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 162.56 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4096,6 +4167,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 257.81 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 257.81 46.99 0)
 			(effects
 				(font
@@ -4238,6 +4318,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 91.44 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1eb24171-a49e-4282-9404-f2c8c6ed6cc4")
 		)
@@ -4297,6 +4386,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 76.2 64.77 0)
 			(effects
 				(font
@@ -4373,6 +4471,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 256.54 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e26ce604-9a57-4656-b87e-e3a942b50ece")
 		)
@@ -4440,6 +4547,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 82.55 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6850c4a7-f7d7-48be-8240-45e827fc0726")
 		)
@@ -4499,6 +4615,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 54.61 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 54.61 64.77 0)
 			(effects
 				(font
@@ -4584,6 +4709,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 102.87 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4687,6 +4821,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 46.99 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d1b338d-a51d-46cf-9177-bdc8067ca281")
 		)
@@ -4746,6 +4889,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -4821,6 +4973,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 267.97 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72420f24-02e7-41fe-82bb-0d41dc47befc")
 		)
@@ -4888,6 +5049,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbf10ff0-aa97-4d66-94da-29f57fbf90f7")
 		)
@@ -4947,6 +5117,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 64.77 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 64.77 64.77 0)
 			(effects
 				(font
@@ -5100,6 +5279,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5ed7c9f5-09d9-4595-abc3-62a36755d79e")
 		)
@@ -5179,6 +5367,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5316,6 +5513,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 34.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ddcc8ff2-6083-49ee-8bf9-07c51fc874ce")
 		)
@@ -5386,6 +5592,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "EMVE500ARA471MLH0S"
+			(at 204.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 204.47 46.99 0)
 			(effects
 				(font
@@ -5528,6 +5743,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 209.55 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf364ffd-fd87-4f18-b78b-289298274bb8")
 		)
@@ -5661,6 +5885,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 209.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc09e4a9-9413-4e4c-b8ab-1db4272edb95")
 		)
@@ -5728,6 +5961,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 226.06 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "398a27a9-193d-4074-bf36-66fd4ffb70dc")
 		)
@@ -5787,6 +6029,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 64.77 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 64.77 50.8 0)
 			(effects
 				(font
@@ -5874,6 +6125,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6011,6 +6271,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 236.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d7eaec0-89ea-43ca-b6a6-068e835e2b42")
 		)
@@ -6089,6 +6358,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 38.1 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "378970d8-b770-4ebd-be14-183604a97270")
 		)
@@ -6148,6 +6426,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 55.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 55.88 50.8 0)
 			(effects
 				(font
@@ -6239,6 +6526,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 248.92 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "58d5c3ca-bfa0-40a9-bdb6-56d9ddd0123e")
 		)
@@ -6301,6 +6597,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 246.38 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 246.38 46.99 0)
 			(effects
 				(font
