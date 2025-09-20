@@ -19,16 +19,6 @@
 	)
 	(bus
 		(pts
-			(xy 139.7 46.99) (xy 194.31 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04b0da9d-5036-464d-9daa-fcff6dee8040")
-	)
-	(bus
-		(pts
 			(xy 157.48 144.78) (xy 194.31 144.78)
 		)
 		(stroke
@@ -149,16 +139,6 @@
 	)
 	(bus
 		(pts
-			(xy 194.31 34.29) (xy 120.65 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "628016be-b944-49eb-a4fb-a83aac996bd8")
-	)
-	(bus
-		(pts
 			(xy 132.08 41.91) (xy 194.31 41.91)
 		)
 		(stroke
@@ -166,16 +146,6 @@
 			(type default)
 		)
 		(uuid "67f772b8-bd02-42ad-a6d4-7873c6ea5efb")
-	)
-	(bus
-		(pts
-			(xy 139.7 64.77) (xy 139.7 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69100e2f-9415-490a-a08b-6461eb35ebb4")
 	)
 	(bus
 		(pts
@@ -359,16 +329,6 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 34.29) (xy 120.65 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f55c3bad-7e55-4836-bfa5-66348a6cb794")
-	)
-	(bus
-		(pts
 			(xy 124.46 64.77) (xy 124.46 36.83)
 		)
 		(stroke
@@ -456,16 +416,6 @@
 			(justify right bottom)
 		)
 		(uuid "f4927929-4daa-4396-8f5b-cc824556533e")
-	)
-	(label "5V_PC_EMBARQUE"
-		(at 194.31 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "febe69cc-59ae-4a95-80b2-7278411b8aa4")
 	)
 	(hierarchical_label "SENSORS[0..15]"
 		(shape bidirectional)
@@ -937,16 +887,6 @@
 				(justify right)
 			)
 		)
-		(pin "PC[0..15]" bidirectional
-			(at 120.65 64.77 90)
-			(uuid "a7a70612-cc81-4138-b441-96e643be7590")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PD[0..15]" bidirectional
 			(at 124.46 64.77 90)
 			(uuid "f63a4969-764f-46ea-a7ec-7598f80cd359")
@@ -980,16 +920,6 @@
 		(pin "PG[0..15]" bidirectional
 			(at 135.89 64.77 90)
 			(uuid "e5b04188-5dc4-4c67-8c39-d68880f583f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PH[2..15]" bidirectional
-			(at 139.7 64.77 90)
-			(uuid "a347c683-2d0d-48ed-b754-fb2c2e830250")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1259,16 +1189,6 @@
 				(justify left)
 			)
 		)
-		(pin "PC[0..15]" bidirectional
-			(at 194.31 34.29 180)
-			(uuid "b2786bf0-090a-4bda-99ef-166983160e61")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PD[0..15]" bidirectional
 			(at 194.31 36.83 180)
 			(uuid "6ff37d6a-1d92-413d-98c4-1450b94287f0")
@@ -1309,16 +1229,6 @@
 				(justify left)
 			)
 		)
-		(pin "PH[2..15]" bidirectional
-			(at 194.31 46.99 180)
-			(uuid "238fee63-90f5-4603-acf0-5c21eb2fe1e8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PI[0..15]" bidirectional
 			(at 194.31 49.53 180)
 			(uuid "948d10f7-8bfa-4459-8ac3-4669ef727177")
@@ -1332,16 +1242,6 @@
 		(pin "3V3" input
 			(at 194.31 59.69 180)
 			(uuid "4ae3d986-cf34-45f3-9a9c-5a9311b76ebf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "5V" input
-			(at 194.31 62.23 180)
-			(uuid "1acb2a93-7500-4d58-8f25-d1673cff053e")
 			(effects
 				(font
 					(size 1.27 1.27)

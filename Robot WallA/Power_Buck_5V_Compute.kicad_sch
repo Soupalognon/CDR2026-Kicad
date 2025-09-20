@@ -3213,7 +3213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330uF"
+		(property "Value" "100uF"
 			(at 225.044 53.086 0)
 			(effects
 				(font
@@ -3222,7 +3222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:CAPPRD500W65D1000H1800"
+		(property "Footprint" "SamacSys_Parts:CAPPRD350W65D800H1250"
 			(at 225.7552 54.61 0)
 			(effects
 				(font
@@ -3249,7 +3249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "EEU-FC1V331"
+		(property "Manufacturer_Part_Number" ""
 			(at 224.79 50.8 0)
 			(effects
 				(font

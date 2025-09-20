@@ -3277,7 +3277,7 @@
 	)
 	(rectangle
 		(start 185.42 92.71)
-		(end 276.86 158.75)
+		(end 276.86 166.37)
 		(stroke
 			(width 0)
 			(type default)
@@ -4508,7 +4508,7 @@
 		(uuid "00a5ecf3-e0e2-431f-9f7d-3b284a9ea3ac")
 	)
 	(label "5V"
-		(at 205.74 132.08 180)
+		(at 200.66 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4608,7 +4608,7 @@
 		)
 	)
 	(label "5V"
-		(at 205.74 142.24 180)
+		(at 200.66 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4628,7 +4628,7 @@
 		(uuid "27ac6d91-22ff-4110-89ba-246cbe4d4173")
 	)
 	(label "PWR_2"
-		(at 205.74 119.38 180)
+		(at 200.66 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4637,7 +4637,7 @@
 		)
 		(uuid "287a646a-2d0b-4362-9318-dd7ec1f09bd7")
 		(property "Netclass" "HighCurrent_3A"
-			(at 226.822 116.332 0)
+			(at 221.742 108.712 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4668,7 @@
 		(uuid "2bae0ab0-c569-4fa6-aa2a-246e15138d4b")
 	)
 	(label "PWR_1"
-		(at 205.74 109.22 180)
+		(at 200.66 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4677,7 +4677,7 @@
 		)
 		(uuid "2d534294-0a20-4281-87d5-049e9f56279b")
 		(property "Netclass" "HighCurrent_3A"
-			(at 227.584 106.172 0)
+			(at 222.504 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,7 +4698,7 @@
 		(uuid "3843f0fb-d672-41ed-8c8c-f30d97fdde14")
 	)
 	(label "12V"
-		(at 205.74 116.84 180)
+		(at 200.66 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4847,6 +4847,16 @@
 		)
 		(uuid "5d454e59-18b7-4f9b-b7df-1bcb044bf7e4")
 	)
+	(label "12V"
+		(at 200.66 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "64395d7b-423f-40d7-a555-e4b07c44cfb8")
+	)
 	(label "TX_UC"
 		(at 135.89 69.85 180)
 		(effects
@@ -4898,7 +4908,7 @@
 		(uuid "8479c8bf-0df9-40d5-a6c2-61045fcb2ff1")
 	)
 	(label "5V"
-		(at 205.74 121.92 180)
+		(at 200.66 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4928,7 +4938,7 @@
 		(uuid "87f55483-01cf-451d-937d-07bba172a31c")
 	)
 	(label "PWR_3"
-		(at 205.74 129.54 180)
+		(at 200.66 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4937,7 +4947,7 @@
 		)
 		(uuid "8a48cf21-e5f8-43b3-b428-5f7d16ca6ca5")
 		(property "Netclass" "HighCurrent_3A"
-			(at 227.076 126.492 0)
+			(at 221.996 118.872 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4968,7 +4978,7 @@
 		(uuid "946624c2-b074-4738-a3bd-9f7ecd1c3c20")
 	)
 	(label "12V"
-		(at 205.74 137.16 180)
+		(at 200.66 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5008,7 +5018,7 @@
 		(uuid "9bb5f58d-fa1b-4abd-a6a8-f41f4e8f58b3")
 	)
 	(label "PWR_4"
-		(at 205.74 139.7 180)
+		(at 200.66 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5017,7 +5027,7 @@
 		)
 		(uuid "a2457566-42c4-4ede-a361-c4489fd6650b")
 		(property "Netclass" "HighCurrent_3A"
-			(at 227.076 136.398 0)
+			(at 221.996 128.778 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,6 +5057,16 @@
 		)
 		(uuid "b17f0f25-b3a9-41b2-8383-ba5f3e7f32be")
 	)
+	(label "5V"
+		(at 210.82 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7e9ea1e-257f-4744-8c91-bbc18dbadd9a")
+	)
 	(label "3V3"
 		(at 43.18 15.24 0)
 		(effects
@@ -5058,7 +5078,7 @@
 		(uuid "b94b8db0-d161-4beb-9422-82c38a2ccbde")
 	)
 	(label "5V"
-		(at 205.74 111.76 180)
+		(at 200.66 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5078,7 +5098,7 @@
 		(uuid "be2fc0f7-97e3-4310-ac66-801b11195d6e")
 	)
 	(label "12V"
-		(at 205.74 106.68 180)
+		(at 200.66 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5108,7 +5128,7 @@
 		(uuid "ca1d2883-0995-4db4-8461-a1b4dad5f69f")
 	)
 	(label "12V"
-		(at 205.74 127 180)
+		(at 200.66 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5783,6 +5803,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 210.82 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d466c2c-800d-4d41-8958-4026d25457b5")
+		(property "Reference" "#PWR057"
+			(at 210.82 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 210.82 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef0abcb7-8ead-484e-91e1-5a086f25dded")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5819WS")
 		(at 120.65 152.4 270)
 		(unit 1)
@@ -6247,7 +6333,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 210.82 139.7 0)
+		(at 205.74 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6256,7 +6342,7 @@
 		(fields_autoplaced yes)
 		(uuid "2723c5b8-f1db-42af-b770-72f21c350766")
 		(property "Reference" "J32"
-			(at 213.36 138.4299 0)
+			(at 208.28 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,7 +6351,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 213.36 140.9699 0)
+			(at 208.28 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6274,7 +6360,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 210.82 139.7 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6283,7 +6369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 139.7 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6292,7 +6378,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 210.82 139.7 0)
+			(at 205.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,8 +7546,88 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 210.82 143.51 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "461ec6b4-068a-4b03-9eb5-7c802aa98fb3")
+		(property "Reference" "C41"
+			(at 216.154 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 214.376 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 307.01 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 407.01 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 210.82 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 807.01 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0014f5c1-3878-4cf8-b893-6b348671e408")
+		)
+		(pin "1"
+			(uuid "0570c76e-d547-4c91-8c42-4c40b742c340")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 210.82 119.38 0)
+		(at 205.74 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7470,7 +7636,7 @@
 		(fields_autoplaced yes)
 		(uuid "49c0a20f-81b8-4f84-9eb0-578c7529d293")
 		(property "Reference" "J27"
-			(at 213.36 118.1099 0)
+			(at 208.28 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7479,7 +7645,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 213.36 120.6499 0)
+			(at 208.28 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7488,7 +7654,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 210.82 119.38 0)
+			(at 205.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7497,7 +7663,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 119.38 0)
+			(at 205.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7506,7 +7672,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 210.82 119.38 0)
+			(at 205.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7816,6 +7982,71 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e81aab2-08f6-4ca4-8692-673172a6e995")
+		(property "Reference" "#PWR058"
+			(at 200.66 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "afdd674e-c136-4fc7-b6dd-2c038352503d")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -8245,6 +8476,86 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:0805DC104MAT2A")
+		(at 200.66 143.51 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "736ef0e8-42a1-471a-bfd2-8bcfac2a1c37")
+		(property "Reference" "C40"
+			(at 205.994 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 204.216 151.892 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 296.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 396.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 796.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2dcdc79b-a00d-4563-aaf2-754ff65a3c98")
+		)
+		(pin "1"
+			(uuid "fce22269-e8e3-4e20-9263-157b1adf3e5a")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -9411,7 +9722,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 210.82 129.54 0)
+		(at 205.74 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9420,7 +9731,7 @@
 		(fields_autoplaced yes)
 		(uuid "b15639bf-6d15-444b-bda7-c1e1120ac21b")
 		(property "Reference" "J29"
-			(at 213.36 128.2699 0)
+			(at 208.28 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9429,7 +9740,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 213.36 130.8099 0)
+			(at 208.28 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9438,7 +9749,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 210.82 129.54 0)
+			(at 205.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9447,7 +9758,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 129.54 0)
+			(at 205.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9456,7 +9767,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 210.82 129.54 0)
+			(at 205.74 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9484,7 +9795,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 210.82 109.22 0)
+		(at 205.74 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9493,7 +9804,7 @@
 		(fields_autoplaced yes)
 		(uuid "b51ebd95-1af7-4dff-b6cd-1e188547acd9")
 		(property "Reference" "J25"
-			(at 213.36 107.9499 0)
+			(at 208.28 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9502,7 +9813,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03"
-			(at 213.36 110.4899 0)
+			(at 208.28 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9511,7 +9822,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 210.82 109.22 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9520,7 +9831,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 109.22 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9529,7 +9840,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 210.82 109.22 0)
+			(at 205.74 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

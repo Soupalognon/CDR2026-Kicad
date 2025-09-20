@@ -3851,7 +3851,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "458bc4e3-4179-43be-b746-12e23e81e97f")
@@ -3873,7 +3873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Library:374524B60023G"
 			(at 231.4448 134.62 0)
 			(effects
 				(font
