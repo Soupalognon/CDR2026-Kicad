@@ -539,7 +539,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "I2C1\n	SDA -> PB7\n	SCL -> PB6\nSPI2\n	MISO -> PI2\n	MOSI -> PI3\n	SCK  -> PI1\nUART6\n	RX -> PG9\n	TX -> PG14\nCAN1\n	RX -> PD0\n	TX ->PH13"
+	(text "DEBUG UART\n	RX -> PA10\n	TX -> PA9\nI2C1\n	SDA -> PB7\n	SCL -> PB6\nSPI2\n	MISO -> PI2\n	MOSI -> PI3\n	SCK  -> PI1\nUART6\n	RX -> PG9\n	TX -> PG14\nCAN1\n	RX -> PD0\n	TX ->PH13"
 		(exclude_from_sim no)
 		(at 100.838 51.054 0)
 		(effects
