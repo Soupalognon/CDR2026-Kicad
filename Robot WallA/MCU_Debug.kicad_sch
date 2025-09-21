@@ -2227,15 +2227,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 85.09 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "7821863d-0b78-4dd3-aeff-32e7a6e2254c")
 		)
@@ -2307,15 +2298,6 @@
 		)
 		(property "Manufacturer_Part_Number" ""
 			(at 205.74 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 205.74 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,15 +2383,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 205.74 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "755016c6-d1d4-4cab-b861-ecf8c702073e")
 		)
@@ -2479,15 +2452,6 @@
 		)
 		(property "Manufacturer_Part_Number" ""
 			(at 105.41 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 105.41 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2703,15 +2667,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 204.47 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "66a92a27-c5d9-415d-84f5-31804a7beb7a")
 		)
@@ -2802,15 +2757,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 160.02 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "59d90736-b28a-4526-be18-c96d8171cc30")
 		)
@@ -2882,15 +2828,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FT231XS-R"
-			(at 133.35 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
 			(at 133.35 87.63 0)
 			(effects
 				(font
@@ -3095,15 +3032,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 93.98 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "2fea21b6-c356-47c2-9475-0956efd06b5c")
 		)
@@ -3182,15 +3110,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 139.7 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "824c0438-b351-483c-988b-b834e9e2eca4")
 		)
@@ -3260,15 +3179,6 @@
 		)
 		(property "Manufacturer_Part_Number" ""
 			(at 105.41 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 105.41 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)

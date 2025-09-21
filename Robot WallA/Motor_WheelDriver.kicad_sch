@@ -743,6 +743,402 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:Housing"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "N"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Housing"
+				(at 3.81 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Housing"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "housing enclosure"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Enclosure* Housing*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Housing_0_1"
+				(polyline
+					(pts
+						(xy -5.715 0) (xy -0.635 0) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 0) (xy -5.715 -4.445) (xy -0.635 -4.445) (xy 3.175 -0.635) (xy 3.175 3.81) (xy -1.905 3.81)
+						(xy -5.715 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.08 -0.635)
+					(end -1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.5212 -1.5748) (xy -4.4704 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -4.445 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.4196 -1.2192) (xy -4.3688 -0.9652)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.4196 -1.6764) (xy -4.064 -1.6764)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 -1.3208) (xy -4.0132 -1.3208)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.2164 -0.9144) (xy -3.9116 -0.9144)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.9116 -1.6256) (xy -3.8608 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -1.2192) (xy -3.7592 -0.9652)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.6068 -1.5748) (xy -3.556 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.5052 -1.2192) (xy -3.4544 -0.9652)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.5052 -1.6764) (xy -3.1496 -1.6764)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.4036 -1.3208) (xy -3.0988 -1.3208)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -0.9144) (xy -2.9972 -0.9144)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.9972 -1.6256) (xy -2.9464 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.8956 -1.2192) (xy -2.8448 -0.9652)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.6924 -1.5748) (xy -2.6416 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.5908 -1.2192) (xy -2.54 -0.9652)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.5908 -1.6764) (xy -2.2352 -1.6764)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.4892 -1.3208) (xy -2.1844 -1.3208)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.3876 -0.9144) (xy -2.0828 -0.9144)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.0828 -1.6256) (xy -2.032 -1.3716)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.9812 -1.2192) (xy -1.9304 -0.9652)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy -0.635 -4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys:39501-1002"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3790,15 +4186,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 193.04 123.19 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4b0aba3a-a172-4a81-a49d-40f01f29b9ac")
 		)
@@ -3945,15 +4332,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 213.36 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -4224,15 +4602,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 173.99 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "582895bc-85ca-4301-be0a-3143d2a635e4")
 		)
@@ -4310,15 +4679,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 198.12 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -4465,15 +4825,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 182.88 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -4626,15 +4977,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 248.92 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5c458531-4cb0-43ec-ba1a-29b758d34ec9")
 		)
@@ -4694,15 +5036,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 184.15 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
 			(at 184.15 127 0)
 			(effects
 				(font
@@ -4845,15 +5178,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 198.12 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "77e18f5a-ee0b-49d5-bebc-cfe12ac0d4fa")
 		)
@@ -4864,6 +5188,78 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
 					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Housing")
+		(at 261.62 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "475c50d0-0959-4a06-a997-dc0dc31e64eb")
+		(property "Reference" "N14"
+			(at 265.43 65.0874 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connecteurs"
+			(at 265.43 67.6274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Housing"
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39503-2002"
+			(at 261.62 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "N14")
 					(unit 1)
 				)
 			)
@@ -4998,15 +5394,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 154.94 44.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -5153,15 +5540,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 60.96 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -5504,15 +5882,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 154.94 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "ef357c19-0c05-40fb-9167-b92c089123b5")
 		)
@@ -5647,15 +6016,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 120.65 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7fb96d31-296e-4f1d-91ac-dd14ddbef335")
 		)
@@ -5715,15 +6075,6 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 106.68 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
 			(at 106.68 66.04 0)
 			(effects
 				(font
@@ -5811,15 +6162,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 116.84 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "73c3f527-a241-4983-bb44-5e5dc2b985ab")
 		)
@@ -5899,15 +6241,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 82.55 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "9ae63e04-5129-4846-b5b5-5fbb5082b1b3")
 		)
@@ -5918,6 +6251,78 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
 					(reference "C94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Housing")
+		(at 261.62 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a3ce89c1-a396-4b2f-83f9-5ccb68ea5ce7")
+		(property "Reference" "N13"
+			(at 265.43 56.1974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Connecteurs"
+			(at 265.43 58.7374 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 262.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Housing"
+			(at 261.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "39503-2002"
+			(at 261.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
+					(reference "N13")
 					(unit 1)
 				)
 			)
@@ -5987,15 +6392,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 248.92 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -6078,15 +6474,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 58.42 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/f5447fcd-99de-4b78-91ff-861a713e68d1"
@@ -6144,15 +6531,6 @@
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
 			(at 128.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 128.27 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,15 +6689,6 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
-			(at 49.53 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e20adfb3-f280-40a5-83f3-49bf5a7c9cba")
 		)
@@ -6383,15 +6752,6 @@
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
 			(at 193.04 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 193.04 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6479,15 +6839,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 168.91 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -6703,15 +7054,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 49.53 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
