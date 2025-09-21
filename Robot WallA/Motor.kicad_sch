@@ -1046,7 +1046,7 @@
 		)
 		(uuid "0a37f28c-b4bc-4f64-a0a5-19a35ef344af")
 	)
-	(label "WHEEL_SLEEP"
+	(label "PRI_MOTOR_SLEEP"
 		(at 44.45 96.52 180)
 		(effects
 			(font
@@ -1066,7 +1066,7 @@
 		)
 		(uuid "0fc5abb1-693b-498d-ab69-93ddbd191136")
 	)
-	(label "SECONDARY_MOTOR_CURRENT2"
+	(label "ADC_SEC_MOTOR_CURRENT_2"
 		(at 199.39 30.48 180)
 		(effects
 			(font
@@ -1076,7 +1076,7 @@
 		)
 		(uuid "128dbea2-1b7c-4785-9128-6464092e971c")
 	)
-	(label "WHEEL_NFAULT"
+	(label "PRI_MOTOR_NFAULT"
 		(at 68.58 41.91 180)
 		(effects
 			(font
@@ -1206,7 +1206,7 @@
 		)
 		(uuid "31ffa015-9100-4048-9f2b-bc6aab422773")
 	)
-	(label "SECONDARY_MOTOR_CURRENT1"
+	(label "ADC_SEC_MOTOR_CURRENT_1"
 		(at 127 132.08 0)
 		(effects
 			(font
@@ -1236,7 +1236,7 @@
 		)
 		(uuid "390f9259-50e6-4fcf-b560-bd86cc00682e")
 	)
-	(label "WHEEL_NFAULT"
+	(label "PRI_MOTOR_NFAULT"
 		(at 44.45 93.98 180)
 		(effects
 			(font
@@ -1286,7 +1286,7 @@
 		)
 		(uuid "3d7f6a25-569c-44b2-97dd-5482d6ae66c8")
 	)
-	(label "CurrentSenseMotor2"
+	(label "ADC_PRI_MOTOR_CURRENT_2"
 		(at 68.58 29.21 180)
 		(effects
 			(font
@@ -1476,7 +1476,7 @@
 		)
 		(uuid "6d095a35-c44a-4cf4-a65f-b78459e9a53a")
 	)
-	(label "SECONDARY_MOTOR_CURRENT1"
+	(label "ADC_SEC_MOTOR_CURRENT_1"
 		(at 199.39 27.94 180)
 		(effects
 			(font
@@ -1506,7 +1506,7 @@
 		)
 		(uuid "77f637cb-458e-4f6d-bc86-baf5807f94b6")
 	)
-	(label "CurrentSenseMotor1"
+	(label "ADC_PRI_MOTOR_CURRENT_1"
 		(at 44.45 73.66 180)
 		(effects
 			(font
@@ -1536,7 +1536,7 @@
 		)
 		(uuid "7d15d834-e358-4ac2-9ac1-231ffc085f45")
 	)
-	(label "SECONDARY_MOTOR_CURRENT2"
+	(label "ADC_SEC_MOTOR_CURRENT_2"
 		(at 127 134.62 0)
 		(effects
 			(font
@@ -1656,7 +1656,7 @@
 		)
 		(uuid "aceab384-146c-4334-8ad8-2c6805be71f1")
 	)
-	(label "CurrentSenseMotor2"
+	(label "ADC_PRI_MOTOR_CURRENT_2"
 		(at 44.45 76.2 180)
 		(effects
 			(font
@@ -1726,7 +1726,7 @@
 		)
 		(uuid "ce4769f4-093e-441f-ab2e-09d4dac36a48")
 	)
-	(label "WHEEL_SLEEP"
+	(label "PRI_MOTOR_SLEEP"
 		(at 68.58 44.45 180)
 		(effects
 			(font
@@ -1826,7 +1826,7 @@
 		)
 		(uuid "e8227fc1-ef92-494f-b840-885bc8761f1d")
 	)
-	(label "CurrentSenseMotor1"
+	(label "ADC_PRI_MOTOR_CURRENT_1"
 		(at 68.58 26.67 180)
 		(effects
 			(font
@@ -2302,7 +2302,7 @@
 				(justify left)
 			)
 		)
-		(pin "CurrentSenseMotor1" output
+		(pin "ADC_PRI_MOTOR_CURRENT_1" output
 			(at 44.45 73.66 180)
 			(uuid "f3e7e9df-5ffc-4f23-b1c5-56e4e6dc9588")
 			(effects
@@ -2312,7 +2312,7 @@
 				(justify left)
 			)
 		)
-		(pin "CurrentSenseMotor2" output
+		(pin "ADC_PRI_MOTOR_CURRENT_2" output
 			(at 44.45 76.2 180)
 			(uuid "f70c6e98-9750-47cc-a0e7-570ec0d79c51")
 			(effects

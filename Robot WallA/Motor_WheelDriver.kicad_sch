@@ -2726,8 +2726,8 @@
 		)
 	)
 	(rectangle
-		(start 151.13 88.9)
-		(end 207.01 114.3)
+		(start 152.4 82.55)
+		(end 220.98 107.95)
 		(stroke
 			(width 0)
 			(type default)
@@ -2739,7 +2739,7 @@
 	)
 	(text "Current limit to 5A (example page 21 datasheet)"
 		(exclude_from_sim no)
-		(at 179.578 92.964 0)
+		(at 186.182 86.614 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3143,7 +3143,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 25.4) (xy 259.08 25.4)
+			(xy 245.11 22.86) (xy 252.73 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3223,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 22.86) (xy 259.08 22.86)
+			(xy 245.11 20.32) (xy 252.73 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3641,8 +3641,8 @@
 		)
 		(uuid "570efee7-d0a5-40a9-8095-4eb9f66e80e6")
 	)
-	(label "CurrentSenseMotor2"
-		(at 251.46 25.4 180)
+	(label "ADC_PRI_MOTOR_CURRENT_2"
+		(at 245.11 22.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3671,8 +3671,8 @@
 		)
 		(uuid "6add9e81-ba14-4440-aba6-c5ecdd6972fb")
 	)
-	(label "CurrentSenseMotor1"
-		(at 251.46 22.86 180)
+	(label "ADC_PRI_MOTOR_CURRENT_1"
+		(at 245.11 20.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3681,7 +3681,7 @@
 		)
 		(uuid "6fa73a5c-0541-4e5a-b03b-144aa63423d2")
 	)
-	(label "CurrentSenseMotor1"
+	(label "ADC_PRI_MOTOR_CURRENT_1"
 		(at 96.52 82.55 0)
 		(effects
 			(font
@@ -3711,7 +3711,7 @@
 		)
 		(uuid "7a9bb1f9-7418-4d51-bd90-e8b965abcebf")
 	)
-	(label "CurrentSenseMotor2"
+	(label "ADC_PRI_MOTOR_CURRENT_2"
 		(at 96.52 80.01 0)
 		(effects
 			(font
@@ -3761,8 +3761,8 @@
 		)
 		(uuid "a46a7038-be27-4f79-940f-594d09521465")
 	)
-	(label "CurrentSenseMotor2"
-		(at 198.12 97.79 180)
+	(label "ADC_PRI_MOTOR_CURRENT_2"
+		(at 213.36 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3821,8 +3821,8 @@
 		)
 		(uuid "db8e6c98-995c-449a-adf6-497bbf916d24")
 	)
-	(label "CurrentSenseMotor1"
-		(at 173.99 97.79 180)
+	(label "ADC_PRI_MOTOR_CURRENT_1"
+		(at 180.34 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3934,9 +3934,9 @@
 		)
 		(uuid "3f482852-c7be-402f-90ef-1b2a61996bfa")
 	)
-	(hierarchical_label "CurrentSenseMotor2"
+	(hierarchical_label "ADC_PRI_MOTOR_CURRENT_2"
 		(shape output)
-		(at 259.08 25.4 0)
+		(at 252.73 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3956,9 +3956,9 @@
 		)
 		(uuid "88c3235a-c399-417a-93af-724baf3dead9")
 	)
-	(hierarchical_label "CurrentSenseMotor1"
+	(hierarchical_label "ADC_PRI_MOTOR_CURRENT_1"
 		(shape output)
-		(at 259.08 22.86 0)
+		(at 252.73 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4552,7 +4552,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 101.6 180)
+		(at 180.34 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4560,7 +4560,7 @@
 		(dnp no)
 		(uuid "0a168327-c5f0-4566-973d-a9d493c1aa72")
 		(property "Reference" "R44"
-			(at 177.038 100.33 0)
+			(at 183.388 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4568,7 +4568,7 @@
 			)
 		)
 		(property "Value" "3,09k"
-			(at 178.816 102.108 0)
+			(at 185.166 95.758 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4576,7 +4576,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 175.768 101.6 90)
+			(at 182.118 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4585,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 101.6 0)
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4594,7 +4594,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 173.99 101.6 0)
+			(at 180.34 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5128,7 +5128,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 198.12 101.6 180)
+		(at 213.36 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5136,7 +5136,7 @@
 		(dnp no)
 		(uuid "43172b81-fb24-4ec0-bc87-44ea3100ee5d")
 		(property "Reference" "R45"
-			(at 201.168 100.33 0)
+			(at 216.408 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5144,7 +5144,7 @@
 			)
 		)
 		(property "Value" "3,09k"
-			(at 202.184 102.362 0)
+			(at 217.424 96.012 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5152,7 +5152,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 199.898 101.6 90)
+			(at 215.138 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5161,7 +5161,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 101.6 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,7 +5170,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 198.12 101.6 0)
+			(at 213.36 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5414,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 105.41 0)
+		(at 180.34 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5423,7 +5423,7 @@
 		(fields_autoplaced yes)
 		(uuid "57756d59-0eff-4a0f-832d-8e923c983ae3")
 		(property "Reference" "#PWR0101"
-			(at 173.99 111.76 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5432,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 110.49 0)
+			(at 180.34 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5440,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 105.41 0)
+			(at 180.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 105.41 0)
+			(at 180.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5458,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 105.41 0)
+			(at 180.34 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +6038,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "86727a7f-9daa-49e2-8aa2-67dee065f3ac")
 		(property "Reference" "R42"
 			(at 109.728 64.77 0)
@@ -6926,7 +6926,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 105.41 0)
+		(at 213.36 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6935,7 +6935,7 @@
 		(fields_autoplaced yes)
 		(uuid "df0f8201-c51f-4f17-8cc0-f20aa0054edf")
 		(property "Reference" "#PWR0102"
-			(at 198.12 111.76 0)
+			(at 213.36 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6944,7 +6944,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 110.49 0)
+			(at 213.36 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6952,7 +6952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 105.41 0)
+			(at 213.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6961,7 +6961,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 105.41 0)
+			(at 213.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +6970,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 105.41 0)
+			(at 213.36 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)

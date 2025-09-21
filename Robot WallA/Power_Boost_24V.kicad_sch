@@ -3659,7 +3659,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "35e6b476-1adf-40c9-9dc9-22efc34768f4")
 		(property "Reference" "R36"
 			(at 153.162 100.076 0)

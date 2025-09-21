@@ -2226,7 +2226,7 @@
 		)
 		(uuid "064a9157-9462-49c7-b24e-7ff38d71ffeb")
 	)
-	(label "Sensor_ADC4"
+	(label "ADC_SENSOR_4"
 		(at 257.81 78.74 0)
 		(effects
 			(font
@@ -2326,7 +2326,7 @@
 		)
 		(uuid "2fc92b93-09ac-4b24-ba39-899bdf92fa2b")
 	)
-	(label "Sensor_ADC2"
+	(label "ADC_SENSOR_2"
 		(at 43.18 29.21 180)
 		(effects
 			(font
@@ -2486,7 +2486,7 @@
 		)
 		(uuid "5c2221b3-cc57-4c62-b873-9ba8509f07f9")
 	)
-	(label "Sensor_ADC3"
+	(label "ADC_SENSOR_3"
 		(at 257.81 58.42 0)
 		(effects
 			(font
@@ -2556,7 +2556,7 @@
 		)
 		(uuid "93b7fb12-ab9d-4689-ac81-bbad4e71ba77")
 	)
-	(label "Sensor_ADC4"
+	(label "ADC_SENSOR_4"
 		(at 43.18 34.29 180)
 		(effects
 			(font
@@ -2586,7 +2586,7 @@
 		)
 		(uuid "9d3beaa2-8d84-4bc6-87fb-7e45e941504b")
 	)
-	(label "Sensor_ADC2"
+	(label "ADC_SENSOR_2"
 		(at 205.74 78.74 0)
 		(effects
 			(font
@@ -2636,7 +2636,7 @@
 		)
 		(uuid "ae272ea9-74bc-4ed2-b7c3-73c320794f05")
 	)
-	(label "Sensor_ADC3"
+	(label "ADC_SENSOR_3"
 		(at 43.18 31.75 180)
 		(effects
 			(font
@@ -2646,7 +2646,7 @@
 		)
 		(uuid "b2759fa5-bb88-4dbb-bd53-97b3bfaa7b54")
 	)
-	(label "Sensor_ADC1"
+	(label "ADC_SENSOR_1"
 		(at 43.18 26.67 180)
 		(effects
 			(font
@@ -2856,7 +2856,7 @@
 		)
 		(uuid "f337db2b-7190-491f-80da-978e666789a4")
 	)
-	(label "Sensor_ADC1"
+	(label "ADC_SENSOR_1"
 		(at 205.74 58.42 0)
 		(effects
 			(font
