@@ -275,10 +275,10 @@
 		(uuid "1194e093-c192-4a1c-b05d-5573280d89bf")
 	)
 	(junction
-		(at 121.92 34.29)
+		(at 124.46 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e61d045-c991-435a-a715-d2ac9c4b9650")
+		(uuid "73a234bf-e1f8-46ab-b860-2af391e2ab41")
 	)
 	(junction
 		(at 207.01 22.86)
@@ -328,7 +328,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 69.85) (xy 125.73 69.85)
+			(xy 124.46 69.85) (xy 128.27 69.85)
 		)
 		(stroke
 			(width 0)
@@ -338,7 +338,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 76.2) (xy 232.41 76.2)
+			(xy 177.8 76.2) (xy 232.41 76.2)
 		)
 		(stroke
 			(width 0)
@@ -358,7 +358,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 34.29) (xy 121.92 34.29)
+			(xy 121.92 72.39) (xy 128.27 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49f047b6-8b0b-4a8d-913d-bf3b6a80fb94")
+	)
+	(wire
+		(pts
+			(xy 109.22 33.02) (xy 124.46 33.02)
 		)
 		(stroke
 			(width 0)
@@ -398,7 +408,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 82.55) (xy 114.3 82.55)
+			(xy 128.27 82.55) (xy 114.3 82.55)
 		)
 		(stroke
 			(width 0)
@@ -408,7 +418,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 71.12) (xy 232.41 71.12)
+			(xy 177.8 71.12) (xy 232.41 71.12)
 		)
 		(stroke
 			(width 0)
@@ -418,7 +428,7 @@
 	)
 	(bus
 		(pts
-			(xy 175.26 73.66) (xy 232.41 73.66)
+			(xy 177.8 73.66) (xy 232.41 73.66)
 		)
 		(stroke
 			(width 0)
@@ -436,9 +446,29 @@
 		)
 		(uuid "883e31fd-d8fa-4f0a-8cae-6c15c285ddb9")
 	)
+	(wire
+		(pts
+			(xy 124.46 33.02) (xy 124.46 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c5db7f-c521-4285-95e2-5d98db1d1b3a")
+	)
+	(wire
+		(pts
+			(xy 109.22 35.56) (xy 121.92 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b93b257-64e2-41b3-91dc-d6f53ad97d16")
+	)
 	(bus
 		(pts
-			(xy 175.26 127) (xy 213.36 127)
+			(xy 177.8 127) (xy 213.36 127)
 		)
 		(stroke
 			(width 0)
@@ -448,17 +478,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 34.29) (xy 232.41 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae25d867-e10e-48c9-a026-d13666a65360")
-	)
-	(wire
-		(pts
-			(xy 111.76 85.09) (xy 125.73 85.09)
+			(xy 111.76 85.09) (xy 128.27 85.09)
 		)
 		(stroke
 			(width 0)
@@ -478,7 +498,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 73.66) (xy 125.73 73.66)
+			(xy 119.38 74.93) (xy 128.27 74.93)
 		)
 		(stroke
 			(width 0)
@@ -488,17 +508,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 34.29) (xy 121.92 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9423736-5ded-4d58-8cf5-233742c5908d")
-	)
-	(wire
-		(pts
-			(xy 119.38 38.1) (xy 119.38 73.66)
+			(xy 119.38 38.1) (xy 119.38 74.93)
 		)
 		(stroke
 			(width 0)
@@ -506,9 +516,19 @@
 		)
 		(uuid "cb6d9cb5-e604-462b-bcbe-5b06229885de")
 	)
+	(wire
+		(pts
+			(xy 121.92 35.56) (xy 121.92 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da55ca3a-81f1-4099-8585-c2c271952aa9")
+	)
 	(bus
 		(pts
-			(xy 175.26 78.74) (xy 232.41 78.74)
+			(xy 177.8 78.74) (xy 232.41 78.74)
 		)
 		(stroke
 			(width 0)
@@ -528,7 +548,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 77.47) (xy 116.84 77.47)
+			(xy 124.46 33.02) (xy 232.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0687eac-0661-4a07-8924-b796ddaafbb2")
+	)
+	(wire
+		(pts
+			(xy 128.27 77.47) (xy 116.84 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1285,7 +1315,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 232.41 34.29 180)
+			(at 232.41 33.02 180)
 			(uuid "967000e8-40fc-402f-bfb6-1f0c6a429f52")
 			(effects
 				(font
@@ -1373,7 +1403,7 @@
 		)
 	)
 	(sheet
-		(at 125.73 66.04)
+		(at 128.27 66.04)
 		(size 49.53 71.12)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1389,7 +1419,7 @@
 		)
 		(uuid "b9176f6a-4299-4bca-a59b-5ff3df09c616")
 		(property "Sheetname" "MCU"
-			(at 125.73 65.3284 0)
+			(at 128.27 65.3284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1398,7 +1428,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 125.73 137.7446 0)
+			(at 128.27 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1437,7 @@
 			)
 		)
 		(pin "3V3" input
-			(at 125.73 69.85 180)
+			(at 128.27 69.85 180)
 			(uuid "09a098c6-872a-4fff-bf34-737cb1176483")
 			(effects
 				(font
@@ -1417,7 +1447,7 @@
 			)
 		)
 		(pin "5V_PC_EMBARQUE" input
-			(at 125.73 73.66 180)
+			(at 128.27 74.93 180)
 			(uuid "f7a43e6d-33b9-4b05-a528-4131ed703671")
 			(effects
 				(font
@@ -1427,7 +1457,7 @@
 			)
 		)
 		(pin "5V_DEBUG" output
-			(at 125.73 77.47 180)
+			(at 128.27 77.47 180)
 			(uuid "5b97344b-5755-43a3-9f19-a6945294c1a6")
 			(effects
 				(font
@@ -1437,7 +1467,7 @@
 			)
 		)
 		(pin "SERVO[0..6]" bidirectional
-			(at 175.26 71.12 0)
+			(at 177.8 71.12 0)
 			(uuid "383fb515-3693-4b8b-9452-5b0f1ebe2c3f")
 			(effects
 				(font
@@ -1447,7 +1477,7 @@
 			)
 		)
 		(pin "WHEEL[0..7]" bidirectional
-			(at 175.26 73.66 0)
+			(at 177.8 73.66 0)
 			(uuid "f4c91f9a-e090-467e-ba13-f84c40a29465")
 			(effects
 				(font
@@ -1457,7 +1487,7 @@
 			)
 		)
 		(pin "ENCODER[0..3]" bidirectional
-			(at 175.26 76.2 0)
+			(at 177.8 76.2 0)
 			(uuid "1c62055d-1b65-4f03-8a14-e5f7c19457cf")
 			(effects
 				(font
@@ -1467,7 +1497,7 @@
 			)
 		)
 		(pin "GPIO_ENABLE_POWER_SUPPLIES" output
-			(at 125.73 82.55 180)
+			(at 128.27 82.55 180)
 			(uuid "d97ae949-df94-4165-b270-c0c978651f6e")
 			(effects
 				(font
@@ -1477,7 +1507,7 @@
 			)
 		)
 		(pin "GPIO_PGOOD_24V" input
-			(at 125.73 85.09 180)
+			(at 128.27 85.09 180)
 			(uuid "44c2d6ed-63a2-41a0-8e4b-96fa71201fd0")
 			(effects
 				(font
@@ -1487,7 +1517,7 @@
 			)
 		)
 		(pin "SECONDARY_MOTOR[0..7]" bidirectional
-			(at 175.26 78.74 0)
+			(at 177.8 78.74 0)
 			(uuid "2e965e2f-8fa6-431c-9f3f-2f88e5ae8df3")
 			(effects
 				(font
@@ -1497,13 +1527,23 @@
 			)
 		)
 		(pin "SENSORS[0..15]" bidirectional
-			(at 175.26 127 0)
+			(at 177.8 127 0)
 			(uuid "8072c2af-0ec7-4119-a7c0-c6009a2a8c58")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "5V_COMPUTE_FEEDBACK" output
+			(at 128.27 72.39 180)
+			(uuid "9f57a9d7-f681-4d0e-bb81-69c09110c9f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1549,7 +1589,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 109.22 34.29 0)
+			(at 109.22 33.02 0)
 			(uuid "9bc6f77b-237c-424d-9f71-7116376cb8c2")
 			(effects
 				(font
@@ -1621,6 +1661,16 @@
 		(pin "GPIO_ENABLE_POWER_SUPPLIES" input
 			(at 109.22 45.72 0)
 			(uuid "8ace3939-7789-4a21-acf9-17bacb76fe52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "5V_COMPUTE_FEEDBACK" output
+			(at 109.22 35.56 0)
+			(uuid "0ed825fd-747b-40a2-9603-7ed1b57686e4")
 			(effects
 				(font
 					(size 1.27 1.27)

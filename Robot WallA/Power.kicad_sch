@@ -2348,6 +2348,17 @@
 		)
 		(uuid "c9c7763a-49f7-496e-8845-d05987060a4b")
 	)
+	(hierarchical_label "5V_COMPUTE_FEEDBACK"
+		(shape input)
+		(at 157.48 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb321613-75b0-45f2-a43a-f132bec69d5c")
+	)
 	(hierarchical_label "GPIO_PGOOD_24V"
 		(shape output)
 		(at 252.73 25.4 0)
@@ -5368,6 +5379,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "Sense" input
+			(at 157.48 34.29 0)
+			(uuid "3cf36b51-1a05-4d50-9550-79fee658c9d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

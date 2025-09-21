@@ -14,16 +14,16 @@
 	)
 	(lib_symbols)
 	(junction
-		(at 172.72 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "560852af-bc26-480f-853e-54734bda6411")
-	)
-	(junction
 		(at 91.44 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f927331-7727-477a-8da2-17ba2bf3a753")
+	)
+	(junction
+		(at 167.64 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dccf43a1-9d9f-40af-bc6b-433546c567ef")
 	)
 	(bus
 		(pts
@@ -34,16 +34,6 @@
 			(type default)
 		)
 		(uuid "07c9f3c9-84b4-44a5-849f-d7555b816c81")
-	)
-	(wire
-		(pts
-			(xy 172.72 93.98) (xy 194.31 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0df1182e-5272-40ac-b9ec-dcb7c9657bf6")
 	)
 	(wire
 		(pts
@@ -85,16 +75,6 @@
 		)
 		(uuid "2b95e7af-f428-41fb-b0d0-ea55a063be3b")
 	)
-	(wire
-		(pts
-			(xy 172.72 130.81) (xy 194.31 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38b23890-87ab-4493-935c-d5823ddce6b5")
-	)
 	(bus
 		(pts
 			(xy 116.84 31.75) (xy 194.31 31.75)
@@ -125,6 +105,16 @@
 		)
 		(uuid "41492f0e-73c4-41a7-aa2d-400dc8b22f95")
 	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 194.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45292b10-a057-4e3b-91b7-d1041272bfdc")
+	)
 	(bus
 		(pts
 			(xy 194.31 44.45) (xy 135.89 44.45)
@@ -144,6 +134,16 @@
 			(type default)
 		)
 		(uuid "4af61a97-97e1-4a36-b43e-4f87ca5fe99b")
+	)
+	(wire
+		(pts
+			(xy 167.64 93.98) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54b6f451-0171-494b-9c44-ad6fc518e526")
 	)
 	(bus
 		(pts
@@ -217,7 +217,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 57.15) (xy 172.72 57.15)
+			(xy 91.44 57.15) (xy 167.64 57.15)
 		)
 		(stroke
 			(width 0)
@@ -257,13 +257,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 93.98) (xy 172.72 130.81)
+			(xy 167.64 134.62) (xy 194.31 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b38e4618-78c2-4079-99c1-dd78667c5211")
+		(uuid "aeeeba06-963c-441b-a73f-95647747717b")
 	)
 	(wire
 		(pts
@@ -287,7 +287,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 57.15) (xy 172.72 93.98)
+			(xy 167.64 57.15) (xy 167.64 93.98)
 		)
 		(stroke
 			(width 0)
@@ -457,6 +457,17 @@
 			(justify right)
 		)
 		(uuid "4236fb2c-e369-4edc-b05b-d83a176deca8")
+	)
+	(hierarchical_label "5V_COMPUTE_FEEDBACK"
+		(shape output)
+		(at 194.31 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61daa4b8-ab1c-419d-9108-4e3c6b8a6449")
 	)
 	(hierarchical_label "WHEEL[0..7]"
 		(shape bidirectional)
@@ -662,7 +673,7 @@
 			)
 		)
 		(pin "NRST" input
-			(at 194.31 130.81 180)
+			(at 194.31 134.62 180)
 			(uuid "878103c3-bcc4-487c-a27b-2f9ace2883d9")
 			(effects
 				(font
@@ -694,6 +705,16 @@
 		(pin "USB[0..1]" bidirectional
 			(at 194.31 144.78 180)
 			(uuid "c0ecb079-875d-477c-9fbb-d69031c93689")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_COMPUTE_FEEDBACK" output
+			(at 194.31 130.81 180)
+			(uuid "f6945c9b-bd86-4ce9-a7fd-9204c58d8c1e")
 			(effects
 				(font
 					(size 1.27 1.27)

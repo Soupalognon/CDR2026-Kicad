@@ -715,6 +715,9 @@
       "/MCU/MCU_Debug/D-": [
         "DiffPair_90R"
       ],
+      "/MCU/MCU_Peripherals/5V_USB": [
+        "HighCurrent_3A"
+      ],
       "/MCU/MCU_Peripherals/RX+": [
         "DiffPair_100R"
       ],
@@ -961,7 +964,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

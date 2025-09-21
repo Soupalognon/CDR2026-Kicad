@@ -3363,7 +3363,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8007a62f-ece9-43cb-ad05-61bdc5cf77d3")
 		(property "Reference" "RV3"
 			(at 251.206 124.46 0)
