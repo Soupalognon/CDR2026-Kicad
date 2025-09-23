@@ -1904,7 +1904,7 @@
 	)
 	(text "Fan required minimum 3,5CFM"
 		(exclude_from_sim no)
-		(at 232.664 126.238 0)
+		(at 232.918 122.936 0)
 		(effects
 			(font
 				(size 1.5 1.5)
@@ -2167,24 +2167,8 @@
 		(uuid "f6553c6f-b278-45e0-a2b8-410f1d21e8bb")
 	)
 	(no_connect
-		(at 220.98 152.4)
-		(uuid "1949a2b4-4683-4d24-8dd6-08e53b9669b0")
-	)
-	(no_connect
 		(at 135.89 95.25)
 		(uuid "2159248f-169e-48f9-9a27-06c4c3969671")
-	)
-	(no_connect
-		(at 220.98 162.56)
-		(uuid "3feffea7-fcf8-4008-b502-8d9e63216550")
-	)
-	(no_connect
-		(at 220.98 160.02)
-		(uuid "45f5aaab-780c-4469-8c30-6864d8bcdd62")
-	)
-	(no_connect
-		(at 220.98 149.86)
-		(uuid "cdc41787-168c-40ad-bb97-e7b389c6f770")
 	)
 	(no_connect
 		(at 135.89 92.71)
@@ -3286,6 +3270,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 231.14 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a1bfcc4-4bfa-4762-80a5-b7eb4fed37aa")
+		(property "Reference" "H7"
+			(at 234.95 126.3649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ThermalPad"
+			(at 234.95 128.9049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.4448 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 231.4448 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 231.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "404035125"
+			(at 231.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 35.56 34.29 270)
 		(unit 1)
@@ -4043,7 +4100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "458bc4e3-4179-43be-b746-12e23e81e97f")
-		(property "Reference" "HS1"
+		(property "Reference" "H8"
 			(at 234.95 131.4449 0)
 			(effects
 				(font
@@ -4052,7 +4109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "374524B60023G"
+		(property "Value" "Heatsink"
 			(at 234.95 133.9849 0)
 			(effects
 				(font
@@ -4127,7 +4184,7 @@
 		(instances
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
-					(reference "HS1")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -4298,6 +4355,73 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
 					(reference "#PWR070")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 162.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "516d80f1-5d6a-40fe-ac93-86bf5ee2c81e")
+		(property "Reference" "#PWR0183"
+			(at 214.63 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 162.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f610adf-34d1-4a39-a457-9ee9c1c713e3")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -4674,6 +4798,73 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
 					(reference "C81")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cc310b9-a9a2-4b73-b342-88f1b2569158")
+		(property "Reference" "#PWR0174"
+			(at 214.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 152.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "890ba343-b26b-4dd3-90db-f38c07d68ed6")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -5439,6 +5630,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 220.98 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c904bd6-3198-4245-9956-3d455eecd088")
+		(property "Reference" "#PWR0173"
+			(at 214.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 149.8599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "768e8634-626b-4ee9-8afe-9a3fe1f9e8c9")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 73.66 50.8 0)
 		(unit 1)
@@ -5920,6 +6178,73 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae9efc7e-dbf6-4567-b1b4-6da04b5f470e")
+		(property "Reference" "#PWR0182"
+			(at 214.63 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaded044-cdab-4b6e-b374-9a7cf20828cf")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
