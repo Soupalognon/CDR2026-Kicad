@@ -288,7 +288,27 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 25.4) (xy 203.2 25.4)
+			(xy 106.68 50.8) (xy 109.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02851775-8301-4ee7-b7a7-15d2b2c6ff07")
+	)
+	(wire
+		(pts
+			(xy 109.22 87.63) (xy 128.27 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "040f1b0a-6c6c-4de6-bd81-37148cb07c37")
+	)
+	(wire
+		(pts
+			(xy 106.68 25.4) (xy 203.2 25.4)
 		)
 		(stroke
 			(width 0)
@@ -318,7 +338,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 27.94) (xy 232.41 27.94)
+			(xy 106.68 27.94) (xy 232.41 27.94)
 		)
 		(stroke
 			(width 0)
@@ -368,7 +388,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 33.02) (xy 124.46 33.02)
+			(xy 106.68 33.02) (xy 124.46 33.02)
 		)
 		(stroke
 			(width 0)
@@ -378,7 +398,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 111.76 48.26)
+			(xy 106.68 48.26) (xy 111.76 48.26)
 		)
 		(stroke
 			(width 0)
@@ -438,6 +458,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 50.8) (xy 109.22 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80fb4b61-ccf9-4cda-818a-95a4a0db9d34")
+	)
+	(wire
+		(pts
 			(xy 203.2 116.84) (xy 203.2 25.4)
 		)
 		(stroke
@@ -458,7 +488,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 35.56) (xy 121.92 35.56)
+			(xy 106.68 35.56) (xy 121.92 35.56)
 		)
 		(stroke
 			(width 0)
@@ -568,7 +598,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 38.1) (xy 119.38 38.1)
+			(xy 106.68 38.1) (xy 119.38 38.1)
 		)
 		(stroke
 			(width 0)
@@ -578,7 +608,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 40.64) (xy 109.22 40.64)
+			(xy 116.84 40.64) (xy 106.68 40.64)
 		)
 		(stroke
 			(width 0)
@@ -598,7 +628,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 22.86) (xy 207.01 22.86)
+			(xy 106.68 22.86) (xy 207.01 22.86)
 		)
 		(stroke
 			(width 0)
@@ -608,7 +638,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 45.72) (xy 109.22 45.72)
+			(xy 114.3 45.72) (xy 106.68 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1358,7 @@
 				(justify left)
 			)
 		)
-		(pin "WHEEL[0..7]" bidirectional
+		(pin "WHEEL[0..8]" bidirectional
 			(at 232.41 73.66 180)
 			(uuid "429fcbe6-eb30-43c4-8e1b-7391ad01ac51")
 			(effects
@@ -1348,7 +1378,7 @@
 				(justify left)
 			)
 		)
-		(pin "SECONDARY_MOTOR[0..7]" bidirectional
+		(pin "SECONDARY_MOTOR[0..8]" bidirectional
 			(at 232.41 78.74 180)
 			(uuid "5c1a79da-3a1c-4b97-9800-284843dd7dfc")
 			(effects
@@ -1440,7 +1470,7 @@
 				(justify right)
 			)
 		)
-		(pin "WHEEL[0..7]" bidirectional
+		(pin "WHEEL[0..8]" bidirectional
 			(at 177.8 73.66 0)
 			(uuid "f4c91f9a-e090-467e-ba13-f84c40a29465")
 			(effects
@@ -1480,7 +1510,7 @@
 				(justify left)
 			)
 		)
-		(pin "SECONDARY_MOTOR[0..7]" bidirectional
+		(pin "SECONDARY_MOTOR[0..8]" bidirectional
 			(at 177.8 78.74 0)
 			(uuid "2e965e2f-8fa6-431c-9f3f-2f88e5ae8df3")
 			(effects
@@ -1510,6 +1540,16 @@
 				(justify left)
 			)
 		)
+		(pin "ADC_POWER_SUPPLIES_TEMPERATURE" input
+			(at 128.27 87.63 180)
+			(uuid "5de28650-6a9f-41a7-855b-427351b97b70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a"
@@ -1519,7 +1559,7 @@
 		)
 	)
 	(sheet
-		(at 20.32 16.51)
+		(at 17.78 16.51)
 		(size 88.9 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1535,7 +1575,7 @@
 		)
 		(uuid "d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb")
 		(property "Sheetname" "Power"
-			(at 20.32 15.7984 0)
+			(at 17.78 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +1584,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 20.32 61.5446 0)
+			(at 17.78 61.5446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,7 +1593,7 @@
 			)
 		)
 		(pin "3V3" output
-			(at 109.22 33.02 0)
+			(at 106.68 33.02 0)
 			(uuid "9bc6f77b-237c-424d-9f71-7116376cb8c2")
 			(effects
 				(font
@@ -1563,7 +1603,7 @@
 			)
 		)
 		(pin "24V" output
-			(at 109.22 27.94 0)
+			(at 106.68 27.94 0)
 			(uuid "16ac6b93-37a2-4516-b7ab-c8ca09f6d66d")
 			(effects
 				(font
@@ -1573,7 +1613,7 @@
 			)
 		)
 		(pin "GPIO_PGOOD_24V" output
-			(at 109.22 48.26 0)
+			(at 106.68 48.26 0)
 			(uuid "7af432a0-505c-4483-8a59-0a4957ab8253")
 			(effects
 				(font
@@ -1583,7 +1623,7 @@
 			)
 		)
 		(pin "5V_DEBUG" input
-			(at 109.22 40.64 0)
+			(at 106.68 40.64 0)
 			(uuid "f0e74b48-4797-4f54-afa5-b6736afa3a10")
 			(effects
 				(font
@@ -1593,7 +1633,7 @@
 			)
 		)
 		(pin "12V" output
-			(at 109.22 25.4 0)
+			(at 106.68 25.4 0)
 			(uuid "db9ccdbf-fddf-4168-8d2b-88794534b40d")
 			(effects
 				(font
@@ -1603,7 +1643,7 @@
 			)
 		)
 		(pin "5V_ACTUATORS" output
-			(at 109.22 22.86 0)
+			(at 106.68 22.86 0)
 			(uuid "bae98f88-eb5b-4917-80c0-dd8ec8b1edbf")
 			(effects
 				(font
@@ -1613,7 +1653,7 @@
 			)
 		)
 		(pin "5V_COMPUTE" output
-			(at 109.22 38.1 0)
+			(at 106.68 38.1 0)
 			(uuid "53f8c58c-d952-4b79-8ffd-aba5f43937e1")
 			(effects
 				(font
@@ -1623,7 +1663,7 @@
 			)
 		)
 		(pin "GPIO_ENABLE_POWER_SUPPLIES" input
-			(at 109.22 45.72 0)
+			(at 106.68 45.72 0)
 			(uuid "8ace3939-7789-4a21-acf9-17bacb76fe52")
 			(effects
 				(font
@@ -1633,8 +1673,18 @@
 			)
 		)
 		(pin "5V_COMPUTE_FEEDBACK" output
-			(at 109.22 35.56 0)
+			(at 106.68 35.56 0)
 			(uuid "0ed825fd-747b-40a2-9603-7ed1b57686e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC_POWER_SUPPLIES_TEMPERATURE" output
+			(at 106.68 50.8 0)
+			(uuid "d944aa71-9eda-450d-977f-d57990e818a9")
 			(effects
 				(font
 					(size 1.27 1.27)

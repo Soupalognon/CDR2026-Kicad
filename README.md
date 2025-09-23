@@ -1,7 +1,6 @@
 # Wall-A_Kicad
-Conception of PCB for robot Wall-A
 
-# Fonctionnalités du PCB
+## Fonctionnalités du PCB
 - Entrée d'alimentation entre 16V et 24V
 - Sortie d'alimentation 5V et 12V
 - Aimentations:
@@ -22,6 +21,10 @@ Conception of PCB for robot Wall-A
     - 4 capteur de distance Pulse Width
     - 4 capteurs de distance ADC 0-3V3
     - 4 interrupteurs (des on/off classique)
+    - 3 capteurs de température interne
+        - sous le driver moteur principal
+        - sous le driver moteur secondaire
+        - proche de l'alimentation 12V et 24V
 - Communications:
     - 1 USB FS 12Mb/s pour PC embarqué
     - 1 Ethernet 100Mb/s pour PC embarqué

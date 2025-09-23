@@ -795,7 +795,7 @@
 		(uuid "d953b4fe-c374-4b3d-9809-467ec3a4c936")
 	)
 	(bus_entry
-		(at 227.33 72.39)
+		(at 227.33 64.77)
 		(size -2.54 2.54)
 		(stroke
 			(width 0)
@@ -903,6 +903,16 @@
 		)
 		(uuid "0cf7f1e9-7d5e-4900-a6e3-cb9061ecb9e0")
 	)
+	(bus
+		(pts
+			(xy 227.33 64.77) (xy 227.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d9d60e9-0539-4bcb-b8c2-454f3b131e33")
+	)
 	(wire
 		(pts
 			(xy 223.52 90.17) (xy 224.79 90.17)
@@ -975,7 +985,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 74.93) (xy 224.79 74.93)
+			(xy 223.52 67.31) (xy 224.79 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1015,7 @@
 	)
 	(bus
 		(pts
-			(xy 227.33 72.39) (xy 227.33 74.93)
+			(xy 227.33 67.31) (xy 227.33 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1152,16 +1162,6 @@
 			(type default)
 		)
 		(uuid "42990d83-f125-4bd0-94f5-54d7d2ce6bdf")
-	)
-	(bus
-		(pts
-			(xy 227.33 67.31) (xy 227.33 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4571e7b3-dba8-4832-9760-71b5c454f46c")
 	)
 	(bus
 		(pts
@@ -1595,7 +1595,7 @@
 	)
 	(bus
 		(pts
-			(xy 227.33 62.23) (xy 227.33 67.31)
+			(xy 227.33 62.23) (xy 227.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1773,8 +1773,8 @@
 		)
 		(uuid "1e06b8a9-6be8-4243-9930-955291508686")
 	)
-	(label "PF7"
-		(at 223.52 74.93 180)
+	(label "PF4"
+		(at 223.52 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1883,6 +1883,16 @@
 		)
 		(uuid "63b9fd3f-8118-4954-a43a-2bf51e0b4464")
 	)
+	(label "PF4"
+		(at 90.17 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "669defc9-bf77-47fa-9a0c-c6ed85abfb4b")
+	)
 	(label "PG14"
 		(at 135.89 100.33 0)
 		(effects
@@ -1974,7 +1984,7 @@
 		(uuid "883f78a1-f502-41c3-a9b0-8f1e45bcd59a")
 	)
 	(label "PF5"
-		(at 90.17 105.41 0)
+		(at 90.17 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2262,16 +2272,6 @@
 			(justify left bottom)
 		)
 		(uuid "f7447ee2-a0c4-44e9-b5e2-cc0e634152f6")
-	)
-	(label "PF7"
-		(at 90.17 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f7467b6b-56b1-4df1-adef-1d4165d3962d")
 	)
 	(label "PA0"
 		(at 179.07 29.21 180)

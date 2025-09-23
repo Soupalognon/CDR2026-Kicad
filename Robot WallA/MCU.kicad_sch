@@ -456,7 +456,18 @@
 		)
 		(uuid "0853db0a-6787-40fb-8241-7cfab90eb442")
 	)
-	(hierarchical_label "SECONDARY_MOTOR[0..7]"
+	(hierarchical_label "ADC_POWER_SUPPLIES_TEMPERATURE"
+		(shape input)
+		(at 48.26 107.95 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "33121830-3086-42dc-8ca2-c0f44156070c")
+	)
+	(hierarchical_label "SECONDARY_MOTOR[0..8]"
 		(shape bidirectional)
 		(at 48.26 91.44 180)
 		(effects
@@ -489,7 +500,7 @@
 		)
 		(uuid "61daa4b8-ab1c-419d-9108-4e3c6b8a6449")
 	)
-	(hierarchical_label "WHEEL[0..7]"
+	(hierarchical_label "WHEEL[0..8]"
 		(shape bidirectional)
 		(at 48.26 86.36 180)
 		(effects
@@ -1116,7 +1127,7 @@
 				(justify left)
 			)
 		)
-		(pin "WHEEL[0..7]" bidirectional
+		(pin "WHEEL[0..8]" bidirectional
 			(at 48.26 86.36 180)
 			(uuid "5a5052d1-2724-4941-b435-96d990e9fc0d")
 			(effects
@@ -1156,7 +1167,7 @@
 				(justify left)
 			)
 		)
-		(pin "SECONDARY_MOTOR[0..7]" bidirectional
+		(pin "SECONDARY_MOTOR[0..8]" bidirectional
 			(at 48.26 91.44 180)
 			(uuid "60e3c3da-b5b7-4430-afa4-cedada3431de")
 			(effects
@@ -1184,6 +1195,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ADC_POWER_SUPPLIES_TEMPERATURE" input
+			(at 48.26 107.95 180)
+			(uuid "c5149cf2-487c-4f4d-9fe0-21484eaba30e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
