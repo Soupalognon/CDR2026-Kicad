@@ -437,6 +437,470 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer_Trim"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_Trim"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Trim-potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable trimpot trimmer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.762) (xy 1.524 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_Trim_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_0_1"
+				(arc
+					(start -1.524 0.254)
+					(mid 0 0.762)
+					(end 1.524 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start -1.524 1.27)
+					(mid 0 1.778)
+					(end 1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED_1"
 			(pin_numbers
 				(hide yes)
@@ -1951,7 +2415,7 @@
 		(uuid "0d41a58d-a041-466d-b889-35267b19b0d3")
 	)
 	(junction
-		(at 256.54 97.79)
+		(at 261.62 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f75183d-b5dd-4af6-80ff-29b6b975e564")
@@ -1987,6 +2451,12 @@
 		(uuid "2fe379a5-5684-4c39-836e-b59bebec6134")
 	)
 	(junction
+		(at 210.82 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3012b187-0ed9-48f5-a093-dd1d3614c0e1")
+	)
+	(junction
 		(at 236.22 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1999,7 +2469,7 @@
 		(uuid "4c63ea07-39b8-4183-9a8d-dc0f2192d71a")
 	)
 	(junction
-		(at 246.38 106.68)
+		(at 251.46 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55136be3-5c81-44cb-a7f7-9ed2e5802b13")
@@ -2089,7 +2559,7 @@
 		(uuid "ae61e1c8-43bd-4a35-9a5f-ab14fcf729e3")
 	)
 	(junction
-		(at 209.55 96.52)
+		(at 210.82 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4bc4c10-02c6-4985-8bad-f05c984af8d4")
@@ -2149,7 +2619,7 @@
 		(uuid "ea14bf1f-260f-4394-9bfc-4bce137f3ab2")
 	)
 	(junction
-		(at 246.38 90.17)
+		(at 251.46 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed3da409-71a7-4aff-9f30-49c2a4df087e")
@@ -2165,6 +2635,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6553c6f-b278-45e0-a2b8-410f1d21e8bb")
+	)
+	(no_connect
+		(at 215.9 115.57)
+		(uuid "12c1ff89-bcfe-4709-bfb4-54cd88ad9d8c")
 	)
 	(no_connect
 		(at 135.89 95.25)
@@ -2286,7 +2760,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 90.17) (xy 246.38 92.71)
+			(xy 251.46 85.09) (xy 251.46 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2306,7 +2780,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 106.68) (xy 246.38 102.87)
+			(xy 251.46 101.6) (xy 251.46 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2366,7 +2840,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 96.52) (xy 204.47 96.52)
+			(xy 210.82 85.09) (xy 205.74 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2426,7 +2900,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 96.52) (xy 209.55 99.06)
+			(xy 210.82 85.09) (xy 210.82 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2486,7 +2960,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 90.17) (xy 246.38 90.17)
+			(xy 247.65 85.09) (xy 251.46 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2506,7 +2980,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 97.79) (xy 254 97.79)
+			(xy 261.62 92.71) (xy 259.08 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2556,7 +3030,17 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 97.79) (xy 256.54 97.79)
+			(xy 210.82 97.79) (xy 215.9 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c7b716-5a08-4ac6-95b9-686353a67c39")
+	)
+	(wire
+		(pts
+			(xy 262.89 92.71) (xy 261.62 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2626,6 +3110,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 97.79) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff32e96-8ae2-4dc4-89dc-de37da4ded3f")
+	)
+	(wire
+		(pts
 			(xy 246.38 50.8) (xy 257.81 50.8)
 		)
 		(stroke
@@ -2676,7 +3170,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 99.06) (xy 256.54 97.79)
+			(xy 261.62 93.98) (xy 261.62 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2686,7 +3180,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 106.68) (xy 246.38 106.68)
+			(xy 261.62 101.6) (xy 251.46 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2716,7 +3210,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 87.63) (xy 246.38 90.17)
+			(xy 251.46 82.55) (xy 251.46 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2726,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 77.47) (xy 246.38 80.01)
+			(xy 251.46 72.39) (xy 251.46 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2746,7 +3240,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 93.98) (xy 209.55 96.52)
+			(xy 210.82 82.55) (xy 210.82 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2763,6 +3257,16 @@
 			(type default)
 		)
 		(uuid "e13f5832-dc0c-486c-be97-0ea8e630dd2c")
+	)
+	(wire
+		(pts
+			(xy 210.82 95.25) (xy 210.82 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e32c2409-0d6b-4a1f-b3e5-111355eea965")
 	)
 	(wire
 		(pts
@@ -2855,7 +3359,7 @@
 		(uuid "128b7fb0-5d52-4a7f-b529-60952f0714d7")
 	)
 	(label "GPIO_ENABLE"
-		(at 257.81 97.79 0)
+		(at 262.89 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2865,7 +3369,7 @@
 		(uuid "38ac7eda-aa3f-4899-9029-b148801a9d44")
 	)
 	(label "SENSE+"
-		(at 209.55 78.74 180)
+		(at 210.82 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2905,7 +3409,7 @@
 		(uuid "517b55a1-60da-40c7-ac57-ebd36b3e60e4")
 	)
 	(label "ENABLE"
-		(at 242.57 90.17 180)
+		(at 247.65 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2915,7 +3419,7 @@
 		(uuid "5c89fae7-5bcd-48d9-8d6a-ffe087e0e89e")
 	)
 	(label "TRIM"
-		(at 204.47 96.52 180)
+		(at 205.74 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3025,7 +3529,7 @@
 		(uuid "f4301c95-f7f5-4254-909f-3ec07dd950f0")
 	)
 	(label "IN"
-		(at 246.38 77.47 0)
+		(at 251.46 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3098,6 +3602,115 @@
 			(justify left)
 		)
 		(uuid "dac24283-1eb7-4ae8-bbae-665dc8f75054")
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 215.9 111.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "015a30b7-85fd-4b82-9c41-afaded99dfb7")
+		(property "Reference" "RV1"
+			(at 218.186 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Trim 2k"
+			(at 217.678 113.538 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:TC42X2202E"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TC42X-2-202E"
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 215.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bc1cb42-0229-449c-a5e8-aa3169ea417b")
+		)
+		(pin "3"
+			(uuid "c8188acb-2c71-4283-b7fa-1db1b10b3da9")
+		)
+		(pin "1"
+			(uuid "01f844de-a83d-4460-afa9-635ddf451815")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -3581,7 +4194,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 246.38 83.82 0)
+		(at 251.46 78.74 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3590,7 +4203,7 @@
 		(dnp no)
 		(uuid "23e5b34d-ccfa-4c69-8afd-2cfe1e579260")
 		(property "Reference" "R35"
-			(at 249.936 82.804 0)
+			(at 255.016 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3598,7 +4211,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 249.936 85.09 0)
+			(at 255.016 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,7 +4219,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 248.158 83.82 90)
+			(at 253.238 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3615,7 +4228,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 83.82 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,7 +4237,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 246.38 83.82 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3633,7 +4246,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 246.38 83.82 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3642,7 +4255,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 246.38 83.82 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3651,7 +4264,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 246.38 83.82 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3660,7 +4273,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RCA0603100KFKEAHP"
-			(at 246.38 83.82 0)
+			(at 251.46 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3958,7 +4571,169 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 246.38 106.68 0)
+		(at 212.09 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a16c6aa-23b8-47b1-8d11-1d7ccc63f690")
+		(property "Reference" "#PWR0188"
+			(at 212.09 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 215.646 116.078 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dba6fece-8b9e-4fde-95c9-81a18587172b")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
+					(reference "#PWR0188")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Open")
+		(at 215.9 102.87 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c8fc6fd-416d-40d4-a491-7e4ef125d7f6")
+		(property "Reference" "JP19"
+			(at 219.202 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Open"
+			(at 219.202 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, open"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 215.9 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 215.9 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 215.9 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab5afe3d-081d-4913-a582-a672bf12fee9")
+		)
+		(pin "2"
+			(uuid "686a4e63-455c-4cf7-bf12-4d62d10e6be2")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
+					(reference "JP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDREF")
+		(at 251.46 101.6 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3968,7 +4743,7 @@
 		(fields_autoplaced yes)
 		(uuid "40d9733b-c2f6-414a-8690-fb1aa20d66c6")
 		(property "Reference" "#PWR078"
-			(at 246.38 113.03 0)
+			(at 251.46 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +4752,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 246.38 111.76 0)
+			(at 251.46 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3985,7 +4760,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 106.68 0)
+			(at 251.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3994,7 +4769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 106.68 0)
+			(at 251.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4778,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 246.38 106.68 0)
+			(at 251.46 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4872,7 +5647,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 102.87 0)
+		(at 261.62 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4881,7 +5656,7 @@
 		(dnp no)
 		(uuid "5da1c199-952e-48de-89a1-9a426e653323")
 		(property "Reference" "R38"
-			(at 259.08 102.87 90)
+			(at 264.16 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +5664,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 254.254 102.87 90)
+			(at 259.334 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4897,7 +5672,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 258.318 102.87 90)
+			(at 263.398 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4906,7 +5681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 102.87 0)
+			(at 261.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4915,7 +5690,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 256.54 102.87 0)
+			(at 261.62 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,7 +5699,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 256.54 102.87 90)
+			(at 261.62 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,7 +5708,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 256.54 102.87 90)
+			(at 261.62 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4942,7 +5717,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 256.54 102.87 90)
+			(at 261.62 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4951,7 +5726,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "667-ERJ-3GEYJ103V"
-			(at 256.54 102.87 90)
+			(at 261.62 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5425,7 +6200,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 82.55 180)
+		(at 210.82 71.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5433,7 +6208,7 @@
 		(dnp no)
 		(uuid "7382f0e1-96c2-4670-a1cd-048b2757d5be")
 		(property "Reference" "R34"
-			(at 213.106 81.788 0)
+			(at 214.376 70.358 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +6216,7 @@
 			)
 		)
 		(property "Value" "200k"
-			(at 213.36 83.82 0)
+			(at 214.63 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +6224,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 211.328 82.55 90)
+			(at 212.598 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +6233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 82.55 0)
+			(at 210.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +6242,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 209.55 82.55 0)
+			(at 210.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +6251,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 209.55 82.55 0)
+			(at 210.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5485,7 +6260,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 209.55 82.55 0)
+			(at 210.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5494,7 +6269,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 209.55 82.55 0)
+			(at 210.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +6278,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CRCW0603200KFKEC"
-			(at 209.55 82.55 0)
+			(at 210.82 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6594,7 +7369,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 209.55 102.87 180)
+		(at 210.82 91.44 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6602,7 +7377,7 @@
 		(dnp no)
 		(uuid "d713a628-4e0b-4d23-8fdb-a394b96ef87b")
 		(property "Reference" "R37"
-			(at 213.614 102.108 0)
+			(at 214.884 90.678 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6610,7 +7385,7 @@
 			)
 		)
 		(property "Value" "10,553k/0.5%"
-			(at 216.916 104.14 0)
+			(at 218.948 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6618,7 +7393,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 211.328 102.87 90)
+			(at 212.598 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6627,7 +7402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 102.87 0)
+			(at 210.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6636,7 +7411,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 209.55 102.87 0)
+			(at 210.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6645,7 +7420,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 209.55 102.87 0)
+			(at 210.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6654,7 +7429,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 209.55 102.87 0)
+			(at 210.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6663,7 +7438,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 209.55 102.87 0)
+			(at 210.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6672,7 +7447,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RC0603DR-0710K5L"
-			(at 209.55 102.87 0)
+			(at 210.82 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6697,7 +7472,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 209.55 106.68 0)
+		(at 205.74 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6705,7 +7480,7 @@
 		(dnp no)
 		(uuid "da1d36af-a15a-4ebf-ae1e-d703234782cf")
 		(property "Reference" "#PWR077"
-			(at 209.55 113.03 0)
+			(at 205.74 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +7489,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 213.106 110.998 0)
+			(at 209.296 112.268 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6723,7 +7498,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 106.68 0)
+			(at 205.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6732,7 +7507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 106.68 0)
+			(at 205.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +7516,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 209.55 106.68 0)
+			(at 205.74 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,7 +7538,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 209.55 90.17 180)
+		(at 210.82 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6771,7 +7546,7 @@
 		(dnp no)
 		(uuid "dc91411d-1691-4be6-aaed-8f2290358220")
 		(property "Reference" "C82"
-			(at 214.63 89.408 0)
+			(at 215.9 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6779,7 +7554,7 @@
 			)
 		)
 		(property "Value" "470pF"
-			(at 214.884 91.44 0)
+			(at 216.154 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +7562,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 208.5848 86.36 0)
+			(at 209.8548 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +7571,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 209.55 90.17 0)
+			(at 210.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +7580,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 209.55 90.17 0)
+			(at 210.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +7589,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "C0603C471K5RACTU"
-			(at 209.55 90.17 0)
+			(at 210.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6823,7 +7598,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 209.55 90.17 0)
+			(at 210.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6832,7 +7607,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 209.55 90.17 0)
+			(at 210.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6841,7 +7616,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 209.55 90.17 0)
+			(at 210.82 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,7 +8334,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
-		(at 248.92 97.79 0)
+		(at 254 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7569,7 +8344,7 @@
 		(fields_autoplaced yes)
 		(uuid "fda423ce-6177-4981-a499-1acf4942678f")
 		(property "Reference" "Q2"
-			(at 242.57 96.5199 0)
+			(at 247.65 91.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7578,7 +8353,7 @@
 			)
 		)
 		(property "Value" "BSS138"
-			(at 242.57 99.0599 0)
+			(at 247.65 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7587,7 +8362,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 243.84 99.695 0)
+			(at 248.92 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7598,7 +8373,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
-			(at 243.84 101.6 0)
+			(at 248.92 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +8383,7 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
-			(at 248.92 97.79 0)
+			(at 254 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +8392,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BSS138"
-			(at 248.92 97.79 0)
+			(at 254 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +8401,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 248.92 97.79 0)
+			(at 254 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7635,7 +8410,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 248.92 97.79 0)
+			(at 254 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7644,7 +8419,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 248.92 97.79 0)
+			(at 254 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,6 +8440,100 @@
 			(project "PCB"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 205.74 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe9b0d9a-bf03-4f68-9562-aeff5426fdd2")
+		(property "Reference" "JP18"
+			(at 201.93 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Closed"
+			(at 201.168 104.648 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 205.74 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 205.74 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 205.74 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "08440dc6-9559-4270-a3bf-65aa538704ca")
+		)
+		(pin "1"
+			(uuid "c35facde-7cd0-4468-aa12-479761f74534")
+		)
+		(instances
+			(project "Robot WallA"
+				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/d5f4dab0-e2de-4083-971d-4b1eb9c8d4bb/f849c0a2-f150-4f7d-9c03-1f3f5fdefafe"
+					(reference "JP18")
 					(unit 1)
 				)
 			)
