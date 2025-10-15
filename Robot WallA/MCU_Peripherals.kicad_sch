@@ -10209,7 +10209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC1206KKX7RDBB102"
+		(property "Manufacturer_Part_Number" "CL31A106KQHNNNE"
 			(at 102.87 44.45 0)
 			(effects
 				(font
@@ -13640,7 +13640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CC1206KKX7RDBB102"
+		(property "Manufacturer_Part_Number" "1206B102K102CT"
 			(at 799.39 142.24 0)
 			(effects
 				(font
