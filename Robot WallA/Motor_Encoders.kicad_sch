@@ -1108,7 +1108,7 @@
 		(uuid "2b853fc0-7cf7-4695-bc95-1339b3399ae1")
 	)
 	(label "ENCODER_RIGHT_2"
-		(at 129.54 95.25 180)
+		(at 129.54 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1148,7 +1148,7 @@
 		(uuid "53f31cca-01a9-40d2-b0c2-d8923c4fefbb")
 	)
 	(label "ENCODER_LEFT_1"
-		(at 129.54 76.2 180)
+		(at 129.54 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1158,7 +1158,7 @@
 		(uuid "5f50a162-5d24-4787-993e-7d1bb92066d8")
 	)
 	(label "ENCODER_RIGHT_1"
-		(at 129.54 92.71 180)
+		(at 129.54 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1178,7 +1178,7 @@
 		(uuid "6e4180f0-8c06-4edf-b361-6b16633d9fdf")
 	)
 	(label "ENCODER_LEFT_2"
-		(at 129.54 78.74 180)
+		(at 129.54 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)

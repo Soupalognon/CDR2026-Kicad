@@ -4111,12 +4111,6 @@
 		(uuid "1a1fee56-0cb6-49c8-accc-84f5ecc2f53c")
 	)
 	(junction
-		(at 39.37 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a6eca05-73a9-47ab-9c25-bd68bacd8e60")
-	)
-	(junction
 		(at 207.01 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4201,12 +4195,6 @@
 		(uuid "710dd5d7-0a9b-437a-9903-1b2beaa78fbc")
 	)
 	(junction
-		(at 39.37 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73dd6126-2b2b-4ec2-93fa-978079d5e3d3")
-	)
-	(junction
 		(at 184.15 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4243,12 +4231,6 @@
 		(uuid "98db8d13-dfe4-407d-afb4-730576ec0e80")
 	)
 	(junction
-		(at 39.37 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c82d064-3982-4522-9a79-e8b290d78660")
-	)
-	(junction
 		(at 78.74 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4271,12 +4253,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7edadea-1fb6-4346-ac16-8a202094c67b")
-	)
-	(junction
-		(at 39.37 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfb04e2d-bbb8-442c-b6ee-ad4952a3e3bb")
 	)
 	(junction
 		(at 49.53 158.75)
@@ -7272,73 +7248,6 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "C111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 39.37 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1eef2812-40a2-46a4-96e9-fc736f3946f5")
-		(property "Reference" "#FLG09"
-			(at 37.465 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 34.29 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 39.37 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2bfbedad-e8b5-4e48-8371-e7f94c611a06")
-		)
-		(instances
-			(project "Robot WallA"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#FLG09")
 					(unit 1)
 				)
 			)
@@ -10977,140 +10886,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 39.37 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87e1da4b-6a07-43ee-966f-1281372eac3a")
-		(property "Reference" "#FLG010"
-			(at 37.465 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 34.29 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 39.37 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9207580-3e49-45c0-af9a-ca9f2b63c938")
-		)
-		(instances
-			(project "Robot WallA"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#FLG010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 39.37 123.19 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89d142c7-fe50-4cb1-8859-4992fd331268")
-		(property "Reference" "#FLG08"
-			(at 37.465 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 34.29 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 39.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "70929a5e-c759-4487-aa03-86b9d417b3a5")
-		)
-		(instances
-			(project ""
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#FLG08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N5819WS")
 		(at 90.17 120.65 270)
 		(unit 1)
@@ -12267,73 +12042,6 @@
 			(project "Robot WallA"
 				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
 					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 39.37 135.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bdb1af80-f650-460e-affe-20dae1a7e76a")
-		(property "Reference" "#FLG011"
-			(at 37.465 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 34.29 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 39.37 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd835697-1c57-410d-97ce-582d43a490be")
-		)
-		(instances
-			(project "Robot WallA"
-				(path "/117fd49e-499d-4b54-b58c-f6b538ecca4a/a16960dc-56f6-4cf6-af27-6c174f94c7f8/e4f2163b-b2ea-4e20-8bc3-9aa08f737db4"
-					(reference "#FLG011")
 					(unit 1)
 				)
 			)
